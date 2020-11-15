@@ -69,6 +69,8 @@ p {
     background-color: white;
     border-right : 1px solid #fff;
     float: right;
+    border:0;
+    outline:0;
 }
 
 button:hover {
