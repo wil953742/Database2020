@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+html, body {
+    height : 100%;
+}
+
+body {
+    margin : 0px;
+}
+
+body nav {
+    background-color : white;
+    position : relative;
+    height : 70px;
+    border-bottom: 2px solid #E6EAEA;
+}
+
+.main-logo-nav {
+    height : 70px;
+    display:block;
+    position: absolute;
+    left:48%;
+    transform: translateX(-50%);
+}
+
+.nav-item {
+    display : inline-block;
+}
+
+.nav-item-right{
+    height:70px;
+    display : inline-block;
+    border-right : 2px solid #E6EAEA;
+}
+
+.account-logo-nav {
+    height : 50px;
+    left : 5px;
+    position : relative;
+    top: 10px;
+    margin:0;
+}
+
+p { 
+    margin-left:10px;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    display : inline-block;
+    margin :0px 25px 0px 10px;
+    position: relative;
+    top : 20px;
+    vertical-align: top;
+}
+
+.button-box {
+    float: right;
+    display : inline-block;
+}
+
+.button {
+    font-size : 16px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    width : 140px;
+    height : 70px;
+    padding: 0;
+    text-align : center;
+    border : none;
+    background-color: white;
+    border-right : 1px solid #fff;
+    float: right;
+}
+
+button:hover {
+    cursor : pointer;
+    background-color :rgb(240, 240, 240);
+}
+
+.mdfy_info{
+    color : white;
+    background-color : #ffc5c5;
+}
+
+.mdfy_info:hover{
+    background-color: rgba(255, 197, 197,0.8);
+    cursor : pointer;
+}
