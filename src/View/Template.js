@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav } from "../Components/Nav";
-import styles from "../CSS/Template.css";
+import styles from "../CSS/template.module.css";
 
 export const Template = () => {
   return (
