@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+.login_p {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.login_a:link,
+.login_a:visited {
+  padding: 14px 35px;
+  text-decoration: none;
+  display: block;
+}
+#div_signup {
+  font-family: "Noto Sans KR", sans-serif;
+  float: right;
+}
+
+.login_a:hover,
+.login_a:active {
+  color: #ffc5c5;
+}
+
+.notice {
+  font-size: 20px;
+}
+.main_logo {
+  width: 300px;
+}
+
+.div_signin {
+  border: 3px solid rgb(238, 238, 238);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+  font-weight: 400;
+}
+
+.div_input {
+  position: relative;
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.button {
+  margin: 10px;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+  width: 300px;
+  height: 50px;
+  background-color: #ffc5c5;
+  color: white;
+  border: 0;
+  outline: 0;
+}
+
+.button:hover {
+  color: #ffc5c5;
+  border: 2px solid #ffb6b6;
+  background-color: white;
+}
+
+.main_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  display: flex;
+}
