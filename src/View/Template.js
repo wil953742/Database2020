@@ -7,6 +7,7 @@ export const Template = () => {
     <div className={styles.main_container}>
       <Nav />
       {/* 여기에 페이지 별로 추가하면 됩니다. */}
+      <h1>Hello World</h1>
     </div>
   );
 };
