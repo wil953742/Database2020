@@ -1,10 +1,9 @@
 import React from "react";
 import { Nav } from "../Components/Nav";
-import styles from "../CSS/template.module.css";
 
 export const Template = () => {
   return (
-    <div className={styles.main_container}>
+    <div>
       <Nav />
       {/* 여기에 페이지 별로 추가하면 됩니다. */}
     </div>
