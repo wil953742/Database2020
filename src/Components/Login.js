@@ -5,21 +5,16 @@ import logo from "../Images/로고.png";
 export const Login = ({ setUserType, setName, setUserID, setLog }) => {
   var user = {
     userID: 999,
-    userType: "관리자",
+    userType: "제출자",
     name: "홍길동",
   };
   const handleLogin = () => {
-<<<<<<< HEAD
-    setLogin(true);
-    setUserType("제출자");
-    setName("홍길동");
-=======
+
     setUserID(user.userID);
     setUserType(user.userType);
     setName(user.name);
     setLog(true);
     localStorage.setItem(`user`, JSON.stringify(user));
->>>>>>> d2b7b9c4db36b89a59081221fc21939f87251958
   };
   return (
     <div className={styles.main_container}>
