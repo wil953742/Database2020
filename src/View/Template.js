@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import styles from "../CSS/mainstyle.module.css";
 import { Nav } from "../Components/Nav";
-import styles from "../CSS/template.module.css";
 
 import { Login } from "../Components/Login";
 import { EstimatorMain } from "./EstimatorMain";
