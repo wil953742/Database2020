@@ -8,7 +8,7 @@ import AdminUserMng from "./View/AdminUserMng";
 import AdminTaskView from "./View/AdminTaskView";
 import AdminTaskEdit from "./View/AdminTaskEdit";
 import AdminAddTask from "./View/AdminAddTask";
-import { Submitter1 } from "./View/Submitter1";
+import { SubmitterTaskView } from "./View/SubmitterTaskView";
 
 function App() {
   return (
@@ -20,8 +20,8 @@ function App() {
           <Route path="/user" component={AdminUserMng} />
           <Route path="/TaskEdit/:taskId" component={AdminTaskEdit} />
           <Route path="/TaskView/:taskId" component={AdminTaskView} />
-          <Route paht="/NewTask" component={AdminAddTask} />
-          <Route path="/submitter1" component={Submitter1} />
+          <Route path="/NewTask" component={AdminAddTask} />
+          <Route path="/STaskView/:taskId" component={SubmitterTaskView} />
         </Switch>
       </div>
     </Router>

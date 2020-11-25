@@ -113,6 +113,20 @@ a:visited {
   width: 100%;
 }
 
+.popup_sub {
+  z-index: 999;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.884);
+  border: 3px solid rgba(0, 0, 0, 0.4);
+  width: 40vw;
+  height: 80vh;
+  left: 30vw;
+  top: 15vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
 .complete_btn {
   margin: auto;
   background-color: #ffb6b6;

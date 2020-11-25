@@ -39,6 +39,7 @@
 }
 
 .div_input {
+  border : 1px solid rgb(211, 211, 211);
   position: relative;
   box-sizing: border-box;
   width: 300px;

@@ -5,6 +5,7 @@ import { Nav } from "../Components/Nav";
 import { Login } from "../Components/Login";
 import { EstimatorMain } from "./EstimatorMain";
 import { AdminMain } from "./AdminMain";
+import { SubmitterMain } from "./SubmitterMain";
 
 export const Template = () => {
   const [login, setLogin] = useState(false);
@@ -25,6 +26,7 @@ export const Template = () => {
           <Nav userType={userType} name={name} />
           {userType === "평가자" && <EstimatorMain />}
           {userType === "관리자" && <AdminMain />}
+          {userType === "제출자" && <SubmitterMain />}
         </div>
       )}
     </div>
