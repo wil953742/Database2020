@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../CSS/mainstyle.module.css";
+import styles from "../CSS/template.module.css";
 import { Nav } from "../Components/Nav";
 
 import { Login } from "../Components/Login";

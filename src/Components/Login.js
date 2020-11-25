@@ -5,7 +5,7 @@ import logo from "../Images/로고.png";
 export const Login = ({ setLogin, setUserType, setName }) => {
   const handleLogin = () => {
     setLogin(true);
-    setUserType("관리자");
+    setUserType("평가자");
     setName("홍길동");
   };
   return (

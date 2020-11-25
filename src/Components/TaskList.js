@@ -1,6 +1,6 @@
 import React from "react";
-import styles3 from "../CSS/TaskListStyle.module.css";
-import {TaskListElement1} from "../Components/TaskListElement1";
+import styles3 from "../CSS/taskliststyle.module.css";
+import { TaskListElement1 } from "../Components/TaskListElement1";
 
 export const TaskList = () => {
   return (
