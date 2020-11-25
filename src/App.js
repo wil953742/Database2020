@@ -8,6 +8,7 @@ import AdminUserMng from "./View/AdminUserMng";
 import AdminTaskView from "./View/AdminTaskView";
 import AdminTaskEdit from "./View/AdminTaskEdit";
 import AdminAddTask from "./View/AdminAddTask";
+import EditUserInfo from "./View/EditUserInfo";
 import { Submitter1 } from "./View/Submitter1";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" component={Template} />
           <Route path="/signup" component={Signup} />
           <Route path="/user" component={AdminUserMng} />
+          <Route path="/EditUserInfo/:userID" component={EditUserInfo} />
           <Route path="/TaskEdit/:taskId" component={AdminTaskEdit} />
           <Route path="/TaskView/:taskId" component={AdminTaskView} />
           <Route paht="/NewTask" component={AdminAddTask} />

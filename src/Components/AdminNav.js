@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import account_logo from "../Images/계정로고.png";
 import logo2 from "../Images/로고2.png";
 
-export const Nav = ({ userType, name, userID }) => {
+export const AdminNav = ({ userType, name, userID }) => {
   return (
     <nav className={styles2.nav}>
       <div className={`${styles2.nav_item} ${styles2.nav_item_right}`}>
@@ -42,6 +42,20 @@ export const Nav = ({ userType, name, userID }) => {
           <button className={`${styles2.button} ${styles2.mdfy_info}`}>
             정보수정
           </button>
+        </Link>
+        <Link
+          to={{
+            pathname: "/user",
+            userType: "관리자",
+            name: `${name}`,
+            userID: `${userID}`,
+          }}
+        >
+          <button className={styles2.button}>회원관리</button>
+        </Link>
+
+        <Link to="/">
+          <button className={styles2.button}>태스크관리</button>
         </Link>
       </div>
     </nav>

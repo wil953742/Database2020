@@ -3,10 +3,7 @@ import { useHistory } from "react-router-dom";
 
 import { AdminNav } from "../Components/AdminNav";
 
-const AdminTaskEdit = (props) => {
-  const task = props.location.task;
-  console.log(task);
-
+const EditUserInfo = () => {
   var logInfo;
   var history = useHistory();
   const loggedIn = localStorage.getItem("user");
@@ -18,13 +15,13 @@ const AdminTaskEdit = (props) => {
   return (
     <div>
       <AdminNav
-        userType={"관리자"}
+        userType={logInfo.userType}
         name={logInfo.name}
         userID={logInfo.userID}
       />
-      <h1>Task Edit</h1>
+      <h1>Edit User Info Page</h1>
     </div>
   );
 };
 
-export default AdminTaskEdit;
+export default EditUserInfo;

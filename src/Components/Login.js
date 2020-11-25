@@ -2,11 +2,18 @@ import React from "react";
 import styles from "../CSS/loginstyle.module.css";
 import logo from "../Images/로고.png";
 
-export const Login = ({ setLogin, setUserType, setName }) => {
+export const Login = ({ setUserType, setName, setUserID, setLog }) => {
+  var user = {
+    userID: 999,
+    userType: "평가자",
+    name: "홍길동",
+  };
   const handleLogin = () => {
-    setLogin(true);
-    setUserType("평가자");
-    setName("홍길동");
+    setUserID(user.userID);
+    setUserType(user.userType);
+    setName(user.name);
+    setLog(true);
+    localStorage.setItem(`user`, JSON.stringify(user));
   };
   return (
     <div className={styles.main_container}>

@@ -1,30 +1,52 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../CSS/template.module.css";
 import { Nav } from "../Components/Nav";
+import { AdminNav } from "../Components/AdminNav";
 
 import { Login } from "../Components/Login";
 import { EstimatorMain } from "./EstimatorMain";
 import { AdminMain } from "./AdminMain";
 
 export const Template = () => {
-  const [login, setLogin] = useState(false);
+  const [log, setLog] = useState();
   const [userType, setUserType] = useState(null);
   const [name, setName] = useState(null);
+  const [userID, setUserID] = useState(null);
+
+  var logInfo;
+  const loggedIn = localStorage.getItem("user");
+  if (loggedIn) {
+    logInfo = JSON.parse(loggedIn);
+  }
 
   return (
     <div>
-      {!login && (
+      {!logInfo && (
         <Login
           setName={setName}
-          setLogin={setLogin}
           setUserType={setUserType}
+          setUserID={setUserID}
+          setLog={setLog}
         />
       )}
-      {login && (
+      {logInfo && (
         <div className={styles.main_container}>
-          <Nav userType={userType} name={name} />
-          {userType === "평가자" && <EstimatorMain />}
-          {userType === "관리자" && <AdminMain />}
+          {logInfo.userType === "평가자" && (
+            <Nav
+              userType={logInfo.userType}
+              name={logInfo.name}
+              userID={logInfo.userID}
+            />
+          )}
+          {logInfo.userType === "평가자" && <EstimatorMain />}
+          {logInfo.userType === "관리자" && (
+            <AdminNav
+              userType={logInfo.userType}
+              name={logInfo.name}
+              userID={logInfo.userID}
+            />
+          )}
+          {logInfo.userType === "관리자" && <AdminMain />}
         </div>
       )}
     </div>

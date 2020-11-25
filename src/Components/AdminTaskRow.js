@@ -3,25 +3,18 @@ import { Link } from "react-router-dom";
 
 import styles from "../CSS/component.module.css";
 
-export const AdminTaskRow = ({
-  taskID,
-  taskName,
-  desc,
-  period,
-  waiting,
-  participants,
-}) => {
+export const AdminTaskRow = ({ task }) => {
   return (
     <div>
-      <Link to={{ pathname: `/TaskView/:${taskID}`, taskId: { taskID } }}>
+      <Link to={{ pathname: `/TaskView/:${task.taskID}`, task: task }}>
         <div className={styles.row_container} style={{ cursor: "pointer" }}>
-          <p>{taskName}</p>
-          <p>{desc}</p>
-          <p>{period}</p>
-          <p>{waiting}</p>
-          <p>{participants}</p>
+          <p>{task.taskName}</p>
+          <p>{task.desc}</p>
+          <p>{task.period}</p>
+          <p>{task.waiting}</p>
+          <p>{task.participants}</p>
           <div>
-            <Link to={{ pathname: `/TaskEdit/:${taskID}`, taskId: { taskID } }}>
+            <Link to={{ pathname: `/TaskEdit/:${task.taskID}`, task: task }}>
               <button className={styles.row_button}>수정</button>
             </Link>
           </div>

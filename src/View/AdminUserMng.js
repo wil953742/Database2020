@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useHistory } from "react-router-dom";
-import { Nav } from "../Components/Nav";
+import { AdminNav } from "../Components/AdminNav";
 
 const AdminUserMng = (props) => {
   var history = useHistory();
@@ -8,9 +8,15 @@ const AdminUserMng = (props) => {
     history.push("/");
   }
 
+  console.log(props.location.userID);
+
   return (
     <div>
-      <Nav userType={"관리자"} name={props.location.name} />
+      <AdminNav
+        userType={"관리자"}
+        name={props.location.name}
+        userID={props.location.userID}
+      />
       <h1>userpage</h1>
     </div>
   );
