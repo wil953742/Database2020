@@ -28,6 +28,7 @@
 }
 
 .div_signin {
+  font-family: "Noto Sans KR", sans-serif;
   border: 3px solid rgb(238, 238, 238);
   text-align: center;
   width: 100%;
@@ -71,4 +72,75 @@
   transform: translate(-50%, -50%);
   height: 100%;
   display: flex;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row > p {
+  font-size: 14px;
+  color: rgb(93, 93, 93);
+  margin: 10px;
+  width: 100px;
+}
+
+.row > input {
+  width: 270px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.id_input {
+  width: 270px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.id_input > input {
+  padding: 5px;
+}
+
+.id_input > button {
+  padding: 5px;
+}
+
+.subscript {
+  font-size: 10px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+label {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 20px;
+  color: black;
+}
+
+input[type="radio"]:checked + label {
+  color: white;
+  background: #ffc5c5;
+}
+
+input[type="radio"] {
+  border-left: #ffc5c5;
+}
+
+.radio_group {
+  border: solid 3px #ffc5c5;
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
 }
