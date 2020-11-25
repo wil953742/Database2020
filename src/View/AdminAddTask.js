@@ -5,11 +5,12 @@ import { AdminNav } from "../Components/AdminNav";
 
 const AdminAddTask = () => {
   var logInfo;
+  var history = useHistory();
   const loggedIn = localStorage.getItem("user");
   if (loggedIn) {
     logInfo = JSON.parse(loggedIn);
   } else {
-    useHistory.push("/");
+    history.push("/");
   }
   return (
     <div>
