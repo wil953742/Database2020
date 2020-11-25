@@ -1,10 +1,11 @@
 import React from "react";
 import styles2 from "../CSS/homestyle.module.css";
+import { Link } from "react-router-dom";
 
 import account_logo from "../Images/계정로고.png";
 import logo2 from "../Images/로고2.png";
 
-export const Nav = () => {
+export const Nav = ({ userType, name }) => {
   return (
     <nav className={styles2.nav}>
       <div className={`${styles2.nav_item} ${styles2.nav_item_right}`}>
@@ -14,7 +15,10 @@ export const Nav = () => {
           alt="계정로고"
         />
         <p className={styles2.nav_p}>
-          <strong>관리자</strong> 계정
+          <strong>
+            {name} {userType}
+          </strong>{" "}
+          님
         </p>
       </div>
 
@@ -30,8 +34,22 @@ export const Nav = () => {
         <button className={`${styles2.button} ${styles2.mdfy_info}`}>
           정보수정
         </button>
-        <button className={styles2.button}>버튼2</button>
-        <button className={styles2.button}>버튼1</button>
+        {userType === "관리자" && (
+          <Link
+            to={{
+              pathname: "/user",
+              userType: "관리자",
+              userNamae: `${name}`,
+            }}
+          >
+            <button className={styles2.button}>회원관리</button>
+          </Link>
+        )}
+        {userType === "관리자" && (
+          <Link to="/">
+            <button className={styles2.button}>태스크관리</button>
+          </Link>
+        )}
       </div>
     </nav>
   );
