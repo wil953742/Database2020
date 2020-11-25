@@ -78,3 +78,23 @@
   color: white;
   background-color: #f87c7c;
 }
+
+.last_row {
+  margin-top: 10px;
+  width: 70vw;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.last_row > div > * {
+  height: 30px;
+  margin: 5px;
+}
+
+.search_button {
+  background-color: #ffb6b6;
+  padding: 10px;
+  border-radius: 999px;
+}

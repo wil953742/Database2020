@@ -46,9 +46,6 @@ export const AdminNav = ({ userType, name, userID }) => {
         <Link
           to={{
             pathname: "/user",
-            userType: "관리자",
-            name: `${name}`,
-            userID: `${userID}`,
           }}
         >
           <button className={styles2.button}>회원관리</button>
