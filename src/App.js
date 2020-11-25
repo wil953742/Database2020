@@ -15,19 +15,13 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/">
-            <Template />
-          </Route>
-          <Route path="/signup">
-            <Signup />
-          </Route>
+          <Route exact path="/" component={Template} />
+          <Route path="/signup" component={Signup} />
           <Route path="/user" component={AdminUserMng} />
           <Route path="/TaskEdit/:taskId" component={AdminTaskEdit} />
           <Route path="/TaskView/:taskId" component={AdminTaskView} />
           <Route paht="/NewTask" component={AdminAddTask} />
-          <Route path="/submitter1">
-            <Submitter1 />
-          </Route>
+          <Route path="/submitter1" component={Submitter1} />
         </Switch>
       </div>
     </Router>
