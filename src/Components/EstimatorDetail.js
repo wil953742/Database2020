@@ -3,14 +3,7 @@ import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { IconButton } from "@material-ui/core";
 
-export const EstimatorDetail = ({
-  taskID,
-  taskName,
-  taskType,
-  submitter,
-  turn,
-  setTogglePopUp,
-}) => {
+export const EstimatorDetail = ({ record, setTogglePopUp }) => {
   const [score, setScore] = useState(0);
 
   useEffect(() => {
@@ -26,13 +19,13 @@ export const EstimatorDetail = ({
         <CloseIcon fontSize="large" />
       </IconButton>
       <h3>태스크 이름</h3>
-      <p>임시 이름</p>
+      <p>{record.taskName}</p>
       <h3>태스크 타입</h3>
-      <p>임시 타입</p>
+      <p>{record.taskType}</p>
       <h3>제출자</h3>
-      <p>홍길동</p>
+      <p>{record.submitter}</p>
       <h3>회차</h3>
-      <p>99</p>
+      <p>{record.turn}</p>
       <table className={styles.qualitative_test}>
         <thead>
           <tr>
@@ -43,9 +36,9 @@ export const EstimatorDetail = ({
         </thead>
         <tbody>
           <tr>
-            <th>100</th>
-            <th>5</th>
-            <th>0.5</th>
+            <th>{record.qt.total_tup}</th>
+            <th>{record.qt.dup_tup}</th>
+            <th>{record.qt.null_ratio}</th>
           </tr>
         </tbody>
       </table>

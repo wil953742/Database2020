@@ -3,13 +3,7 @@ import styles from "../CSS/component.module.css";
 
 import { EstimatorDetail } from "./EstimatorDetail";
 
-export const EstimateFinished = ({
-  taskID,
-  taskName,
-  taskType,
-  submitter,
-  turn,
-}) => {
+export const EstimateFinished = ({ record }) => {
   const [togglePopUp, setTogglePopUp] = useState(false);
   const Estimate = () => {
     // Get Information About Chosen Task
@@ -18,10 +12,10 @@ export const EstimateFinished = ({
   return (
     <div>
       <div className={styles.row_container}>
-        <p>{taskName}</p>
-        <p>{taskType}</p>
-        <p>{submitter}</p>
-        <p>{turn}</p>
+        <p>{record.taskName}</p>
+        <p>{record.taskType}</p>
+        <p>{record.submitter}</p>
+        <p>{record.turn}</p>
         <div className={styles.button_container}>
           <button className={styles.row_button} onClick={() => Estimate()}>
             상세보기
@@ -29,14 +23,7 @@ export const EstimateFinished = ({
         </div>
       </div>
       {togglePopUp && (
-        <EstimatorDetail
-          taskID={taskID}
-          taskName={taskName}
-          taskType={taskType}
-          submitter={submitter}
-          turn={turn}
-          setTogglePopUp={setTogglePopUp}
-        />
+        <EstimatorDetail record={record} setTogglePopUp={setTogglePopUp} />
       )}
     </div>
   );
