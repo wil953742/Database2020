@@ -21,12 +21,13 @@ export const Nav = ({ userType, name, userID }) => {
           님
         </p>
       </div>
-
-      <img
-        className={`${styles2.main_logo_nav} ${styles2.nav_item}`}
-        src={logo2}
-        alt="메인로고"
-      />
+      <Link to="/">
+        <img
+          className={`${styles2.main_logo_nav} ${styles2.nav_item}`}
+          src={logo2}
+          alt="메인로고"
+        />
+      </Link>
 
       <div
         className={`${styles2.nav_item} ${styles2.nav_item_left} ${styles2.button_box}`}
