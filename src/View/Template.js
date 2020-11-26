@@ -32,7 +32,6 @@ export const Template = () => {
       )}
       {logInfo && (
         <div className={styles.main_container}>
-
           {logInfo.userType === "평가자" && (
             <Nav
               userType={logInfo.userType}
@@ -50,14 +49,13 @@ export const Template = () => {
           )}
           {logInfo.userType === "관리자" && <AdminMain />}
           {logInfo.userType === "제출자" && (
-            <AdminNav
+            <Nav
               userType={logInfo.userType}
               name={logInfo.name}
               userID={logInfo.userID}
             />
           )}
           {logInfo.userType === "제출자" && <SubmitterMain />}
-
         </div>
       )}
     </div>
