@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, Component } from "react";
+import axios from 'axios';
 import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { IconButton } from "@material-ui/core";
@@ -10,13 +11,14 @@ export const SubmitterSubmit = ({
   const [score, setScore] = useState(0);
   console.log();
 
-  const EvalTurn = () => {
+  const [highlighted, setHighlighted] = React.useState(false);
 
+  const EvalTurn = () => {
     let today = new Date(); 
     period *= 1;
 
     return today.getDay / period;
-  }
+  };
 
   const Upload = () => {
     // process uploading
@@ -41,11 +43,38 @@ export const SubmitterSubmit = ({
       </div>
       <div className={styles.info}>
         <h3>회차</h3>
-        <p>{() => EvalTurn()}</p>
+        <p>{EvalTurn()}</p>
+      </div>
+      <div 
+      className="file_input" 
+      onDragEnter={() => {
+        setHighlighted(true);
+      }}
+
+      onDragLeave={() => {
+        setHighlighted(false);
+      }}
+      
+      onDragOver={(e) => {
+        e.preventDefault();
+      }}
+      
+      onDrop={(e) => {
+        e.preventDefault();
+
+        Array.from(e.dataTransfer.files)
+        .filter((file) => file.type === "text/csv")
+        .forEach((file) => {console.log(file);}
+        );
+      }}
+      
+      >
+        
+        파일을 여기에 넣으세요.
       </div>
 
-      <button className={styles.complete_btn} onClick={() => Upload()}>
-        완료
+      <button className={styles.complete_btn} onClick={this.onClickHandler}>
+        제출
       </button>
     </div>
   );
