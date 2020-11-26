@@ -55,6 +55,14 @@ export const AdminNav = ({ userType, name, userID }) => {
         <Link to="/">
           <button className={styles2.button}>태스크관리</button>
         </Link>
+        <button
+          className={styles2.button}
+          onClick={() => {
+            localStorage.clear();
+          }}
+        >
+          로그아웃
+        </button>
       </div>
     </nav>
   );
