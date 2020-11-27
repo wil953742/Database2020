@@ -9,27 +9,16 @@ import { AdminMain } from "./AdminMain";
 import { SubmitterMain } from "./SubmitterMain";
 
 export const Template = () => {
-  const [log, setLog] = useState();
-  const [userType, setUserType] = useState(null);
-  const [name, setName] = useState(null);
-  const [userID, setUserID] = useState(null);
-
   var logInfo;
   const loggedIn = localStorage.getItem("user");
+  console.log(loggedIn);
   if (loggedIn) {
     logInfo = JSON.parse(loggedIn);
   }
 
   return (
     <div>
-      {!logInfo && (
-        <Login
-          setName={setName}
-          setUserType={setUserType}
-          setUserID={setUserID}
-          setLog={setLog}
-        />
-      )}
+      {!logInfo && <Login />}
       {logInfo && (
         <div className={styles.main_container}>
           {logInfo.userType === "평가자" && (

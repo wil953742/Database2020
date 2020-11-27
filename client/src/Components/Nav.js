@@ -44,6 +44,16 @@ export const Nav = ({ userType, name, userID }) => {
             정보수정
           </button>
         </Link>
+        <Link to="/">
+          <button
+            className={styles2.button}
+            onClick={() => {
+              localStorage.clear();
+            }}
+          >
+            로그아웃
+          </button>
+        </Link>
       </div>
     </nav>
   );
