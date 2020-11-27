@@ -1,20 +1,18 @@
 import React from "react";
 import styles from "../CSS/loginstyle.module.css";
+import { useHistory } from "react-router-dom";
 import logo from "../Images/로고.png";
 
 export const Login = ({ setUserType, setName, setUserID, setLog }) => {
+  var history = useHistory();
   var user = {
     userID: 999,
-    userType: "제출자",
+    userType: "평가자",
     name: "홍길동",
   };
   const handleLogin = () => {
-
-    setUserID(user.userID);
-    setUserType(user.userType);
-    setName(user.name);
-    setLog(true);
     localStorage.setItem(`user`, JSON.stringify(user));
+    history.push("/");
   };
   return (
     <div className={styles.main_container}>
