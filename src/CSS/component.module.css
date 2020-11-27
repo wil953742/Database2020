@@ -127,6 +127,32 @@ a:visited {
   flex-direction: column;
 }
 
+.select_rdt {
+  margin-bottom: 5px;
+}
+
+.file_input {
+  border : 2px solid rgb(196, 196, 196);
+  border-radius : 5px;
+  width : 90%;
+  height: 20%;
+  text-align: center;
+  line-height: 6;
+  margin-left: 28px;
+  color : gray;
+}
+
+.border_blue{
+  border : 2px solid rgb(0, 0, 0);
+  background-color: rgb(189, 189, 189);
+  color : white;
+}
+
+.border_black {
+  border : 2px solid rgb(163, 163, 163);
+  background-color: rgb(255, 255, 255);
+}
+
 .complete_btn {
   margin: auto;
   background-color: #ffb6b6;

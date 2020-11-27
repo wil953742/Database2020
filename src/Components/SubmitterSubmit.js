@@ -1,31 +1,27 @@
 import React, { useState, Component } from "react";
-import axios from 'axios';
 import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { IconButton } from "@material-ui/core";
 
+import Select from 'react-select';
+
 export const SubmitterSubmit = ({
-  period,
   setTogglePopUp,
 }) => {
-  const [score, setScore] = useState(0);
-  console.log();
+  const RDTtypes = [
+    { value : "type1", label : "type1"},
+    { value : "type2", label : "type2"},
+    { value : "type3", label : "type3"},
+  ];
 
   const [highlighted, setHighlighted] = React.useState(false);
-
-  const EvalTurn = () => {
-    let today = new Date(); 
-    period *= 1;
-
-    return today.getDay / period;
-  };
 
   const Upload = () => {
     // process uploading
     setTogglePopUp(false);
   };
   return (
-    <div className={styles.popup_sub}>
+    <div className={styles.popup_sub}>      
       <IconButton
         className={styles.close_btn}
         style={{ position: "absolute" }}
@@ -41,39 +37,45 @@ export const SubmitterSubmit = ({
         <h3>태스크 정보</h3>
         <p>서울 거주 확진자 들의 데이터 csv 파일</p>
       </div>
-      <div className={styles.info}>
-        <h3>회차</h3>
-        <p>{EvalTurn()}</p>
-      </div>
-      <div 
-      className="file_input" 
-      onDragEnter={() => {
-        setHighlighted(true);
-      }}
 
-      onDragLeave={() => {
-        setHighlighted(false);
-      }}
-      
-      onDragOver={(e) => {
-        e.preventDefault();
-      }}
-      
-      onDrop={(e) => {
-        e.preventDefault();
+      <h3>파일 업로드</h3>
+      <div className={`${styles.file_input} ${
+        highlighted ? `${styles.border_blue}` : `${styles.border_black}`}`}
+        onDragEnter={() => {
+          setHighlighted(true);
+        }}
+        onDragLeave={() => {
+          setHighlighted(false);
+        }}
 
-        Array.from(e.dataTransfer.files)
-        .filter((file) => file.type === "text/csv")
-        .forEach((file) => {console.log(file);}
-        );
-      }}
-      
+        onDragOver={(e) => {
+          e.preventDefault();
+        }}
+        onDrop={(e) => {
+          e.preventDefault();
+          setHighlighted(false);
+
+          Array.from(e.dataTransfer.files)
+            .forEach((file) => {
+              const text = file;
+            });
+        }}
       >
-        
-        파일을 여기에 넣으세요.
+        제출할 파일을 끌어다 놓으시오.
       </div>
 
-      <button className={styles.complete_btn} onClick={this.onClickHandler}>
+      <div className={styles.info}>
+      <h3>Row Data Type</h3>
+
+        <Select  
+          options={RDTtypes}
+          placeholder="Raw Data Type을 선택하시오."
+          className = {styles.select_rdt}
+          isSearchable
+        />
+      </div>
+
+      <button className={styles.complete_btn} onClick={() => Upload()}>
         제출
       </button>
     </div>
