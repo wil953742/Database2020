@@ -24,9 +24,11 @@ app.get('/s_task', (req, res) => {
     connection.query(
         "SELECT * FROM TTASK",
         (err, rows, fields) => {
-           //res.json({data: results})
             res.send(rows);
         }
     );
 });
+
+
+
 app.listen(port, () => console.log(`Listening on port ${port}`));
