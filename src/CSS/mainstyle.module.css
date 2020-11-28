@@ -197,3 +197,7 @@ tr:last-child > td {
 .button_row {
   display: flex;
 }
+
+.box {
+  height: 350px !important;
+}

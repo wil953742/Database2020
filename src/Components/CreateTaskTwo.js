@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "../CSS/mainstyle.module.css";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
@@ -11,7 +12,7 @@ export const CreateTaskTwo = ({ setStep }) => {
   const [row, setRow] = useState([1]);
 
   const handleRemove = () => {
-    if (num == 1) {
+    if (num === 2) {
       return;
     }
     setNum(num - 1);
@@ -23,13 +24,13 @@ export const CreateTaskTwo = ({ setStep }) => {
       <div className={styles.title}>
         <h1>태스크 데이터 테이블 스키마 설정</h1>
         <form noValidate autoComplete="off">
-          <div className={styles.scrollable_div}>
+          <div className={`${styles.scrollable_div} ${styles.box}`}>
             {row.map((item) => (
               <Schema key={item} />
             ))}
           </div>
         </form>
-        <div className={styles.button_row}>
+        <div>
           <IconButton
             onClick={() => {
               handleRemove();
@@ -46,9 +47,23 @@ export const CreateTaskTwo = ({ setStep }) => {
             <AddCircleIcon />
           </IconButton>
         </div>
-        <div>
-          <button>d</button>
-          <button>d</button>
+        <div className={styles.button_container}>
+          <button
+            className={`${styles.add_btn} ${styles.button_row}`}
+            onClick={() => {
+              setStep(1);
+            }}
+          >
+            이전
+          </button>
+          <button
+            className={`${styles.add_btn} ${styles.button_row}`}
+            onClick={() => {
+              setStep(3);
+            }}
+          >
+            다음
+          </button>
         </div>
       </div>
     </div>
