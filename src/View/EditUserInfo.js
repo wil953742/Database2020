@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import styles from "../CSS/loginstyle.module.css";
 
+import { Nav } from "../Components/Nav";
 import { AdminNav } from "../Components/AdminNav";
 
 const EditUserInfo = () => {
@@ -11,10 +12,10 @@ const EditUserInfo = () => {
   const [phone, setPhone] = useState(null);
   const sex = "남성";
   const birthday = "2000-01-01";
-  
+
   const edit = () => {
     console.log("store changed info");
-  }
+  };
 
   var logInfo;
   var history = useHistory();
@@ -27,18 +28,28 @@ const EditUserInfo = () => {
 
   return (
     <div>
-      <AdminNav
-        userType={logInfo.userType}
-        name={logInfo.name}
-        userID={logInfo.userID}
-      />
+      {logInfo.userType === "관리자" && (
+        <AdminNav
+          userType={logInfo.userType}
+          name={logInfo.name}
+          userID={logInfo.userID}
+        />
+      )}
+      {logInfo.userType !== "관리자" && (
+        <Nav
+          userType={logInfo.userType}
+          name={logInfo.name}
+          userID={logInfo.userID}
+        />
+      )}
+
       <div className={`${styles.div_signin} ${styles.margin_top_bot_50}`}>
         <h1>정보수정</h1>
         <div className={styles.row}>
           <p>회원 유형</p>
           <form name="type">
             <div className={styles.radio_group}>
-              <input type="radio" id="userType" name="selector" disabled/>
+              <input type="radio" id="userType" name="selector" disabled />
               <label for="userType">{logInfo.userType}</label>
             </div>
           </form>
@@ -89,18 +100,14 @@ const EditUserInfo = () => {
           <p>성별</p>
           <form name="sex">
             <div className={styles.radio_group}>
-              <input type="radio" id="userSex" name="selector2" disabled/>
+              <input type="radio" id="userSex" name="selector2" disabled />
               <label for="userSex">{sex}</label>
             </div>
           </form>
         </div>
         <div className={styles.row}>
           <p>생년월일</p>
-          <input
-            type="date"
-            value={birthday}
-            disabled
-          />
+          <input type="date" value={birthday} disabled />
         </div>
         <div className={styles.row}>
           <p>주소</p>
@@ -120,7 +127,7 @@ const EditUserInfo = () => {
             onChange={(e) => setPhone(e.target.value)}
           />
         </div>
-        <button className={styles.button} onClick = {()=>edit()}>
+        <button className={styles.button} onClick={() => edit()}>
           완료
         </button>
       </div>

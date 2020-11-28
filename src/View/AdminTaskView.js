@@ -111,9 +111,6 @@ const AdminTaskView = (props) => {
               </div>
             </div>
             <div className={styles.button_container}>
-              <button className={`${styles.add_btn} ${styles.button_row}`}>
-                원본데이터타입추가
-              </button>
               <button
                 className={`${styles.add_btn} ${styles.button_row}`}
                 onClick={() => history.push("/")}
