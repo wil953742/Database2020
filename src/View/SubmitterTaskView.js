@@ -6,12 +6,19 @@ import { SubmitterTaskRow } from "../Components/SubmitterTaskRow";
 import { SubmitterSubmit } from "../Components/SubmitterSubmit";
 import { Nav } from "../Components/Nav";
 
-export const SubmitterTaskView = () => {
+export const SubmitterTaskView = ({
+  taskID,
+  taskName,
+  taskDesc,
+  taskDate,
+  taskNum,
+ }) => {
 
-  const userInfo = {
-    userType : "제출자",
-    userName : "홍길동",
-    userID : "111"
+  var logInfo;
+  const loggedIn = localStorage.getItem("user");
+  console.log(loggedIn);
+  if (loggedIn) {
+    logInfo = JSON.parse(loggedIn);
   }
 
   const [togglePopUp, setTogglePopUp] = useState(false);
@@ -23,9 +30,9 @@ export const SubmitterTaskView = () => {
   return (
     <div className={styles.center_all}>
       <Nav
-        userType={userInfo.userType}
-        name={userInfo.userName}
-        userID={userInfo.userID}
+        userType={loggedIn.userType}
+        name={loggedIn.userName}
+        userID={loggedIn.userID}
       />
       <h2 className={styles.list_title}>파일 목록</h2>
       <div className={styles.main_container}>
@@ -48,6 +55,8 @@ export const SubmitterTaskView = () => {
       {togglePopUp && (
       <SubmitterSubmit
         setTogglePopUp={setTogglePopUp}
+        taskID={taskID}
+        taskDesc={taskDesc}
       />)
       }
     </div>
