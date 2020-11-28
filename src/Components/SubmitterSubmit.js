@@ -6,6 +6,8 @@ import { IconButton } from "@material-ui/core";
 import Select from 'react-select';
 
 export const SubmitterSubmit = ({
+  taskName,
+  taskDesc,
   setTogglePopUp,
 }) => {
   const RDTtypes = [
@@ -31,11 +33,11 @@ export const SubmitterSubmit = ({
       </IconButton>
       <div className={styles.info}>
         <h3>태스크 이름</h3>
-        <p>임시 이름</p>
+        <p>{taskName}</p>
       </div>
       <div className={styles.info}>
         <h3>태스크 정보</h3>
-        <p>서울 거주 확진자 들의 데이터 csv 파일</p>
+        <p>{taskDesc}</p>
       </div>
 
       <h3>파일 업로드</h3>
