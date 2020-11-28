@@ -16,7 +16,6 @@ const AdminUserMng = () => {
     id: "gildong123",
     task: ["task1", "task2", "task3"],
   };
-  const [category, setCategory] = useState("");
   const [text, setText] = useState("");
 
   var logInfo;
@@ -31,6 +30,7 @@ const AdminUserMng = () => {
   const Search = () => {
     var source = document.getElementById("sources");
     var value = source.value;
+    console.log(value);
 
     // Find matching users with value and text
   };
