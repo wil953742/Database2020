@@ -1,7 +1,9 @@
 import React from "react";
+import styles from "../CSS/mainstyle.module.css";
 import { useHistory } from "react-router-dom";
 
 import { AdminNav } from "../Components/AdminNav";
+import { CreateTaskFirst } from "../Components/CreateTaskFirst";
 
 const AdminAddTask = () => {
   var logInfo;
@@ -19,7 +21,11 @@ const AdminAddTask = () => {
         name={logInfo.name}
         userID={logInfo.userID}
       />
-      <h1>ADD TASK</h1>
+      <div className={styles.center_all}>
+        <div className={styles.main_container}>
+          <CreateTaskFirst />
+        </div>
+      </div>
     </div>
   );
 };
