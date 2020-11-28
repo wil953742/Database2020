@@ -1,5 +1,4 @@
 import React from "react";
-import InputAdornment from "@material-ui/core/InputAdornment";
 import TextField from "@material-ui/core/TextField";
 
 export const Schema = () => {
