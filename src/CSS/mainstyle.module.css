@@ -193,3 +193,40 @@ tr:last-child > td {
 .desc_input {
   height: 400px;
 }
+
+.button_row {
+  display: flex;
+}
+
+.box {
+  height: 350px !important;
+}
+
+.new_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  align-content: center;
+}
+
+.ca {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.nbc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.name_box {
+  width: 60%;
+}

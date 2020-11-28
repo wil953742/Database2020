@@ -4,7 +4,7 @@ import TextField from "@material-ui/core/TextField";
 import styles from "../CSS/mainstyle.module.css";
 import { Link } from "react-router-dom";
 
-export const CreateTaskFirst = () => {
+export const CreateTaskFirst = ({ setStep }) => {
   return (
     <div className={`${styles.sub_container_a} ${styles.ninety}`}>
       <div className={styles.title}>
@@ -60,7 +60,10 @@ export const CreateTaskFirst = () => {
             닫기
           </button>
         </Link>
-        <button className={`${styles.add_btn} ${styles.button_row}`}>
+        <button
+          className={`${styles.add_btn} ${styles.button_row}`}
+          onClick={() => setStep(2)}
+        >
           다음
         </button>
       </div>
