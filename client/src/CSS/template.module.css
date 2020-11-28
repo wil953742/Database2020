@@ -1,0 +1,13 @@
+.main_container {
+  height: 100%;
+  margin: 0px;
+  background-color: white;
+  position: relative;
+  height: 70px;
+  border-bottom: 2px solid #e6eaea;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+}

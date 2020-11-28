@@ -1,0 +1,6 @@
+[1127/153722.549:ERROR:file_io_win.cc(180)] CreateFile C:\Users\KimYM\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: 액세스가 거부되었습니다. (0x5)
+[1127/153722.558:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: 파이프가 끝났습니다. (0x6D)
+[1127/153722.559:ERROR:file_io_win.cc(180)] CreateFile C:\Users\KimYM\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: 액세스가 거부되었습니다. (0x5)
+[1127/224657.938:ERROR:file_io_win.cc(180)] CreateFile C:\Users\KimYM\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: 액세스가 거부되었습니다. (0x5)
+[1127/224657.946:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: 파이프가 끝났습니다. (0x6D)
+[1127/224657.947:ERROR:file_io_win.cc(180)] CreateFile C:\Users\KimYM\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: 액세스가 거부되었습니다. (0x5)
