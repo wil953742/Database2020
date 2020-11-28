@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import styles from "../CSS/loginstyle.module.css";
 
-export const Signup = () => {
+export const ChangeInformation = () => {
   const [userType, setUserType] = useState(null);
   const [userID, setUserID] = useState(null);
   const [password, setPassword] = useState(null);
@@ -15,6 +15,12 @@ export const Signup = () => {
   const [dupCheck, setDupCheck] = useState(false);
 
   let history = useHistory();
+
+  var logInfo;
+  const loggedIn = localStorage.getItem("user");
+  if (loggedIn) {
+    logInfo = JSON.parse(loggedIn);
+  }
 
   const PasswordCheck = (inputtxt) => {
     var passw = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
@@ -90,10 +96,7 @@ export const Signup = () => {
           <p>회원 유형</p>
           <form name="type">
             <div className={styles.radio_group}>
-              <input type="radio" id="submitter" name="selector" />
-              <label for="submitter">제출자</label>
-              <input type="radio" id="estimator" name="selector" />
-              <label for="estimator">평가자</label>
+              <p className={styles.bg_pink}>{logInfo.userType}</p>
             </div>
           </form>
         </div>
