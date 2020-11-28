@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../CSS/mainstyle.module.css";
 import { useHistory } from "react-router-dom";
 
 import { AdminNav } from "../Components/AdminNav";
@@ -22,7 +23,13 @@ const AdminTaskView = (props) => {
         name={logInfo.name}
         userID={logInfo.userID}
       />
-      <h1>Task View</h1>
+      <div className={styles.center_all}>
+        <div className={styles.main_container}>
+          <div className={styles.sub_container_1}>
+            <h1>Test</h1>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
