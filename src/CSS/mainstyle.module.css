@@ -193,3 +193,7 @@ tr:last-child > td {
 .desc_input {
   height: 400px;
 }
+
+.button_row {
+  display: flex;
+}

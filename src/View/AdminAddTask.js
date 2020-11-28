@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../CSS/mainstyle.module.css";
 import { useHistory } from "react-router-dom";
 
 import { AdminNav } from "../Components/AdminNav";
 import { CreateTaskFirst } from "../Components/CreateTaskFirst";
+import { CreateTaskTwo } from "../Components/CreateTaskTwo";
+import { CreateTaskThree } from "../Components/CreateTaskThree";
 
 const AdminAddTask = () => {
+  const [step, setStep] = useState(1);
   var logInfo;
   var history = useHistory();
   const loggedIn = localStorage.getItem("user");
@@ -23,7 +26,9 @@ const AdminAddTask = () => {
       />
       <div className={styles.center_all}>
         <div className={styles.main_container}>
-          <CreateTaskFirst />
+          {step === 1 && <CreateTaskFirst setStep={setStep} />}
+          {step === 2 && <CreateTaskTwo setStep={setStep} />}
+          {step === 3 && <CreateTaskThree setStep={setStep} />}
         </div>
       </div>
     </div>
