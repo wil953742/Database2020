@@ -38,6 +38,11 @@
   font-weight: 400;
 }
 
+.margin_top_bot_50{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
 .div_input {
   border : 1px solid rgb(211, 211, 211);
   position: relative;
@@ -144,4 +149,13 @@ input[type="radio"] {
   display: inline-block;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.radio_group > p {
+  margin:0;
+}
+
+.bg_pink{
+  color: white;
+  background: #ffc5c5;
 }

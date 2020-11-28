@@ -4,8 +4,16 @@ import styles from "../CSS/mainstyle.module.css";
 import { SubmitterTaskRowNav } from "../Components/SubmitterTaskRowNav";
 import { SubmitterTaskRow } from "../Components/SubmitterTaskRow";
 import { SubmitterSubmit } from "../Components/SubmitterSubmit";
+import { Nav } from "../Components/Nav";
 
 export const SubmitterTaskView = () => {
+
+  const userInfo = {
+    userType : "제출자",
+    userName : "홍길동",
+    userID : "111"
+  }
+
   const [togglePopUp, setTogglePopUp] = useState(false);
   const Submit = () => {
     // Get Information About Chosen Task
@@ -14,6 +22,11 @@ export const SubmitterTaskView = () => {
 
   return (
     <div className={styles.center_all}>
+      <Nav
+        userType={userInfo.userType}
+        name={userInfo.userName}
+        userID={userInfo.userID}
+      />
       <h2 className={styles.list_title}>파일 목록</h2>
       <div className={styles.main_container}>
         <div className={styles.sub_container_1}>
@@ -34,7 +47,6 @@ export const SubmitterTaskView = () => {
       </button>
       {togglePopUp && (
       <SubmitterSubmit
-        period="7"
         setTogglePopUp={setTogglePopUp}
       />)
       }
