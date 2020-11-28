@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import styles from "../CSS/mainstyle.module.css";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
@@ -7,7 +6,7 @@ import IconButton from "@material-ui/core/IconButton";
 
 import { Schema } from "../Components/Schema";
 
-export const CreateTaskTwo = ({ setStep }) => {
+export const CreateTaskTwo = ({ setStep, newTask }) => {
   const [num, setNum] = useState(2);
   const [row, setRow] = useState([1]);
 

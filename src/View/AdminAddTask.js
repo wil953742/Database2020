@@ -9,6 +9,7 @@ import { CreateTaskThree } from "../Components/CreateTaskThree";
 
 const AdminAddTask = () => {
   const [step, setStep] = useState(1);
+  var newTask;
   var logInfo;
   var history = useHistory();
   const loggedIn = localStorage.getItem("user");
@@ -26,9 +27,13 @@ const AdminAddTask = () => {
       />
       <div className={styles.center_all}>
         <div className={styles.main_container}>
-          {step === 1 && <CreateTaskFirst setStep={setStep} />}
-          {step === 2 && <CreateTaskTwo setStep={setStep} />}
-          {step === 3 && <CreateTaskThree setStep={setStep} />}
+          {step === 1 && (
+            <CreateTaskFirst setStep={setStep} newTask={newTask} />
+          )}
+          {step === 2 && <CreateTaskTwo setStep={setStep} newTask={newTask} />}
+          {step === 3 && (
+            <CreateTaskThree setStep={setStep} newTask={newTask} />
+          )}
         </div>
       </div>
     </div>

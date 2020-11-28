@@ -4,7 +4,7 @@ import TextField from "@material-ui/core/TextField";
 
 export const Schema = () => {
   return (
-    <div>
+    <div style={{ display: "flex", justifyContent: "center" }}>
       <TextField
         id="name"
         label="속성 이름"
