@@ -25,8 +25,6 @@ const EditUserInfo = () => {
     history.push("/");
   }
 
-
-
   return (
     <div>
       <AdminNav
