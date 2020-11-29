@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { IconButton } from "@material-ui/core";
+import styles2 from "../CSS/mainstyle.module.css";
 
 export const EstimatorEstimate = ({ record, setTogglePopUp }) => {
   const [score, setScore] = useState(0);
@@ -15,7 +16,12 @@ export const EstimatorEstimate = ({ record, setTogglePopUp }) => {
     }
   };
 
-  const Submit = () => {
+  const download = (record) => {
+    // download file
+    setTogglePopUp(false);
+  };
+
+  const submit = () => {
     // process submitting
     setTogglePopUp(false);
   };
@@ -63,9 +69,20 @@ export const EstimatorEstimate = ({ record, setTogglePopUp }) => {
         <button onClick={() => DomainCheck(score + 1)}>+</button>
       </div>
 
-      <button className={styles.complete_btn} onClick={() => Submit()}>
-        완료
-      </button>
+      <div className={styles2.button_container}>
+        <button
+          className={`${styles2.add_btn} ${styles2.button_row}`}
+          onClick={() => download(record)}
+        >
+          다운로드
+        </button>
+        <button
+          className={`${styles2.add_btn} ${styles2.button_row}`}
+          onClick={() => submit()}
+        >
+          완료
+        </button>
+      </div>
     </div>
   );
 };

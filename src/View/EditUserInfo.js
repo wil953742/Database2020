@@ -10,13 +10,6 @@ const EditUserInfo = () => {
   const [confirmPassword, setConfirmPassword] = useState(null);
   const [address, setAddress] = useState(null);
   const [phone, setPhone] = useState(null);
-  const sex = "남성";
-  const birthday = "2000-01-01";
-
-  const edit = () => {
-    console.log("store changed info");
-  };
-
   var logInfo;
   var history = useHistory();
   const loggedIn = localStorage.getItem("user");
@@ -25,6 +18,13 @@ const EditUserInfo = () => {
   } else {
     history.push("/");
   }
+
+  const edit = () => {
+    // 빈칸은 프로세스 안하는 로직 필요
+    console.log("store changed info");
+    alert("회원정보가 수정되었습니다!");
+    history.push("/");
+  };
 
   return (
     <div>
@@ -61,7 +61,7 @@ const EditUserInfo = () => {
               type="text"
               placeholder="4글자 이상 입력"
               style={{ width: "180px", marginLeft: "0" }}
-              value={logInfo.userID}
+              value={logInfo.ID}
               disabled
             />
           </div>
@@ -91,7 +91,7 @@ const EditUserInfo = () => {
           <p>이름</p>
           <input
             type="text"
-            placeholder="홍길동"
+            placeholder={logInfo.name}
             value={logInfo.name}
             disabled
           />
@@ -101,19 +101,21 @@ const EditUserInfo = () => {
           <form name="sex">
             <div className={styles.radio_group}>
               <input type="radio" id="userSex" name="selector2" disabled />
-              <label for="userSex">{sex}</label>
+              <label for="userSex">
+                {logInfo.sex === "M" ? "남성" : "여성"}
+              </label>
             </div>
           </form>
         </div>
         <div className={styles.row}>
           <p>생년월일</p>
-          <input type="date" value={birthday} disabled />
+          <input type="date" value={logInfo.birthdate} disabled />
         </div>
         <div className={styles.row}>
           <p>주소</p>
           <input
             type="text"
-            placeholder="서울특별시 서대문구 ..."
+            placeholder={logInfo.address}
             value={address}
             onChange={(e) => setAddress(e.target.value)}
           />
@@ -122,7 +124,7 @@ const EditUserInfo = () => {
           <p>전화번호</p>
           <input
             type="text"
-            placeholder="010-1234-1234"
+            placeholder={logInfo.phone}
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />

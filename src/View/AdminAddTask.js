@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styles from "../CSS/mainstyle.module.css";
 import { useHistory } from "react-router-dom";
+import { RSC } from "../Components/classes";
+import { NewTask } from "../Components/classes";
 
 import { AdminNav } from "../Components/AdminNav";
 import { CreateTaskFirst } from "../Components/CreateTaskFirst";
@@ -9,7 +11,7 @@ import { CreateTaskThree } from "../Components/CreateTaskThree";
 
 const AdminAddTask = () => {
   const [step, setStep] = useState(1);
-  var newTask;
+  const [newTask, setNewTask] = useState(new NewTask());
   var logInfo;
   var history = useHistory();
   const loggedIn = localStorage.getItem("user");
@@ -18,6 +20,7 @@ const AdminAddTask = () => {
   } else {
     history.push("/");
   }
+
   return (
     <div>
       <AdminNav

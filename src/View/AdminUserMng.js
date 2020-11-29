@@ -6,16 +6,19 @@ import { AdminUserRow } from "../Components/AdminUserRow";
 import styles from "../CSS/mainstyle.module.css";
 import SearchIcon from "@material-ui/icons/Search";
 import IconButton from "@material-ui/core/IconButton";
+import { AdminUser } from "../Components/classes";
 
 const AdminUserMng = () => {
-  var user = {
-    name: "홍길동",
-    type: "제출자",
-    age: 22,
-    sex: "M",
-    id: "gildong123",
-    task: ["task1", "task2", "task3"],
-  };
+  var list = [];
+  const [userList, setUserList] = useState(list);
+  const user = new AdminUser(111, "둘리", "제출자", 21, "F", "dully123", [
+    "task1",
+    "task2",
+    "task3",
+  ]);
+  list.push(user);
+  list.push(user);
+
   const [text, setText] = useState("");
 
   var logInfo;
@@ -31,7 +34,6 @@ const AdminUserMng = () => {
     var source = document.getElementById("sources");
     var value = source.value;
     console.log(value);
-
     // Find matching users with value and text
   };
 
@@ -48,8 +50,9 @@ const AdminUserMng = () => {
           <div className={styles.sub_container_1}>
             <AdminUserRowNav />
             <div className={styles.scrollable_div}>
-              <AdminUserRow user={user} />
-              <AdminUserRow user={user} />
+              {userList.map((user) => (
+                <AdminUserRow user={user} />
+              ))}
             </div>
           </div>
         </div>

@@ -11,7 +11,6 @@ import { SubmitterMain } from "./SubmitterMain";
 export const Template = () => {
   var logInfo;
   const loggedIn = localStorage.getItem("user");
-  console.log(loggedIn);
   if (loggedIn) {
     logInfo = JSON.parse(loggedIn);
   }
@@ -28,7 +27,7 @@ export const Template = () => {
               userID={logInfo.userID}
             />
           )}
-          {logInfo.userType === "평가자" && <EstimatorMain />}
+          {logInfo.userType === "평가자" && <EstimatorMain loginfo={logInfo} />}
           {logInfo.userType === "관리자" && (
             <AdminNav
               userType={logInfo.userType}

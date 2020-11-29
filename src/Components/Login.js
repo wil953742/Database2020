@@ -2,15 +2,27 @@ import React from "react";
 import styles from "../CSS/loginstyle.module.css";
 import { useHistory } from "react-router-dom";
 import logo from "../Images/로고.png";
+import { User } from "./classes";
 
-export const Login = ({ setUserType, setName, setUserID, setLog }) => {
+export const Login = () => {
+  var id, pw;
   var history = useHistory();
-  var user = {
-    userID: 999,
-    userType: "관리자",
-    name: "홍길동",
-  };
+
+  var user = new User(
+    999,
+    "gildong123",
+    "관리자",
+    "홍길동",
+    "M",
+    "서울 어딘가라능",
+    "2000-01-01",
+    "010-1234-1234"
+  );
   const handleLogin = () => {
+    /* 
+      input id and password are saved in id, pw
+      get matching user information and store in localStorage
+    */
     localStorage.setItem(`user`, JSON.stringify(user));
     history.push("/");
   };
@@ -23,13 +35,17 @@ export const Login = ({ setUserType, setName, setUserID, setLog }) => {
           type="email"
           id="inputEmail"
           className={styles.div_input}
-          placeholder="Email address"
+          placeholder="User ID"
+          value={id}
+          onChange={(e) => (id = e.target.value)}
         />
         <input
           type="password"
           id="inputPassword"
           className={styles.div_input}
           placeholder="Password"
+          value={pw}
+          onChange={(e) => (pw = e.target.value)}
         />
         <br />
         <button

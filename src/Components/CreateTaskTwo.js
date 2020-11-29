@@ -3,6 +3,8 @@ import styles from "../CSS/mainstyle.module.css";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
 import IconButton from "@material-ui/core/IconButton";
+import { Pair } from "../Components/classes";
+import { SC } from "../Components/classes";
 
 import { Schema } from "../Components/Schema";
 

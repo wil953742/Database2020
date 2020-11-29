@@ -4,7 +4,7 @@ import TextField from "@material-ui/core/TextField";
 import styles from "../CSS/mainstyle.module.css";
 import { Link } from "react-router-dom";
 
-export const CreateTaskFirst = ({ setStep }) => {
+export const CreateTaskFirst = ({ setStep, newTask }) => {
   return (
     <div className={`${styles.sub_container_a} ${styles.ninety}`}>
       <div className={styles.title}>
@@ -17,6 +17,8 @@ export const CreateTaskFirst = ({ setStep }) => {
             id="name"
             label="이름"
             placeholder="태스크 이름을 입력하시오."
+            value={newTask.name}
+            onChange={(e) => (newTask.name = e.target.value)}
           />
         </div>
         <div>
@@ -27,6 +29,8 @@ export const CreateTaskFirst = ({ setStep }) => {
             multiline
             rows={4}
             placeholder="태스크 설명을 입력하시오."
+            value={newTask.desc}
+            onChange={(e) => (newTask.desc = e.target.value)}
           />
         </div>
         <div>
@@ -41,6 +45,8 @@ export const CreateTaskFirst = ({ setStep }) => {
                 <InputAdornment position="end">일마다 제출</InputAdornment>
               ),
             }}
+            value={newTask.period}
+            onChange={(e) => (newTask.period = e.target.value)}
           />
         </div>
         <div>
@@ -51,6 +57,8 @@ export const CreateTaskFirst = ({ setStep }) => {
             placeholder="패스기준을 입력하시오."
             type="number"
             shrink
+            value={newTask.passScore}
+            onChange={(e) => (newTask.passScore = e.target.value)}
           />
         </div>
       </form>
