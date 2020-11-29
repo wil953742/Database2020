@@ -5,14 +5,19 @@ import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
 import IconButton from "@material-ui/core/IconButton";
 import { useHistory } from "react-router-dom";
-
+import { Pair } from "../Components/classes";
+import { RSC } from "../Components/classes";
 import { Schema } from "../Components/Schema";
 import { AdminNav } from "../Components/AdminNav";
 
 const AdminTaskEdit = (props) => {
   const task = props.location.task;
+  const [newPassScore, setNewPassScore] = useState(task.passScore);
   const [toggleAdd, setToggleAdd] = useState(false);
-  console.log(task);
+  const [name, setName] = useState();
+  const [num, setNum] = useState(2);
+  const [row, setRow] = useState([1]);
+  const [pairList, setPairList] = useState([new Pair()]);
 
   var logInfo;
   var history = useHistory();
@@ -23,16 +28,29 @@ const AdminTaskEdit = (props) => {
     history.push("/");
   }
 
-  const [num, setNum] = useState(2);
-  const [row, setRow] = useState([1]);
-
   const handleRemove = () => {
     if (num === 2) {
       return;
     }
     setNum(num - 1);
     setRow(row.filter((item) => item !== num - 1));
+    setPairList(pairList.slice(0, -1));
   };
+
+  const handleComplete = () => {
+    if (name === "" || name === undefined || name === null) {
+      setToggleAdd(!toggleAdd);
+    } else {
+      var finalList = [];
+      for (var i = 0; i < pairList.length; i++) {
+        if (pairList[i].name !== undefined && pairList[i].type !== undefined) {
+          finalList.push(pairList[i]);
+        }
+      }
+      var RDT = new RSC(name, finalList);
+    }
+  };
+
   return (
     <div>
       <AdminNav
@@ -62,9 +80,18 @@ const AdminTaskEdit = (props) => {
                       className={styles.name_box}
                       id="pass_score"
                       label="패스 기준 점수"
-                      defaultValue={5}
+                      value={newPassScore}
                       type="number"
                       shrink
+                      onChange={(e) => {
+                        if (e.target.value < 0) {
+                          setNewPassScore(0);
+                        } else if (e.target.value > 10) {
+                          setNewPassScore(10);
+                        } else {
+                          setNewPassScore(e.target.value);
+                        }
+                      }}
                     />
                   </div>
                 </form>
@@ -97,11 +124,13 @@ const AdminTaskEdit = (props) => {
                     id="name"
                     label="원본데이터타입 이름"
                     placeholder="원본데이터 타입 이름을 입력하시오."
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                   />
                 </div>
                 <div className={`${styles.scrollable_div} ${styles.new_box}`}>
                   {row.map((item) => (
-                    <Schema key={item} />
+                    <Schema key={item} pair={pairList[item - 1]} />
                   ))}
                 </div>
               </form>
@@ -115,6 +144,7 @@ const AdminTaskEdit = (props) => {
                 </IconButton>
                 <IconButton
                   onClick={() => {
+                    setPairList([...pairList, new Pair()]);
                     setNum(num + 1);
                     setRow([...row, num]);
                   }}
@@ -125,7 +155,7 @@ const AdminTaskEdit = (props) => {
               <div className={styles.button_container}>
                 <button
                   className={`${styles.add_btn} ${styles.button_row}`}
-                  onClick={() => setToggleAdd(!toggleAdd)}
+                  onClick={() => handleComplete()}
                 >
                   완료
                 </button>

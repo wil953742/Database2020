@@ -1,16 +1,20 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
 import IconButton from "@material-ui/core/IconButton";
 import styles from "../CSS/mainstyle.module.css";
 import TextField from "@material-ui/core/TextField";
-
+import { Pair } from "../Components/classes";
+import { RSC } from "../Components/classes";
 import { Schema } from "../Components/Schema";
+import { useHistory } from "react-router-dom";
 
-export const CreateTaskThree = ({ setStep }) => {
+export const CreateTaskThree = ({ setStep, newTask }) => {
+  const [name, setName] = useState();
   const [num, setNum] = useState(2);
   const [row, setRow] = useState([1]);
+  const [pairList, setPairList] = useState([new Pair()]);
+  var history = useHistory();
 
   const handleRemove = () => {
     if (num === 2) {
@@ -18,7 +22,31 @@ export const CreateTaskThree = ({ setStep }) => {
     }
     setNum(num - 1);
     setRow(row.filter((item) => item !== num - 1));
+    setPairList(pairList.slice(0, -1));
   };
+
+  const handleNewRDT = () => {
+    var finalList = [];
+    for (var i = 0; i < pairList.length; i++) {
+      if (pairList[i].name !== undefined && pairList[i].type !== undefined) {
+        finalList.push(pairList[i]);
+      }
+    }
+    newTask.RDTSchema.push(new RSC(name, finalList));
+    setName("");
+    setNum(2);
+    setRow([1]);
+    setPairList([new Pair()]);
+  };
+
+  const handleComplete = () => {
+    if (name === "" || name === undefined || name === null) {
+      history.push("/");
+    } else {
+      handleNewRDT();
+    }
+  };
+
   return (
     <div className={`${styles.sub_container_a} ${styles.ninety}`}>
       <div className={styles.title}>
@@ -31,11 +59,13 @@ export const CreateTaskThree = ({ setStep }) => {
             id="name"
             label="원본데이터타입 이름"
             placeholder="원본데이터 타입 이름을 입력하시오."
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
         </div>
         <div className={`${styles.scrollable_div} ${styles.new_box}`}>
           {row.map((item) => (
-            <Schema key={item} />
+            <Schema key={item} pair={pairList[item - 1]} />
           ))}
         </div>
       </form>
@@ -49,6 +79,7 @@ export const CreateTaskThree = ({ setStep }) => {
         </IconButton>
         <IconButton
           onClick={() => {
+            setPairList([...pairList, new Pair()]);
             setNum(num + 1);
             setRow([...row, num]);
           }}
@@ -65,15 +96,16 @@ export const CreateTaskThree = ({ setStep }) => {
         </button>
         <button
           className={`${styles.add_btn} ${styles.button_row}`}
-          onClick={() => setStep(3)}
+          onClick={() => handleNewRDT()}
         >
           원본타입추가
         </button>
-        <Link to="/">
-          <button className={`${styles.add_btn} ${styles.button_row}`}>
-            완료
-          </button>
-        </Link>
+        <button
+          className={`${styles.add_btn} ${styles.button_row}`}
+          onClick={() => handleComplete()}
+        >
+          완료
+        </button>
       </div>
     </div>
   );

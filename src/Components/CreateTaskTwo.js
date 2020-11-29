@@ -11,6 +11,7 @@ import { Schema } from "../Components/Schema";
 export const CreateTaskTwo = ({ setStep, newTask }) => {
   const [num, setNum] = useState(2);
   const [row, setRow] = useState([1]);
+  const [pairList, setPairList] = useState([new Pair()]);
 
   const handleRemove = () => {
     if (num === 2) {
@@ -18,6 +19,18 @@ export const CreateTaskTwo = ({ setStep, newTask }) => {
     }
     setNum(num - 1);
     setRow(row.filter((item) => item !== num - 1));
+    setPairList(pairList.slice(0, -1));
+  };
+
+  const handleNext = () => {
+    var finalList = [];
+    for (var i = 0; i < pairList.length; i++) {
+      if (pairList[i].name !== undefined && pairList[i].type !== undefined) {
+        finalList.push(pairList[i]);
+      }
+    }
+    newTask.TDTSchema = new SC(finalList);
+    setStep(3);
   };
 
   return (
@@ -27,7 +40,7 @@ export const CreateTaskTwo = ({ setStep, newTask }) => {
         <form noValidate autoComplete="off">
           <div className={`${styles.scrollable_div} ${styles.box}`}>
             {row.map((item) => (
-              <Schema key={item} />
+              <Schema key={item} pair={pairList[item - 1]} />
             ))}
           </div>
         </form>
@@ -41,6 +54,7 @@ export const CreateTaskTwo = ({ setStep, newTask }) => {
           </IconButton>
           <IconButton
             onClick={() => {
+              setPairList([...pairList, new Pair()]);
               setNum(num + 1);
               setRow([...row, num]);
             }}
@@ -60,7 +74,7 @@ export const CreateTaskTwo = ({ setStep, newTask }) => {
           <button
             className={`${styles.add_btn} ${styles.button_row}`}
             onClick={() => {
-              setStep(3);
+              handleNext();
             }}
           >
             다음

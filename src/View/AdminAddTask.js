@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../CSS/mainstyle.module.css";
 import { useHistory } from "react-router-dom";
-import { RSC } from "../Components/classes";
 import { NewTask } from "../Components/classes";
 
 import { AdminNav } from "../Components/AdminNav";
@@ -20,6 +19,10 @@ const AdminAddTask = () => {
   } else {
     history.push("/");
   }
+
+  useEffect(() => {
+    newTask.RDTSchema = [];
+  }, []);
 
   return (
     <div>
