@@ -11,7 +11,7 @@ export const Login = () => {
   var user = new User(
     999,
     "gildong123",
-    "관리자",
+    "평가자",
     "홍길동",
     "M",
     "서울 어딘가라능",

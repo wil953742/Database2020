@@ -3,6 +3,11 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
 
 reportWebVitals();
