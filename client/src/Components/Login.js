@@ -7,7 +7,7 @@ export const Login = ({ setUserType, setName, setUserID, setLog }) => {
   var history = useHistory();
   var user = {
     userID: 999,
-    userType: "평가자",
+    userType: "관리자",
     name: "홍길동",
   };
   const handleLogin = () => {

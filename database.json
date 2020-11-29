@@ -3,5 +3,5 @@
     "user": "master",
     "password": "dataeatlive",
     "port": "3306",
-    "database": "test1"
+    "database": "Covid_Database"
 }

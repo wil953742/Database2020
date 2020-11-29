@@ -12,7 +12,6 @@ import { SubmitterTaskView } from "./View/SubmitterTaskView";
 import EditUserInfo from "./View/EditUserInfo";
 
 function App() {
-
   return (
     <Router>
       <div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { post } from 'axios';
 import { useHistory } from "react-router-dom";
 import styles from "../CSS/loginstyle.module.css";
 
@@ -73,7 +74,23 @@ export const Signup = () => {
       alert("아이디 중복확인을 해주세요.");
       return;
     }
+    
     handleSignUp();
+
+    const url = '/api/signup';
+    const formData = new FormData();
+    formData.append('userType', userType);
+    formData.append('userID', userID);
+    formData.append('password', password);
+    formData.append('name', name);
+    formData.append('birthday', birthday);
+    formData.append('sex', sex);
+    formData.append('address', address);
+    formData.append('phone', phone);
+    post(url, formData);
+    
+   //windows.location.reload();
+
   };
 
   const handleSignUp = () => {
@@ -165,7 +182,7 @@ export const Signup = () => {
             type="text"
             placeholder="서울특별시 서대문구 ..."
             value={address}
-            onChange={(e) => setAddress(e.target.value)}
+            onChange={(e) => setAddress(e.target.value )}
           />
         </div>
         <div className={styles.row}>
