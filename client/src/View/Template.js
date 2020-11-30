@@ -24,7 +24,7 @@ export const Template = () => {
             <Nav
               userType={logInfo.userType}
               name={logInfo.name}
-              userID={logInfo.userID}
+              userID={logInfo.accountID}
             />
           )}
           {logInfo.userType === "평가자" && <EstimatorMain loginfo={logInfo} />}
@@ -32,7 +32,7 @@ export const Template = () => {
             <AdminNav
               userType={logInfo.userType}
               name={logInfo.name}
-              userID={logInfo.userID}
+              userID={logInfo.accountID}
             />
           )}
           {logInfo.userType === "관리자" && <AdminMain />}
@@ -40,7 +40,7 @@ export const Template = () => {
             <Nav
               userType={logInfo.userType}
               name={logInfo.name}
-              userID={logInfo.userID}
+              userID={logInfo.accountID}
             />
           )}
           {logInfo.userType === "제출자" && <SubmitterMain />}

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import account_logo from "../Images/계정로고.png";
 import logo2 from "../Images/로고2.png";
 
-export const Nav = ({ userType, name, userID }) => {
+export const Nav = ({ userType, name, accountID }) => {
   return (
     <nav className={styles2.nav}>
       <div className={`${styles2.nav_item} ${styles2.nav_item_right}`}>
@@ -34,10 +34,10 @@ export const Nav = ({ userType, name, userID }) => {
       >
         <Link
           to={{
-            pathname: `/EditUserInfo/:${userID}`,
+            pathname: `/EditUserInfo/:${accountID}`,
             userType: ` ${userType}`,
             userName: `${name}`,
-            userID: `${userID}`,
+            accountID: `${accountID}`,
           }}
         >
           <button className={`${styles2.button} ${styles2.mdfy_info}`}>

@@ -3,46 +3,53 @@ import styles from "../CSS/loginstyle.module.css";
 import { useHistory } from "react-router-dom";
 import logo from "../Images/로고.png";
 import { User } from "./classes";
+// import axios from "../axios";
 
 export const Login = () => {
   var id, pw;
+  const axios = require("axios");
   var type = {
     Submitter: "제출자",
     Administrator: "관리자",
     Estimator: "평가자",
   };
   var history = useHistory();
-  const axios = require("axios").default;
-  const [user, setUser] = useState();
+  const [data, setData] = useState();
 
   const handleLogin = async () => {
     const url = "/api/loginAuth";
-    await axios.get(url + `/${id}&${pw}`).then((res) => {
-      setUser(res.data[0]);
+    const res = await axios.get(url + `/${id}&${pw}`).catch((err) => {
+      if (err.response) {
+        console.log(err.responsse);
+      } else if (err.request) {
+        console.log("never recieved a response");
+      }
     });
+    if (res && res.data) setData(res);
   };
 
   useEffect(() => {
-    console.log(user);
-    if (!user) return;
-    if (user.length === 0) {
+    if (!data) {
+      return;
+    }
+    if (data.data.length == 0) {
       alert("아이디와 비밀번호를 확인해주세요.");
       return;
     }
     let loginInfo = new User(
-      user.AccountID,
-      user.UserID,
-      type[user.Role],
-      user.Name,
-      user.Gender.data,
-      user.Address,
-      user.BirthDate,
-      user.Phone
+      data.data[0].AccountID,
+      data.data[0].UserID,
+      type[data.data[0].Role],
+      data.data[0].Name,
+      data.data[0].Gender.data,
+      data.data[0].Address,
+      data.data[0].BirthDate,
+      data.data[0].Phone
     );
     console.log(loginInfo);
     localStorage.setItem(`user`, JSON.stringify(loginInfo));
     history.push("/");
-  }, [user]);
+  }, [data]);
 
   return (
     <div className={styles.main_container}>

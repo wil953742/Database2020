@@ -15,7 +15,7 @@ const AdminUserMng = () => {
   const [data, setData] = useState();
   const [userList, setUserList] = useState([]);
   const [text, setText] = useState("");
-  const [url, setURL] = useState("/api/sample1");
+  const [url, setURL] = useState("/api/userList");
   const loggedIn = localStorage.getItem("user");
 
   if (loggedIn) {
@@ -30,17 +30,17 @@ const AdminUserMng = () => {
     var input;
     if (value === "BirthDate") {
       input = calculateYear(text);
-      setURL(`api/sample1/${value}&${input}`);
+      setURL(`api/userList/${value}&${input}`);
     } else if (value === "Gender") {
       input = text === "남자" ? 0 : 1;
-      setURL(`api/sample1/${value}=${input}`);
+      setURL(`api//${value}=${input}`);
     } else {
       if (value === "Role") {
         input = text === "제출자" ? "Submitter" : "Estimator";
       } else {
         input = text;
       }
-      setURL(`api/sample1/${value}="${input}"`);
+      setURL(`api/userList/${value}="${input}"`);
     }
   };
 
@@ -55,6 +55,7 @@ const AdminUserMng = () => {
   useEffect(() => {
     async function fetchData() {
       await axios.get(url).then((res) => {
+        console.log(res.data);
         setData(res.data);
       });
     }

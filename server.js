@@ -1,11 +1,13 @@
 const fs = require("fs");
 const express = require("express");
 const bodyParser = require("body-parser");
+// const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(cors);
 
 const data = fs.readFileSync("./database.json");
 const conf = JSON.parse(data);
@@ -18,12 +20,20 @@ const connection = mysql.createConnection({
   port: conf.port,
   database: conf.database,
 });
+
 connection.connect();
 
-app.get("/s_task", (req, res) => {
-  connection.query("SELECT * FROM ACCOUNT", (err, rows, fields) => {
-    res.send(rows);
-  });
+app.get("/api/loginAuth/:id&:password", (req, res) => {
+  const id = req.params.id;
+  const pw = req.params.password;
+  connection.query(
+    `SELECT * \
+        FROM ACCOUNT \
+        WHERE UserID = "${id}" AND Password="${pw}"`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
 });
 
 app.post("/api/userQueue/Admit", (req, res) => {
@@ -53,10 +63,36 @@ app.post("/api/AdminTask/SetScore", (req, res) => {
   );
 });
 
-app.get("/api/sample1", (req, res) => {
+app.get("/api/userList", (req, res) => {
   connection.query(
     "SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
         FROM ACCOUNT",
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
+app.get(`/api/userList/:category=:value`, (req, res) => {
+  const category = req.params.category;
+  const value = req.params.value;
+  connection.query(
+    `SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
+        FROM ACCOUNT\
+        WHERE ${category} = ${value}`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
+app.get(`/api/userList/:category&:value`, (req, res) => {
+  const category = req.params.category;
+  const value = req.params.value;
+  connection.query(
+    `SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
+        FROM ACCOUNT\
+        WHERE ${category} LIKE "%${value}%"`,
     (err, rows, fields) => {
       res.send(rows);
     }
@@ -94,27 +130,25 @@ app.get("/api/loginAuth/:id&:password", (req, res) => {
     }
   );
 });
-
-app.get(`/api/sample1/:category=:value`, (req, res) => {
-  const category = req.params.category;
-  const value = req.params.value;
+app.get("/api/loginAuth/:id&:password", (req, res) => {
+  const id = req.params.id;
+  const pw = req.params.password;
   connection.query(
-    `SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
-        FROM ACCOUNT\
-        WHERE ${category} = ${value}`,
+    `SELECT * \
+        FROM ACCOUNT \
+        WHERE UserID = "${id}" AND Password="${pw}"`,
     (err, rows, fields) => {
       res.send(rows);
     }
   );
 });
-
-app.get(`/api/sample1/:category&:value`, (req, res) => {
-  const category = req.params.category;
-  const value = req.params.value;
+app.get("/api/loginAuth/:id&:password", (req, res) => {
+  const id = req.params.id;
+  const pw = req.params.password;
   connection.query(
-    `SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
-        FROM ACCOUNT\
-        WHERE ${category} LIKE "%${value}%"`,
+    `SELECT * \
+        FROM ACCOUNT \
+        WHERE UserID = "${id}" AND Password="${pw}"`,
     (err, rows, fields) => {
       res.send(rows);
     }

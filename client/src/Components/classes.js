@@ -1,7 +1,16 @@
 class User {
-  constructor(userID, ID, userType, name, sex, address, birthdate, phone) {
+  constructor(
+    accountID,
+    userID,
+    userType,
+    name,
+    sex,
+    address,
+    birthdate,
+    phone
+  ) {
+    this.accountID = accountID;
     this.userID = userID;
-    this.ID = ID;
     this.userType = userType;
     this.name = name;
     this.sex = sex;
