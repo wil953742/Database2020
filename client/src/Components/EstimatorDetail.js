@@ -2,13 +2,12 @@ import React, { useState, useEffect } from "react";
 import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { IconButton } from "@material-ui/core";
+import styles2 from "../CSS/mainstyle.module.css";
 
 export const EstimatorDetail = ({ record, setTogglePopUp }) => {
-  const [score, setScore] = useState(0);
-
-  useEffect(() => {
-    // Load Score and Set Score
-  }, []);
+  const download = (record) => {
+    console.log(record);
+  };
   return (
     <div className={styles.popup}>
       <IconButton
@@ -45,13 +44,23 @@ export const EstimatorDetail = ({ record, setTogglePopUp }) => {
       <h3 style={{ textAlign: "center" }}>점수</h3>
       <div className={styles.evaluate}>
         <button disabled>-</button>
-        <input type="number" value={score} disabled />
+        <input type="number" value={record.score} disabled />
         <button disabled>+</button>
       </div>
-
-      <button className={styles.complete_btn} disabled>
-        완료
-      </button>
+      <div className={styles2.button_container}>
+        <button
+          className={`${styles2.add_btn} ${styles2.button_row}`}
+          onClick={() => download(record)}
+        >
+          다운로드
+        </button>
+        <button
+          className={`${styles2.add_btn} ${styles2.button_row}`}
+          onClick={() => setTogglePopUp(false)}
+        >
+          완료
+        </button>
+      </div>
     </div>
   );
 };

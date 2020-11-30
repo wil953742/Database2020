@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import { AdminNav } from "../Components/AdminNav";
 import { AdminUserRowNav } from "../Components/AdminUserRowNav";
@@ -6,22 +6,20 @@ import { AdminUserRow } from "../Components/AdminUserRow";
 import styles from "../CSS/mainstyle.module.css";
 import SearchIcon from "@material-ui/icons/Search";
 import IconButton from "@material-ui/core/IconButton";
+import { AdminUser } from "../Components/classes";
+import { Loading } from "../Components/Loading";
+import axios from "../axios";
 
 const AdminUserMng = () => {
-  var user = {
-    name: "홍길동",
-    type: "제출자",
-    age: 22,
-    sex: "M",
-    id: "gildong123",
-    task: ["task1", "task2", "task3"],
-  };
-  const [category, setCategory] = useState("");
-  const [text, setText] = useState("");
-
   var logInfo;
   var history = useHistory();
+  const axios = require("axios").default;
+  const [data, setData] = useState();
+  const [userList, setUserList] = useState([]);
+  const [text, setText] = useState("");
+  const [url, setURL] = useState("/api/sample1");
   const loggedIn = localStorage.getItem("user");
+
   if (loggedIn) {
     logInfo = JSON.parse(loggedIn);
   } else {
@@ -31,9 +29,37 @@ const AdminUserMng = () => {
   const Search = () => {
     var source = document.getElementById("sources");
     var value = source.value;
-
     // Find matching users with value and text
   };
+
+  const calculateAge = (year) => {
+    return 2020 - parseInt(year);
+  };
+
+  useEffect(() => {
+    async function fetchData() {
+      await axios.get(url).then((res) => setData(res.data));
+    }
+    fetchData();
+  }, [url]);
+
+  useEffect(() => {
+    var list = [];
+    for (var i = 0; i < data.length; i++) {
+      list.push(
+        new AdminUser(
+          "AccountID",
+          data[i].Name,
+          data[i].Role,
+          calculateAge(data[i].BirthDate.slice(0, 4)),
+          data[i].Gender.data == 0 ? "남자" : "여자",
+          data[i].UserID,
+          []
+        )
+      );
+    }
+    setUserList(list);
+  }, [data]);
 
   return (
     <div>
@@ -48,8 +74,9 @@ const AdminUserMng = () => {
           <div className={styles.sub_container_1}>
             <AdminUserRowNav />
             <div className={styles.scrollable_div}>
-              <AdminUserRow user={user} />
-              <AdminUserRow user={user} />
+              {userList.map((user) => (
+                <AdminUserRow user={user} />
+              ))}
             </div>
           </div>
         </div>

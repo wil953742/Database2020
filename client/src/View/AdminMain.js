@@ -1,19 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../CSS/mainstyle.module.css";
+import { AdminTask } from "../Components/classes";
 
 import { AdminTaskRowNav } from "../Components/AdminTaskRowNav";
 import { AdminTaskRow } from "../Components/AdminTaskRow";
 
 export const AdminMain = () => {
-  const testTask = {
-    taskID: 1,
-    taskName: "임시 이름",
-    desc: "임시 설명...",
-    period: 1,
-    waiting: 1,
-    participants: 10,
-  };
+  const testTask = new AdminTask(1, "임시 이름", "임시 설명...", 1, 1, 10, 6);
+
+  var taskList = [];
+  taskList.push(testTask);
+  taskList.push(testTask);
+  taskList.push(testTask);
 
   return (
     <div className={styles.center_all}>
@@ -22,7 +21,9 @@ export const AdminMain = () => {
         <div className={styles.sub_container_1}>
           <AdminTaskRowNav />
           <div className={styles.scrollable_div}>
-            <AdminTaskRow task={testTask} />
+            {taskList.map((task) => (
+              <AdminTaskRow task={task} />
+            ))}{" "}
           </div>
         </div>
       </div>

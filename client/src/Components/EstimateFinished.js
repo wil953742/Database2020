@@ -5,10 +5,6 @@ import { EstimatorDetail } from "./EstimatorDetail";
 
 export const EstimateFinished = ({ record }) => {
   const [togglePopUp, setTogglePopUp] = useState(false);
-  const Estimate = () => {
-    // Get Information About Chosen Task
-    setTogglePopUp(true);
-  };
   return (
     <div>
       <div className={styles.row_container}>
@@ -17,7 +13,10 @@ export const EstimateFinished = ({ record }) => {
         <p>{record.submitter}</p>
         <p>{record.turn}</p>
         <div className={styles.button_container}>
-          <button className={styles.row_button} onClick={() => Estimate()}>
+          <button
+            className={styles.row_button}
+            onClick={() => setTogglePopUp(true)}
+          >
             상세보기
           </button>
         </div>

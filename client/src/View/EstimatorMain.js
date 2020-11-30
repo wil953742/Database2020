@@ -1,29 +1,37 @@
 import React from "react";
 import styles from "../CSS/mainstyle.module.css";
+import { Record } from "../Components/classes";
+import { QT } from "../Components/classes";
 
 import { EstimatorTopRow } from "../Components/EstimatorTopRow";
 import { EstimateUnfinished } from "../Components/EstimateUnfinished";
 import { EstimateFinished } from "../Components/EstimateFinished";
 
-export const EstimatorMain = () => {
-  const testRecord = {
-    taskID: 1,
-    taskName: "임시 이름",
-    taskType: "임시 타입",
-    submitter: "둘리",
-    turn: 1,
-    qt: {
-      total_tup: 100,
-      dup_tup: 10,
-      null_ratio: 0.4,
-    },
-  };
+export const EstimatorMain = ({ loginfo }) => {
+  const testRecord = new Record(
+    1,
+    "임시이름",
+    "임시 타입",
+    "둘리",
+    1,
+    new QT(100, 10, 0.4),
+    null,
+    "/"
+  );
 
   var unfinished = [];
   var finished = [];
+  unfinished.push(testRecord);
+  unfinished.push(testRecord);
+  unfinished.push(testRecord);
+  finished.push(testRecord);
+  finished.push(testRecord);
+  finished.push(testRecord);
 
   const LoadTasks = (unfinished, finished) => {
-    // function to initially load tasks to lists;
+    /*  function to initially load tasks to lists
+        userID is in "loginfo.userID"
+    */
   };
 
   return (
@@ -33,14 +41,17 @@ export const EstimatorMain = () => {
         <div className={styles.sub_container_2}>
           <EstimatorTopRow />
           <div className={styles.scrollable_div}>
-            <EstimateUnfinished record={testRecord} />
-            <EstimateUnfinished record={testRecord} />
+            {unfinished.map((record) => (
+              <EstimateUnfinished record={record} />
+            ))}
           </div>
         </div>
         <div className={styles.sub_container_2} style={{ marginTop: 0 }}>
           <EstimatorTopRow />
           <div className={styles.scrollable_div}>
-            <EstimateFinished record={testRecord} />
+            {finished.map((record) => (
+              <EstimateFinished record={record} />
+            ))}
           </div>
         </div>
       </div>

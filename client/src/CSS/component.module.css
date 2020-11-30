@@ -127,6 +127,32 @@ a:visited {
   flex-direction: column;
 }
 
+.select_rdt {
+  margin-bottom: 5px;
+}
+
+.file_input {
+  border: 2px solid rgb(196, 196, 196);
+  border-radius: 5px;
+  width: 90%;
+  height: 20%;
+  text-align: center;
+  line-height: 6;
+  margin-left: 28px;
+  color: gray;
+}
+
+.border_blue {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(189, 189, 189);
+  color: white;
+}
+
+.border_black {
+  border: 2px solid rgb(163, 163, 163);
+  background-color: rgb(255, 255, 255);
+}
+
 .complete_btn {
   margin: auto;
   background-color: #ffb6b6;
@@ -194,7 +220,6 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50%;
 }
 
 .drop_down {
@@ -224,4 +249,38 @@ input::-webkit-inner-spin-button {
 
 .drop_down:hover .row_button {
   background-color: #ffb6b6 !important;
+}
+
+.btn_row {
+  min-width: 0;
+  flex: 1 1 0px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: hidden;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.btn_row > button {
+  margin: 1px;
+  background-color: #ffb6b6;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  padding: 5px 15px 5px 15px;
+}
+
+.btn_row > button:hover {
+  background-color: #f87c7c;
+}
+
+.btn_row > button:focus {
+  outline: none;
 }

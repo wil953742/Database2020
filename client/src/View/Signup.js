@@ -1,19 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import { useHistory } from "react-router-dom";
 import styles from "../CSS/loginstyle.module.css";
 
 export const Signup = () => {
-  const [userType, setUserType] = useState(null);
-  const [userID, setUserID] = useState(null);
-  const [password, setPassword] = useState(null);
-  const [confirmPassword, setConfirmPassword] = useState(null);
-  const [name, setName] = useState(null);
-  const [sex, setSex] = useState(null);
-  const [birthday, setBirthday] = useState(null);
-  const [address, setAddress] = useState(null);
-  const [phone, setPhone] = useState(null);
-  const [dupCheck, setDupCheck] = useState(false);
-
+  var userType,
+    userID,
+    password,
+    confirmPassword,
+    name,
+    sex,
+    birthday,
+    address,
+    phone;
+  var dupCheck = false;
   let history = useHistory();
 
   const PasswordCheck = (inputtxt) => {
@@ -27,7 +26,7 @@ export const Signup = () => {
 
   const IdDupCheck = () => {
     // 아이디 중복 확인
-    setDupCheck(true);
+    dupCheck = true;
   };
 
   const submit = () => {
@@ -38,7 +37,7 @@ export const Signup = () => {
       alert("유저 유형을 선택하세요.");
       return;
     }
-    setUserType(UT.id);
+    userType = UT.id;
     const form2 = document.forms.sex;
     const radios2 = form2.elements.selector2;
     const S = Array.from(radios2).find((radio) => radio.checked);
@@ -46,17 +45,17 @@ export const Signup = () => {
       alert("성별을 선택하세요.");
       return;
     }
-    setSex(S.id);
+    sex = S.id;
     if (
-      userType == null ||
-      userID == null ||
-      password == null ||
-      confirmPassword == null ||
-      name == null ||
-      birthday == null ||
-      sex == null ||
-      address == null ||
-      phone == null
+      userType === null ||
+      userID === null ||
+      password === null ||
+      confirmPassword === null ||
+      name === null ||
+      birthday === null ||
+      sex === null ||
+      address === null ||
+      phone === null
     ) {
       alert("빈 칸을 입력해주세요.");
       return;
@@ -105,7 +104,7 @@ export const Signup = () => {
               placeholder="4글자 이상 입력"
               style={{ width: "180px", marginLeft: "0" }}
               value={userID}
-              onChange={(e) => setUserID(e.target.value)}
+              onChange={(e) => (userID = e.target.value)}
             />
             <button onClick={() => IdDupCheck()}>중복확인</button>
           </div>
@@ -116,7 +115,7 @@ export const Signup = () => {
             type="password"
             placeholder="*******"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={(e) => (password = e.target.value)}
           />
         </div>
         <p className={styles.subscript}>
@@ -128,7 +127,7 @@ export const Signup = () => {
             type="password"
             placeholder="*******"
             value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
+            onChange={(e) => (confirmPassword = e.target.value)}
           />
         </div>
         <div className={styles.row}>
@@ -137,7 +136,7 @@ export const Signup = () => {
             type="text"
             placeholder="홍길동"
             value={name}
-            onChange={(e) => setName(e.target.value)}
+            onChange={(e) => (name = e.target.value)}
           />
         </div>
         <div className={styles.row}>
@@ -156,7 +155,7 @@ export const Signup = () => {
           <input
             type="date"
             value={birthday}
-            onChange={(e) => setBirthday(e.target.value)}
+            onChange={(e) => (birthday = e.target.value)}
           />
         </div>
         <div className={styles.row}>
@@ -165,7 +164,7 @@ export const Signup = () => {
             type="text"
             placeholder="서울특별시 서대문구 ..."
             value={address}
-            onChange={(e) => setAddress(e.target.value)}
+            onChange={(e) => (address = e.target.value)}
           />
         </div>
         <div className={styles.row}>
@@ -174,7 +173,7 @@ export const Signup = () => {
             type="text"
             placeholder="010-1234-1234"
             value={phone}
-            onChange={(e) => setPhone(e.target.value)}
+            onChange={(e) => (phone = e.target.value)}
           />
         </div>
         <button className={styles.button} onClick={() => submit()}>
