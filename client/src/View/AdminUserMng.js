@@ -16,6 +16,7 @@ const AdminUserMng = () => {
   const [userList, setUserList] = useState([]);
   const [text, setText] = useState("");
   const [url, setURL] = useState("/api/userList");
+  const [taskInfo, setTaskInfo] = useState();
   const loggedIn = localStorage.getItem("user");
 
   if (loggedIn) {
@@ -55,8 +56,10 @@ const AdminUserMng = () => {
   useEffect(() => {
     async function fetchData() {
       await axios.get(url).then((res) => {
-        console.log(res.data);
         setData(res.data);
+      });
+      await axios.get("/api/userTask").then((res) => {
+        setTaskInfo(res.data);
       });
     }
     fetchData();
@@ -64,8 +67,17 @@ const AdminUserMng = () => {
 
   useEffect(() => {
     if (!data) return;
+    if (!taskInfo) return;
+    console.log(data);
+    console.log(taskInfo);
     var list = [];
     for (var i = 0; i < data.length; i++) {
+      var task = [];
+      for (var j = 0; j < taskInfo.length; j++) {
+        if (taskInfo[j].AppliedSubmitterID == data[i].AccountID) {
+          task.push("TASK#" + taskInfo[j].AppliedTaskID);
+        }
+      }
       list.push(
         new AdminUser(
           data[i].AccountID,
@@ -74,12 +86,12 @@ const AdminUserMng = () => {
           calculateAge(data[i].BirthDate.slice(0, 4)),
           data[i].Gender.data == 0 ? "남자" : "여자",
           data[i].UserID,
-          []
+          task
         )
       );
     }
     setUserList(list);
-  }, [data]);
+  }, [data, taskInfo]);
 
   return (
     <div>
