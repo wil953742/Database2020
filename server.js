@@ -73,6 +73,15 @@ app.get("/api/userList", (req, res) => {
   );
 });
 
+app.get("/api/userTask", (req, res) => {
+  connection.query(
+    "SELECT AppliedSubmitterID,AppliedTaskID FROM APPLY WHERE Approval=1",
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
 app.get(`/api/userList/:category=:value`, (req, res) => {
   const category = req.params.category;
   const value = req.params.value;
