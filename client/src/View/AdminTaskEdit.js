@@ -11,6 +11,8 @@ import { Schema } from "../Components/Schema";
 import { AdminNav } from "../Components/AdminNav";
 
 const AdminTaskEdit = (props) => {
+  const axios = require("axios").default;
+  const url = "/api/AdminTask/SetScore";
   const task = props.location.task;
   const [newPassScore, setNewPassScore] = useState(task.passScore);
   const [toggleAdd, setToggleAdd] = useState(false);
@@ -27,6 +29,14 @@ const AdminTaskEdit = (props) => {
   } else {
     history.push("/");
   }
+
+  const saveScore = async () => {
+    await axios.post(url, {
+      taskID: task.taskID,
+      newValue: newPassScore,
+    });
+    history.push("/");
+  };
 
   const handleRemove = () => {
     if (num === 2) {
@@ -48,7 +58,6 @@ const AdminTaskEdit = (props) => {
         }
       }
       var RDT = new RSC(name, finalList);
-            
     }
   };
 
@@ -69,8 +78,8 @@ const AdminTaskEdit = (props) => {
                     <TextField
                       className={styles.name_box}
                       id="name"
-                      label="태스크 이름"
-                      defaultValue="임시 이름"
+                      label="태스크 ID"
+                      defaultValue={task.taskID}
                       InputProps={{
                         readOnly: true,
                       }}
@@ -81,6 +90,7 @@ const AdminTaskEdit = (props) => {
                       className={styles.name_box}
                       id="pass_score"
                       label="패스 기준 점수"
+                      defaultValue={task.PassScore}
                       value={newPassScore}
                       type="number"
                       shrink
@@ -105,7 +115,7 @@ const AdminTaskEdit = (props) => {
                   </button>
                   <button
                     className={`${styles.add_btn} ${styles.button_row}`}
-                    onClick={() => history.push("/")}
+                    onClick={() => saveScore()}
                   >
                     완료
                   </button>

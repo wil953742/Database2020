@@ -40,6 +40,19 @@ app.post("/api/userQueue/Admit", (req, res) => {
   );
 });
 
+app.post("/api/AdminTask/SetScore", (req, res) => {
+  const taskID = req.body.taskID;
+  const newValue = req.body.newValue;
+  connection.query(
+    `UPDATE TASK \
+        SET PassScore = ${newValue} \
+        WHERE TaskID = ${taskID}`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
 app.get("/api/sample1", (req, res) => {
   connection.query(
     "SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
@@ -62,7 +75,7 @@ app.get("/api/userQueue/:taskID", (req, res) => {
   );
 });
 
-app.get("/api/adminTask", (req, res) => {
+app.get("/api/AdminTask", (req, res) => {
   connection.query("SELECT * \
     FROM TASK", (err, rows, fields) => {
     res.send(rows);
@@ -72,8 +85,6 @@ app.get("/api/adminTask", (req, res) => {
 app.get("/api/loginAuth/:id&:password", (req, res) => {
   const id = req.params.id;
   const pw = req.params.password;
-  console.log(id);
-  console.log(pw);
   connection.query(
     `SELECT * \
         FROM ACCOUNT \

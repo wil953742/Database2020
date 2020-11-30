@@ -23,6 +23,7 @@ export const Login = () => {
   };
 
   useEffect(() => {
+    console.log(user);
     if (!user) return;
     if (user.length === 0) {
       alert("아이디와 비밀번호를 확인해주세요.");

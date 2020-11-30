@@ -13,6 +13,7 @@ const AdminTaskView = (props) => {
   const url = `/api/userQueue/${task.taskID}`;
   const [userList, setUserList] = useState([]);
   const [userData, setUserData] = useState();
+  const [reload, setReload] = useState(true);
 
   var logInfo;
   var history = useHistory();
@@ -31,13 +32,19 @@ const AdminTaskView = (props) => {
       });
     }
     fetchUserData();
-  }, [props]);
+  }, [reload, props]);
 
   useEffect(() => {
     if (!userData) return;
     if (userData.length === 0) return;
     var list = [];
     for (let i = 0; i < userData.length; i++) {
+      var app;
+      if (!userData[i].Approval) {
+        app = null;
+      } else {
+        app = userData[i].Approval.data;
+      }
       list.push(
         new TaskUser(
           userData[i].AccountID,
@@ -45,7 +52,7 @@ const AdminTaskView = (props) => {
           userData[i].Gender.data == 0 ? "남자" : "여자",
           userData[i].BirthDate.slice(0, 10),
           userData[i].Score,
-          userData[i].Approval.data == 0 ? false : true
+          app
         )
       );
     }
@@ -148,7 +155,12 @@ const AdminTaskView = (props) => {
             <AdminParticipantRowNav />
             <div className={styles.scrollable_div}>
               {userList.map((user) => (
-                <AdminParticipantRow user={user} />
+                <AdminParticipantRow
+                  user={user}
+                  taskID={task.taskID}
+                  setReload={setReload}
+                  reload={reload}
+                />
               ))}
             </div>
           </div>

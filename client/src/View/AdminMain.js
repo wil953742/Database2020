@@ -10,7 +10,7 @@ export const AdminMain = () => {
   const axios = require("axios").default;
   const [data, setData] = useState();
   const [taskList, setTaskList] = useState([]);
-  const url = "/api/adminTask";
+  const url = "/api/AdminTask";
 
   useEffect(() => {
     async function fetchData() {
@@ -26,7 +26,12 @@ export const AdminMain = () => {
     var list = [];
     for (let i = 0; i < data.length; i++) {
       list.push(
-        new AdminTask(data[i].TaskID, data[i].Description, data[i].Period, 0)
+        new AdminTask(
+          data[i].TaskID,
+          data[i].Description,
+          data[i].Period,
+          data[i].PassScore
+        )
       );
     }
     setTaskList(list);
