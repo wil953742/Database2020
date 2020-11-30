@@ -29,28 +29,51 @@ const AdminUserMng = () => {
   const Search = () => {
     var source = document.getElementById("sources");
     var value = source.value;
-    // Find matching users with value and text
+    var input;
+    if (value === "BirthDate") {
+      input = calculateYear(text);
+      setURL(`api/sample1/${value}&${input}`);
+    } else if (value === "Gender") {
+      input = text === "남자" ? 0 : 1;
+      setURL(`api/sample1/${value}=${input}`);
+    } else {
+      if (value === "Role") {
+        input = text === "제출자" ? "Submitter" : "Estimator";
+      } else {
+        input = text;
+      }
+      setURL(`api/sample1/${value}="${input}"`);
+    }
   };
 
   const calculateAge = (year) => {
     return 2020 - parseInt(year);
   };
 
+  const calculateYear = (age) => {
+    return 2020 - parseInt(age);
+  };
+
   useEffect(() => {
     async function fetchData() {
-      await axios.get(url).then((res) => setData(res.data));
+      console.log(url);
+      await axios.get(url).then((res) => {
+        console.log(res);
+        setData(res.data);
+      });
     }
     fetchData();
   }, [url]);
 
   useEffect(() => {
+    if (!data) return;
     var list = [];
     for (var i = 0; i < data.length; i++) {
       list.push(
         new AdminUser(
-          "AccountID",
+          data[i].AccountID,
           data[i].Name,
-          data[i].Role,
+          data[i].Role === "Submitter" ? "제출자" : "평가자",
           calculateAge(data[i].BirthDate.slice(0, 4)),
           data[i].Gender.data == 0 ? "남자" : "여자",
           data[i].UserID,
@@ -89,11 +112,11 @@ const AdminUserMng = () => {
               placeholder="검색 옵션: "
             >
               <option value="0">검색 옵션:</option>
-              <option value="name">이름</option>
-              <option value="type">역할</option>
-              <option value="age">나이</option>
-              <option value="sex">성별</option>
-              <option value="id">ID</option>
+              <option value="Name">이름</option>
+              <option value="Role">역할</option>
+              <option value="BirthDate">나이</option>
+              <option value="Gender">성별</option>
+              <option value="UserID">ID</option>
               <option value="task">참여태스크</option>
             </select>
           </div>
