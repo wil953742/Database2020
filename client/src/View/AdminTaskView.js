@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../CSS/mainstyle.module.css";
 import { useHistory } from "react-router-dom";
+import { TaskUser } from "../Components/classes";
 
 import { AdminParticipantRowNav } from "../Components/AdminParticipantRowNav";
 import { AdminParticipantRow } from "../Components/AdminParticipantRow";
@@ -8,21 +9,10 @@ import { AdminNav } from "../Components/AdminNav";
 
 const AdminTaskView = (props) => {
   const task = props.location.task;
-
-  var admiteedUser = {
-    name: "홍길동",
-    sex: "M",
-    birth: "970622",
-    score: 8,
-    admit: true,
-  };
-  var nonAdmitUser = {
-    name: "홍길동",
-    sex: "M",
-    birth: "970622",
-    score: 8,
-    admit: false,
-  };
+  const axios = require("axios").default;
+  const url = `/api/userQueue/${task.taskID}`;
+  const [userList, setUserList] = useState([]);
+  const [userData, setUserData] = useState();
 
   var logInfo;
   var history = useHistory();
@@ -32,6 +22,36 @@ const AdminTaskView = (props) => {
   } else {
     history.push("/");
   }
+
+  useEffect(() => {
+    async function fetchUserData() {
+      await axios.get(url).then((res) => {
+        setUserData(res.data);
+        console.log(res.data);
+      });
+    }
+    fetchUserData();
+  }, [props]);
+
+  useEffect(() => {
+    if (!userData) return;
+    if (userData.length === 0) return;
+    var list = [];
+    for (let i = 0; i < userData.length; i++) {
+      list.push(
+        new TaskUser(
+          userData[i].AccountID,
+          userData[i].Name,
+          userData[i].Gender.data == 0 ? "남자" : "여자",
+          userData[i].BirthDate.slice(0, 10),
+          userData[i].Score,
+          userData[i].Approval.data == 0 ? false : true
+        )
+      );
+    }
+    setUserList(list);
+  }, [userData]);
+
   return (
     <div>
       <AdminNav
@@ -44,8 +64,8 @@ const AdminTaskView = (props) => {
           <div className={styles.sub_container_a}>
             <div className={styles.row_container}>
               <div>
-                <h2>태스크 이름</h2>
-                <p>{task.taskName}</p>
+                <h2>태스크 ID</h2>
+                <p>{task.taskID}</p>
               </div>
               <div>
                 <h2>설명</h2>
@@ -111,6 +131,9 @@ const AdminTaskView = (props) => {
               </div>
             </div>
             <div className={styles.button_container}>
+              <button className={`${styles.add_btn} ${styles.button_row}`}>
+                다운로드
+              </button>
               <button
                 className={`${styles.add_btn} ${styles.button_row}`}
                 onClick={() => history.push("/")}
@@ -124,10 +147,9 @@ const AdminTaskView = (props) => {
           <div className={styles.sub_container_b}>
             <AdminParticipantRowNav />
             <div className={styles.scrollable_div}>
-              <AdminParticipantRow user={admiteedUser} />
-              <AdminParticipantRow user={nonAdmitUser} />
-              <AdminParticipantRow user={nonAdmitUser} />
-              <AdminParticipantRow user={nonAdmitUser} />
+              {userList.map((user) => (
+                <AdminParticipantRow user={user} />
+              ))}
             </div>
           </div>
         </div>

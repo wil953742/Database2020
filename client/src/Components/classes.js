@@ -42,21 +42,10 @@ class QT {
 }
 
 class AdminTask {
-  constructor(
-    taskID,
-    taskName,
-    desc,
-    period,
-    waiting,
-    participants,
-    passScore
-  ) {
+  constructor(taskID, desc, period, passScore) {
     this.taskID = taskID;
-    this.taskName = taskName;
     this.desc = desc;
     this.period = period;
-    this.waiting = waiting;
-    this.participants = participants;
     this.passScore = passScore;
   }
 }
@@ -84,6 +73,17 @@ class NewTask {
   }
 }
 
+class TaskUser {
+  constructor(AccountID, name, sex, birth, score, admit) {
+    this.AccountID = AccountID;
+    this.name = name;
+    this.sex = sex;
+    this.birth = birth;
+    this.score = score;
+    this.admit = admit;
+  }
+}
+
 class Pair {
   constructor(name, type) {
     this.name = name;
@@ -104,4 +104,15 @@ class RSC extends SC {
   }
 }
 
-export { User, Record, QT, AdminTask, AdminUser, Pair, SC, RSC, NewTask };
+export {
+  TaskUser,
+  User,
+  Record,
+  QT,
+  AdminTask,
+  AdminUser,
+  Pair,
+  SC,
+  RSC,
+  NewTask,
+};

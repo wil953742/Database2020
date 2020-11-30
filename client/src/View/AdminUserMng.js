@@ -7,8 +7,6 @@ import styles from "../CSS/mainstyle.module.css";
 import SearchIcon from "@material-ui/icons/Search";
 import IconButton from "@material-ui/core/IconButton";
 import { AdminUser } from "../Components/classes";
-import { Loading } from "../Components/Loading";
-import axios from "../axios";
 
 const AdminUserMng = () => {
   var logInfo;
@@ -56,9 +54,7 @@ const AdminUserMng = () => {
 
   useEffect(() => {
     async function fetchData() {
-      console.log(url);
       await axios.get(url).then((res) => {
-        console.log(res);
         setData(res.data);
       });
     }

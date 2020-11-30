@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../CSS/mainstyle.module.css";
 import { AdminTask } from "../Components/classes";
@@ -7,12 +7,31 @@ import { AdminTaskRowNav } from "../Components/AdminTaskRowNav";
 import { AdminTaskRow } from "../Components/AdminTaskRow";
 
 export const AdminMain = () => {
-  const testTask = new AdminTask(1, "임시 이름", "임시 설명...", 1, 1, 10, 6);
+  const axios = require("axios").default;
+  const [data, setData] = useState();
+  const [taskList, setTaskList] = useState([]);
+  const url = "/api/adminTask";
 
-  var taskList = [];
-  taskList.push(testTask);
-  taskList.push(testTask);
-  taskList.push(testTask);
+  useEffect(() => {
+    async function fetchData() {
+      await axios.get(url).then((res) => {
+        setData(res.data);
+      });
+    }
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    if (!data) return;
+    var list = [];
+    for (let i = 0; i < data.length; i++) {
+      list.push(
+        new AdminTask(data[i].TaskID, data[i].Description, data[i].Period, 0)
+      );
+    }
+    setTaskList(list);
+    console.log(taskList);
+  }, [data]);
 
   return (
     <div className={styles.center_all}>
@@ -23,7 +42,7 @@ export const AdminMain = () => {
           <div className={styles.scrollable_div}>
             {taskList.map((task) => (
               <AdminTaskRow task={task} />
-            ))}{" "}
+            ))}
           </div>
         </div>
       </div>

@@ -26,6 +26,20 @@ app.get("/s_task", (req, res) => {
   });
 });
 
+app.post("/api/userQueue/Admit", (req, res) => {
+  const AccountID = req.body.AccountID;
+  const newValue = req.body.newValue;
+  const targetTaskID = req.body.targetTaskID;
+  connection.query(
+    `UPDATE APPLY \
+      SET Approval = ${newValue} \
+      WHERE AppliedSubmitterID = ${AccountID} AND AppliedTaskID = ${targetTaskID};`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
 app.get("/api/sample1", (req, res) => {
   connection.query(
     "SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
@@ -36,11 +50,43 @@ app.get("/api/sample1", (req, res) => {
   );
 });
 
+app.get("/api/userQueue/:taskID", (req, res) => {
+  const taskId = req.params.taskID;
+  connection.query(
+    `SELECT AccountID, Name, Gender, BirthDate, Score, Approval \
+    FROM ACCOUNT, SUBMITTER, APPLY \
+    WHERE AppliedTaskID = ${taskId} AND AppliedSubmitterID = SubmitterID and AccountID = SubmitterID`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
+app.get("/api/adminTask", (req, res) => {
+  connection.query("SELECT * \
+    FROM TASK", (err, rows, fields) => {
+    res.send(rows);
+  });
+});
+
+app.get("/api/loginAuth/:id&:password", (req, res) => {
+  const id = req.params.id;
+  const pw = req.params.password;
+  console.log(id);
+  console.log(pw);
+  connection.query(
+    `SELECT * \
+        FROM ACCOUNT \
+        WHERE UserID = "${id}" AND Password="${pw}"`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
 app.get(`/api/sample1/:category=:value`, (req, res) => {
   const category = req.params.category;
   const value = req.params.value;
-  console.log(category);
-  console.log(value);
   connection.query(
     `SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
         FROM ACCOUNT\
@@ -54,8 +100,6 @@ app.get(`/api/sample1/:category=:value`, (req, res) => {
 app.get(`/api/sample1/:category&:value`, (req, res) => {
   const category = req.params.category;
   const value = req.params.value;
-  console.log(category);
-  console.log(value);
   connection.query(
     `SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
         FROM ACCOUNT\
