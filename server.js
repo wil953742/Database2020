@@ -212,7 +212,7 @@ app.post("/api/signup", (req, res) => {
   });
 });
 
-// Estimator Part (Jihoon)
+// Estimator Part (Jihoon )
 app.get(`/api/Estimator/:accountID/notYet`, (req, res) => {
   const accountID = req.params.accountID;
   connection.query(
