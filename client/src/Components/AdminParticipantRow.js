@@ -1,4 +1,3 @@
-import Axios from "axios";
 import React from "react";
 import styles from "../CSS/component.module.css";
 

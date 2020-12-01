@@ -5,6 +5,11 @@ import styles from "../CSS/mainstyle.module.css";
 import { Link } from "react-router-dom";
 
 export const CreateTaskFirst = ({ setStep, newTask }) => {
+  const check = () => {
+    if (newTask.name && newTask.desc && newTask.period && newTask.passScore) {
+      setStep(2);
+    } else alert("빈칸을 채워주세요.");
+  };
   return (
     <div className={`${styles.sub_container_a} ${styles.ninety}`}>
       <div className={styles.title}>
@@ -70,7 +75,7 @@ export const CreateTaskFirst = ({ setStep, newTask }) => {
         </Link>
         <button
           className={`${styles.add_btn} ${styles.button_row}`}
-          onClick={() => setStep(2)}
+          onClick={() => check()}
         >
           다음
         </button>

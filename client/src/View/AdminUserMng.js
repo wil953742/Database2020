@@ -29,7 +29,17 @@ const AdminUserMng = () => {
     var source = document.getElementById("sources");
     var value = source.value;
     var input;
-    if (value === "BirthDate") {
+    if (value === "task") {
+      if (!userList) return;
+      if (!value) return;
+      var newList = [];
+      for (let i = 0; i < userList.length; i++) {
+        if (userList[i].task.includes(text)) {
+          newList.push(userList[i]);
+        }
+      }
+      setUserList(newList);
+    } else if (value === "BirthDate") {
       input = calculateYear(text);
       setURL(`api/userList/${value}&${input}`);
     } else if (value === "Gender") {
@@ -68,14 +78,12 @@ const AdminUserMng = () => {
   useEffect(() => {
     if (!data) return;
     if (!taskInfo) return;
-    console.log(data);
-    console.log(taskInfo);
     var list = [];
     for (var i = 0; i < data.length; i++) {
       var task = [];
       for (var j = 0; j < taskInfo.length; j++) {
         if (taskInfo[j].AppliedSubmitterID == data[i].AccountID) {
-          task.push("TASK#" + taskInfo[j].AppliedTaskID);
+          task.push(taskInfo[j].Name);
         }
       }
       list.push(

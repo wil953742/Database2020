@@ -71,8 +71,8 @@ const AdminTaskView = (props) => {
           <div className={styles.sub_container_a}>
             <div className={styles.row_container}>
               <div>
-                <h2>태스크 ID</h2>
-                <p>{task.taskID}</p>
+                <h2>태스크 이름</h2>
+                <p>{task.name}</p>
               </div>
               <div>
                 <h2>설명</h2>

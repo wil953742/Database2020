@@ -28,6 +28,7 @@ export const AdminMain = () => {
       list.push(
         new AdminTask(
           data[i].TaskID,
+          data[i].Name,
           data[i].Description,
           data[i].Period,
           data[i].PassScore

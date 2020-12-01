@@ -14,7 +14,7 @@ export const CreateTaskTwo = ({ setStep, newTask }) => {
   const [pairList, setPairList] = useState([new Pair()]);
 
   const handleRemove = () => {
-    if (num === 2) {
+    if (num === 1) {
       return;
     }
     setNum(num - 1);
@@ -28,6 +28,10 @@ export const CreateTaskTwo = ({ setStep, newTask }) => {
       if (pairList[i].name !== undefined && pairList[i].type !== undefined) {
         finalList.push(pairList[i]);
       }
+    }
+    if (finalList.length === 0) {
+      alert("스키마를 추가해주세요.");
+      return;
     }
     newTask.TDTSchema = new SC(finalList);
     setStep(3);

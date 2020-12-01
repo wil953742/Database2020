@@ -10,11 +10,12 @@ import { Schema } from "../Components/Schema";
 import { useHistory } from "react-router-dom";
 
 export const CreateTaskThree = ({ setStep, newTask }) => {
+  // const axios = require("axios").default;
   const [name, setName] = useState();
   const [num, setNum] = useState(2);
   const [row, setRow] = useState([1]);
   const [pairList, setPairList] = useState([new Pair()]);
-  var history = useHistory();
+  // var history = useHistory();
 
   const handleRemove = () => {
     if (num === 2) {
@@ -32,20 +33,39 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
         finalList.push(pairList[i]);
       }
     }
+    if (finalList.length === 0) {
+      alert("스키마를 추가해주세요.");
+      return;
+    }
     newTask.RDTSchema.push(new RSC(name, finalList));
     setName("");
     setNum(2);
     setRow([1]);
     setPairList([new Pair()]);
+    alert("원본 타입이 추가되었습니다.");
   };
 
-  const handleComplete = () => {
-    if (name === "" || name === undefined || name === null) {
-      history.push("/");
-    } else {
-      handleNewRDT();
-    }
-  };
+  // const createTDT = async () => {
+  //   await axios
+  //     .post("/api/Admin/CreateTDT", {
+  //       list: newTask.TDTSchema.list,
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // };
+
+  // const handleComplete = () => {
+  //   if (!(name === "" || name === undefined || name === null)) {
+  //     handleNewRDT();
+  //   }
+  //   console.log(newTask.TDTSchema.list);
+  //   createTDT();
+  //   // console.log(newTask);
+  //   // console.log(JSON.stringify(newTask.TDTSchema.list));
+  //   // history.push("/");
+  //   alert("태스크가 생성되었습니다.");
+  // };
 
   return (
     <div className={`${styles.sub_container_a} ${styles.ninety}`}>
@@ -102,7 +122,7 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
         </button>
         <button
           className={`${styles.add_btn} ${styles.button_row}`}
-          onClick={() => handleComplete()}
+          // onClick={() => handleComplete()}
         >
           완료
         </button>

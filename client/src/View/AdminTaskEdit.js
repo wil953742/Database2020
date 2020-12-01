@@ -78,8 +78,8 @@ const AdminTaskEdit = (props) => {
                     <TextField
                       className={styles.name_box}
                       id="name"
-                      label="태스크 ID"
-                      defaultValue={task.taskID}
+                      label="태스크 이름"
+                      defaultValue={task.name}
                       InputProps={{
                         readOnly: true,
                       }}

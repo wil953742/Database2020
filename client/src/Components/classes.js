@@ -51,8 +51,9 @@ class QT {
 }
 
 class AdminTask {
-  constructor(taskID, desc, period, passScore) {
+  constructor(taskID, name, desc, period, passScore) {
     this.taskID = taskID;
+    this.name = name;
     this.desc = desc;
     this.period = period;
     this.passScore = passScore;

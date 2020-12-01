@@ -3,10 +3,10 @@ import styles from "../CSS/loginstyle.module.css";
 import { useHistory } from "react-router-dom";
 import logo from "../Images/로고.png";
 import { User } from "./classes";
-// import axios from "../axios";
 
 export const Login = () => {
-  var id, pw;
+  const [id, setID] = useState();
+  const [pw, setPW] = useState();
   const axios = require("axios");
   var type = {
     Submitter: "제출자",
@@ -46,7 +46,6 @@ export const Login = () => {
       data.data[0].BirthDate,
       data.data[0].Phone
     );
-    console.log(loginInfo);
     localStorage.setItem(`user`, JSON.stringify(loginInfo));
     history.push("/");
   }, [data]);
@@ -62,7 +61,7 @@ export const Login = () => {
           className={styles.div_input}
           placeholder="User ID"
           value={id}
-          onChange={(e) => (id = e.target.value)}
+          onChange={(e) => setID(e.target.value)}
         />
         <input
           type="password"
@@ -70,7 +69,7 @@ export const Login = () => {
           className={styles.div_input}
           placeholder="Password"
           value={pw}
-          onChange={(e) => (pw = e.target.value)}
+          onChange={(e) => setPW(e.target.value)}
         />
         <br />
         <button

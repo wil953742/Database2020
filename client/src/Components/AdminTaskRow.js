@@ -8,7 +8,7 @@ export const AdminTaskRow = ({ task }) => {
     <div>
       <Link to={{ pathname: `/TaskView/:${task.taskID}`, task: task }}>
         <div className={styles.row_container} style={{ cursor: "pointer" }}>
-          <p>{task.taskID}</p>
+          <p>{task.name}</p>
           <p style={{ fontSize: "10px", flexGrow: "2" }}>{task.desc}</p>
           <p>{task.period}</p>
           <p>{task.passScore}</p>

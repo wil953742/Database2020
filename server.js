@@ -63,6 +63,11 @@ app.post("/api/AdminTask/SetScore", (req, res) => {
   );
 });
 
+app.post("/api/Admin/CreateTDT", (req, res) => {
+  const list = req.body.list;
+  console.log(list);
+});
+
 app.get("/api/userList", (req, res) => {
   connection.query(
     "SELECT AccountID, Name, Role, BirthDate, Gender, UserID \
@@ -75,7 +80,9 @@ app.get("/api/userList", (req, res) => {
 
 app.get("/api/userTask", (req, res) => {
   connection.query(
-    "SELECT AppliedSubmitterID,AppliedTaskID FROM APPLY WHERE Approval=1",
+    "SELECT AppliedSubmitterID, Name\
+    FROM APPLY, TASK\
+    WHERE Approval=1 AND AppliedTaskID = TaskID",
     (err, rows, fields) => {
       res.send(rows);
     }
@@ -164,6 +171,18 @@ app.get("/api/loginAuth/:id&:password", (req, res) => {
   );
 });
 
+app.get("/api/signup/:id", (req, res) => {
+  const id = req.params.id;
+  connection.query(
+    `SELECT *
+    FROM ACCOUNT
+    WHERE UserID = "${id}"`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
 app.post("/api/signup", (req, res) => {
   let sql =
     "INSERT IGNORE INTO ACCOUNT(AccountID, BirthDate, UserID, Phone, Password, Name, Gender, Address, Role) \
@@ -176,6 +195,8 @@ app.post("/api/signup", (req, res) => {
   let Gender = req.body.Gender;
   let Address = req.body.Address;
   let Role = req.body.Role;
+
+  console.log(BirthDate);
   let params = [
     BirthDate,
     UserID,
