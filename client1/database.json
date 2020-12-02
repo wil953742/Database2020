@@ -1,7 +1,0 @@
-{
-    "host":"crowd-sourcing-data-collection-test1.cbzfbkiopuiv.ap-northeast-2.rds.amazonaws.com",
-    "user": "master",
-    "password": "dataeatlive",
-    "port": "3306",
-    "database": "Covid_Database"
-}
