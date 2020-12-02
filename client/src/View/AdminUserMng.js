@@ -74,7 +74,7 @@ const AdminUserMng = () => {
     }
     fetchData();
   }, [url]);
-  
+
   useEffect(() => {
     if (!data) return;
     if (!taskInfo) return;

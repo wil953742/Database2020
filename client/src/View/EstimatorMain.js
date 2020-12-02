@@ -57,10 +57,8 @@ export const EstimatorMain = ({ loginfo }) => {
       });
     }
     fetchData();
-  }, []);
+  }, [unfinished, finished]);
   
-  console.log(unfinishedRecord);
-  console.log(finishedRecord); 
 
   useEffect(() => {
     if (!unfinishedRecord) return;

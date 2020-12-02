@@ -2,22 +2,16 @@ import React from "react";
 import styles from "../CSS/component.module.css";
 import { Link } from "react-router-dom";
 
-export const SubmitterJoined = ({
-  taskID,
-  taskName,
-  taskDesc,
-  taskDate,
-  taskNum,
-}) => {
+export const SubmitterJoined = ({task }) => {
+  console.log(task);
   return (
     <div>
-      <Link to={{ pathname: `/STaskView/:${taskID}`, taskID: { taskID },
-        taskName:{taskName}, taskDesc:{taskDesc}, taskDate:{taskDate}, taskNum:{taskNum}}}>
+      <Link to={{ pathname: `/STaskView/${task.taskID}`, task: { task }}}>
         <div className={styles.row_container}>
-          <p>{taskName}</p>
-          <p>{taskDesc}</p>
-          <p>{taskDate}</p>
-          <p>{taskNum}</p>
+          <p>{task.taskName}</p>
+          <p>{task.taskDesc}</p>
+          <p>{task.taskDate}</p>
+          <p>{task.taskNum}</p>
         </div>
       </Link>
       

@@ -212,7 +212,70 @@ app.post("/api/signup", (req, res) => {
   });
 });
 
-// Estimator Part (Jihoon )
+//submitter
+app.get(`/api/submittedTasklist/1/:id`, (req, res) => { // 참여중
+  const id = req.params.id;
+  connection.query(
+    `SELECT TASK.TaskID AS taskID, TASK.Name AS taskName, MAX(Turn) AS taskDate, Description AS taskDesc, Count(*) AS taskNum\
+    FROM RAW_DATA_SEQUENCE_FILE,RAW_DATA_TYPE,TASK\
+    WHERE RDSFSubmitterID=${id} AND BelongsRawDataTypeID=RawDataTypeID AND TaskID=CollectedTaskID\
+    GROUP BY Name`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+app.get(`/api/submittedTasklist/2/:id`, (req, res) => { // 신청
+  const id = req.params.id;
+  connection.query(
+    `SELECT TASK.TaskID AS taskID, TASK.Name AS taskName, TASK.Description AS taskDesc
+    FROM TASK
+    WHERE TaskID NOT IN (SELECT AppliedTaskID AS TaskID FROM APPLY WHERE AppliedSubmitterID=${id} ) ;`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+app.get(`/api/submittedTasklist/3/:id`, (req, res) => { // 대기
+  const id = req.params.id;
+  connection.query(
+    `SELECT TASK.TaskID AS taskID, TASK.Name AS taskName, TASK.Description AS taskDesc\
+    FROM TASK,APPLY\
+    WHERE AppliedSubmitterID=${id} AND TASK.TaskID = APPLY.AppliedTaskID AND Approval is null`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
+app.get(`/api/submittedTasklist/4/:sid/:tid`, (req, res) => { // 파일목록
+  const sid = req.params.sid;
+  const tid = req.params.tid;
+  connection.query(
+    `SELECT Direc AS fileName, QualityScore AS fileScore, RawDataTypeID AS fileType, Turn AS fileDate,PNP AS filePNP\
+    FROM PARSING_DATA_SEQUENCE_FILE, QUALITY_TEST, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE \
+    WHERE ParsingDataSequenceFileID=ParsingDataSequenceFileID2 AND RawDataSequenceFileID=BeforeRawDataSequenceFileID \
+    AND RawDataTypeID=BelongsRawDataTypeID AND RDSFSubmitterID=${sid} AND CollectedTaskID=${tid}`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
+app.post("/api/createTask", (req, res) => {
+  const AccountID = req.body.AccountID;
+  const newValue = req.body.newValue;
+  const targetTaskID = req.body.targetTaskID;
+  connection.query(
+    `UPDATE APPLY \
+      SET Approval = ${newValue} \
+      WHERE AppliedSubmitterID = ${AccountID} AND AppliedTaskID = ${targetTaskID};`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
 app.get(`/api/Estimator/:accountID/notYet`, (req, res) => {
   const accountID = req.params.accountID;
   connection.query(
@@ -250,5 +313,22 @@ app.get(`/api/Estimator/:accountID/finished`, (req, res) => {
         }
   );
 });
+
+app.post(`/api/Estimator/estimate/:ParsingDataSequenceFileID2`, (req, res) => {
+  let sql =
+  "UPDATE QUALITY_TEST \
+  SET QualityScore = ?, \
+      State = 1 \
+  WHERE ParsingDataSequenceFileID2 = ?;";
+
+  let QualityScore = req.body.QualityScore;
+  let ParsingDataSequenceFileID2 = req.body.ParsingDataSequenceFileID;
+
+  let params = [QualityScore, ParsingDataSequenceFileID2];
+  connection.query(sql, params, (err, rows, fields) => {
+    res.send(rows);
+  });
+});
+
 
 app.listen(port, () => console.log(`Listening on port ${port}`));

@@ -3,6 +3,7 @@ import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { IconButton } from "@material-ui/core";
 import styles2 from "../CSS/mainstyle.module.css";
+import Axios from "axios";
 
 export const EstimatorEstimate = ({ record, setTogglePopUp }) => {
   const [score, setScore] = useState(0);
@@ -21,10 +22,30 @@ export const EstimatorEstimate = ({ record, setTogglePopUp }) => {
     setTogglePopUp(false);
   };
 
-  const submit = () => {
+
+  var record;
+  var pdsfID = record.PDSFID;
+  const axios = require("axios").default;
+  console.log(record);
+
+  const submit = async () => {
     // process submitting
+    await axios.post(`/api/Estimator/estimate/${pdsfID}`, {
+      ParsingDataSequenceFileID : pdsfID,
+      QualityScore : score
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error){
+      console.log(error);
+    });
     setTogglePopUp(false);
   };
+
+  
+
+
   return (
     <div className={styles.popup}>
       <IconButton

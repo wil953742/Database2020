@@ -1,51 +1,92 @@
-import React, { useState } from "react";
+import React, { useState,useEffect} from "react";
 import styles from "../CSS/mainstyle.module.css";
+import { useHistory } from "react-router-dom";
+import { useLocation } from 'react-router-dom'
+import { fileTask, PNP } from "../Components/classes";
+
 
 import { SubmitterTaskRowNav } from "../Components/SubmitterTaskRowNav";
 import { SubmitterTaskRow } from "../Components/SubmitterTaskRow";
 import { SubmitterSubmit } from "../Components/SubmitterSubmit";
 import { Nav } from "../Components/Nav";
 
-export const SubmitterTaskView = ({
-  taskID,
-  taskName,
-  taskDesc,
-  taskDate,
-  taskNum,
- }) => {
-
+export const SubmitterTaskView = ({task , loginfo}) => {
+  
   var logInfo;
+  var history = useHistory();
   const loggedIn = localStorage.getItem("user");
-  console.log(loggedIn);
   if (loggedIn) {
     logInfo = JSON.parse(loggedIn);
+  } else {
+    history.push("/");
   }
+
+  let location = useLocation();
+  let tid = location.pathname.split('/')[2];
+
+  const axios = require("axios").default;
+  const [data, setData] = useState();
+  const [taskList, setTaskList] = useState([]);
 
   const [togglePopUp, setTogglePopUp] = useState(false);
   const Submit = () => {
     // Get Information About Chosen Task
     setTogglePopUp(true);
   };
+  
+  const url = "/api/submittedTasklist/";
+  const url2 = url+'4/'+`${logInfo.accountID}/${tid}`;
+  //console.log(url2);
+  useEffect(() => {
+    async function fetchData() {
+      await axios.get(url+'4/'+`${logInfo.accountID}/${tid}`).then((res) => {
+        setData(res.data);
+      });
+    }
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    if (!data) return;
+    var list = [];
+    for (let i = 0; i < data.length; i++) {
+      list.push(
+        new fileTask(
+          data[i].fileName,
+          data[i].fileScore,
+          data[i].fileType,
+          data[i].fileDate,
+          data[i].filePNP
+            
+          )
+      );
+    }
+    setTaskList(list);
+    console.log(data);  
+
+  }, [data]);
+
+
+
+  
 
   return (
     <div className={styles.center_all}>
       <Nav
-        userType={loggedIn.userType}
-        name={loggedIn.userName}
-        userID={loggedIn.userID}
+        userType={"제출자"}
+        name={logInfo.name}
+        userID={logInfo.userID}
       />
       <h2 className={styles.list_title}>파일 목록</h2>
       <div className={styles.main_container}>
         <div className={styles.sub_container_1}>
           <SubmitterTaskRowNav />
           <div className={styles.scrollable_div}>
-            <SubmitterTaskRow
-              fileName="코로나.csv"
-              fileScore="86"
-              fileType="국내 확진자 Type"
-              fileDate="20/11/25"
-              filePNP="P"
+          {taskList.map((task) => (
+            <SubmitterTaskRow task={task} loginfo={loginfo}
+
             />
+          ))}
           </div>
         </div>
       </div>
@@ -55,8 +96,8 @@ export const SubmitterTaskView = ({
       {togglePopUp && (
       <SubmitterSubmit
         setTogglePopUp={setTogglePopUp}
-        taskID={taskID}
-        taskDesc={taskDesc}
+        //taskID={taskID}
+        //taskDesc={taskDesc}
       />)
       }
     </div>

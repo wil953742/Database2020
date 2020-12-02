@@ -114,6 +114,38 @@ class RSC extends SC {
   }
 }
 
+//
+class SubmittedTask {
+  constructor(taskID, taskName, taskDesc, taskDate, taskNum) {
+    this.taskID = taskID;
+    this.taskName = taskName;
+    this.taskDesc = taskDesc;
+    this.taskDate = taskDate;
+    this.taskNum = taskNum;
+  }
+}
+class otherTask {
+  constructor(taskID, taskName, taskDesc) {
+    this.taskID = taskID;
+    this.taskName = taskName;
+    this.taskDesc = taskDesc;
+
+  }
+}
+
+class fileTask {
+  constructor(fileName, fileScore, fileType,fileDate,filePNP) {
+    this.fileName = fileName;
+    this.fileScore = fileScore;
+    this.fileType = fileType;
+    this.fileDate = fileDate;
+    this.filePNP = filePNP.data;
+  }
+}
+
+
+//
+
 export {
   TaskUser,
   User,
@@ -125,4 +157,8 @@ export {
   SC,
   RSC,
   NewTask,
+
+  SubmittedTask,
+  otherTask,
+  fileTask
 };
