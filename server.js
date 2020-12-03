@@ -196,7 +196,6 @@ app.post("/api/signup", (req, res) => {
   let Address = req.body.Address;
   let Role = req.body.Role;
 
-  console.log(BirthDate);
   let params = [
     BirthDate,
     UserID,
