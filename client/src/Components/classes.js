@@ -1,5 +1,5 @@
 class User {
-  constructor(userID, ID, userType, name, sex, address, birthdate, phone) {
+  constructor(userID, ID, userType, name, sex, address, birthdate, phone, password) {
     this.userID = userID;
     this.ID = ID;
     this.userType = userType;
@@ -8,6 +8,7 @@ class User {
     this.address = address;
     this.birthdate = birthdate;
     this.phone = phone;
+    this.password = password;
   }
 }
 
@@ -42,21 +43,10 @@ class QT {
 }
 
 class AdminTask {
-  constructor(
-    taskID,
-    taskName,
-    desc,
-    period,
-    waiting,
-    participants,
-    passScore
-  ) {
+  constructor(taskID, desc, period, passScore) {
     this.taskID = taskID;
-    this.taskName = taskName;
     this.desc = desc;
     this.period = period;
-    this.waiting = waiting;
-    this.participants = participants;
     this.passScore = passScore;
   }
 }
@@ -81,6 +71,18 @@ class NewTask {
     this.passScore = passScore;
     this.TDTSchema = TDTSchema;
     this.RDTSchema = RDTSchema;
+    //TDTid 추가 필요
+  }
+}
+
+class TaskUser {
+  constructor(AccountID, name, sex, birth, score, admit) {
+    this.AccountID = AccountID;
+    this.name = name;
+    this.sex = sex;
+    this.birth = birth;
+    this.score = score;
+    this.admit = admit;
   }
 }
 
@@ -104,4 +106,15 @@ class RSC extends SC {
   }
 }
 
-export { User, Record, QT, AdminTask, AdminUser, Pair, SC, RSC, NewTask };
+export {
+  TaskUser,
+  User,
+  Record,
+  QT,
+  AdminTask,
+  AdminUser,
+  Pair,
+  SC,
+  RSC,
+  NewTask,
+};

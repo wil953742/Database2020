@@ -1,36 +1,18 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import styles from "../CSS/loginstyle.module.css";
-import { post } from "axios";
+import { User } from "../Components/classes";
+
+//import axios from "axios";
 
 export const Signup = () => {
-  const [userType, setUserType] = useState('');
-  const [userID, setUserID] = useState('');
-  const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
-  const [name, setName] = useState('');
-  const [sex, setSex] = useState('');
-  const [birthday, setBirthday] = useState('');
-  const [address, setAddress] = useState('');
-  const [phone, setPhone] = useState('');
+  var userType, userID, password, confirmPassword,
+  name, sex, birthday, address, phone;
+
+  const axios = require("axios");
 
   var dupCheck = false;
   let history = useHistory();
-
-  const addSignUp = () => {
-    const url = '/api/signup';
-    const formData = new FormData();
-    formData.append('userType', userType)
-    formData.append('userID', userID)
-    formData.append('password', password)
-    formData.append('name', name)
-    formData.append('sex', sex)
-    formData.append('birthday', birthday)
-    formData.append('address', address)
-    formData.append('phone', phone)
-
-    return post(url, formData);
-  }
 
   const PasswordCheck = (inputtxt) => {
     var passw = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
@@ -54,7 +36,7 @@ export const Signup = () => {
       alert("유저 유형을 선택하세요.");
       return;
     }
-    setUserType(UT.id);
+    userType = UT.id;
     const form2 = document.forms.sex;
     const radios2 = form2.elements.sex;
     const S = Array.from(radios2).find((radio) => radio.checked);
@@ -62,7 +44,7 @@ export const Signup = () => {
       alert("성별을 선택하세요.");
       return;
     }
-    setSex(S.id);
+    sex = S.id;
     if (
       userType === null ||
       userID === null ||
@@ -92,13 +74,24 @@ export const Signup = () => {
     handleSignUp();
   };
 
-  const handleSignUp = () => {
-    // Process Sign Up
-    addSignUp()
-    .then((response) => {
-      console.log(response.data);
-    })
+  const handleSignUp = async () => {
 
+    await axios
+      .post("/api/signup", {
+        BirthDate : birthday,
+        UserID : userID,
+        Phone : phone,
+        Password : password,
+        Name : name,
+        Gender : sex,
+        Address : address,
+        Role : userType,
+      }).then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
 
     alert("회원가입이 완료되었습니다. 로그인 해주세요.");
     history.push("/");
@@ -112,10 +105,10 @@ export const Signup = () => {
           <p>회원 유형</p>
           <form name="type">
             <div className={styles.radio_group}>
-              <input type="radio" id="submitter" name="userType"/>
-              <label for="submitter">제출자</label>
-              <input type="radio" id="estimator" name="userType"/>
-              <label for="estimator">평가자</label>
+              <input type="radio" id="Submitter" name="userType"/>
+              <label for="Submitter">제출자</label>
+              <input type="radio" id="Estimator" name="userType"/>
+              <label for="Estimator">평가자</label>
             </div>
           </form>
         </div>
@@ -128,7 +121,7 @@ export const Signup = () => {
               style={{ width: "180px", marginLeft: "0" }}
               name = 'userID'
               value={userID}
-              onChange={(e) => setUserID(e.target.value)}
+              onChange={(e) => (userID = e.target.value)}
             />
             <button onClick={() => IdDupCheck()}>중복확인</button>
           </div>
@@ -140,7 +133,7 @@ export const Signup = () => {
             placeholder="*******"
             name='password'
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={(e) => (password = e.target.value)}
           />
         </div>
         <p className={styles.subscript}>
@@ -153,7 +146,7 @@ export const Signup = () => {
             placeholder="*******"
             name='confirmPassword'
             value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
+            onChange={(e) => (confirmPassword = e.target.value)}
           />
         </div>
         <div className={styles.row}>
@@ -163,7 +156,7 @@ export const Signup = () => {
             placeholder="홍길동"
             name='name'
             value={name}
-            onChange={(e) => setName(e.target.value)}
+            onChange={(e) => (name = e.target.value)}
           />
         </div>
         <div className={styles.row}>
@@ -183,7 +176,7 @@ export const Signup = () => {
             type="date"
             name='birthday'
             value={birthday}
-            onChange={(e) => setBirthday(e.target.value)}
+            onChange={(e) => (birthday = e.target.value)}
           />
         </div>
         <div className={styles.row}>
@@ -193,7 +186,7 @@ export const Signup = () => {
             placeholder="서울특별시 서대문구 ..."
             name='adress'
             value={address}
-            onChange={(e) => setAddress(e.target.value)}
+            onChange={(e) => (address = e.target.value)}
           />
         </div>
         <div className={styles.row}>
@@ -203,7 +196,7 @@ export const Signup = () => {
             placeholder="010-1234-1234"
             name='phone'
             value={phone}
-            onChange={(e) => setPhone(e.target.value)}
+            onChange={(e) => (phone = e.target.value)}
           />
         </div>
         <button className={styles.button} onClick={() => submit()}>

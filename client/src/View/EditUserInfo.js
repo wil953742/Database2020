@@ -2,21 +2,89 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import styles from "../CSS/loginstyle.module.css";
 
+import { Modal } from "../Components/Modal"
 import { Nav } from "../Components/Nav";
 import { AdminNav } from "../Components/AdminNav";
 
 const EditUserInfo = () => {
-  const [password, setPassword] = useState(null);
-  const [confirmPassword, setConfirmPassword] = useState(null);
-  const [address, setAddress] = useState(null);
-  const [phone, setPhone] = useState(null);
-  var logInfo;
-  var history = useHistory();
+  var confirmPassword, logInfo;
+
   const loggedIn = localStorage.getItem("user");
-  
   logInfo = JSON.parse(loggedIn);
 
+  const[password, setPassword] = useState(logInfo.password);
+  const[address, setAddress] = useState(logInfo.address);
+  const[phone, setPhone] = useState(logInfo.phone);
+  const[birthdate, setBirthdate] = useState(logInfo.birthdate.slice(0,10));
+  const[clickSignout, setClickSignout] = useState(false);
+  const[bool, setBool] = useState(false);
+
+  const axios = require("axios");
+
+  var history = useHistory();
+
+  const signout = () => {
+    <Modal setBool = {setBool}/>
+
+    setClickSignout(true);
+
+    updateQuery();
+  }
+
+  const PasswordCheck = (inputtxt) => {
+    var passw = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
+    if (inputtxt.match(passw)) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
+  const phoneFormat = (input) => {
+    let changed = input.replace(/-/gi, "");
+    if (changed.slice(0, 3) === "010" && changed.length === 11) {
+      setPhone(changed);
+      return true;
+    }
+    return false;
+  };
+
+  const updateQuery = async () =>{
+
+    await axios
+      .post("/api/editUserInfo", {
+        BirthDate : birthdate.slice(0,10),
+        UserID : logInfo.ID,
+        Phone : phone,
+        Password : password,
+        Name : logInfo.name,
+        Gender : logInfo.sex,
+        Address : address,
+        Role : logInfo.userType,
+        clickSignout : clickSignout
+      }).then(function(response) {
+        console.log(response);
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+
+  }
+
   const edit = () => {
+
+    if(!PasswordCheck(password)) {
+      alert("비밀번호를 확인해주세요");
+      return;
+    }
+
+    if(!phoneFormat(phone)) {
+      alert("전화번호를 확인해주세요");
+      return;
+    }
+
+    updateQuery();
+
     // 빈칸은 프로세스 안하는 로직 필요
     console.log("store changed info");
     alert("회원정보가 수정되었습니다!");
@@ -82,7 +150,7 @@ const EditUserInfo = () => {
             type="password"
             placeholder="*******"
             value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
+            onChange={(e) => (confirmPassword = e.target.value)}
           />
         </div>
         <div className={styles.row}>
@@ -98,8 +166,8 @@ const EditUserInfo = () => {
           <p>성별</p>
           <form name="sex">
             <div className={styles.radio_group}>
-              <input type="radio" id="userSex" name="selector2" disabled />
-              <label for="userSex">
+              <input type="radio" id="sex" name="selector2" disabled />
+              <label for="sex">
                 {logInfo.sex === "M" ? "남성" : "여성"}
               </label>
             </div>
@@ -107,7 +175,7 @@ const EditUserInfo = () => {
         </div>
         <div className={styles.row}>
           <p>생년월일</p>
-          <input type="date" value={logInfo.birthdate} disabled />
+          <input type="date" value={birthdate} onChange={(e) => setBirthdate(e.target.value.slice(0,10))}/>
         </div>
         <div className={styles.row}>
           <p>주소</p>
@@ -131,6 +199,10 @@ const EditUserInfo = () => {
           완료
         </button>
       </div>
+
+      <button className={styles.signout} onClick={() => signout()}>
+        회원탈퇴
+      </button>
     </div>
   );
 };
