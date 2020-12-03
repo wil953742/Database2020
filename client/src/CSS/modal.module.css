@@ -52,3 +52,10 @@
   margin: 30px;
   font-size: 25px;
 }
+
+.bg {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  background-color: transparent;
+}

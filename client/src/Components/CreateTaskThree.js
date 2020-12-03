@@ -4,7 +4,7 @@ import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
 import IconButton from "@material-ui/core/IconButton";
 import styles from "../CSS/mainstyle.module.css";
 import TextField from "@material-ui/core/TextField";
-import { Pair } from "../Components/classes";
+import { RPair } from "../Components/classes";
 import { RSC } from "../Components/classes";
 import { Schema } from "../Components/Schema";
 import { useHistory } from "react-router-dom";
@@ -14,11 +14,11 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
   const [name, setName] = useState();
   const [num, setNum] = useState(2);
   const [row, setRow] = useState([1]);
-  const [pairList, setPairList] = useState([new Pair()]);
+  const [pairList, setPairList] = useState([new RPair()]);
   // var history = useHistory();
 
   const handleRemove = () => {
-    if (num === 2) {
+    if (num === 1) {
       return;
     }
     setNum(num - 1);
@@ -40,12 +40,13 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
     newTask.RDTSchema.push(new RSC(name, finalList));
     setName("");
     setNum(2);
-    setRow([1]);
-    setPairList([new Pair()]);
+    setRow([]);
+    setPairList([new RPair()]);
     alert("원본 타입이 추가되었습니다.");
   };
 
   // const createTDT = async () => {
+  //   console.log(newTask);
   //   await axios
   //     .post("/api/Admin/CreateTDT", {
   //       list: newTask.TDTSchema.list,
@@ -55,17 +56,18 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
   //     });
   // };
 
-  // const handleComplete = () => {
-  //   if (!(name === "" || name === undefined || name === null)) {
-  //     handleNewRDT();
-  //   }
-  //   console.log(newTask.TDTSchema.list);
-  //   createTDT();
-  //   // console.log(newTask);
-  //   // console.log(JSON.stringify(newTask.TDTSchema.list));
-  //   // history.push("/");
-  //   alert("태스크가 생성되었습니다.");
-  // };
+  const handleComplete = () => {
+    console.log(newTask);
+    //   if (!(name === "" || name === undefined || name === null)) {
+    //     handleNewRDT();
+    //   }
+    //   console.log(newTask.TDTSchema.list);
+    //   createTDT();
+    //   // console.log(newTask);
+    //   // console.log(JSON.stringify(newTask.TDTSchema.list));
+    //   // history.push("/");
+    //   alert("태스크가 생성되었습니다.");
+  };
 
   return (
     <div className={`${styles.sub_container_a} ${styles.ninety}`}>
@@ -85,7 +87,12 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
         </div>
         <div className={`${styles.scrollable_div} ${styles.new_box}`}>
           {row.map((item) => (
-            <Schema key={item} pair={pairList[item - 1]} />
+            <Schema
+              key={item}
+              pair={pairList[item - 1]}
+              raw={true}
+              tdt={newTask.TDTSchema.list}
+            />
           ))}
         </div>
       </form>
@@ -99,7 +106,7 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
         </IconButton>
         <IconButton
           onClick={() => {
-            setPairList([...pairList, new Pair()]);
+            setPairList([...pairList, new RPair()]);
             setNum(num + 1);
             setRow([...row, num]);
           }}
@@ -110,7 +117,10 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
       <div className={styles.button_container}>
         <button
           className={`${styles.add_btn} ${styles.button_row}`}
-          onClick={() => setStep(2)}
+          onClick={() => {
+            setStep(2);
+            newTask.RDTSchema = undefined;
+          }}
         >
           이전
         </button>
@@ -122,7 +132,7 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
         </button>
         <button
           className={`${styles.add_btn} ${styles.button_row}`}
-          // onClick={() => handleComplete()}
+          onClick={() => handleComplete()}
         >
           완료
         </button>

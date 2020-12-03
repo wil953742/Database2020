@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../CSS/mainstyle.module.css";
-import { AdminTask } from "../Components/classes";
 
+import { AdminTask } from "../Components/classes";
+import { Loading } from "../Components/Loading";
 import { AdminTaskRowNav } from "../Components/AdminTaskRowNav";
 import { AdminTaskRow } from "../Components/AdminTaskRow";
 
@@ -10,6 +11,7 @@ export const AdminMain = () => {
   const axios = require("axios").default;
   const [data, setData] = useState();
   const [taskList, setTaskList] = useState([]);
+  const [loading, setLoading] = useState(true);
   const url = "/api/AdminTask";
 
   useEffect(() => {
@@ -18,6 +20,7 @@ export const AdminMain = () => {
         setData(res.data);
       });
     }
+    setLoading(true);
     fetchData();
   }, []);
 
@@ -36,18 +39,19 @@ export const AdminMain = () => {
       );
     }
     setTaskList(list);
-    console.log(taskList);
+    setLoading(false);
   }, [data]);
 
   return (
     <div className={styles.center_all}>
+      {loading && <Loading />}
       <h2 className={styles.list_title}>태스크 목록</h2>
       <div className={styles.main_container}>
         <div className={styles.sub_container_1}>
           <AdminTaskRowNav />
-          <div className={styles.scrollable_div}>
+          <div className={styles.scrollable_div} style={{ height: "540px" }}>
             {taskList.map((task) => (
-              <AdminTaskRow task={task} />
+              <AdminTaskRow key={task.TaskID} task={task} />
             ))}
           </div>
         </div>

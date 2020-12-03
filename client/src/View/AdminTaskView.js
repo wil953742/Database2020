@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "../CSS/mainstyle.module.css";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import { TaskUser } from "../Components/classes";
 
 import { AdminParticipantRowNav } from "../Components/AdminParticipantRowNav";
@@ -28,7 +28,6 @@ const AdminTaskView = (props) => {
     async function fetchUserData() {
       await axios.get(url).then((res) => {
         setUserData(res.data);
-        console.log(res.data);
       });
     }
     fetchUserData();
@@ -49,6 +48,7 @@ const AdminTaskView = (props) => {
         new TaskUser(
           userData[i].AccountID,
           userData[i].Name,
+          userData[i].Role === "Submitter" ? "제출자" : "평가자",
           userData[i].Gender.data == 0 ? "남자" : "여자",
           userData[i].BirthDate.slice(0, 10),
           userData[i].Score,
@@ -153,14 +153,23 @@ const AdminTaskView = (props) => {
         <div className={styles.main_container}>
           <div className={styles.sub_container_b}>
             <AdminParticipantRowNav />
-            <div className={styles.scrollable_div}>
+            <div className={styles.scrollable_div} style={{ height: "100px" }}>
               {userList.map((user) => (
-                <AdminParticipantRow
-                  user={user}
-                  taskID={task.taskID}
-                  setReload={setReload}
-                  reload={reload}
-                />
+                <Link
+                  to={{
+                    pathname: `/UserDetail/${user.AccountID}`,
+                    user: user,
+                    taskID: task.taskID,
+                    newProps: props,
+                  }}
+                >
+                  <AdminParticipantRow
+                    user={user}
+                    taskID={task.taskID}
+                    setReload={setReload}
+                    reload={reload}
+                  />
+                </Link>
               ))}
             </div>
           </div>

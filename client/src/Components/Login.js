@@ -5,8 +5,8 @@ import logo from "../Images/로고.png";
 import { User } from "./classes";
 
 export const Login = () => {
-  const [id, setID] = useState();
-  const [pw, setPW] = useState();
+  const [id, setID] = useState("");
+  const [pw, setPW] = useState("");
   const axios = require("axios");
   var type = {
     Submitter: "제출자",

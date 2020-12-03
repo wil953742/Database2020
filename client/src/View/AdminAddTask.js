@@ -11,6 +11,7 @@ import { CreateTaskThree } from "../Components/CreateTaskThree";
 const AdminAddTask = () => {
   const [step, setStep] = useState(1);
   const [newTask, setNewTask] = useState(new NewTask());
+  console.log(newTask.RDTSchema);
   var logInfo;
   var history = useHistory();
   const loggedIn = localStorage.getItem("user");

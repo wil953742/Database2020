@@ -35,6 +35,7 @@ export const CreateTaskTwo = ({ setStep, newTask }) => {
     }
     newTask.TDTSchema = new SC(finalList);
     setStep(3);
+    console.log(newTask.TDTSchema);
   };
 
   return (

@@ -10,6 +10,7 @@ import AdminTaskEdit from "./View/AdminTaskEdit";
 import AdminAddTask from "./View/AdminAddTask";
 import { SubmitterTaskView } from "./View/SubmitterTaskView";
 import EditUserInfo from "./View/EditUserInfo";
+import UserDetail from "./View/UserDetail";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/TaskView/:taskId" component={AdminTaskView} />
           <Route path="/NewTask" component={AdminAddTask} />
           <Route path="/STaskView/:taskId" component={SubmitterTaskView} />
+          <Route path="/UserDetail/:accountID" component={UserDetail} />
         </Switch>
       </div>
     </Router>

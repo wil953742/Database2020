@@ -10,6 +10,7 @@ export const AdminUserRowNav = () => {
       <p>성별</p>
       <p>ID</p>
       <p>참여태스크</p>
+      <p> </p>
     </div>
   );
 };

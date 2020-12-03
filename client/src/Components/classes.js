@@ -61,13 +61,13 @@ class AdminTask {
 }
 
 class AdminUser {
-  constructor(userID, name, type, age, sex, id, task) {
-    this.userID = userID;
+  constructor(accountID, name, type, age, sex, userID, task) {
+    this.accountID = accountID;
     this.name = name;
     this.type = type;
     this.age = age;
     this.sex = sex;
-    this.id = id;
+    this.userID = userID;
     this.task = task;
   }
 }
@@ -84,8 +84,9 @@ class NewTask {
 }
 
 class TaskUser {
-  constructor(AccountID, name, sex, birth, score, admit) {
+  constructor(AccountID, name, type, sex, birth, score, admit) {
     this.AccountID = AccountID;
+    this.type = type;
     this.name = name;
     this.sex = sex;
     this.birth = birth;
@@ -95,9 +96,10 @@ class TaskUser {
 }
 
 class Pair {
-  constructor(name, type) {
+  constructor(name, type, maxLength) {
     this.name = name;
     this.type = type;
+    this.maxLength = maxLength;
   }
 }
 
@@ -107,10 +109,50 @@ class SC {
   }
 }
 
+class RPair extends Pair {
+  constructor(Pair, map) {
+    super(Pair);
+    this.map = map;
+  }
+}
+
 class RSC extends SC {
   constructor(name, SC) {
     super(SC);
     this.name = name;
+  }
+}
+
+class UDE {
+  constructor(ID, totalTup, dupTup, nullRatio, directory, score) {
+    this.ID = ID;
+    this.totalTup = totalTup;
+    this.dupTup = dupTup;
+    this.nullRatio = nullRatio;
+    this.directory = directory;
+    this.score = score;
+  }
+}
+
+class UDS {
+  constructor(
+    name,
+    totalSub,
+    avgTup,
+    avgDup,
+    avgNullRatio,
+    saveTup,
+    avgPassRatio,
+    task
+  ) {
+    this.name = name;
+    this.totalSub = totalSub;
+    this.avgTub = avgTup;
+    this.avgDup = avgDup;
+    this.avgNullRatio = avgNullRatio;
+    this.saveTup = saveTup;
+    this.avgPassRatio = avgPassRatio;
+    this.task = task;
   }
 }
 
@@ -125,4 +167,7 @@ export {
   SC,
   RSC,
   NewTask,
+  RPair,
+  UDE,
+  UDS,
 };

@@ -118,7 +118,7 @@ app.get(`/api/userList/:category&:value`, (req, res) => {
 app.get("/api/userQueue/:taskID", (req, res) => {
   const taskId = req.params.taskID;
   connection.query(
-    `SELECT AccountID, Name, Gender, BirthDate, Score, Approval \
+    `SELECT AccountID, Name, Role, Gender, BirthDate, Score, Approval \
     FROM ACCOUNT, SUBMITTER, APPLY \
     WHERE AppliedTaskID = ${taskId} AND AppliedSubmitterID = SubmitterID and AccountID = SubmitterID`,
     (err, rows, fields) => {
@@ -208,6 +208,87 @@ app.post("/api/signup", (req, res) => {
     Role,
   ];
   connection.query(sql, params, (err, rows, fields) => {
+    res.send(rows);
+  });
+});
+
+app.post("/api/editUserInfo", (req, res) => {
+  let BirthDate = req.body.BirthDate;
+  let AccountID = req.body.AccountID;
+  let Phone = req.body.Phone;
+  let Password = req.body.Password;
+  let Name = req.body.Name;
+  let Gender = req.body.Gender;
+  let Address = req.body.Address;
+  let Role = req.body.Role;
+  let clickSignout = req.body.clickSignout;
+  let sql;
+
+  if (clickSignout) {
+    sql = `DELETE FROM ACCOUNT WHERE AccountID = ${AccountID}`;
+  } else if (Password) {
+    sql = `UPDATE ACCOUNT \
+    SET Password = '${Password}', \
+    Address = '${Address}', \
+    Phone = '${Phone}', \
+    BirthDate = '${BirthDate}' \
+    WHERE AccountID = ${AccountID}`;
+  } else {
+    sql = `UPDATE ACCOUNT \
+    SET Address = '${Address}', \
+    Phone = '${Phone}', \
+    BirthDate = '${BirthDate}' \
+    WHERE AccountID = ${AccountID}`;
+  }
+
+  connection.query(sql, (err, rows, field) => {
+    console.log(err);
+    res.send(rows);
+  });
+});
+
+app.get("/api/UserDetail/content/:type/:accountID", (req, res) => {
+  const type = req.params.type;
+  const accountID = req.params.accountID;
+  let sql;
+  if (type === "제출자") {
+    sql = ``;
+  }
+  if (type === "평가자") {
+    sql = `SELECT ParsingDataSequenceFileID AS PDSFID, TotalTupleNum, DupTupleNum, NullRatio, Direc, QualityScore AS Score
+            FROM PARSING_DATA_SEQUENCE_FILE, ASSIGN, QUALITY_TEST
+            WHERE EAccountID = ${accountID} AND 
+            AssignedParsingDataSequenceFileID = ParsingDataSequenceFileID AND
+            ParsingDataSequenceFileID2 = AssignedParsingDataSequenceFileID`;
+  }
+
+  connection.query(sql, (err, rows, field) => {
+    console.log(err);
+    res.send(rows);
+  });
+});
+
+app.get("/api/UserDetail/main/:type/:accountID", (req, res) => {
+  const type = req.params.type;
+  const accountID = req.params.accountID;
+  let sql;
+  if (type === "평가자") {
+    sql = `SELECT Name, \
+      (SELECT COUNT(*) AS Total_File FROM ASSIGN WHERE EAccountID = ${accountID}) AS Total_File, \
+      (SELECT COUNT(*) AS Total_Queue FROM QUALITY_TEST, ASSIGN WHERE EAccountID = ${accountID} AND \
+      (AssignedParsingDataSequenceFileID, QTestID) = (ParsingDataSequenceFileID2, TestID) \
+      AND STATE = 0) AS Total_Queue \
+      FROM ACCOUNT\
+      WHERE AccountID = ${accountID}`;
+  }
+  if (type === "제출자") {
+    sql = `SELECT Score, 
+      (SELECT COUNT(*) FROM RAW_DATA_SEQUENCE_FILE WHERE RDSFSubmitterID = ${accountID}) AS Total_Sub,\
+      (SELECT COUNT(*) FROM APPLY WHERE AppliedSubmitterID=${accountID}) AS Part_Num\
+      FROM SUBMITTER \
+      WHERE SubmitterID = ${accountID}`;
+  }
+  connection.query(sql, (err, rows, field) => {
     res.send(rows);
   });
 });

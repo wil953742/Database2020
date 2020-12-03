@@ -7,6 +7,7 @@ import styles from "../CSS/mainstyle.module.css";
 import SearchIcon from "@material-ui/icons/Search";
 import IconButton from "@material-ui/core/IconButton";
 import { AdminUser } from "../Components/classes";
+import { Loading } from "../Components/Loading";
 
 const AdminUserMng = () => {
   var logInfo;
@@ -17,6 +18,7 @@ const AdminUserMng = () => {
   const [text, setText] = useState("");
   const [url, setURL] = useState("/api/userList");
   const [taskInfo, setTaskInfo] = useState();
+  const [loading, setLoading] = useState(true);
   const loggedIn = localStorage.getItem("user");
 
   if (loggedIn) {
@@ -64,6 +66,7 @@ const AdminUserMng = () => {
   };
 
   useEffect(() => {
+    setLoading(true);
     async function fetchData() {
       await axios.get(url).then((res) => {
         setData(res.data);
@@ -82,7 +85,7 @@ const AdminUserMng = () => {
     for (var i = 0; i < data.length; i++) {
       var task = [];
       for (var j = 0; j < taskInfo.length; j++) {
-        if (taskInfo[j].AppliedSubmitterID == data[i].AccountID) {
+        if (taskInfo[j].AppliedSubmitterID === data[i].AccountID) {
           task.push(taskInfo[j].Name);
         }
       }
@@ -99,6 +102,7 @@ const AdminUserMng = () => {
       );
     }
     setUserList(list);
+    setLoading(false);
   }, [data, taskInfo]);
 
   return (
@@ -109,11 +113,12 @@ const AdminUserMng = () => {
         userID={logInfo.userID}
       />
       <div className={styles.center_all}>
+        {loading && <Loading />}
         <h2 className={styles.list_title}>회원 목록</h2>
         <div className={styles.main_container}>
           <div className={styles.sub_container_1}>
             <AdminUserRowNav />
-            <div className={styles.scrollable_div}>
+            <div className={styles.scrollable_div} style={{ height: "540px" }}>
               {userList.map((user) => (
                 <AdminUserRow user={user} />
               ))}
