@@ -1,7 +1,7 @@
 import React, { useState, Component } from "react";
 import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
-import { IconButton } from "@material-ui/core";
+import { colors, IconButton } from "@material-ui/core";
 
 import Select from 'react-select';
 
@@ -17,9 +17,19 @@ export const SubmitterSubmit = ({
   ];
 
   const [highlighted, setHighlighted] = React.useState(false);
+  console.log('dasfasd');
+  console.log(taskName);
+  console.log(taskDesc);
 
-  const Upload = () => {
+  const axios = require('axios').default;
+  const Upload = async () => {
     // process uploading
+    await axios.post('/filesdfsdfsdf', {
+      // file : text
+      
+      
+    });
+
     setTogglePopUp(false);
   };
   return (
@@ -60,6 +70,7 @@ export const SubmitterSubmit = ({
           Array.from(e.dataTransfer.files)
             .forEach((file) => {
               const text = file;
+              console.log(text);
             });
         }}
       >

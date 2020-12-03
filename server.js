@@ -1,6 +1,7 @@
 const fs = require("fs");
 const express = require("express");
 const bodyParser = require("body-parser");
+var multer = require('multer');
 // const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 5000;
@@ -241,7 +242,7 @@ app.get(`/api/submittedTasklist/3/:id`, (req, res) => { // 대기
   connection.query(
     `SELECT TASK.TaskID AS taskID, TASK.Name AS taskName, TASK.Description AS taskDesc\
     FROM TASK,APPLY\
-    WHERE AppliedSubmitterID=${id} AND TASK.TaskID = APPLY.AppliedTaskID AND Approval is null`,
+    WHERE AppliedSubmitterID=${id} AND TASK.TaskID = APPLY.AppliedTaskID AND Approval=0`,
     (err, rows, fields) => {
       res.send(rows);
     }
@@ -256,6 +257,18 @@ app.get(`/api/submittedTasklist/4/:sid/:tid`, (req, res) => { // 파일목록
     FROM PARSING_DATA_SEQUENCE_FILE, QUALITY_TEST, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE \
     WHERE ParsingDataSequenceFileID=ParsingDataSequenceFileID2 AND RawDataSequenceFileID=BeforeRawDataSequenceFileID \
     AND RawDataTypeID=BelongsRawDataTypeID AND RDSFSubmitterID=${sid} AND CollectedTaskID=${tid}`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
+app.post(`/api/apply/:SubmitterID/:TaskID`, (req, res) => {
+  const SubmitterID = req.body.SubmitterID;
+  const TaskID = req.body.TaskID;
+  connection.query(
+    `INSERT IGNORE INTO APPLY(AppliedSubmitterID, AppliedTaskID, Approval)
+      VALUES(${SubmitterID}, ${TaskID}, 0);`,
     (err, rows, fields) => {
       res.send(rows);
     }
@@ -329,6 +342,8 @@ app.post(`/api/Estimator/estimate/:ParsingDataSequenceFileID2`, (req, res) => {
     res.send(rows);
   });
 });
+
+var upload = multer({dest : 'uploads/'});
 
 
 app.listen(port, () => console.log(`Listening on port ${port}`));

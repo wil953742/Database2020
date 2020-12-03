@@ -1,0 +1,20 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+13,Seoul,Jongno-gu,Jongno Community Center,10,37.57681,127.006
+14,Seoul,Gangnam-gu,Samsung Medical Center,7,37.48825,127.08559
+15,Seoul,Jung-gu,Jung-gu Fashion Company,7,37.562405,126.984377
+16,Seoul,Seodaemun-gu,Yeonana News Class,5,37.558147,126.943799
+17,Seoul,Jongno-gu,Korea Campus Crusade of Christ,7,37.594782,126.968022
+18,Seoul,Gangnam-gu,Gangnam Yeoksam-dong gathering,6,-,-
+19,Seoul,from other city,Daejeon door-to-door sales,1,-,-
+20,Seoul,Geumcheon-gu,Geumcheon-gu rice milling machine manufacture,6,-,-
+21,Seoul,from other city,Shincheonji Church,8,-,-
+22,Seoul,from other city,Guri Collective Infection,5,-,-
+23,Seoul,Jung-gu,KB Life Insurance,13,37.560899,126.966998
+24,Seoul,Yeongdeungpo-gu,Yeongdeungpo Learning Institute,3,37.520846,126.931278
+25,Seoul,Gangnam-gu,Gangnam Dongin Church,1,37.522331,127.057388
+26,Seoul,Yangcheon-gu,Biblical Language study meeting,3,37.524623,126.843118
+27,Seoul,Seocho-gu,Seocho Family,5,-,-
+28,Seoul,from other city,Anyang Gunpo Pastors Group,1,-,-
+29,Seoul,Gangnam-gu,Samsung Fire & Marine Insurance,4,37.498279,127.030139
+30,Seoul,Gangseo-gu,SJ Investment Call Center,0,37.559649,126.835102
+31,Seoul,from other city,Yongin Brothers,4,-,-

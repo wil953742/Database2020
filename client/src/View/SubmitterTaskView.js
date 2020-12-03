@@ -10,7 +10,8 @@ import { SubmitterTaskRow } from "../Components/SubmitterTaskRow";
 import { SubmitterSubmit } from "../Components/SubmitterSubmit";
 import { Nav } from "../Components/Nav";
 
-export const SubmitterTaskView = ({task , loginfo}) => {
+export const SubmitterTaskView = ({task}) => {
+  console.log(task);
   
   var logInfo;
   var history = useHistory();
@@ -20,6 +21,8 @@ export const SubmitterTaskView = ({task , loginfo}) => {
   } else {
     history.push("/");
   }
+  
+
 
   let location = useLocation();
   let tid = location.pathname.split('/')[2];
@@ -83,7 +86,7 @@ export const SubmitterTaskView = ({task , loginfo}) => {
           <SubmitterTaskRowNav />
           <div className={styles.scrollable_div}>
           {taskList.map((task) => (
-            <SubmitterTaskRow task={task} loginfo={loginfo}
+            <SubmitterTaskRow task={task} 
 
             />
           ))}
@@ -96,8 +99,8 @@ export const SubmitterTaskView = ({task , loginfo}) => {
       {togglePopUp && (
       <SubmitterSubmit
         setTogglePopUp={setTogglePopUp}
-        //taskID={taskID}
-        //taskDesc={taskDesc}
+        // taskID={taskID}
+        // taskDesc={taskDesc}
       />)
       }
     </div>

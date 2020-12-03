@@ -1,0 +1,17 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+105,Gyeongsangbuk-do,from other city,Shincheonji Church,566,-,-
+106,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,119,35.64887,128.7368
+107,Gyeongsangbuk-do,Bonghwa-gun,Bonghwa Pureun Nursing Home,68,36.92757,128.9099
+108,Gyeongsangbuk-do,Gyeongsan-si,Gyeongsan Seorin Nursing Home,66,35.782149,128.801498
+109,Gyeongsangbuk-do,from other city,Pilgrimage to Israel,41,-,-
+110,Gyeongsangbuk-do,Yechun-gun,Yechun-gun,40,36.646845,128.437416
+111,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,36,36.0581,128.4941
+112,Gyeongsangbuk-do,Gyeongsan-si,Gyeongsan Jeil Silver Town,17,35.84819,128.7621
+113,Gyeongsangbuk-do,Gyeongsan-si,Gyeongsan Cham Joeun Community Center,16,35.82558,128.7373
+114,Gyeongsangbuk-do,Gumi-si,Gumi Elim Church,10,-,-
+115,Gyeongsangnam-do,from other city,Shincheonji Church,32,-,-
+116,Gyeongsangnam-do,Geochang-gun,Geochang Church,10,35.68556,127.9127
+117,Gyeongsangnam-do,Jinju-si,Wings Tower,9,35.164845,128.126969
+118,Gyeongsangnam-do,Geochang-gun,Geochang-gun Woongyang-myeon,8,35.805681,127.917805
+119,Gyeongsangnam-do,Changwon-si,Hanmaeum Changwon Hospital,7,35.22115,128.6866
+120,Gyeongsangnam-do,Changnyeong-gun,Changnyeong Coin Karaoke,7,35.54127,128.5008

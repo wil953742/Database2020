@@ -1,0 +1,13 @@
+patient_id,sex,age,country,province,city,infection_case,contact_number,confirmed_date,released_date,state
+3001000002,male,20s,China,Gangwon-do,Gangneung-si,overseas inflow,,2020-03-01,2020-03-09,released
+6006000017,female,20s,Thailand,Gyeongsangbuk-do,Gimcheon-si,contact with patient,,2020-03-05,2020-04-06,released
+1100000104,male,20s,Switzerland,Busan,Dongnae-gu,overseas inflow,5,2020-03-18,,released
+1000000335,male,30s,United States,Seoul,Gangseo-gu,overseas inflow,,2020-03-24,,released
+1000000338,female,20s,United States,Seoul,Jungnang-gu,overseas inflow,,2020-03-24,,released
+7000000006,male,30s,United States,Jeju-do,Jeju-do,overseas inflow,23,2020-03-24,2020-05-05,released
+1100000112,male,20s,Germany,Busan,Geumjeong-gu,overseas inflow,18,2020-03-27,,released
+1000000377,female,30s,France,Seoul,Gwanak-gu,overseas inflow,,2020-03-27,,released
+1000000379,male,30s,Thailand,Seoul,Seodaemun-gu,overseas inflow,,2020-03-27,,released
+1100000119,male,20s,Indonesia,Busan,etc,overseas inflow,21,2020-03-31,,released
+5100000013,male,20s,Spain,Jeollanam-do,Yeosu-si,overseas inflow,,2020-03-31,2020-05-19,released
+1000000474,female,30s,Canada,Seoul,Jongno-gu,overseas inflow,,2020-03-31,,released

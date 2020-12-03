@@ -1,0 +1,236 @@
+patient_id,sex,age,city,infection_case,contact_number,symptom_onset_date,confirmed_date,released_date,deceased_date,state
+1000000324,female,50s,Seocho-gu,etc,,2020-03-19,2020-03-21,,,released
+1000000378,female,50s,Dobong-gu,overseas inflow,,,2020-03-27,,,released
+1000000417,female,20s,Mapo-gu,overseas inflow,,,2020-03-29,,,released
+1000000470,male,20s,Seocho-gu,overseas inflow,,,2020-03-31,,,released
+1000000544,female,20s,Seodaemun-gu,overseas inflow,,,2020-04-04,,,released
+1000000540,female,50s,Gwanak-gu,etc,,,2020-04-04,,,released
+1000000604,,,Seongdong-gu,overseas inflow,,,2020-04-12,,,released
+1000000635,,,Seongdong-gu,overseas inflow,,,2020-05-01,,,released
+1000000636,,,Yongsan-gu,overseas inflow,,,2020-05-02,,,released
+1000000637,,,Gangdong-gu,overseas inflow,,,2020-05-05,,,released
+1000000638,,,Jongno-gu,Itaewon Clubs,,,2020-05-08,,,released
+1000000639,,,Yongsan-gu,Itaewon Clubs,,,2020-05-08,,,released
+1000000640,,,Yongsan-gu,Itaewon Clubs,,2020-05-04,2020-05-08,,,released
+1000000641,,,Yongsan-gu,Itaewon Clubs,,2020-05-07,2020-05-08,,,released
+1000000642,,,Yongsan-gu,Itaewon Clubs,,2020-05-05,2020-05-08,,,released
+1000000643,,,Dongjak-gu,Itaewon Clubs,,,2020-05-08,,,released
+1000000644,,,Gwanak-gu,Itaewon Clubs,,,2020-05-08,,,released
+1000000645,,,Gwanak-gu,Itaewon Clubs,,,2020-05-08,,,released
+1000000646,,,etc,Itaewon Clubs,,,2020-05-08,,,isolated
+1000000647,,,Gwanak-gu,Itaewon Clubs,,,2020-05-08,,,released
+1000000648,,,etc,Itaewon Clubs,,2020-05-06,2020-05-08,,,released
+1000000649,,,Jung-gu,Itaewon Clubs,,,2020-05-08,,,released
+1000000650,,,Gangdong-gu,Itaewon Clubs,,,2020-05-08,,,released
+1000000651,,,Seongbuk-gu,Itaewon Clubs,,,2020-05-08,,,released
+1000000663,,,Seocho-gu,overseas inflow,,,2020-05-09,,,released
+1000000662,,,Seodaemun-gu,overseas inflow,,,2020-05-09,,,released
+1000000665,,,Yongsan-gu,Itaewon Clubs,,2020-05-06,2020-05-09,,,released
+1000000661,,,Songpa-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000667,,,Jungnang-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000696,,,Yongsan-gu,Itaewon Clubs,,,2020-05-09,,,isolated
+1000000666,,,Yongsan-gu,Itaewon Clubs,,2020-05-08,2020-05-09,,,released
+1000000660,,,Gangseo-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000664,,,Yongsan-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000658,,,Gwangjin-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000657,,,Gwangjin-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000656,,,Seongbuk-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000659,,,Gwanak-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000655,,,Dongjak-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000654,,,Gangseo-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000653,,,Gangnam-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000652,,,Dobong-gu,Itaewon Clubs,,,2020-05-09,,,released
+1000000681,,,Gangnam-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000682,,,Seongdong-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000683,,,Yongsan-gu,Itaewon Clubs,,2020-05-08,2020-05-10,,,released
+1000000697,,,Songpa-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000685,,,Dongdaemun-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000698,,,Gangdong-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000680,,,Seongbuk-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000684,,,Gwangjin-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000679,,,Gangnam-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000676,,,Gangnam-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000677,,,Gangnam-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000675,,,Gwanak-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000674,,,Gwanak-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000673,,,Dongjak-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000672,,,Dongjak-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000671,,,Yongsan-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000670,male,40s,Yangcheon-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000669,,,Yongsan-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000668,,,Gwanak-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000678,,,Gangbuk-gu,Itaewon Clubs,,,2020-05-10,,,released
+1000000694,,,etc,Itaewon Clubs,,,2020-05-11,,,isolated
+1000000699,,,Gangseo-gu,Itaewon Clubs,,,2020-05-11,,,released
+1000000695,,,Seocho-gu,Itaewon Clubs,,,2020-05-11,,,released
+1000000693,,,Dongjak-gu,Itaewon Clubs,,,2020-05-11,,,isolated
+1000000700,male,30s,Yangcheon-gu,Itaewon Clubs,,,2020-05-11,,,isolated
+1000000691,,,Gangbuk-gu,Itaewon Clubs,,,2020-05-11,,,released
+1000000690,,,Gangseo-gu,Itaewon Clubs,,,2020-05-11,,,released
+1000000689,,,Yongsan-gu,Itaewon Clubs,,,2020-05-11,,,released
+1000000688,,,Gwanak-gu,Itaewon Clubs,,,2020-05-11,,,released
+1000000687,,,Seodaemun-gu,Itaewon Clubs,,,2020-05-11,,,released
+1000000686,,,Dobong-gu,Itaewon Clubs,,,2020-05-11,,,released
+1000000692,,,Jung-gu,Itaewon Clubs,,,2020-05-11,,,released
+1000000712,,,Yeongdeungpo-gu,Itaewon Clubs,,2020-05-11,2020-05-12,,,isolated
+1000000707,,,Songpa-gu,Itaewon Clubs,,,2020-05-12,,,released
+1000000705,,,Dongjak-gu,Itaewon Clubs,,,2020-05-12,,,released
+1000000706,,,Gwanak-gu,Itaewon Clubs,,,2020-05-12,,,released
+1000000703,,,Nowon-gu,Itaewon Clubs,,2020-05-11,2020-05-12,,,released
+1000000702,,,Dongdaemun-gu,Itaewon Clubs,,,2020-05-12,,,released
+1000000701,,,Seongdong-gu,Itaewon Clubs,,,2020-05-12,,,released
+1000000704,,,Dobong-gu,Itaewon Clubs,,,2020-05-12,,,isolated
+1000000708,,,Songpa-gu,Itaewon Clubs,,,2020-05-13,,,released
+1000000709,,,Gangseo-gu,Itaewon Clubs,,,2020-05-13,,,released
+1000000710,,,Nowon-gu,overseas inflow,,,2020-05-13,,,released
+1000000711,,,Gangdong-gu,Itaewon Clubs,,,2020-05-13,,,released
+1000000713,,,Gangbuk-gu,Itaewon Clubs,,,2020-05-13,,,released
+1000000721,,,Yongsan-gu,Itaewon Clubs,,,2020-05-14,,,released
+1000000724,,,Dobong-gu,Itaewon Clubs,,,2020-05-14,,,isolated
+1000000723,,,Gangdong-gu,Itaewon Clubs,,,2020-05-14,,,released
+1000000725,,,Gwangjin-gu,Itaewon Clubs,,,2020-05-14,,,released
+1000000722,,,Gangdong-gu,Itaewon Clubs,,,2020-05-14,,,released
+1000000720,,,Yeongdeungpo-gu,Itaewon Clubs,,2020-05-13,2020-05-14,,,released
+1000000716,,,Geumcheon-gu,Itaewon Clubs,,,2020-05-14,,,released
+1000000718,,,Songpa-gu,Itaewon Clubs,,,2020-05-14,,,released
+1000000717,,,Yongsan-gu,Itaewon Clubs,,2020-05-12,2020-05-14,,,released
+1000000715,,,Dongdaemun-gu,Itaewon Clubs,,,2020-05-14,,,released
+1000000714,,,Dobong-gu,Itaewon Clubs,,,2020-05-14,,,released
+1000000719,,,Gangnam-gu,Itaewon Clubs,,,2020-05-14,,,released
+1000000731,,,Yongsan-gu,Itaewon Clubs,,2020-05-12,2020-05-15,,,released
+1000000729,,,Gangnam-gu,Itaewon Clubs,,,2020-05-15,,,released
+1000000730,,,Eunpyeong-gu,Itaewon Clubs,,,2020-05-15,,,released
+1000000727,,,Gwanak-gu,Itaewon Clubs,,,2020-05-15,,,released
+1000000726,,,Seodaemun-gu,Itaewon Clubs,,,2020-05-15,,,released
+1000000728,,,Eunpyeong-gu,etc,,,2020-05-15,,,released
+1000000732,,,Songpa-gu,overseas inflow,,,2020-05-16,,,released
+1000000733,,,Nowon-gu,Itaewon Clubs,,,2020-05-16,,,released
+1000000734,,,Songpa-gu,Itaewon Clubs,,,2020-05-16,,,released
+1000000735,,,Nowon-gu,Itaewon Clubs,,2020-05-13,2020-05-16,,,released
+1000000736,,,Jongno-gu,overseas inflow,,,2020-05-17,,,released
+1000000742,,,Songpa-gu,Samsung Medical Center,,,2020-05-18,,,isolated
+1000000743,,,Gangseo-gu,Itaewon Clubs,,,2020-05-18,,,released
+1000000741,,,Yeongdeungpo-gu,Itaewon Clubs,,2020-05-17,2020-05-18,,,released
+1000000737,,,Seongbuk-gu,Itaewon Clubs,,,2020-05-18,,,released
+1000000739,male,20s,Yangcheon-gu,Itaewon Clubs,,,2020-05-18,,,released
+1000000738,male,20s,Yangcheon-gu,Itaewon Clubs,,,2020-05-18,,,released
+1000000740,,,Guro-gu,contact with patient,,2020-05-15,2020-05-18,,,released
+1000000752,,,Gangdong-gu,Itaewon Clubs,,,2020-05-19,,,released
+1000000751,,,Gangbuk-gu,Samsung Medical Center,,,2020-05-19,,,isolated
+1000000749,,,Gangnam-gu,Samsung Medical Center,,,2020-05-19,,,released
+1000000748,,,Seocho-gu,Samsung Medical Center,,,2020-05-19,,,isolated
+1000000750,,,Dobong-gu,Itaewon Clubs,,,2020-05-19,,,released
+1000000746,,,Yongsan-gu,overseas inflow,,,2020-05-19,,,released
+1000000745,,,Yongsan-gu,overseas inflow,,,2020-05-19,,,released
+1000000744,,,Yongsan-gu,overseas inflow,,,2020-05-19,,,released
+1000000747,,,Yongsan-gu,overseas inflow,,,2020-05-19,,,released
+1000000753,,,Dongjak-gu,Itaewon Clubs,,,2020-05-20,,,released
+1000000754,male,30s,Yangcheon-gu,Biblical Language study meeting,,2020-05-18,2020-05-20,,,released
+1000000755,,,Dobong-gu,overseas inflow,,,2020-05-20,,,released
+1000000756,,,etc,Samsung Medical Center,,,2020-05-20,,,isolated
+1000000759,,,Gwangjin-gu,Itaewon Clubs,,,2020-05-21,,,released
+1000000757,,,Nowon-gu,overseas inflow,,,2020-05-21,,,released
+1000000758,,,Gwanak-gu,Itaewon Clubs,,,2020-05-21,,,isolated
+1000000762,,,Gangdong-gu,Itaewon Clubs,,,2020-05-22,,,released
+1000000760,,,Seocho-gu,Samsung Medical Center,,,2020-05-22,,,released
+1000000761,,,etc,Samsung Medical Center,,,2020-05-22,,,released
+1000000763,,,Nowon-gu,Itaewon Clubs,,,2020-05-23,,,released
+1000000764,,,Jungnang-gu,Itaewon Clubs,,,2020-05-23,,,isolated
+1000000765,,,Gwanak-gu,Itaewon Clubs,,,2020-05-23,,,released
+1000000766,,,Gangbuk-gu,overseas inflow,,,2020-05-23,,,released
+1000000767,,,etc,contact with patient,,,2020-05-23,,,isolated
+1000000768,,,Gangdong-gu,overseas inflow,,,2020-05-23,,,released
+1000000770,male,60s,Seongdong-gu,Itaewon Clubs,,,2020-05-24,,,released
+1000000769,,,Gwanak-gu,Itaewon Clubs,,,2020-05-24,,,released
+1000000771,,,Yeongdeungpo-gu,Itaewon Clubs,,,2020-05-24,,,released
+1000000772,,,Yeongdeungpo-gu,,,,2020-05-24,,,released
+1000000773,,,Gangbuk-gu,Itaewon Clubs,,,2020-05-24,,,released
+1000000774,,,Gangbuk-gu,Itaewon Clubs,,,2020-05-24,,,released
+1000000775,,,Jungnang-gu,Itaewon Clubs,,,2020-05-24,,,isolated
+1000000783,,,Gangdong-gu,Itaewon Clubs,,,2020-05-25,,,released
+1000000781,female,50s,Seongdong-gu,Itaewon Clubs,,,2020-05-25,,,released
+1000000782,,,Guro-gu,Itaewon Clubs,,,2020-05-25,,,released
+1000000780,male,70s,Seongdong-gu,Itaewon Clubs,,,2020-05-25,,,released
+1000000777,,,Gangseo-gu,contact with patient,,,2020-05-25,,,released
+1000000778,,,Nowon-gu,overseas inflow,,,2020-05-25,,,released
+1000000776,,,Dobong-gu,contact with patient,,,2020-05-25,,,released
+1000000779,male,60s,Seongdong-gu,Itaewon Clubs,,,2020-05-25,,,released
+1000000803,,,Gwanak-gu,KB Life Insurance,,,2020-05-26,,,released
+1000000801,,,Gangseo-gu,,,,2020-05-26,,,released
+1000000800,,,Gangseo-gu,Coupang Logistics Center,,,2020-05-26,,,released
+1000000799,,,Gwanak-gu,Coupang Logistics Center,,,2020-05-26,,,released
+1000000798,,,etc,Guri Collective Infection,,,2020-05-26,,,released
+1000000796,,,Eunpyeong-gu,Coupang Logistics Center,,,2020-05-26,,,released
+1000000795,,,Eunpyeong-gu,,,,2020-05-26,,,released
+1000000794,,,Dobong-gu,contact with patient,,,2020-05-26,,,isolated
+1000000793,,,Nowon-gu,contact with patient,,,2020-05-26,,,released
+1000000797,,,Guro-gu,Coupang Logistics Center,,,2020-05-26,,,released
+1000000791,,,Seongdong-gu,Itaewon Clubs,,,2020-05-26,,,released
+1000000790,,,Seongdong-gu,Itaewon Clubs,,,2020-05-26,,,released
+1000000789,,,Seongdong-gu,Itaewon Clubs,,,2020-05-26,,,released
+1000000788,,,Seongdong-gu,Itaewon Clubs,,,2020-05-26,,,released
+1000000787,,,Seongdong-gu,Itaewon Clubs,,,2020-05-26,,,released
+1000000786,,,Seongdong-gu,Itaewon Clubs,,,2020-05-26,,,released
+1000000785,,,Seongdong-gu,Itaewon Clubs,,,2020-05-26,,,released
+1000000784,,,Seongdong-gu,Itaewon Clubs,,,2020-05-26,,,released
+1000000792,,,Geumcheon-gu,Itaewon Clubs,,,2020-05-26,,,released
+1000000817,,,Guro-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000818,,,Eunpyeong-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000819,,,Eunpyeong-gu,,1000000796,,2020-05-27,,,released
+1000000820,,,Gangdong-gu,,,2020-05-21,2020-05-27,,,released
+1000000821,,,Gwanak-gu,KB Life Insurance,,,2020-05-27,,,released
+1000000825,,,Gangseo-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000823,,,Gangbuk-gu,,,,2020-05-27,,,isolated
+1000000846,,,etc,KB Life Insurance,,,2020-05-27,,,released
+1000000816,,,Guro-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000826,female,50s,Yangcheon-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000822,,,Guro-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000815,,,Songpa-gu,Coupang Logistics Center,,,2020-05-27,,,isolated
+1000000824,,,Gangseo-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000813,,,etc,Guri Collective Infection,,,2020-05-27,,,released
+1000000814,,,Yeongdeungpo-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000804,,,Dongjak-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000805,,,Gangseo-gu,Coupang Logistics Center,,,2020-05-27,,,released
+1000000806,,,Gwangjin-gu,Itaewon Clubs,,,2020-05-27,,,released
+1000000807,,,Seongdong-gu,Itaewon Clubs,,2020-05-24,2020-05-27,,,released
+1000000802,,,Gangseo-gu,Coupang Logistics Center,,,2020-05-27,,,isolated
+1000000809,,,Mapo-gu,overseas inflow,,,2020-05-27,,,released
+1000000810,,,Seongdong-gu,Itaewon Clubs,,2020-05-24,2020-05-27,,,released
+1000000811,,,Seodaemun-gu,overseas inflow,,,2020-05-27,,,released
+1000000812,,,Seongdong-gu,Itaewon Clubs,,,2020-05-27,,,released
+1000000808,,,etc,Guri Collective Infection,,,2020-05-27,,,isolated
+1000000838,,,Jung-gu,KB Life Insurance,,,2020-05-28,,,released
+1000000845,,,Yeongdeungpo-gu,Yeongdeungpo Learning Institute,,,2020-05-28,,,released
+1000000844,,,Yeongdeungpo-gu,Yeongdeungpo Learning Institute,,,2020-05-28,,,released
+1000000843,,,Songpa-gu,Biblical Language study meeting,,2020-05-26,2020-05-28,,,released
+1000000842,,,Seodaemun-gu,KB Life Insurance,,,2020-05-28,,,released
+1000000841,,,etc,Guri Collective Infection,,,2020-05-28,,,isolated
+1000000840,,,Geumcheon-gu,Coupang Logistics Center,,,2020-05-28,,,isolated
+1000000839,,,Dongjak-gu,KB Life Insurance,,,2020-05-28,,,released
+1000000837,,,Gangseo-gu,Coupang Logistics Center,,,2020-05-28,,,released
+1000000836,,,Seongdong-gu,Itaewon Clubs,,2020-05-25,2020-05-28,,,released
+1000000835,,,Seongdong-gu,Itaewon Clubs,,,2020-05-28,,,released
+1000000834,,,Gangbuk-gu,Korea Campus Crusade of Christ,,,2020-05-28,,,released
+1000000833,,,Gangseo-gu,overseas inflow,,,2020-05-28,,,released
+1000000832,,,etc,,,,2020-05-28,,,isolated
+1000000831,,,Mapo-gu,Gangnam Dongin Church,,,2020-05-28,,,released
+1000000830,,,Mapo-gu,KB Life Insurance,,,2020-05-28,,,released
+1000000829,,,Seodaemun-gu,KB Life Insurance,,,2020-05-28,,,released
+1000000828,,,Gangseo-gu,Coupang Logistics Center,,,2020-05-28,,,released
+1000000827,,,Gangseo-gu,Coupang Logistics Center,,,2020-05-28,,,released
+1000000855,,,Eunpyeong-gu,Korea Campus Crusade of Christ,,,2020-05-29,,,released
+1000000854,,,Seodaemun-gu,Yeonana News Class,,,2020-05-29,,,released
+1000000853,,,Gangnam-gu,Guri Collective Infection,,,2020-05-29,,,released
+1000000852,,,Dobong-gu,overseas inflow,,,2020-05-29,,,released
+1000000847,,,Jongno-gu,Korea Campus Crusade of Christ,,,2020-05-29,,,released
+1000000850,,,Seongbuk-gu,,,,2020-05-29,,,released
+1000000849,,,Seongdong-gu,,,,2020-05-29,,,released
+1000000848,,,Songpa-gu,Biblical Language study meeting,,,2020-05-29,,,released
+1000000851,,,Gangnam-gu,overseas inflow,,,2020-05-29,,,released
+1000000861,,,Yeongdeungpo-gu,Yeonana News Class,,,2020-05-30,,,released
+1000000860,,,Yeongdeungpo-gu,Yeonana News Class,,2020-05-28,2020-05-30,,,released
+1000000859,,,Yeongdeungpo-gu,Yeonana News Class,,2020-05-27,2020-05-30,,,released
+1000000858,,,Seodaemun-gu,overseas inflow,,,2020-05-30,,,released
+1000000857,,,Gangseo-gu,,,,2020-05-30,,,released
+1000000856,,,Gangseo-gu,Korea Campus Crusade of Christ,,,2020-05-30,,,released
+1000000862,,,Gangnam-gu,overseas inflow,,,2020-05-31,,,released

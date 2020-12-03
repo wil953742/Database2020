@@ -1,12 +1,37 @@
 import React, { useState } from "react";
 import styles from "../CSS/component.module.css";
 import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 export const SubmitterNew =  ({task })  => {
-  const Apply = () => {
-    
-  };
+  var logInfo;
+  var history = useHistory();
+  const loggedIn = localStorage.getItem("user");
+  if (loggedIn) {
+    logInfo = JSON.parse(loggedIn);
+  } else {
+    history.push("/");
+  }
+  console.log(logInfo);
 
+  const SubmitterID = logInfo.accountID;
+  const TaskID = task.taskID;
+
+  const axios = require('axios');
+  const Apply = async () => {
+    await axios.post(`/api/apply/${SubmitterID}/${TaskID}`, {
+      SubmitterID : SubmitterID,
+      TaskID : TaskID 
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error){
+      console.log(error);
+    });
+  };
+  
+  
   return (
     <div>
       <div className={styles.row_container}>

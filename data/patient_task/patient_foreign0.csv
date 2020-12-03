@@ -1,0 +1,10 @@
+patient_id,sex,age,country,province,city,infection_case,contact_number,confirmed_date,released_date,state
+2000000003,male,40s,China,Gyeonggi-do,Bucheon-si,contact with patient,422,2020-02-01,2020-02-18,released
+2000000004,female,40s,China,Gyeonggi-do,Goyang-si,contact with patient,3,2020-02-02,2020-02-18,released
+1000000011,female,50s,China,Seoul,Seodaemun-gu,overseas inflow,23,2020-02-06,2020-02-29,released
+2000000010,female,30s,China,Gyeonggi-do,Siheung-si,overseas inflow,40,2020-02-09,2020-03-07,released
+2000000011,female,30s,China,Gyeonggi-do,Goyang-si,contact with patient,1,2020-02-10,2020-02-17,released
+1100000007,male,20s,China,Busan,,Shincheonji Church,485,2020-02-22,,released
+1000000030,male,60s,China,Seoul,Gangdong-gu,Eunpyeong St. Mary's Hospital,,2020-02-23,,released
+1000000039,female,70s,China,Seoul,Geumcheon-gu,overseas inflow,,2020-02-25,,released
+2000000039,male,30s,Mongolia,Gyeonggi-do,Namyangju-si,etc,,2020-02-25,,deceased

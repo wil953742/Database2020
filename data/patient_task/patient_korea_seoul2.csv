@@ -1,0 +1,159 @@
+patient_id,sex,age,city,infection_case,contact_number,symptom_onset_date,confirmed_date,released_date,deceased_date,state
+1000000193,male,20s,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000350,male,30s,Dongjak-gu,overseas inflow,,,2020-03-25,,,released
+1000000454,female,40s,Mapo-gu,overseas inflow,,,2020-03-31,,,released
+1000000487,male,10s,etc,overseas inflow,,,2020-04-01,,,released
+1000000491,male,50s,Yangcheon-gu,contact with patient,,,2020-04-01,,,released
+1000000490,female,20s,Songpa-gu,overseas inflow,,,2020-04-01,,,released
+1000000489,female,0s,etc,overseas inflow,,,2020-04-01,,,released
+1000000488,female,50s,Yangcheon-gu,etc,,,2020-04-01,,,released
+1000000486,female,20s,Gwangjin-gu,overseas inflow,,,2020-04-01,,,released
+1000000481,female,0s,etc,overseas inflow,,,2020-04-01,,,released
+1000000484,female,20s,Seocho-gu,overseas inflow,,,2020-04-01,,,released
+1000000483,male,30s,Seocho-gu,contact with patient,,2020-03-27,2020-04-01,,,released
+1000000482,female,30s,Dongjak-gu,overseas inflow,,,2020-04-01,,,released
+1000000480,female,30s,etc,overseas inflow,,,2020-04-01,,,released
+1000000479,male,30s,etc,overseas inflow,,,2020-04-01,,,released
+1000000478,male,40s,Mapo-gu,overseas inflow,,,2020-04-01,,,released
+1000000477,female,30s,Dongdaemun-gu,overseas inflow,,,2020-04-01,,,released
+1000000485,female,30s,etc,overseas inflow,,,2020-04-01,,,released
+1000000509,female,80s,Seodaemun-gu,overseas inflow,,,2020-04-01,,,released
+1000000506,male,20s,Gwanak-gu,overseas inflow,,,2020-04-02,,,released
+1000000500,female,60s,Eunpyeong-gu,overseas inflow,,,2020-04-02,,,released
+1000000511,female,30s,Seocho-gu,overseas inflow,,,2020-04-02,,,released
+1000000529,male,40s,Guro-gu,etc,,,2020-04-02,,,released
+1000000530,male,40s,Gangdong-gu,overseas inflow,,,2020-04-02,,,released
+1000000505,female,30s,Nowon-gu,overseas inflow,,,2020-04-02,,,released
+1000000510,female,50s,Seongdong-gu,contact with patient,,,2020-04-02,,,released
+1000000504,female,20s,etc,overseas inflow,1,2020-03-27,2020-04-02,,,released
+1000000496,female,40s,Yongsan-gu,overseas inflow,,,2020-04-02,,,released
+1000000502,female,20s,Gangnam-gu,overseas inflow,3,,2020-04-02,,,released
+1000000501,male,70s,Eunpyeong-gu,overseas inflow,,,2020-04-02,,,released
+1000000498,female,50s,Gwanak-gu,etc,,,2020-04-02,,,released
+1000000497,female,10s,Yongsan-gu,overseas inflow,,,2020-04-02,,,released
+1000000503,female,30s,Gangnam-gu,contact with patient,1,,2020-04-02,,,released
+1000000495,female,30s,Gwanak-gu,overseas inflow,,,2020-04-02,,,released
+1000000494,male,60s,Yangcheon-gu,contact with patient,,,2020-04-02,,,released
+1000000492,female,20s,Jungnang-gu,overseas inflow,,,2020-04-02,,,released
+1000000493,female,20s,Seocho-gu,overseas inflow,,2020-04-01,2020-04-02,,,released
+1000000526,male,20s,Songpa-gu,overseas inflow,,,2020-04-03,,,released
+1000000527,female,20s,Seocho-gu,overseas inflow,,,2020-04-03,,,released
+1000000528,female,60s,Eunpyeong-gu,etc,,,2020-04-03,,,released
+1000000532,female,40s,Gangdong-gu,overseas inflow,,,2020-04-03,,,released
+1000000525,female,40s,Gangnam-gu,etc,,,2020-04-03,,,released
+1000000533,female,20s,Dongjak-gu,contact with patient,,,2020-04-03,,,released
+1000000531,male,20s,Songpa-gu,overseas inflow,,,2020-04-03,,,released
+1000000524,male,0s,Dongdaemun-gu,overseas inflow,,,2020-04-03,,,released
+1000000523,female,70s,Gangnam-gu,overseas inflow,1,,2020-04-03,,,released
+1000000513,female,60s,Gangnam-gu,contact with patient,1,,2020-04-03,,,released
+1000000521,male,20s,Gangnam-gu,overseas inflow,,,2020-04-03,,,released
+1000000520,female,20s,Seocho-gu,overseas inflow,,,2020-04-03,,,released
+1000000519,male,30s,Songpa-gu,overseas inflow,,,2020-04-03,,,released
+1000000518,female,20s,Songpa-gu,contact with patient,,,2020-04-03,,,released
+1000000517,male,80s,Seodaemun-gu,contact with patient,,,2020-04-03,,,released
+1000000516,female,30s,Dongjak-gu,overseas inflow,,,2020-04-03,,,released
+1000000515,male,30s,Dongjak-gu,overseas inflow,,,2020-04-03,,,released
+1000000514,female,30s,Dobong-gu,overseas inflow,,,2020-04-03,,,released
+1000000522,female,20s,Gangnam-gu,overseas inflow,2,,2020-04-03,,,released
+1000000512,female,70s,Nowon-gu,contact with patient,,,2020-04-03,,,released
+1000000546,male,20s,Songpa-gu,overseas inflow,,,2020-04-04,,,released
+1000000547,male,30s,Songpa-gu,overseas inflow,,,2020-04-04,,,released
+1000000548,male,10s,Gangnam-gu,overseas inflow,,,2020-04-04,,,released
+1000000545,female,50s,Songpa-gu,contact with patient,,,2020-04-04,,,released
+1000000550,female,40s,etc,contact with patient,,,2020-04-04,,,released
+1000000551,male,70s,Eunpyeong-gu,contact with patient,,,2020-04-04,,,released
+1000000553,female,20s,Eunpyeong-gu,overseas inflow,,,2020-04-04,,,released
+1000000549,male,30s,Gangnam-gu,overseas inflow,1,,2020-04-04,,,released
+1000000544,female,20s,Seodaemun-gu,overseas inflow,,,2020-04-04,,,released
+1000000539,female,30s,Gwanak-gu,overseas inflow,,,2020-04-04,,,released
+1000000542,male,20s,Gangseo-gu,overseas inflow,,,2020-04-04,,,released
+1000000541,female,50s,Jungnang-gu,contact with patient,,,2020-04-04,,,released
+1000000540,female,50s,Gwanak-gu,etc,,,2020-04-04,,,released
+1000000538,male,50s,Dongdaemun-gu,contact with patient,,,2020-04-04,,,released
+1000000537,male,30s,Seongbuk-gu,contact with patient,,,2020-04-04,,,released
+1000000536,male,20s,Seodaemun-gu,overseas inflow,,,2020-04-04,,,released
+1000000535,male,30s,Mapo-gu,overseas inflow,,,2020-04-04,,,released
+1000000534,female,20s,Yongsan-gu,contact with patient,,2020-03-28,2020-04-04,,,released
+1000000543,female,30s,Dongdaemun-gu,overseas inflow,,,2020-04-04,,,released
+1000000563,male,40s,etc,overseas inflow,2,,2020-04-05,,,released
+1000000562,female,20s,Gangdong-gu,overseas inflow,,,2020-04-05,,,released
+1000000561,female,30s,Yeongdeungpo-gu,overseas inflow,,,2020-04-05,,,released
+1000000560,female,60s,Songpa-gu,contact with patient,,2020-03-23,2020-04-05,,,released
+1000000558,male,50s,Gwanak-gu,contact with patient,,,2020-04-05,,,released
+1000000559,female,20s,Yongsan-gu,overseas inflow,,,2020-04-05,,,released
+1000000556,female,20s,Yongsan-gu,overseas inflow,,,2020-04-05,,,released
+1000000555,female,20s,Seongbuk-gu,overseas inflow,,,2020-04-05,,,released
+1000000554,female,20s,Seongbuk-gu,overseas inflow,,,2020-04-05,,,released
+1000000552,male,30s,Yeongdeungpo-gu,etc,,,2020-04-05,,,released
+1000000557,male,20s,Gangseo-gu,overseas inflow,,,2020-04-05,,,released
+1000000564,,,Jungnang-gu,etc,,,2020-04-06,,,released
+1000000565,,,Seongdong-gu,overseas inflow,,,2020-04-06,,,released
+1000000566,,,Gwanak-gu,overseas inflow,,,2020-04-06,,,released
+1000000567,,,Gangnam-gu,overseas inflow,,,2020-04-06,,,released
+1000000568,,,Nowon-gu,overseas inflow,,,2020-04-06,,,released
+1000000569,,,Gangnam-gu,overseas inflow,,,2020-04-06,,,released
+1000000591,,,Gangnam-gu,contact with patient,,,2020-04-06,,,released
+1000000598,,,etc,overseas inflow,,,2020-04-06,,,released
+1000000577,,,Dongdaemun-gu,overseas inflow,,,2020-04-07,,,released
+1000000578,,,Gangnam-gu,overseas inflow,,,2020-04-07,,,released
+1000000576,,,Seocho-gu,overseas inflow,,,2020-04-07,,,released
+1000000579,,,Seongdong-gu,overseas inflow,,,2020-04-07,,,released
+1000000574,,,Yeongdeungpo-gu,overseas inflow,,,2020-04-07,,,released
+1000000570,,,Gangseo-gu,overseas inflow,,,2020-04-07,,,released
+1000000571,,,Seongbuk-gu,overseas inflow,,,2020-04-07,,,released
+1000000575,,,Seocho-gu,etc,,,2020-04-07,,,released
+1000000573,,,Seocho-gu,etc,,,2020-04-07,,,released
+1000000572,,,Seongbuk-gu,contact with patient,,,2020-04-07,,,released
+1000000580,,,Dobong-gu,overseas inflow,,,2020-04-08,,,released
+1000000581,,,Mapo-gu,overseas inflow,,,2020-04-08,,,released
+1000000582,,,Mapo-gu,overseas inflow,,,2020-04-08,,,released
+1000000583,,,Mapo-gu,overseas inflow,,,2020-04-08,,,released
+1000000584,,,Seocho-gu,overseas inflow,,,2020-04-08,,,released
+1000000585,,,Seocho-gu,overseas inflow,,2020-03-24,2020-04-08,,,released
+1000000586,,,Seongdong-gu,etc,,2020-04-05,2020-04-08,,,released
+1000000587,,,Dongjak-gu,contact with patient,,,2020-04-08,,,released
+1000000588,,,Yeongdeungpo-gu,overseas inflow,,,2020-04-08,,,released
+1000000589,,,Gangnam-gu,overseas inflow,,,2020-04-08,,,released
+1000000590,,,Gangnam-gu,overseas inflow,,,2020-04-08,,,released
+1000000596,,,Gangnam-gu,overseas inflow,,,2020-04-09,,,released
+1000000595,,,Seongbuk-gu,etc,,,2020-04-09,,,released
+1000000593,,,Gwangjin-gu,overseas inflow,,,2020-04-09,,,released
+1000000592,,,Seongdong-gu,overseas inflow,,,2020-04-09,,,released
+1000000594,,,Seongdong-gu,contact with patient,,2020-04-07,2020-04-09,,,released
+1000000597,,,Yangcheon-gu,overseas inflow,,,2020-04-10,,,released
+1000000599,,,Gangnam-gu,contact with patient,,,2020-04-10,,,released
+1000000600,,,Gangnam-gu,overseas inflow,,,2020-04-10,,,released
+1000000601,,,Gwanak-gu,etc,,,2020-04-11,,,released
+1000000602,,,Eunpyeong-gu,contact with patient,,,2020-04-11,,,released
+1000000610,,,Eunpyeong-gu,contact with patient,,,2020-04-12,,,released
+1000000609,,,Dobong-gu,contact with patient,,,2020-04-12,,,released
+1000000608,,,Songpa-gu,overseas inflow,,,2020-04-12,,,released
+1000000607,,,Seongdong-gu,overseas inflow,,,2020-04-12,,,released
+1000000605,,,Seongdong-gu,overseas inflow,,,2020-04-12,,,released
+1000000604,,,Seongdong-gu,overseas inflow,,,2020-04-12,,,released
+1000000603,,,Dongjak-gu,overseas inflow,,,2020-04-12,,,released
+1000000606,,,Seongdong-gu,overseas inflow,,,2020-04-12,,,released
+1000000611,,,Seongdong-gu,overseas inflow,,,2020-04-13,,,released
+1000000612,,,Seongdong-gu,overseas inflow,,,2020-04-13,,,released
+1000000613,,,Seongbuk-gu,contact with patient,,2020-04-12,2020-04-13,,,released
+1000000617,,,Seocho-gu,overseas inflow,,,2020-04-14,,,released
+1000000616,,,Seocho-gu,overseas inflow,,,2020-04-14,,,released
+1000000615,,,Dongjak-gu,overseas inflow,,,2020-04-14,,,released
+1000000614,,,Seongdong-gu,overseas inflow,,,2020-04-14,,,released
+1000000618,,,Jung-gu,contact with patient,,,2020-04-15,,,released
+1000000619,,,Seodaemun-gu,overseas inflow,,,2020-04-15,,,released
+1000000620,,,Gangnam-gu,contact with patient,,,2020-04-16,,,released
+1000000621,,,Yongsan-gu,overseas inflow,,,2020-04-17,,,released
+1000000622,,,Seongbuk-gu,overseas inflow,,,2020-04-17,,,released
+1000000623,,,Gangnam-gu,overseas inflow,0,,2020-04-17,,,released
+1000000624,,,Gangnam-gu,overseas inflow,1,,2020-04-18,,,released
+1000000625,,,Gangseo-gu,,,,2020-04-19,,,released
+1000000626,,,Mapo-gu,overseas inflow,,,2020-04-20,,,released
+1000000627,,,Mapo-gu,overseas inflow,,,2020-04-21,,,released
+1000000628,,,etc,overseas inflow,,,2020-04-21,,,released
+1000000629,,,etc,overseas inflow,,,2020-04-24,,,released
+1000000630,,,Seongbuk-gu,overseas inflow,,,2020-04-27,,,released
+1000000631,,,Gangnam-gu,overseas inflow,2,,2020-04-27,,,released
+1000000632,,,Gwanak-gu,overseas inflow,,,2020-04-27,,,released
+1000000633,,,Gangnam-gu,overseas inflow,3,,2020-04-27,,,released
+1000000634,,,Seodaemun-gu,overseas inflow,,,2020-04-30,,,released

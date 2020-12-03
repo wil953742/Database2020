@@ -1,0 +1,6 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+53,Incheon,from other city,Coupang Logistics Center,42,-,-
+54,Incheon,from other city,Guro-gu Call Center,20,-,-
+55,Incheon,from other city,Shincheonji Church,2,-,-
+56,Daejeon,-,Door-to-door sales in Daejeon,55,-,-
+57,Daejeon,Seo-gu,Dunsan Electronics Town,13,36.3400973,127.3927099

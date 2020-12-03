@@ -1,0 +1,17 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+88,Gangwon-do,Wonju-si,Wonju-si Apartments,4,37.342762,127.983815
+89,Gangwon-do,from other city,Richway,4,-,-
+90,Gangwon-do,from other city,Geumcheon-gu rice milling machine manufacture,4,-,-
+91,Chungcheongbuk-do,Goesan-gun,Goesan-gun Jangyeon-myeon,11,36.82422,127.9552
+92,Chungcheongbuk-do,from other city,Itaewon Clubs,9,-,-
+93,Chungcheongbuk-do,from other city,Guro-gu Call Center,2,-,-
+94,Chungcheongbuk-do,from other city,Shincheonji Church,6,-,-
+95,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,103,36.81503,127.1139
+96,Chungcheongnam-do,from other city,Door-to-door sales in Daejeon,10,-,-
+97,Chungcheongnam-do,Seosan-si,Seosan-si Laboratory,9,37.000354,126.354443
+98,Chungcheongnam-do,from other city,Richway,3,-,-
+99,Chungcheongnam-do,from other city,Eunpyeong-Boksagol culture center,3,-,-
+100,Jeollabuk-do,from other city,Itaewon Clubs,2,-,-
+101,Jeollabuk-do,from other city,Door-to-door sales in Daejeon,3,-,-
+102,Jeollabuk-do,from other city,Shincheonji Church,1,-,-
+103,Jeollanam-do,Muan-gun,Manmin Central Church,2,35.078825,126.316746
