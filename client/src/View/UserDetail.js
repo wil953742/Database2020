@@ -48,7 +48,7 @@ const UserDetail = (props) => {
     };
     setLoading(true);
     fetchMain();
-    // fetchContent();
+    fetchContent();
   }, []);
 
   useEffect(() => {
