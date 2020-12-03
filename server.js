@@ -253,17 +253,39 @@ app.get(`/api/submittedTasklist/4/:sid/:tid`, (req, res) => { // 파일목록
   const sid = req.params.sid;
   const tid = req.params.tid;
   connection.query(
-    `SELECT Direc AS fileName, QualityScore AS fileScore, RawDataTypeID AS fileType, Turn AS fileDate,PNP AS filePNP\
-    FROM PARSING_DATA_SEQUENCE_FILE, QUALITY_TEST, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE \
-    WHERE ParsingDataSequenceFileID=ParsingDataSequenceFileID2 AND RawDataSequenceFileID=BeforeRawDataSequenceFileID \
-    AND RawDataTypeID=BelongsRawDataTypeID AND RDSFSubmitterID=${sid} AND CollectedTaskID=${tid}`,
+    `SELECT Direc         AS fileName, 
+            QualityScore  AS fileScore, 
+            RawDataTypeID AS fileType, 
+            Turn          AS fileDate,
+            PNP           AS filePNP
+    
+    FROM PARSING_DATA_SEQUENCE_FILE, QUALITY_TEST, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE
+    
+    WHERE ParsingDataSequenceFileID = ParsingDataSequenceFileID2 
+      AND RawDataSequenceFileID     = BeforeRawDataSequenceFileID 
+      AND RawDataTypeID             = BelongsRawDataTypeID 
+      AND RDSFSubmitterID           = ${sid} 
+      AND CollectedTaskID           = ${tid}`,
     (err, rows, fields) => {
       res.send(rows);
     }
   );
 });
 
-app.post(`/api/apply/:SubmitterID/:TaskID`, (req, res) => {
+app.get(`/api/submittedTasklist/4/:tid`, (req, res) => { // 파일목록
+  const tid = req.params.tid;
+  connection.query(
+    `SELECT Name, Description
+      FROM TASK
+      WHERE TaskID = ${tid};`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
+
+app.post(`/api/apply/:SubmitterID/:TaskID`, (req, res) => { // 제출자가 특정 Task에 참가 신청 (APPLY)
   const SubmitterID = req.body.SubmitterID;
   const TaskID = req.body.TaskID;
   connection.query(

@@ -9,10 +9,9 @@ import { SubmitterTaskRowNav } from "../Components/SubmitterTaskRowNav";
 import { SubmitterTaskRow } from "../Components/SubmitterTaskRow";
 import { SubmitterSubmit } from "../Components/SubmitterSubmit";
 import { Nav } from "../Components/Nav";
+import { useForkRef } from "@material-ui/core";
 
-export const SubmitterTaskView = ({task}) => {
-  console.log(task);
-  
+export const SubmitterTaskView = () => {
   var logInfo;
   var history = useHistory();
   const loggedIn = localStorage.getItem("user");
@@ -22,13 +21,12 @@ export const SubmitterTaskView = ({task}) => {
     history.push("/");
   }
   
-
-
   let location = useLocation();
   let tid = location.pathname.split('/')[2];
-
+  
   const axios = require("axios").default;
   const [data, setData] = useState();
+  const [taskInfo, setTaskInfo] = useState();
   const [taskList, setTaskList] = useState([]);
 
   const [togglePopUp, setTogglePopUp] = useState(false);
@@ -38,17 +36,19 @@ export const SubmitterTaskView = ({task}) => {
   };
   
   const url = "/api/submittedTasklist/";
-  const url2 = url+'4/'+`${logInfo.accountID}/${tid}`;
-  //console.log(url2);
   useEffect(() => {
     async function fetchData() {
       await axios.get(url+'4/'+`${logInfo.accountID}/${tid}`).then((res) => {
         setData(res.data);
       });
+      await axios.get(url+'4/'+`${tid}`).then((res) => {
+        setTaskInfo(res.data);
+      });
     }
     fetchData();
   }, []);
 
+  
   useEffect(() => {
     if (!data) return;
     var list = [];
@@ -60,18 +60,11 @@ export const SubmitterTaskView = ({task}) => {
           data[i].fileType,
           data[i].fileDate,
           data[i].filePNP
-            
           )
       );
     }
     setTaskList(list);
-    console.log(data);  
-
   }, [data]);
-
-
-
-  
 
   return (
     <div className={styles.center_all}>
@@ -99,8 +92,8 @@ export const SubmitterTaskView = ({task}) => {
       {togglePopUp && (
       <SubmitterSubmit
         setTogglePopUp={setTogglePopUp}
-        // taskID={taskID}
-        // taskDesc={taskDesc}
+        taskName={taskInfo[0].Name}
+        taskDesc={taskInfo[0].Description}
       />)
       }
     </div>
