@@ -3,7 +3,7 @@ import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { IconButton } from "@material-ui/core";
 import styles2 from "../CSS/mainstyle.module.css";
-import Axios from "axios";
+
 
 export const EstimatorEstimate = ({ record, setTogglePopUp }) => {
   const [score, setScore] = useState(0);

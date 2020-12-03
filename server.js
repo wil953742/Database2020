@@ -1,7 +1,7 @@
 const fs = require("fs");
 const express = require("express");
 const bodyParser = require("body-parser");
-var multer = require('multer');
+
 // const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 5000;
@@ -365,7 +365,20 @@ app.post(`/api/Estimator/estimate/:ParsingDataSequenceFileID2`, (req, res) => {
   });
 });
 
-var upload = multer({dest : 'uploads/'});
+const multer = require('multer');
+const upload = multer({dest : 'uploads'});
+
+app.use('/uploads', express.static('uploads'));
+app.post(`/api/file`, upload.single('myfile'), (req, res) => {
+  let file = req.body.file;
+  // console.log(file);
+  // console.log(req.file);
+  console.log(req.body);
+  let sql = 'SELECT * FROM ACCOUNT;';
+  connection.query(sql, (err, rows, fields) => {
+    res.send(rows);
+  });
+});
 
 
 app.listen(port, () => console.log(`Listening on port ${port}`));

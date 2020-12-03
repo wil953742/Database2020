@@ -2,6 +2,7 @@ import React, { useState, Component } from "react";
 import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { colors, IconButton } from "@material-ui/core";
+import { parse } from 'papaparse';
 
 import Select from 'react-select';
 
@@ -17,21 +18,28 @@ export const SubmitterSubmit = ({
   ];
 
   const [highlighted, setHighlighted] = React.useState(false);
-  console.log('dasfasd');
-  console.log(taskName);
-  console.log(taskDesc);
-
+  
+  var lst = [];
   const axios = require('axios').default;
+  // const parse = require('csv-parse');
+
+  const [file, setFile] = useState([]);
+  
   const Upload = async () => {
     // process uploading
-    await axios.post('/filesdfsdfsdf', {
-      // file : text
-      
-      
+    await axios.post('/api/file', {
+      file : file
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error)  {
+      console.log(error);
     });
-
+    
     setTogglePopUp(false);
   };
+
   return (
     <div className={styles.popup_sub}>      
       <IconButton
@@ -68,15 +76,21 @@ export const SubmitterSubmit = ({
           setHighlighted(false);
 
           Array.from(e.dataTransfer.files)
-            .forEach((file) => {
-              const text = file;
+            .filter((file) => file.type === 'text/csv') 
+            .forEach(async (file) => {
+              const text = await file.text();
+              const result = parse(text, { header : true});            
               console.log(text);
+              console.log(result);
+              setFile((existing) => [...existing, ...result.data]);
             });
         }}
       >
         제출할 파일을 끌어다 놓으시오.
       </div>
+      
 
+      
       <div className={styles.info}>
       <h3>Row Data Type</h3>
 
