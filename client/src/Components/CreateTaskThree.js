@@ -10,12 +10,12 @@ import { Schema } from "../Components/Schema";
 import { useHistory } from "react-router-dom";
 
 export const CreateTaskThree = ({ setStep, newTask }) => {
-  // const axios = require("axios").default;
+  const axios = require("axios").default;
   const [name, setName] = useState();
   const [num, setNum] = useState(2);
   const [row, setRow] = useState([1]);
   const [pairList, setPairList] = useState([new RPair()]);
-  // var history = useHistory();
+  var history = useHistory();
 
   const handleRemove = () => {
     if (num === 1) {
@@ -24,6 +24,16 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
     setNum(num - 1);
     setRow(row.filter((item) => item !== num - 1));
     setPairList(pairList.slice(0, -1));
+  };
+
+  const createTDT = async () => {
+    console.log(newTask);
+    await axios
+      .post("/api/Admin/CreateTDT", 
+      { newTask : newTask })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   const handleNewRDT = () => {
@@ -45,28 +55,19 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
     alert("원본 타입이 추가되었습니다.");
   };
 
-  // const createTDT = async () => {
-  //   console.log(newTask);
-  //   await axios
-  //     .post("/api/Admin/CreateTDT", {
-  //       list: newTask.TDTSchema.list,
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // };
+  
 
   const handleComplete = () => {
     console.log(newTask);
-    //   if (!(name === "" || name === undefined || name === null)) {
-    //     handleNewRDT();
-    //   }
-    //   console.log(newTask.TDTSchema.list);
-    //   createTDT();
-    //   // console.log(newTask);
-    //   // console.log(JSON.stringify(newTask.TDTSchema.list));
-    //   // history.push("/");
-    //   alert("태스크가 생성되었습니다.");
+    if (!(name === "" || name === undefined || name === null)) {
+      handleNewRDT();
+    }
+    console.log(newTask.TDTSchema.list);
+    createTDT();
+    console.log(newTask);
+    console.log(JSON.stringify(newTask.TDTSchema.list));
+    history.push("/");
+    alert("태스크가 생성되었습니다.");
   };
 
   return (
