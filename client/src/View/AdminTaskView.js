@@ -6,6 +6,7 @@ import { TaskUser } from "../Components/classes";
 import { AdminParticipantRowNav } from "../Components/AdminParticipantRowNav";
 import { AdminParticipantRow } from "../Components/AdminParticipantRow";
 import { AdminNav } from "../Components/AdminNav";
+import { Loading } from "../Components/Loading";
 
 const AdminTaskView = (props) => {
   const task = props.location.task;
@@ -14,6 +15,7 @@ const AdminTaskView = (props) => {
   const [userList, setUserList] = useState([]);
   const [userData, setUserData] = useState();
   const [reload, setReload] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   var logInfo;
   var history = useHistory();
@@ -26,15 +28,19 @@ const AdminTaskView = (props) => {
 
   useEffect(() => {
     async function fetchUserData() {
-      await axios.get(url).then((res) => {
-        setUserData(res.data);
-      });
+      await axios
+        .get(url)
+        .then((res) => {
+          setUserData(res.data);
+        })
+        .catch((err) => console.log(err));
     }
     fetchUserData();
   }, [reload, props]);
 
   useEffect(() => {
     if (!userData) return;
+    setLoading(false);
     if (userData.length === 0) return;
     var list = [];
     for (let i = 0; i < userData.length; i++) {
@@ -57,6 +63,7 @@ const AdminTaskView = (props) => {
       );
     }
     setUserList(list);
+    setLoading(false);
   }, [userData]);
 
   return (
@@ -152,26 +159,35 @@ const AdminTaskView = (props) => {
         </div>
         <div className={styles.main_container}>
           <div className={styles.sub_container_b}>
-            <AdminParticipantRowNav />
-            <div className={styles.scrollable_div} style={{ height: "100px" }}>
-              {userList.map((user) => (
-                <Link
-                  to={{
-                    pathname: `/UserDetail/${user.AccountID}`,
-                    user: user,
-                    taskID: task.taskID,
-                    newProps: props,
-                  }}
+            {loading && <Loading />}
+            {!loading && (
+              <div>
+                <AdminParticipantRowNav />
+                <div
+                  className={styles.scrollable_div}
+                  style={{ height: "100px" }}
                 >
-                  <AdminParticipantRow
-                    user={user}
-                    taskID={task.taskID}
-                    setReload={setReload}
-                    reload={reload}
-                  />
-                </Link>
-              ))}
-            </div>
+                  {userList.map((user) => (
+                    <Link
+                      to={{
+                        pathname: `/UserDetail/${user.AccountID}`,
+                        user: user,
+                        taskID: task.taskID,
+                        newProps: props,
+                      }}
+                    >
+                      <AdminParticipantRow
+                        key={user.AccountID}
+                        user={user}
+                        taskID={task.taskID}
+                        setReload={setReload}
+                        reload={reload}
+                      />
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

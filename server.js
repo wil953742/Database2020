@@ -89,6 +89,16 @@ app.get("/api/userTask", (req, res) => {
   );
 });
 
+app.get("/api/userList/task/:taskName", (req, res) => {
+  const taskName = req.params.taskName;
+  let url = `SELECT AccountID, A.Name, Role, BirthDate, Gender, UserID, T.Name\
+  FROM TASK AS T, ACCOUNT AS A, APPLY\
+  WHERE AccountID = AppliedSubmitterID AND TaskID = AppliedTaskID AND APPROVAL=1 AND T.Name = "${taskName}"`;
+  connection.query(url, (err, rows, fields) => {
+    res.send(rows);
+  });
+});
+
 app.get(`/api/userList/:category=:value`, (req, res) => {
   const category = req.params.category;
   const value = req.params.value;

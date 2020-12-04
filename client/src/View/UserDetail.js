@@ -43,10 +43,10 @@ const UserDetail = (props) => {
       await axios
         .get(`/api/UserDetail/content/${user.type}/${user.accountID}`)
         .then((res) => {
+          console.log(res);
           setContent(res.data);
         });
     };
-    setLoading(true);
     fetchMain();
     fetchContent();
   }, []);
@@ -82,8 +82,8 @@ const UserDetail = (props) => {
           userID={logInfo.userID}
         />
         {loading && <Loading />}
-        {!loading && (
-          <div className={styles.center_all}>
+        <div className={styles.center_all}>
+          {!loading && (
             <div className={styles.main_container}>
               {user.type === "제출자" && (
                 <div className={styles.mc}>
@@ -173,8 +173,8 @@ const UserDetail = (props) => {
                 </Link>
               )}
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );

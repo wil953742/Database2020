@@ -32,21 +32,14 @@ const AdminUserMng = () => {
     var value = source.value;
     var input;
     if (value === "task") {
-      if (!userList) return;
-      if (!value) return;
-      var newList = [];
-      for (let i = 0; i < userList.length; i++) {
-        if (userList[i].task.includes(text)) {
-          newList.push(userList[i]);
-        }
-      }
-      setUserList(newList);
+      input = text;
+      setURL(`api/userList/task/${input}`);
     } else if (value === "BirthDate") {
       input = calculateYear(text);
       setURL(`api/userList/${value}&${input}`);
     } else if (value === "Gender") {
       input = text === "남자" ? 0 : 1;
-      setURL(`api//${value}=${input}`);
+      setURL(`api/userList/${value}=${input}`);
     } else {
       if (value === "Role") {
         input = text === "제출자" ? "Submitter" : "Estimator";
@@ -113,16 +106,23 @@ const AdminUserMng = () => {
         userID={logInfo.userID}
       />
       <div className={styles.center_all}>
-        {loading && <Loading />}
         <h2 className={styles.list_title}>회원 목록</h2>
         <div className={styles.main_container}>
           <div className={styles.sub_container_1}>
-            <AdminUserRowNav />
-            <div className={styles.scrollable_div} style={{ height: "540px" }}>
-              {userList.map((user) => (
-                <AdminUserRow user={user} />
-              ))}
-            </div>
+            {loading && <Loading />}
+            {!loading && (
+              <div>
+                <AdminUserRowNav />
+                <div
+                  className={styles.scrollable_div}
+                  style={{ height: "540px" }}
+                >
+                  {userList.map((user) => (
+                    <AdminUserRow user={user} />
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
         <div className={styles.last_row}>
