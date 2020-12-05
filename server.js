@@ -43,6 +43,17 @@ app.get("/api/loginAuth/:id&:password", (req, res) => {
   );
 });
 
+app.get("/api/secret/:AccountID", (req, res) => {
+  const accountID = req.params.AccountID;
+  connection.query(
+    `SELECT * FROM ACCOUNT WHERE AccountID =${accountID}`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
+
 app.post("/api/userQueue/Admit", (req, res) => {
   const AccountID = req.body.AccountID;
   const newValue = req.body.newValue;
@@ -77,110 +88,138 @@ app.get("/api/AdminTask", (req, res) => {
   });
 });
 
-//태스크 생성 => (태스크 데이터 테이블, 원본 데이터 타입, 실제 태스크 데이터 테이블 생성)
-app.post("/api/Admin/CreateTDT", (req, res) => {
-  const Description = req.body.newTask.desc;
-  const Period = req.body.newTask.period;
-  const AllocatedTaskDataTableID = req.body.TDTId; 
-  const PreTDTSchema = req.body.newTask.TDTSchema.list;
-  const TaskDataTableSchema = JSON.stringify(PreTDTSchema); // object > toString 필요?
-  const PassScore = req.body.newTask.passScore;
-  const Name = req.body.newTask.name;
-  //매핑정보와 속성 object로 받아지는데 어떻게 ?
-  const PreRDTSchema = req.body.newTask.RDTSchema;
-  const RawDataTypeSchema = JSON.stringify(PreRDTSchema[0].list ,['name', 'type']);
-  const RawDataTypeName = PreRDTSchema[0].name;
-  const RawDataTypeMappingInfo = JSON.stringify(PreRDTSchema[0].list , ['map']);
-  
-  console.log(Description, Period, TaskDataTableSchema, PassScore, Name);
-  console.log(RawDataTypeSchema, "//" , RawDataTypeName, "//", RawDataTypeMappingInfo);
-
+app.get("/api/NewTask/:Name", (req, res) => {
+  const name = req.params.Name;
   connection.query(
-    `INSERT IGNORE INTO TASK (TaskID, Description, Period, AllocatedTaskDataTableID, \
-    TaskDataTableSchema, PassScore, Name) \
-    VALUES (null, '${Description}', ${Period}, 1, \
-    '${TaskDataTableSchema}', ${PassScore}, '${Name}');`,
-    (err,rows,fields) => {
-    if(err) {
-      console.log(err);
+    `SELECT COUNT(*) AS N FROM TASK WHERE Name="${name}"`,
+    (err, rows, fields) => {
+      res.send(rows);
     }
-    res.send(rows);
-  })
-  
-  //태스크 데이터 테이블
-  let sqlForTaskDataTable = `INSERT INTO TASK_DATA_TABLE(TaskDataTableID, ResultParsingDataSequenceFileID, ResultTestID) \
-  VALUES(null, null, null );`
-
-  connection.query(sqlForTaskDataTable, (err,rows,fields) => {
-    if(err){
-      console.log(err);
-    }
-  })
-  
-  //원본 데이터 타입 RAW_DATA_TYPE ( 서버에 RawDataTypeName 추가하자 )
-  let sqlForRawDataType = `INSERT INTO RAW_DATA_TYPE(RawDataTypeID, Schema_Info, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
-  VALUES(null, '${RawDataTypeSchema}', '${RawDataTypeMappingInfo}', 1, '${RawDataTypeName}');` 
-
-  connection.query(sqlForRawDataType, (err,rows,fields) => {
-    if(err){
-      console.log(err);
-    }
-  })
-//제이슨 파일 읽기 JSON.stringify(newTask.TDTSchema.list)
-  
-  //실제 값이 들어갈 태스크 데이터 테이블 생성 (+FOREIGN_KEY 설정)
-  var colDefFront=`CREATE TABLE ${Name} ( ${Name}_KEY INT NOT NULL AUTO_INCREMENT, ${Name}_RawDataTypeID INT, SAccount_ID INT, SName VARCHAR(20), `;
-  var colDefLast=`PRIMARY KEY(${Name}_KEY), FOREIGN KEY(SAccount_ID) REFERENCES ACCOUNT(AccountID) ON DELETE CASCADE ON UPDATE CASCADE, \
-  FOREIGN KEY(${Name}_RawDataTypeID) REFERENCES RAW_DATA_TYPE(RawDataTypeID) ON DELETE CASCADE ON UPDATE CASCADE) ENGINE=InnoDB DEFAULT CHARSET=utf8;`
-
-  for(var i=0; i<PreTDTSchema.length; i++){
-    if(PreTDTSchema[i].maxLength){
-      colDefFront = colDefFront.concat(PreTDTSchema[i].name+' '+PreTDTSchema[i].type+'('+PreTDTSchema[i].maxLength+'), ');
-
-    } else{
-    colDefFront = colDefFront.concat(PreTDTSchema[i].name+' '+PreTDTSchema[i].type+', ');
-    }
-  }
-
-  colDefFront = colDefFront.concat(colDefLast);
-
-  console.log("bot is sql");
-  console.log(colDefFront);
-
-  connection.query(colDefFront, (err,rows,fields) => {
-    if(err){
-      console.log(err);
-    }
-  })
-
+  );
 });
 
-/*
-// 태스크 수정(원본 데이터 타입 추가)
-app.post("/api/AdminEditRawDataType", (req, res) => {
-  const RawDataTypeName = req.body.RDTName;
-  const RawDataTypeSchema = req.body.RDTSchema;
-  const RawDataTypeMappingInfo = req.body.RDTMappingInfo;
-  //태스크 수정할 때 TaskID 변수명으로 해당 태스크 ID를 같이 넘겨줘야함 
-  const CollectedTaskID = req.body.TaskID;
-  let sqlForEditRawDataType = `SET FOREIGN_KEY_CHECKS = 0; \
-  INSERT INTO Covid_Database.RAW_DATA_TYPE(RawDataTypeID, Schema_Info, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
-  VALUES(null, 'RawDataTypeSchema′,′{RawDataTypeMappingInfo}', CollectedTaskID,′{RawDataTypeName}'); \
-  SET FOREIGN_KEY_CHECKS = 1;` 
-  connection.query(sqlForEditRawDataType, (err,rows,fields) => {
-    if(err){
-      console.log(err);
-    }
+app.get("/api/DownloadTask/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  const getTDTName = () => {
+    return new Promise((res, rej) => {
+      connection.query(
+        `SELECT TDTName FROM TASK WHERE TaskID=${taskID}`,
+        (err, rows, fields) => {
+          res(rows);
+        }
+      );
+    });
+  };
+  getTDTName().then((response) => {
+    const TDTName = response[0].TDTName;
+    connection.query(`SELECT * FROM ${TDTName}`, (err, rows, fields) => {
+      if (err) console.log(err);
+      res.send(rows);
+    });
+  });
+});
+
+
+//태스크 생성 => (태스크 데이터 테이블, 원본 데이터 타입, 실제 태스크 데이터 테이블 생성)
+app.post("/api/Admin/CreateTask", (req, res) => {
+  const newTask = req.body.newTask;
+
+  // 1. Create New Task Row
+  const insert_task_sql = `INSERT IGNORE INTO TASK (TaskID, Name, Description, Period, AllocatedTaskDataTableID, \
+    TDTName, TaskDataTableSchema, PassScore) \
+    VALUES (null, '${newTask.name}', '${newTask.desc}', ${newTask.period}, 1, \
+    '${newTask.name}','${JSON.stringify(newTask.TDTSchema.list)}', ${
+    newTask.passScore
+  })`;
+
+  connection.query(insert_task_sql, (err, rows, fields) => {
+    if (err) console.log(err);
     res.send(rows);
-  })
-})*/
+  });
 
-// 저장된 튜플 수 확인 (RDT 별로 확인)
+  // Function to get newly created taskID
+  const getNewTaskID = () => {
+    return new Promise((res, rej) => {
+      connection.query(
+        `SELECT TaskID FROM TASK WHERE Name='${newTask.name}'`,
+        (err, rows, fields) => {
+          res(rows);
+        }
+      );
+    });
+  };
 
-// 태스크에 참여한 통계 정보 (제출자)
+  // If got taskID, do the rest of the work
+  getNewTaskID().then((res) => {
+    const newTaskID = res[0].TaskID;
 
-// 평가한 PDSF 목록 뷰 (평가자)
+    // 2. Create New Raw Data Type
+    const RDTSchema = newTask.RDTSchema;
+    for (var i = 0; i < newTask.RDTSchema.length; i++) {
+      let insert_rdt_sql = `INSERT IGNORE INTO RAW_DATA_TYPE (RawDataTypeID, SchemaInfo, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
+      VALUES (null, '${JSON.stringify(RDTSchema[i].list)}', '${JSON.stringify(
+        newTask.RDTSchema[i].list
+      )}', ${newTaskID}, '${RDTSchema[i].name}')`;
+      connection.query(insert_rdt_sql, (err, rows, fields) => {
+        if (err) console.log(err);
+      });
+    }
+    // 3. Create New Task Data Table
+    var create_TDT_sql = `CREATE TABLE ${newTask.name} \
+    (ID INT NOT NULL AUTO_INCREMENT, \
+      Submitter_ID INT NOT NULL, \
+      Submitter_name VARCHAR(20) NOT NULL,\
+      RDT_ID INT NOT NULL,`;
 
+    for (var i = 0; i < newTask.TDTSchema.list.length; i++) {
+      if (newTask.TDTSchema.list[i].maxLength) {
+        create_TDT_sql = create_TDT_sql.concat(
+          newTask.TDTSchema.list[i].name +
+            " " +
+            newTask.TDTSchema.list[i].type +
+            "(" +
+            newTask.TDTSchema.list[i].maxLength +
+            "), "
+        );
+      } else {
+        create_TDT_sql = create_TDT_sql.concat(
+          newTask.TDTSchema.list[i].name +
+            " " +
+            newTask.TDTSchema.list[i].type +
+            ", "
+        );
+      }
+    }
+
+    const restriction = `PRIMARY KEY (ID), FOREIGN KEY (Submitter_ID) REFERENCES ACCOUNT(AccountID) ON DELETE CASCADE ON UPDATE CASCADE, \
+    FOREIGN KEY (RDT_ID) REFERENCES RAW_DATA_TYPE(RawDataTypeID) ON DELETE CASCADE ON UPDATE CASCADE) ENGINE=InnoDB DEFAULT CHARSET=utf8;`;
+
+    create_TDT_sql = create_TDT_sql.concat(restriction);
+
+    connection.query(create_TDT_sql, (err, rows, fields) => {
+      if (err) console.log(err);
+    });
+  });
+});
+
+app.get("/api/TaskDataTable/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  let sql = `SELECT TaskDataTableSchema FROM TASK WHERE TaskID=${taskID}`;
+  connection.query(sql, (err, rows, fields) => {
+    res.send(rows);
+  });
+});
+
+app.post("/api/UpdateRDT", (req, res) => {
+  const taskID = req.body.taskID;
+  const newRDT = req.body.newRDT;
+  let sql = `INSERT IGNORE INTO RAW_DATA_TYPE VALUES (NULL, '${JSON.stringify(
+    newRDT.list
+  )}', '${JSON.stringify(newRDT.list)}', ${taskID}, '${newRDT.name}')`;
+  connection.query(sql, (err, rows, fields) => {
+    res.send(rows);
+  });
+});
 
 
 app.get("/api/userList", (req, res) => {
@@ -202,6 +241,16 @@ app.get("/api/userTask", (req, res) => {
       res.send(rows);
     }
   );
+});
+
+app.get("/api/userList/task/:taskName", (req, res) => {
+  const taskName = req.params.taskName;
+  let url = `SELECT AccountID, A.Name, Role, BirthDate, Gender, UserID, T.Name\
+  FROM TASK AS T, ACCOUNT AS A, APPLY\
+  WHERE AccountID = AppliedSubmitterID AND TaskID = AppliedTaskID AND APPROVAL=1 AND T.Name = "${taskName}"`;
+  connection.query(url, (err, rows, fields) => {
+    res.send(rows);
+  });
 });
 
 app.get(`/api/userList/:category=:value`, (req, res) => {
@@ -286,6 +335,50 @@ app.get("/api/loginAuth/:id&:password", (req, res) => {
   );
 });
 
+app.get("/api/taskQueue/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  connection.query(
+    `SELECT RawDataTypeName AS RDTName, COUNT(RawDataSequenceFileID) AS totalSub, SUM(TotalTupleNum) AS totalTupNum
+     FROM RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE, PARSING_DATA_SEQUENCE_FILE
+     WHERE
+     ${taskID} = CollectedTaskID AND
+     RawDataTypeID = BelongsRawDataTypeID AND
+     RawDataSequenceFileID = BeforeRawDataSequenceFileID 
+     GROUP BY RawDataTypeName
+     ;`,
+    (err, rows, field) => {
+      if (err) {
+        console.log(err);
+      }
+      res.send(rows);
+    }
+  );
+});
+
+app.get("/api/GetTuple/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  const getTDTName = () => {
+    return new Promise((res, rej) => {
+      connection.query(
+        `SELECT TDTName FROM TASK WHERE TaskID=${taskID}`,
+        (err, rows, fields) => {
+          res(rows);
+        }
+      );
+    });
+  };
+  getTDTName().then((response) => {
+    const TDTName = response[0].TDTName;
+    let sql = `SELECT RawDataTypeName AS RDTName, COUNT(RDT_ID) AS totalSub\
+      FROM ${TDTName}, RAW_DATA_TYPE\
+      WHERE RDT_ID = RawDataTypeID
+      GROUP BY RawDataTypeName`;
+    connection.query(sql, (err, rows, fields) => {
+      res.send(rows);
+    });
+  });
+});
+
 app.get("/api/signup/:id", (req, res) => {
   const id = req.params.id;
   connection.query(
@@ -367,18 +460,28 @@ app.get("/api/UserDetail/content/:type/:accountID", (req, res) => {
   const accountID = req.params.accountID;
   let sql;
   if (type === "제출자") {
-    sql = ``;
+    sql = `SELECT TaskID AS name, COUNT(*) AS totalSub, round(AVG(TotalTupleNum),2) AS avgTup, 
+          round(AVG(DupTupleNum),2) AS avgDup, round(AVG(NullRatio),2) AS avgNullRatio, SUM(TotalTupleNum) AS saveTup
+            FROM APPLY, TASK, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE, PARSING_DATA_SEQUENCE_FILE
+            WHERE AppliedSubmitterID = ${accountID} AND 
+            AppliedTaskID = TaskID AND
+            TaskID = CollectedTaskID AND
+            RawDataTypeID = BelongsRawDataTypeID AND
+            RawDataSequenceFileID = BeforeRawDataSequenceFileID 
+            GROUP BY TaskID`;
   }
   if (type === "평가자") {
-    sql = `SELECT ParsingDataSequenceFileID AS PDSFID, TotalTupleNum, DupTupleNum, NullRatio, Direc, QualityScore AS Score
+    sql = `SELECT ParsingDataSequenceFileID AS ID, TotalTupleNum AS totalTup, DupTupleNum AS dupTup,
+           NullRatio AS nullRatio, Direc AS directory, QualityScore AS score
             FROM PARSING_DATA_SEQUENCE_FILE, ASSIGN, QUALITY_TEST
             WHERE EAccountID = ${accountID} AND 
-            AssignedParsingDataSequenceFileID = ParsingDataSequenceFileID AND
-            ParsingDataSequenceFileID2 = AssignedParsingDataSequenceFileID`;
+            ParsingDataSequenceFileID = ParsingDataSequenceFileID2 AND
+            (AssignedParsingDataSequenceFileID, QTestID) = (ParsingDataSequenceFileID2, TestID)`;
   }
 
   connection.query(sql, (err, rows, field) => {
     console.log(err);
+    console.log("Data of Content : ", rows);
     res.send(rows);
   });
 });
@@ -404,9 +507,12 @@ app.get("/api/UserDetail/main/:type/:accountID", (req, res) => {
       WHERE SubmitterID = ${accountID}`;
   }
   connection.query(sql, (err, rows, field) => {
+    console.log("Data of main : ", rows);
     res.send(rows);
+    console.log(err);
   });
 });
+
 
 //submitter
 app.get(`/api/submittedTasklist/1/:id`, (req, res) => { // 참여중
@@ -676,12 +782,14 @@ app.use('/uploads', express.static('uploads'));
 
 app.post(`/api/file/SubmitterID_:SubmitterID/:TaskName/RDTID_:RDTID`, 
           upload.single('myfile'), (req, res) => {
+  // POST 함수로 데이터를 받아와서 필요한 정보들을 추출한다
   const SubmitterID = req.body.SubmitterID;
   const TaskName = req.body.TaskName;
   const RDTID = req.body.RDTID;
   const RDSFID = req.body.RDSFID;
   const file = req.body.file;
   
+  // 날짜, 파일명, 파일 경로 등을 생성한다
   var date = new Date();
   date = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate();
 
@@ -690,18 +798,6 @@ app.post(`/api/file/SubmitterID_:SubmitterID/:TaskName/RDTID_:RDTID`,
 
   console.log(file[0]);
 
-  
-  
-  var writeFile = fs.createWriteStream(filePath);
-  writeFile.on('error', function(err) { 
-    console.log(err);  
-  });
-  file.forEach(v => 
-    writeFile.write(JSON.stringify(v) + ',\n')
-  );
-  writeFile.end();
-
-  
 
   // Raw Data Sequence File을 제출하면 DB의 RAW_DATA_SEQUENCE_FILE에 row가 추가된다
   let sql = `INSERT INTO RAW_DATA_SEQUENCE_FILE
@@ -711,7 +807,22 @@ app.post(`/api/file/SubmitterID_:SubmitterID/:TaskName/RDTID_:RDTID`,
   connection.query(sql, (err, rows, fields) => {
     res.send(rows);
   });
+  // 파싱한다
+
+
+  // 파싱한 데이터를 uploads 폴더에 저장한다
+  var writeFile = fs.createWriteStream(filePath);
+  writeFile.on('error', function(err) { 
+    console.log(err);  
+  });
+  file.forEach(v => 
+    writeFile.write(JSON.stringify(v) + ',\n')
+  );
+  writeFile.end();
+
 });
+
+
 
 
 
