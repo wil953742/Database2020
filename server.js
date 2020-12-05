@@ -412,11 +412,13 @@ app.get(`/api/submittedTasklist/1/:id`, (req, res) => { // 참여중
             Description AS  taskDesc, 
             Count(*)    AS  taskNum
 
-    FROM RAW_DATA_SEQUENCE_FILE,  RAW_DATA_TYPE,  TASK
+    FROM RAW_DATA_SEQUENCE_FILE,  RAW_DATA_TYPE,  TASK, APPLY
 
     WHERE RDSFSubmitterID       =   ${id} 
       AND BelongsRawDataTypeID  =   RawDataTypeID 
       AND TaskID                =   CollectedTaskID
+      AND AppliedSubmitterID    =   ${id}
+      AND Approval              =   1
 
     GROUP BY Name`,
     (err, rows, fields) => {
