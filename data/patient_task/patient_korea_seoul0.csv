@@ -1,0 +1,77 @@
+patient_id,sex,age,country,province,city,infection_case,contact_number,symptom_onset_date,confirmed_date,released_date,deceased_date,state
+1000000008,male,20s,Korea,Seoul,etc,overseas inflow,0.0,,2020-02-02,2020-02-24,,released
+1000000009,male,30s,Korea,Seoul,Songpa-gu,overseas inflow,68.0,,2020-02-05,2020-02-21,,released
+1000000010,female,60s,Korea,Seoul,Seongbuk-gu,contact with patient,6.0,,2020-02-05,2020-02-29,,released
+1000000012,male,20s,Korea,Seoul,etc,overseas inflow,0.0,,2020-02-07,2020-02-27,,released
+1000000013,male,80s,Korea,Seoul,Jongno-gu,contact with patient,117.0,,2020-02-16,,,deceased
+1000000014,female,60s,Korea,Seoul,Jongno-gu,contact with patient,27.0,2020-02-06,2020-02-16,2020-03-12,,released
+1000000015,male,70s,Korea,Seoul,Seongdong-gu,Seongdong-gu APT,8.0,2020-02-11,2020-02-19,,,released
+1000000016,male,70s,Korea,Seoul,Jongno-gu,contact with patient,,,2020-02-19,2020-03-11,,released
+1000000021,male,80s,Korea,Seoul,Jongno-gu,contact with patient,,,2020-02-20,2020-03-08,,released
+1000000019,female,70s,Korea,Seoul,Jongno-gu,contact with patient,,,2020-02-20,2020-03-08,,released
+1000000020,female,70s,Korea,Seoul,Seongdong-gu,Seongdong-gu APT,,,2020-02-20,,,released
+1000000017,male,70s,Korea,Seoul,Jongno-gu,contact with patient,,,2020-02-20,2020-03-01,,released
+1000000018,male,20s,Korea,Seoul,etc,etc,,,2020-02-20,,,released
+1000000022,male,30s,Korea,Seoul,Seodaemun-gu,Eunpyeong St. Mary's Hospital,,,2020-02-21,,,released
+1000000023,male,50s,Korea,Seoul,Seocho-gu,Shincheonji Church,,,2020-02-21,,,released
+1000000031,male,50s,Korea,Seoul,Songpa-gu,etc,,,2020-02-22,2020-03-19,,released
+1000000024,male,40s,Korea,Seoul,Guro-gu,contact with patient,,,2020-02-22,2020-03-14,,released
+1000000025,male,60s,Korea,Seoul,Gangdong-gu,Eunpyeong St. Mary's Hospital,,,2020-02-22,,,released
+1000000026,male,30s,Korea,Seoul,Seocho-gu,etc,,2020-02-21,2020-02-22,2020-03-11,,released
+1000000027,male,50s,Korea,Seoul,Gangseo-gu,overseas inflow,,,2020-02-23,2020-03-04,,released
+1000000028,female,70s,Korea,Seoul,Jongno-gu,Eunpyeong St. Mary's Hospital,,,2020-02-23,2020-03-11,,released
+1000000032,male,50s,Korea,Seoul,Seocho-gu,contact with patient,,,2020-02-23,,,released
+1000000033,female,50s,Korea,Seoul,Songpa-gu,contact with patient,,,2020-02-24,2020-03-10,,released
+1000000034,male,20s,Korea,Seoul,Songpa-gu,contact with patient,,,2020-02-24,2020-03-17,,released
+1000000035,male,30s,Korea,Seoul,etc,etc,,2020-02-19,2020-02-25,2020-03-20,,released
+1000000036,female,50s,Korea,Seoul,Eunpyeong-gu,Eunpyeong St. Mary's Hospital,,,2020-02-25,,,released
+1000000037,female,40s,Korea,Seoul,Songpa-gu,contact with patient,,,2020-02-25,2020-03-11,,released
+1000000038,male,60s,Korea,Seoul,etc,etc,,2020-02-24,2020-02-25,,,released
+1000000040,female,60s,Korea,Seoul,Gwanak-gu,overseas inflow,,,2020-02-25,,,released
+1000000041,male,50s,Korea,Seoul,Gangdong-gu,etc,,,2020-02-25,2020-03-04,,released
+1000000078,male,40s,Korea,Seoul,Nowon-gu,Seongdong-gu APT,,,2020-02-25,,,released
+1000000047,male,20s,Korea,Seoul,Gangnam-gu,Shincheonji Church,,,2020-02-26,2020-03-11,,released
+1000000071,female,30s,Korea,Seoul,Nowon-gu,etc,,2020-02-21,2020-02-26,2020-03-18,,released
+1000000049,male,60s,Korea,Seoul,Eunpyeong-gu,Eunpyeong St. Mary's Hospital,,,2020-02-26,,,released
+1000000048,female,20s,Korea,Seoul,Eunpyeong-gu,etc,,,2020-02-26,2020-03-13,,released
+1000000029,female,20s,Korea,Seoul,Jongno-gu,Eunpyeong St. Mary's Hospital,,2020-02-11,2020-02-26,2020-03-11,,released
+1000000044,male,60s,Korea,Seoul,Dongjak-gu,contact with patient,,,2020-02-26,,,released
+1000000045,male,40s,Korea,Seoul,Songpa-gu,contact with patient,,,2020-02-26,2020-03-04,,released
+1000000043,female,20s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-02-26,,,released
+1000000042,male,40s,Korea,Seoul,Nowon-gu,etc,,,2020-02-26,,,released
+1000000046,female,20s,Korea,Seoul,etc,contact with patient,,,2020-02-26,2020-03-03,,released
+1000000073,male,40s,Korea,Seoul,etc,etc,,2020-02-25,2020-02-27,,,released
+1000000072,female,40s,Korea,Seoul,Gangdong-gu,etc,,,2020-02-27,2020-03-03,,released
+1000000074,male,50s,Korea,Seoul,Seocho-gu,etc,,,2020-02-27,2020-03-04,,released
+1000000070,female,40s,Korea,Seoul,Nowon-gu,Seongdong-gu APT,,,2020-02-27,,,released
+1000000076,male,40s,Korea,Seoul,Dongdaemun-gu,contact with patient,,2020-02-26,2020-02-27,2020-03-14,,released
+1000000084,female,20s,Korea,Seoul,Songpa-gu,contact with patient,,2020-02-25,2020-02-27,,,released
+1000000085,female,30s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-02-27,2020-03-17,,released
+1000000075,male,30s,Korea,Seoul,Gwangjin-gu,overseas inflow,,,2020-02-27,,,released
+1000000069,male,40s,Korea,Seoul,Nowon-gu,etc,,,2020-02-27,,,released
+1000000053,female,40s,Korea,Seoul,Eunpyeong-gu,Eunpyeong St. Mary's Hospital,,2020-02-25,2020-02-27,2020-03-17,,released
+1000000052,male,30s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-02-27,2020-03-03,,released
+1000000050,male,20s,Korea,Seoul,Gwanak-gu,etc,,2020-02-24,2020-02-27,,,released
+1000000051,female,20s,Korea,Seoul,Songpa-gu,etc,,,2020-02-27,2020-03-03,,released
+1000000054,female,80s,Korea,Seoul,Eunpyeong-gu,Eunpyeong St. Mary's Hospital,,,2020-02-27,,,released
+1000000055,female,20s,Korea,Seoul,Yangcheon-gu,Eunpyeong St. Mary's Hospital,,,2020-02-27,2020-03-03,,released
+1000000058,female,30s,Korea,Seoul,Gangnam-gu,etc,,,2020-02-27,,,released
+1000000057,female,70s,Korea,Seoul,etc,Eunpyeong St. Mary's Hospital,,,2020-02-27,,,released
+1000000056,male,50s,Korea,Seoul,etc,etc,,,2020-02-27,2020-03-13,,released
+1000000087,male,10s,Korea,Seoul,Nowon-gu,Seongdong-gu APT,,2020-02-24,2020-02-28,,,released
+1000000079,female,10s,Korea,Seoul,Nowon-gu,Seongdong-gu APT,,2020-02-20,2020-02-28,,,released
+1000000061,male,60s,Korea,Seoul,Seodaemun-gu,Eunpyeong St. Mary's Hospital,,2020-02-26,2020-02-28,2020-03-14,,released
+1000000077,female,20s,Korea,Seoul,Seongdong-gu,etc,,2020-02-26,2020-02-28,,,released
+1000000062,male,40s,Korea,Seoul,Seodaemun-gu,etc,,2020-02-26,2020-02-28,,,released
+1000000060,male,80s,Korea,Seoul,Eunpyeong-gu,Eunpyeong St. Mary's Hospital,,2020-02-23,2020-02-28,,,released
+1000000059,female,60s,Korea,Seoul,Eunpyeong-gu,Eunpyeong St. Mary's Hospital,,,2020-02-28,,,released
+1000000091,male,40s,Korea,Seoul,Yeongdeungpo-gu,etc,,2020-02-21,2020-02-29,,,released
+1000000063,male,30s,Korea,Seoul,Gwanak-gu,etc,,,2020-02-29,2020-03-03,,released
+1000000065,male,30s,Korea,Seoul,Gangnam-gu,contact with patient,,,2020-02-29,2020-03-14,,released
+1000000082,male,60s,Korea,Seoul,Yeongdeungpo-gu,overseas inflow,,2020-02-18,2020-02-29,,,released
+1000000064,female,30s,Korea,Seoul,Gangnam-gu,contact with patient,,2020-02-26,2020-02-29,2020-03-04,,released
+1000000080,female,20s,Korea,Seoul,Nowon-gu,contact with patient,,2020-02-26,2020-02-29,,,released
+1000000066,male,30s,Korea,Seoul,Gangnam-gu,etc,,,2020-02-29,2020-03-04,,released
+1000000067,female,20s,Korea,Seoul,Songpa-gu,contact with patient,,,2020-02-29,,,released
+1000000068,female,20s,Korea,Seoul,Gangnam-gu,etc,,2020-02-26,2020-02-29,2020-03-20,,released
+1000000081,female,30s,Korea,Seoul,Gwanak-gu,contact with patient,,2020-02-27,2020-02-29,2020-03-20,,released

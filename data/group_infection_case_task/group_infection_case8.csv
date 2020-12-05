@@ -1,0 +1,15 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+53,Incheon,from other city,Coupang Logistics Center,42,-,-
+54,Incheon,from other city,Guro-gu Call Center,20,-,-
+55,Incheon,from other city,Shincheonji Church,2,-,-
+56,Daejeon,-,Door-to-door sales in Daejeon,55,-,-
+57,Daejeon,Seo-gu,Dunsan Electronics Town,13,36.3400973,127.3927099
+58,Daejeon,Seo-gu,Orange Town,7,36.3398739,127.3819744
+59,Daejeon,Seo-gu,Dreaming Church,4,36.346869,127.368594
+60,Daejeon,Seo-gu,Korea Forest Engineer Institute,3,36.358123,127.388856
+61,Daejeon,from other city,Shincheonji Church,2,-,-
+62,Daejeon,from other city,Seosan-si Laboratory,2,-,-
+63,Ulsan,from other city,Shincheonji Church,16,-,-
+64,Sejong,Sejong,Ministry of Oceans and Fisheries,31,36.504713,127.265172
+65,Sejong,Sejong,gym facility in Sejong,8,36.48025,127.289
+66,Sejong,from other city,Shincheonji Church,1,-,-

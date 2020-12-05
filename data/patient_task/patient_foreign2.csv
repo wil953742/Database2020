@@ -1,0 +1,12 @@
+patient_id,sex,age,country,province,city,infection_case,contact_number,confirmed_date,released_date,state
+1000000030,male,60s,China,Seoul,Gangdong-gu,Eunpyeong St. Mary's Hospital,,2020-02-23,,released
+2000000039,male,30s,Mongolia,Gyeonggi-do,Namyangju-si,etc,,2020-02-25,,deceased
+3001000002,male,20s,China,Gangwon-do,Gangneung-si,overseas inflow,,2020-03-01,2020-03-09,released
+1000000335,male,30s,United States,Seoul,Gangseo-gu,overseas inflow,,2020-03-24,,released
+5100000013,male,20s,Spain,Jeollanam-do,Yeosu-si,overseas inflow,,2020-03-31,2020-05-19,released
+1000000499,male,20s,United States,Seoul,Jongno-gu,overseas inflow,,2020-04-02,,released
+4100000135,male,40s,United States,Chungcheongnam-do,Asan-si,overseas inflow,2,2020-04-03,2020-04-22,released
+4100000139,female,60s,United States,Chungcheongnam-do,Seocheon-gun,overseas inflow,4,2020-04-11,2020-05-07,released
+7000000013,female,10s,China,Jeju-do,Jeju-do,overseas inflow,6,2020-04-14,2020-04-26,released
+1100000124,female,20s,Vietnam,Busan,Nam-gu,overseas inflow,0,2020-04-14,,isolated
+1200010746,male,40s,Foreign,Daegu,Dalseo-gu,,,2020-04-27,,isolated

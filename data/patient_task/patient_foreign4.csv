@@ -1,0 +1,12 @@
+patient_id,sex,age,country,province,city,infection_case,contact_number,confirmed_date,released_date,state
+2000000004,female,40s,China,Gyeonggi-do,Goyang-si,contact with patient,3,2020-02-02,2020-02-18,released
+3001000002,male,20s,China,Gangwon-do,Gangneung-si,overseas inflow,,2020-03-01,2020-03-09,released
+6006000017,female,20s,Thailand,Gyeongsangbuk-do,Gimcheon-si,contact with patient,,2020-03-05,2020-04-06,released
+1000000377,female,30s,France,Seoul,Gwanak-gu,overseas inflow,,2020-03-27,,released
+1600000053,male,30s,Indonesia,Ulsan,Buk-gu,overseas inflow,,2020-06-06,,isolated
+7000000017,,,Bangladesh,Jeju-do,Jeju-do,overseas inflow,72,2020-06-18,,isolated
+7000000019,,,Bangladesh,Jeju-do,Jeju-do,overseas inflow,,2020-06-18,,isolated
+7000000018,,,Bangladesh,Jeju-do,Jeju-do,overseas inflow,,2020-06-18,,isolated
+6003000010,male,20s,Bangladesh,Gyeongsangbuk-do,Goryeong-gun,overseas inflow,,2020-06-19,,isolated
+1200012481,male,20s,Foreign,Daegu,Yeongcheon-si,,,2020-06-23,,isolated
+1000001247,,,India,Seoul,Jongno-gu,overseas inflow,,2020-06-24,,isolated

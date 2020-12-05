@@ -1,0 +1,16 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+5,Seoul,Dobong-gu,Day Care Center,43,37.679422,127.044374
+6,Seoul,Guro-gu,Manmin Central Church,41,37.481059,126.894343
+7,Seoul,from other city,SMR Newly Planted Churches Group,36,-,-
+8,Seoul,Dongdaemun-gu,Dongan Church,17,37.592888,127.056766
+9,Seoul,from other city,Coupang Logistics Center,25,-,-
+10,Seoul,Gwanak-gu,Wangsung Church,30,37.481735,126.930121
+11,Seoul,Eunpyeong-gu,Eunpyeong St. Mary's Hospital,14,37.63369,126.9165
+12,Seoul,Seongdong-gu,Seongdong-gu APT,13,37.55713,127.0403
+13,Seoul,Jongno-gu,Jongno Community Center,10,37.57681,127.006
+14,Seoul,Gangnam-gu,Samsung Medical Center,7,37.48825,127.08559
+15,Seoul,Jung-gu,Jung-gu Fashion Company,7,37.562405,126.984377
+16,Seoul,Seodaemun-gu,Yeonana News Class,5,37.558147,126.943799
+17,Seoul,Jongno-gu,Korea Campus Crusade of Christ,7,37.594782,126.968022
+18,Seoul,Gangnam-gu,Gangnam Yeoksam-dong gathering,6,-,-
+19,Seoul,from other city,Daejeon door-to-door sales,1,-,-

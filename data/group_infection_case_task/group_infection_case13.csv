@@ -1,0 +1,21 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+79,Gyeonggi-do,Anyang-si,Lord Glory Church,17,37.403722,126.954939
+80,Gyeonggi-do,Suwon-si,Suwon Saeng Myeong Saem Church,10,37.2376,127.0517
+81,Gyeonggi-do,from other city,Korea Campus Crusade of Christ,7,-,-
+82,Gyeonggi-do,from other city,Geumcheon-gu rice milling machine manufacture,6,-,-
+83,Gyeonggi-do,from other city,Wangsung Church,6,-,-
+84,Gyeonggi-do,from other city,Seoul City Hall Station safety worker,5,-,-
+85,Gyeonggi-do,Seongnam-si,Seongnam neighbors gathering,5,-,-
+86,Gangwon-do,from other city,Shincheonji Church,17,-,-
+87,Gangwon-do,from other city,Uijeongbu St. Mary’s Hospital,10,-,-
+88,Gangwon-do,Wonju-si,Wonju-si Apartments,4,37.342762,127.983815
+89,Gangwon-do,from other city,Richway,4,-,-
+90,Gangwon-do,from other city,Geumcheon-gu rice milling machine manufacture,4,-,-
+91,Chungcheongbuk-do,Goesan-gun,Goesan-gun Jangyeon-myeon,11,36.82422,127.9552
+92,Chungcheongbuk-do,from other city,Itaewon Clubs,9,-,-
+93,Chungcheongbuk-do,from other city,Guro-gu Call Center,2,-,-
+94,Chungcheongbuk-do,from other city,Shincheonji Church,6,-,-
+95,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,103,36.81503,127.1139
+96,Chungcheongnam-do,from other city,Door-to-door sales in Daejeon,10,-,-
+97,Chungcheongnam-do,Seosan-si,Seosan-si Laboratory,9,37.000354,126.354443
+98,Chungcheongnam-do,from other city,Richway,3,-,-

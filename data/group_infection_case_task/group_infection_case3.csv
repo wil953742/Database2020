@@ -1,0 +1,17 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+25,Seoul,Gangnam-gu,Gangnam Dongin Church,1,37.522331,127.057388
+26,Seoul,Yangcheon-gu,Biblical Language study meeting,3,37.524623,126.843118
+27,Seoul,Seocho-gu,Seocho Family,5,-,-
+28,Seoul,from other city,Anyang Gunpo Pastors Group,1,-,-
+29,Seoul,Gangnam-gu,Samsung Fire & Marine Insurance,4,37.498279,127.030139
+30,Seoul,Gangseo-gu,SJ Investment Call Center,0,37.559649,126.835102
+31,Seoul,from other city,Yongin Brothers,4,-,-
+32,Seoul,Jung-gu,Seoul City Hall Station safety worker,3,37.565699,126.977079
+33,Seoul,from other city,Uiwang Logistics Center,2,-,-
+34,Seoul,-,Orange Life,1,-,-
+35,Seoul,Guro-gu,Daezayeon Korea,3,37.486837,126.893163
+36,Busan,Dongnae-gu,Onchun Church,39,35.21628,129.0771
+37,Busan,from other city,Shincheonji Church,12,-,-
+38,Busan,Suyeong-gu,Suyeong-gu Kindergarten,5,35.16708,129.1124
+39,Busan,Haeundae-gu,Haeundae-gu Catholic Church,6,35.20599,129.1256
+40,Busan,Jin-gu,Jin-gu Academy,4,35.17371,129.0633

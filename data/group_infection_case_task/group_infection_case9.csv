@@ -1,0 +1,6 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+67,Gyeonggi-do,Seongnam-si,River of Grace Community Church,67,37.455687,127.161627
+68,Gyeonggi-do,Bucheon-si,Coupang Logistics Center,67,37.530579,126.775254
+69,Gyeonggi-do,from other city,Itaewon Clubs,59,-,-
+70,Gyeonggi-do,from other city,Richway,58,-,-
+71,Gyeonggi-do,Uijeongbu-si,Uijeongbu St. Mary’s Hospital,50,37.758635,127.077716

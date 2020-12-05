@@ -1,0 +1,8 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+104,Jeollanam-do,from other city,Shincheonji Church,1,-,-
+105,Gyeongsangbuk-do,from other city,Shincheonji Church,566,-,-
+106,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,119,35.64887,128.7368
+107,Gyeongsangbuk-do,Bonghwa-gun,Bonghwa Pureun Nursing Home,68,36.92757,128.9099
+108,Gyeongsangbuk-do,Gyeongsan-si,Gyeongsan Seorin Nursing Home,66,35.782149,128.801498
+109,Gyeongsangbuk-do,from other city,Pilgrimage to Israel,41,-,-
+110,Gyeongsangbuk-do,Yechun-gun,Yechun-gun,40,36.646845,128.437416

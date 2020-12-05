@@ -1,0 +1,11 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+34,Seoul,-,Orange Life,1,-,-
+35,Seoul,Guro-gu,Daezayeon Korea,3,37.486837,126.893163
+36,Busan,Dongnae-gu,Onchun Church,39,35.21628,129.0771
+37,Busan,from other city,Shincheonji Church,12,-,-
+38,Busan,Suyeong-gu,Suyeong-gu Kindergarten,5,35.16708,129.1124
+39,Busan,Haeundae-gu,Haeundae-gu Catholic Church,6,35.20599,129.1256
+40,Busan,Jin-gu,Jin-gu Academy,4,35.17371,129.0633
+41,Busan,from other city,Itaewon Clubs,4,-,-
+42,Busan,from other city,Cheongdo Daenam Hospital,1,-,-
+43,Daegu,Nam-gu,Shincheonji Church,4511,35.84008,128.5667
