@@ -58,7 +58,8 @@ export const SubmitterMain = ({ loginfo }) => {
   useEffect(() => {
     if (!tmpData1) return;
     var taskList = [];
-    for (let i = 0; i < tmpData1.length; i++) {
+    var i = 0;
+    for (i; i < tmpData2.length; i++) {
       taskList.push(
         new SubmittedTask(
           tmpData1[i].taskID,
@@ -66,6 +67,18 @@ export const SubmitterMain = ({ loginfo }) => {
           tmpData1[i].taskDesc,
           tmpData2[i].taskDate,
           tmpData2[i].taskNum
+        )
+      );  
+    }
+    
+    for (i; i < tmpData1.length; i++){
+      taskList.push(
+        new SubmittedTask(
+          tmpData1[i].taskID,
+          tmpData1[i].taskName,
+          tmpData1[i].taskDesc,
+          0,
+          0
         )
       );  
     }
