@@ -23,6 +23,8 @@ export const SubmitterMain = ({ loginfo }) => {
   //
   
   const axios = require("axios").default;
+  const [tmpData1, setTmpData1] = useState();
+  const [tmpData2, setTmpData2] = useState();
   const [data, setData] = useState();
   const [taskList, setTaskList] = useState([]);
   
@@ -36,9 +38,13 @@ export const SubmitterMain = ({ loginfo }) => {
   const url = "/api/submittedTasklist/";
   useEffect(() => {
     async function fetchData() {
-      await axios.get(url+'1/'+`${loginfo.accountID}`).then((res) => {
-        setData(res.data);
+      await axios.get(url+'1/'+`${loginfo.accountID}` + '/a').then((res) => {
+        setTmpData1(res.data);
       });
+      await axios.get(url+'1/'+`${loginfo.accountID}` + '/b').then((res) => {
+        setTmpData2(res.data);
+      });
+      
       await axios.get(url+'2/'+`${loginfo.accountID}`).then((res) => {
         setData2(res.data);
       });
@@ -48,21 +54,20 @@ export const SubmitterMain = ({ loginfo }) => {
     }
     fetchData();
   }, []);
-  console.log(data);
-  
+
   useEffect(() => {
-    if (!data) return;
+    if (!tmpData1) return;
     var taskList = [];
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < tmpData1.length; i++) {
       taskList.push(
         new SubmittedTask(
-          data[i].taskID,
-          data[i].taskName,
-          data[i].taskDesc,
-          data[i].taskDate,
-          data[i].taskNum
+          tmpData1[i].taskID,
+          tmpData1[i].taskName,
+          tmpData1[i].taskDesc,
+          tmpData2[i].taskDate,
+          tmpData2[i].taskNum
         )
-      );
+      );  
     }
     setTaskList(taskList);
     //console.log(data);

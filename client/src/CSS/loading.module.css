@@ -1,0 +1,9 @@
+.main {
+    z-index: 999 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: transparent;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }

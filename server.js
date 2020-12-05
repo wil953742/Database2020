@@ -14,6 +14,7 @@ const data = fs.readFileSync("./database.json");
 const conf = JSON.parse(data);
 const mysql = require("mysql");
 
+
 const connection = mysql.createConnection({
   host: conf.host,
   user: conf.user,
@@ -22,7 +23,7 @@ const connection = mysql.createConnection({
   database: conf.database,
 });
 
-connection.connect();
+connection.connect({multipleStatements: true});
 
 app.get("/api/loginAuth/:id&:password", (req, res) => {
   const id = req.params.id;
@@ -405,27 +406,76 @@ app.get("/api/UserDetail/main/:type/:accountID", (req, res) => {
 //submitter
 app.get(`/api/submittedTasklist/1/:id`, (req, res) => { // 참여중
   const id = req.params.id;
+  var sql = `CREATE VIEW TMP AS
+              SELECT TaskID, Name, Description
+              FROM TASK
+              WHERE TaskID IN (SELECT AppliedTaskID FROM APPLY 
+                              WHERE AppliedSubmitterID = ${id} AND Approval = 1);
+
+            SELECT
+                TMP.TaskID                       AS taskID,
+                TMP.Name                         AS taskName,
+                TMP.Description                  AS taskDesc,
+                MAX(Turn)                    AS taskDate,
+                COUNT(RawDataSequenceFileID) AS taskNum
+
+            FROM RAW_DATA_SEQUENCE_FILE, RAW_DATA_TYPE, TMP
+
+            WHERE RDSFSubmitterID       = ${id}
+              AND BelongsRawDataTypeID  = RawDataTypeID
+              AND CollectedTaskID       = TaskID
+              
+            GROUP BY CollectedTaskID;
+
+            DROP VIEW TMP;`
+  connection.query(sql, [1, 2, 3], function(err, results, fields) {
+    if (!err) {
+      res.send(results[1]);
+      console.log(results[0]);
+      console.log(results[1]);
+      console.log(results[2]);
+    }
+    else{
+      console.log(err);
+    }
+  });
+});
+
+app.get(`/api/submittedTaskList/1/:id/a`, (req, res) => {
+  const id = req.params.id;
   connection.query(
-    `SELECT TaskID      AS  taskID, 
-            TASK.Name   AS  taskName, 
-            MAX(Turn)   AS  taskDate, 
-            Description AS  taskDesc, 
-            Count(*)    AS  taskNum
-
-    FROM RAW_DATA_SEQUENCE_FILE,  RAW_DATA_TYPE,  TASK, APPLY
-
-    WHERE RDSFSubmitterID       =   ${id} 
-      AND BelongsRawDataTypeID  =   RawDataTypeID 
-      AND TaskID                =   CollectedTaskID
-      AND AppliedSubmitterID    =   ${id}
-      AND Approval              =   1
-
-    GROUP BY Name`,
+    `SELECT TaskID        AS  taskID,
+            Name          AS  taskName,
+            Description   AS  taskDesc
+     FROM TASK
+     WHERE TaskID IN (SELECT AppliedTaskID FROM APPLY
+                      WHERE AppliedSubmitterID = ${id} AND Approval = 1);`,
     (err, rows, fields) => {
       res.send(rows);
     }
   );
 });
+
+
+app.get(`/api/submittedTaskList/1/:id/b`, (req, res) => {
+  const id = req.params.id;
+  connection.query(
+    `SELECT CollectedTaskID              AS collectedTaskID,
+            MAX(Turn)                    AS taskDate,
+            COUNT(RawDataSequenceFileID) AS taskNum
+
+     FROM RAW_DATA_SEQUENCE_FILE, RAW_DATA_TYPE
+    
+     WHERE RDSFSubmitterID       = ${id}
+       AND BelongsRawDataTypeID  = RawDataTypeID
+  
+     GROUP BY CollectedTaskID;`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
 app.get(`/api/submittedTasklist/2/:id`, (req, res) => { // 신청
   const id = req.params.id;
   connection.query(
