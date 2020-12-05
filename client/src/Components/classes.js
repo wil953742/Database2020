@@ -100,7 +100,6 @@ class TaskData {
   constructor(RDTName, totalSub, totalTupNum) {
     this.RDTName = RDTName;
     this.totalSub = totalSub;
-    this.totalTupNum = totalTupNum;
   }
 }
 

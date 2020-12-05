@@ -241,6 +241,7 @@ app.get("/api/userQueue/:taskID", (req, res) => {
     WHERE AppliedTaskID = ${taskId} AND AppliedSubmitterID = SubmitterID and AccountID = SubmitterID`,
     (err, rows, fields) => {
       res.send(rows);
+      console.log("user : ", rows);
     }
   );
 });
@@ -249,11 +250,10 @@ app.get("/api/userQueue/:taskID", (req, res) => {
 app.get("/api/taskQueue/:taskID", (req, res) =>{
   const taskID = req.params.taskID;
   connection.query(
-    `SELECT RawDataTypeName AS RDTName, COUNT(RawDataSequenceFileID) AS totalSub, SUM(TotalTupleNum) AS totalTupNum
-     FROM TASK, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE, PARSING_DATA_SEQUENCE_FILE
+    `SELECT RawDataTypeName AS RDTName, COUNT(RawDataSequenceFileID) AS totalSub
+     FROM RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE, PARSING_DATA_SEQUENCE_FILE
      WHERE
-     TaskID = ${taskID} AND
-     TaskID = CollectedTaskID AND
+     CollectedTaskID = ${taskID} AND
      RawDataTypeID = BelongsRawDataTypeID AND
      RawDataSequenceFileID = BeforeRawDataSequenceFileID 
      GROUP BY RawDataTypeName
@@ -266,6 +266,32 @@ app.get("/api/taskQueue/:taskID", (req, res) =>{
       res.send(rows);
     }
   )
+});
+
+app.get("/api/taskTuple/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  const getTDTName = () =>{
+    return new Promise((res,req) => {
+      connection.query(
+        `SELECT TDTName FROM TASK WHERE TaskID = ${taskID}`,
+        (err, rows, fields) => {
+          res(rows);
+        }
+      );
+    });
+  };
+  getTDTName().then((response) => {
+    const TDTName = response[0].TDTName;
+    connection.query(
+      `SELECT RawDataTypeName AS RDTName, COUNT(*) AS totalSub
+      FROM RAW_DATA_TYPE, ${TDTName}
+      WHERE ${TDTName}_RawDataTypeID = RawDataTypeID
+      GROUP BY RawDataTypeName`,
+     (err,rows,field)=>{
+       res(rews);
+     }
+    );
+  });
 });
 
 app.get("/api/AdminTask", (req, res) => {

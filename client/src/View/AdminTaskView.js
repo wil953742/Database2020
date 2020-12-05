@@ -21,7 +21,9 @@ const AdminTaskView = (props) => {
   const url2 = `/api/taskQueue/${task.taskID}`;
   const [taskData, setTaskData] = useState();
   const [taskList, setTaskList] = useState([]);
-
+  const url3 = `/api/taskTuple/${task.taskID}`;
+  const [taskTuple, setTaskTuple] = useState();
+  const [tupleList, setTupleList] = useState([]);
 
   var logInfo;
   var history = useHistory();
@@ -49,9 +51,18 @@ const AdminTaskView = (props) => {
       })
       .catch((err) => console.log(err));
     }
+    async function fetchTaskTuple() {
+      await axios
+      .get(url3)
+      .then((res) => {
+        setTaskTuple(res.data)
+      })
+      .catch((err) => console.log(err));
+    }
 
     fetchUserData();
     fetchTaskData();
+    fetchTaskTuple();
   }, [reload, props]);
 
   useEffect(() => {
@@ -85,18 +96,35 @@ const AdminTaskView = (props) => {
 
   useEffect(() => {
     if(!taskData) {return;}
+    if(taskData.length === 0){return;}
     var list2 = [];
-    for(var i=0; i < taskData.length; i++) {
+
+    for(let i=0; i < taskData.length; i++) {
       list2.push(
         new TaskData(
           taskData[i].RDTName,
           taskData[i].totalSub,
-          taskData[i].totalTupNum,
         )
       );
     }
     setTaskList(list2);
   }, [taskData]);
+
+  useEffect(() => {
+    if(!taskTuple) {return;}
+    if(taskTuple.length === 0){return;}
+    var list3 = [];
+
+    for(let i=0; i < taskTuple.length; i++) {
+      list3.push(
+        new TaskData(
+          taskTuple[i].RDTName,
+          taskTuple[i].totalSub,
+        )
+      );
+    }
+    setTupleList(list3);
+  }, [taskTuple]);
   
   return (
     <div>
@@ -137,12 +165,12 @@ const AdminTaskView = (props) => {
                       <th>원본타입이름</th>
                       <th>제출 수</th>
                     </tr>
-                      {taskList.map((item) => {
+                      {taskList.map((item) => (
                           <tr>
                             <td>{item.RDTName}</td>
                             <td>{item.totalSub}</td>
                           </tr>
-                    })}
+                      ))}
                   </table>
                 </div>
               </div>
@@ -154,12 +182,12 @@ const AdminTaskView = (props) => {
                       <th>원본타입이름</th>
                       <th>저장 수</th>
                     </tr>
-                      {taskList.map((item) => {
+                      {tupleList.map((item) => (
                           <tr>
                             <td>{item.RDTName}</td>
                             <td>{item.totalTupNum}</td>
                           </tr>
-                      })}
+                      ))}
                   </table>
                 </div>
               </div>
