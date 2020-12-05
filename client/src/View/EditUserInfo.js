@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import styles from "../CSS/loginstyle.module.css";
 
 import { Modal } from "../Components/Modal";
 import { Nav } from "../Components/Nav";
 import { AdminNav } from "../Components/AdminNav";
+import { User } from "../Components/classes";
 
 const EditUserInfo = () => {
   var logInfo;
@@ -23,12 +24,23 @@ const EditUserInfo = () => {
   const axios = require("axios");
   var history = useHistory();
 
+  var type = {
+    Submitter: "제출자",
+    Administrator: "관리자",
+    Estimator: "평가자",
+  };
+
   const signout = () => {
     setToggleModal(true);
+  };
+
+  useEffect(() => {
     if (clickSignout) {
       updateQuery();
+      history.push("/");
+      localStorage.clear();
     }
-  };
+  }, [clickSignout]);
 
   const PasswordCheck = (inputtxt) => {
     var passw = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
@@ -49,7 +61,6 @@ const EditUserInfo = () => {
   };
 
   const updateQuery = async () => {
-    console.log(logInfo.accountID);
     await axios
       .post("/api/editUserInfo", {
         BirthDate: birthdate.slice(0, 10),
@@ -63,7 +74,22 @@ const EditUserInfo = () => {
         clickSignout: clickSignout,
       })
       .then(function (response) {
-        console.log(response);
+        if (clickSignout) return;
+        axios.get(`/api/secret/${logInfo.accountID}`).then((res) => {
+          let data = res;
+          let loginInfo = new User(
+            data.data[0].AccountID,
+            data.data[0].UserID,
+            type[data.data[0].Role],
+            data.data[0].Name,
+            data.data[0].Gender.data,
+            data.data[0].Address,
+            data.data[0].BirthDate,
+            data.data[0].Phone
+          );
+          localStorage.setItem(`user`, JSON.stringify(loginInfo));
+          history.push("/");
+        });
       })
       .catch(function (error) {
         console.log(error);

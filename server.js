@@ -37,6 +37,16 @@ app.get("/api/loginAuth/:id&:password", (req, res) => {
   );
 });
 
+app.get("/api/secret/:AccountID", (req, res) => {
+  const accountID = req.params.AccountID;
+  connection.query(
+    `SELECT * FROM ACCOUNT WHERE AccountID =${accountID}`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
+  );
+});
+
 app.post("/api/userQueue/Admit", (req, res) => {
   const AccountID = req.body.AccountID;
   const newValue = req.body.newValue;
@@ -138,7 +148,7 @@ app.post("/api/Admin/CreateTask", (req, res) => {
     // 2. Create New Raw Data Type
     const RDTSchema = newTask.RDTSchema;
     for (var i = 0; i < newTask.RDTSchema.length; i++) {
-      let insert_rdt_sql = `INSERT IGNORE INTO RAW_DATA_TYPE (RawDataTypeID, Schema_Info, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
+      let insert_rdt_sql = `INSERT IGNORE INTO RAW_DATA_TYPE (RawDataTypeID, SchemaInfo, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
       VALUES (null, '${JSON.stringify(RDTSchema[i].list)}', '${JSON.stringify(
         newTask.RDTSchema[i].list
       )}', ${newTaskID}, '${RDTSchema[i].name}')`;
@@ -160,7 +170,7 @@ app.post("/api/Admin/CreateTask", (req, res) => {
             " " +
             newTask.TDTSchema.list[i].type +
             "(" +
-            newTask.TDTSchema.list +
+            newTask.TDTSchema.list[i].maxLength +
             "), "
         );
       } else {

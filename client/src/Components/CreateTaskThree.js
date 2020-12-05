@@ -54,6 +54,14 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
       alert("스키마를 추가해주세요.");
       return;
     }
+    var nameList = [];
+    for (var i = 0; i < finalList.length; i++) {
+      if (nameList.includes(finalList[i].name)) {
+        alert("중복 속성 이름이 있습니다.");
+        return;
+      }
+      nameList.push(finalList[i].name);
+    }
     newTask.RDTSchema.push(new RSC(name, finalList));
     setName("");
     setNum(2);

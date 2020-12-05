@@ -35,7 +35,7 @@ const AdminUserMng = () => {
       input = text;
       setURL(`api/userList/task/${input}`);
     } else if (value === "BirthDate") {
-      input = calculateYear(text);
+      input = calculateYear(parseInt(text));
       setURL(`api/userList/${value}&${input}`);
     } else if (value === "Gender") {
       input = text === "남자" ? 0 : 1;
@@ -51,11 +51,11 @@ const AdminUserMng = () => {
   };
 
   const calculateAge = (year) => {
-    return 2020 - parseInt(year);
+    return new Date().getFullYear() - parseInt(year);
   };
 
   const calculateYear = (age) => {
-    return 2020 - parseInt(age);
+    return new Date().getFullYear() - parseInt(age);
   };
 
   useEffect(() => {
@@ -87,7 +87,7 @@ const AdminUserMng = () => {
           data[i].AccountID,
           data[i].Name,
           data[i].Role === "Submitter" ? "제출자" : "평가자",
-          calculateAge(data[i].BirthDate.slice(0, 4)),
+          calculateAge(new Date(data[i].BirthDate).getFullYear()),
           data[i].Gender.data == 0 ? "남자" : "여자",
           data[i].UserID,
           task

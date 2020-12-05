@@ -60,6 +60,14 @@ const AdminTaskEdit = (props) => {
           finalList.push(pairList[i]);
         }
       }
+      var nameList = [];
+      for (var i = 0; i < finalList.length; i++) {
+        if (nameList.includes(finalList[i].name)) {
+          alert("중복 속성 이름이 있습니다.");
+          return;
+        }
+        nameList.push(finalList[i].name);
+      }
       var RDT = new RSC(name, finalList);
       const newRDT = async () => {
         axios.post("/api/UpdateRDT", { taskID: task.taskID, newRDT: RDT });

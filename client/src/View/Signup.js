@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import styles from "../CSS/loginstyle.module.css";
 
 export const Signup = () => {
   const [userType, setUserType] = useState();
   const [userID, setUserID] = useState();
-  const [dupCheck, setDupCheck] = useState(false);
   const [password, setPassword] = useState();
   const [confirmPassword, setConfirmPassword] = useState();
   const [name, setName] = useState();
@@ -13,6 +12,7 @@ export const Signup = () => {
   const [birthday, setBirthday] = useState();
   const [address, setAddress] = useState();
   const [phone, setPhone] = useState();
+  const [dupCheck, setDupCheck] = useState(false);
   const axios = require("axios").default;
   let history = useHistory();
 
@@ -28,41 +28,53 @@ export const Signup = () => {
   const IdDupCheck = async () => {
     await axios.get(`/api/signup/${userID}`).then((res) => {
       if (res.data.length === 0) {
+        alert("사용 가능한 아이디입니다.");
         setDupCheck(true);
       } else {
+        alert("이미 사용중인 아이디입니다.");
         setDupCheck(false);
       }
     });
   };
 
-  const submit = () => {
-    console.log(birthday);
+  const phoneFormat = (input) => {
+    let changed = input.replace(/-/gi, "");
+    if (changed.slice(0, 3) === "010" && changed.length === 11) {
+      setPhone(changed);
+      return true;
+    }
+    return false;
+  };
+
+  const checkTypes = () => {
     const form1 = document.forms.type;
     const radios1 = form1.elements.userType;
     const UT = Array.from(radios1).find((radio) => radio.checked);
-    if (UT == null) {
-      alert("유저 유형을 선택하세요.");
-      return;
-    }
     setUserType(UT.id);
+  };
+
+  const checkSex = () => {
     const form2 = document.forms.sex;
     const radios2 = form2.elements.sex;
     const S = Array.from(radios2).find((radio) => radio.checked);
-    if (S == null) {
-      alert("성별을 선택하세요.");
-      return;
-    }
     setSex(S.id);
+  };
+
+  const submit = () => {
+    console.log(sex);
+    console.log(userType);
     if (
-      userType === null ||
-      userID === null ||
-      password === null ||
-      confirmPassword === null ||
-      name === null ||
-      birthday === null ||
-      sex === null ||
-      address === null ||
-      phone === null
+      !userType ||
+      userType === undefined ||
+      !userID ||
+      !password ||
+      !confirmPassword ||
+      !name ||
+      !sex ||
+      sex === undefined ||
+      !birthday ||
+      !address ||
+      !phone
     ) {
       alert("빈 칸을 입력해주세요.");
       return;
@@ -86,16 +98,9 @@ export const Signup = () => {
     handleSignUp();
   };
 
-  const phoneFormat = (input) => {
-    let changed = input.replace(/-/gi, "");
-    if (changed.slice(0, 3) === "010" && changed.length === 11) {
-      setPhone(changed);
-      return true;
-    }
-    return false;
-  };
-
   const handleSignUp = async () => {
+    alert("회원가입이 완료되었습니다. 로그인 해주세요.");
+    history.push("/");
     await axios
       .post("/api/signup", {
         BirthDate: birthday,
@@ -113,9 +118,6 @@ export const Signup = () => {
       .catch(function (error) {
         console.log(error);
       });
-
-    alert("회원가입이 완료되었습니다. 로그인 해주세요.");
-    history.push("/");
   };
 
   return (
@@ -126,9 +128,19 @@ export const Signup = () => {
           <p>회원 유형</p>
           <form name="type">
             <div className={styles.radio_group}>
-              <input type="radio" id="Submitter" name="userType" />
+              <input
+                type="radio"
+                id="Submitter"
+                name="userType"
+                onChange={() => checkTypes()}
+              />
               <label for="Submitter">제출자</label>
-              <input type="radio" id="Estimator" name="userType" />
+              <input
+                type="radio"
+                id="Estimator"
+                name="userType"
+                onChange={() => checkTypes()}
+              />
               <label for="Estimator">평가자</label>
             </div>
           </form>
@@ -185,9 +197,19 @@ export const Signup = () => {
           <p>성별</p>
           <form name="sex">
             <div className={styles.radio_group}>
-              <input type="radio" id="male" name="sex" />
+              <input
+                type="radio"
+                id="male"
+                name="sex"
+                onChange={() => checkSex()}
+              />
               <label for="male">남성</label>
-              <input type="radio" id="female" name="sex" />
+              <input
+                type="radio"
+                id="female"
+                name="sex"
+                onChange={() => checkSex()}
+              />
               <label for="female">여성</label>
             </div>
           </form>
