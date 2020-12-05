@@ -163,36 +163,6 @@ app.post("/api/Admin/CreateTask", (req, res) => {
   });
 });
 
-/*
-// 태스크 수정(원본 데이터 타입 추가)
-
-app.post("/api/AdminEditRawDataType", (req, res) => {
-
-  const RawDataTypeName = req.body.RDTName;
-  const RawDataTypeSchema = req.body.RDTSchema;
-  const RawDataTypeMappingInfo = req.body.RDTMappingInfo;
-  //태스크 수정할 때 TaskID 변수명으로 해당 태스크 ID를 같이 넘겨줘야함 
-  const CollectedTaskID = req.body.TaskID;
-
-  let sqlForEditRawDataType = `SET FOREIGN_KEY_CHECKS = 0; \
-  INSERT INTO Covid_Database.RAW_DATA_TYPE(RawDataTypeID, Schema_Info, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
-  VALUES(null, '${RawDataTypeSchema}', '${RawDataTypeMappingInfo}', ${CollectedTaskID}, '${RawDataTypeName}'); \
-  SET FOREIGN_KEY_CHECKS = 1;` 
-
-  connection.query(sqlForEditRawDataType, (err,rows,fields) => {
-    if(err){
-      console.log(err);
-    }
-    res.send(rows);
-  })
-})*/
-
-// 저장된 튜플 수 확인 (RDT 별로 확인)
-
-// 태스크에 참여한 통계 정보 (제출자)
-
-// 평가한 PDSF 목록 뷰 (평가자)
-
 app.get("/api/TaskDataTable/:taskID", (req, res) => {
   const taskID = req.params.taskID;
   let sql = `SELECT TaskDataTableSchema FROM TASK WHERE TaskID=${taskID}`;
@@ -201,18 +171,15 @@ app.get("/api/TaskDataTable/:taskID", (req, res) => {
   });
 });
 
-app.get("/api/RawDataTable/:taskID", (req, res) => {
-  const taskID = req.params.taskID;
-  let sql = `SELECT Schema_Info FROM RAW_DATA_TYPE, TASK WHERE CollectedTaskID = ${taskID}`;
+app.post("/api/UpdateRDT", (req, res) => {
+  const taskID = req.body.taskID;
+  const newRDT = req.body.newRDT;
+  let sql = `INSERT IGNORE INTO RAW_DATA_TYPE VALUES (NULL, '${JSON.stringify(
+    newRDT.list
+  )}', '${JSON.stringify(newRDT.list)}', ${taskID}, '${newRDT.name}')`;
   connection.query(sql, (err, rows, fields) => {
     res.send(rows);
   });
-});
-
-app.post("/api/UpdateRDT", (req, res) => {
-  // const taskID = req.body.taskID;
-  // const newRDT = req.body.newRDT;
-  // let sql = `INSERT IGNORE INTO RAW_DATA_TYPE VALUES (NULL, '${JSON.stringify(newRDT.list)}', '${JSON.stringify(newRDT.list)}, ${taskID}, '${newRDT.name}')`
 });
 
 app.get("/api/userList", (req, res) => {

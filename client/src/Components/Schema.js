@@ -6,9 +6,9 @@ import Select from "@material-ui/core/Select";
 import InputLabel from "@material-ui/core/InputLabel";
 
 export const Schema = ({ pair, raw, tdt }) => {
-  console.log(pair);
-  console.log(raw);
-  console.log(tdt);
+  // console.log(pair);
+  // console.log(raw);
+  // console.log(tdt);
   const dataType = [
     "bit",
     "tinyint",

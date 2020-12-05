@@ -22,7 +22,6 @@ const AdminTaskEdit = (props) => {
   const [row, setRow] = useState([1]);
   const [pairList, setPairList] = useState([new RPair()]);
   const [tdt, setTdt] = useState();
-  const [rdt, setRdt] = useState();
   const [loading, setLoading] = useState(true);
 
   var logInfo;
@@ -62,7 +61,12 @@ const AdminTaskEdit = (props) => {
         }
       }
       var RDT = new RSC(name, finalList);
-      console.log(RDT);
+      const newRDT = async () => {
+        axios.post("/api/UpdateRDT", { taskID: task.taskID, newRDT: RDT });
+      };
+      newRDT();
+      setToggleAdd(false);
+      alert("원본 데이터 타입이 추가되었습니다.");
     }
   };
 
@@ -72,22 +76,14 @@ const AdminTaskEdit = (props) => {
         setTdt(JSON.parse(res.data[0].TaskDataTableSchema));
       });
     };
-    const fetchRdt = async () => {
-      axios.get(`/api/RawDataTable/${task.taskID}`).then((res) => {
-        console.log(res.data[0]);
-      });
-    };
     fetchTdt();
-    fetchRdt();
   }, []);
 
   useEffect(() => {
     if (!tdt) return;
-    if (!rdt) return;
     setLoading(false);
-  }, [tdt, rdt]);
+  }, [tdt]);
 
-  console.log(row);
   return (
     <div>
       <AdminNav
