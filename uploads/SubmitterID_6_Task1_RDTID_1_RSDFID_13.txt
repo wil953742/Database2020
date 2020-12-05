@@ -1,0 +1,8 @@
+{" case_id":"104","province":"Jeollanam-do","city":"from other city","infection_case":"Shincheonji Church","confirmed":"1","latitude":"-","longitude":"-"},
+{" case_id":"105","province":"Gyeongsangbuk-do","city":"from other city","infection_case":"Shincheonji Church","confirmed":"566","latitude":"-","longitude":"-"},
+{" case_id":"106","province":"Gyeongsangbuk-do","city":"Cheongdo-gun","infection_case":"Cheongdo Daenam Hospital","confirmed":"119","latitude":"35.64887","longitude":"128.7368"},
+{" case_id":"107","province":"Gyeongsangbuk-do","city":"Bonghwa-gun","infection_case":"Bonghwa Pureun Nursing Home","confirmed":"68","latitude":"36.92757","longitude":"128.9099"},
+{" case_id":"108","province":"Gyeongsangbuk-do","city":"Gyeongsan-si","infection_case":"Gyeongsan Seorin Nursing Home","confirmed":"66","latitude":"35.782149","longitude":"128.801498"},
+{" case_id":"109","province":"Gyeongsangbuk-do","city":"from other city","infection_case":"Pilgrimage to Israel","confirmed":"41","latitude":"-","longitude":"-"},
+{" case_id":"110","province":"Gyeongsangbuk-do","city":"Yechun-gun","infection_case":"Yechun-gun","confirmed":"40","latitude":"36.646845","longitude":"128.437416"},
+{" case_id":""},

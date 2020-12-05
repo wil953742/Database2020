@@ -1,6 +1,7 @@
 import React, { useState, Component, useEffect } from "react";
 import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
+import { useHistory } from "react-router-dom";
 import { colors, IconButton } from "@material-ui/core";
 import { parse } from 'papaparse';
 
@@ -12,33 +13,70 @@ export const SubmitterSubmit = ({
   setTogglePopUp,
 }) => {
 
+  var logInfo;
+  var history = useHistory();
+  const loggedIn = localStorage.getItem("user");
+  if (loggedIn) {
+    logInfo = JSON.parse(loggedIn);
+  } else {
+    history.push("/");
+  }
+  
+
   const [RDTtypes, setRDTtypes] = useState();
   const [RDTID, setRDT] = useState();
   const [highlighted, setHighlighted] = React.useState(false);
   const [file, setFile] = useState([]);
-
+  const [LastRDSFID, setLastRDSFID] = useState([]);
+  const [RDSFID, setRDSFID] = useState();
   var lst = [];
   const axios = require('axios').default;
-  
-  console.log(taskName); 
 
   useEffect(() => {
     async function fetchData() {
       await axios.get(`/api/RDTtypes/${taskName}`).then((res) => {
         setRDTtypes(res.data);
       });
+      
     }
     fetchData();
   }, []);
+  
 
-
-
+  useEffect(() => {
+    async function fetchData(){
+      await axios.get(`/api/getLastRDSFID/${logInfo.accountID}`).then((res) => {
+        setLastRDSFID(res.data);
+      });
+    }
+    fetchData();
+  }, []);
+  
+  useEffect(() => {
+    for (let i=0; i < LastRDSFID.length; i++){
+      if (LastRDSFID[i].LastRDSFID == null) {
+        setRDSFID(1);   
+      }
+      else{
+        setRDSFID(LastRDSFID[i].LastRDSFID + 1);
+      }
+    }    
+  }, [LastRDSFID]);
+  
+ 
   const Upload = async () => {
     // process uploading
     
     console.log(RDTID);
-    await axios.post('/api/file', {
+    console.log(RDSFID);
+
+    await axios.post(`/api/file/SubmitterID_${logInfo.accountID}/${taskName}/RDTID_${RDTID}`, {
+      SubmitterID : logInfo.accountID,
+      TaskName : taskName,
+      RDTID : RDTID,
+      RDSFID : RDSFID,
       file : file
+      
     })
     .then(function (response) {
       console.log(response);

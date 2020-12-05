@@ -6,8 +6,13 @@ const bodyParser = require("body-parser");
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
+
+app.use(express.json({ limit : "50mb" })); 
+app.use(express.urlencoded({ limit:"50mb", extended: false }));
+
+
 // app.use(cors);
 
 const data = fs.readFileSync("./database.json");
@@ -630,7 +635,6 @@ app.post(`/api/Estimator/estimate/:ParsingDataSequenceFileID2`, (req, res) => {
 
 app.get(`/api/RDTtypes/:taskName`, (req, res) => {
   const taskName = req.params.taskName;
-  console.log(taskName);
   connection.query(
     `SELECT RawDataTypeID   AS value,
             RawDataTypeName AS label
@@ -642,6 +646,18 @@ app.get(`/api/RDTtypes/:taskName`, (req, res) => {
     }
   );
 });
+
+app.get(`/api/getLastRDSFID/:SubmitterID`, (req, res) => {
+  const SubmitterID = req.params.SubmitterID;
+  connection.query(
+    `SELECT MAX(RawDataSequenceFileID)    AS LastRDSFID
+     FROM RAW_DATA_SEQUENCE_FILE;`,
+    (err, rows, field) => {
+      res.send(rows);
+    }
+  );
+});
+
 
 app.get(`/api/test`, (req, res) => {
   connection.query(
@@ -658,16 +674,46 @@ const upload = multer({dest : 'uploads'});
 
 app.use('/uploads', express.static('uploads'));
 
-app.post(`/api/file`, upload.single('myfile'), (req, res) => {
-  let file = req.body.file;
-  // console.log(file);
-  // console.log(req.file);
-  console.log(file);
-  let sql = 'SELECT * FROM ACCOUNT;';
+app.post(`/api/file/SubmitterID_:SubmitterID/:TaskName/RDTID_:RDTID`, 
+          upload.single('myfile'), (req, res) => {
+  const SubmitterID = req.body.SubmitterID;
+  const TaskName = req.body.TaskName;
+  const RDTID = req.body.RDTID;
+  const RDSFID = req.body.RDSFID;
+  const file = req.body.file;
+  
+  var date = new Date();
+  date = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate();
+
+  var filename = `SubmitterID_${SubmitterID}_${TaskName}_RDTID_${RDTID}_RSDFID_${RDSFID}.txt`;
+  var filePath = 'uploads/' + filename;
+
+  console.log(file[0]);
+
+  
+  
+  var writeFile = fs.createWriteStream(filePath);
+  writeFile.on('error', function(err) { 
+    console.log(err);  
+  });
+  file.forEach(v => 
+    writeFile.write(JSON.stringify(v) + ',\n')
+  );
+  writeFile.end();
+
+  
+
+  // Raw Data Sequence File을 제출하면 DB의 RAW_DATA_SEQUENCE_FILE에 row가 추가된다
+  let sql = `INSERT INTO RAW_DATA_SEQUENCE_FILE
+                          (RawDataSequenceFileID, RDSFSubmitterID, BelongsRawDataTypeID, Directory, Turn)
+              VALUES(null, ${SubmitterID}, ${RDTID}, "${filePath}", "${date}")`;
+  
   connection.query(sql, (err, rows, fields) => {
     res.send(rows);
   });
 });
+
+
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
