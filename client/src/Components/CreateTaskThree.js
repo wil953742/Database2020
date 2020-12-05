@@ -26,17 +26,24 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
     setPairList(pairList.slice(0, -1));
   };
 
-  const createTDT = async () => {
-    console.log(newTask);
+  const createTask = async () => {
     await axios
-      .post("/api/Admin/CreateTDT", 
-      { newTask : newTask })
+      .post("/api/Admin/CreateTask", { newTask: newTask })
+      .then((res) => console.log(res))
       .catch((err) => {
         console.log(err);
       });
   };
 
   const handleNewRDT = () => {
+    var dup = [];
+    for (var i = 0; i < pairList.length; i++) {
+      if (dup.includes(pairList[i].map)) {
+        alert("중복 매핑이 있습니다.");
+        return;
+      }
+      dup.push(pairList[i].map);
+    }
     var finalList = [];
     for (var i = 0; i < pairList.length; i++) {
       if (pairList[i].name !== undefined && pairList[i].type !== undefined) {
@@ -55,17 +62,15 @@ export const CreateTaskThree = ({ setStep, newTask }) => {
     alert("원본 타입이 추가되었습니다.");
   };
 
-  
-
   const handleComplete = () => {
-    console.log(newTask);
     if (!(name === "" || name === undefined || name === null)) {
       handleNewRDT();
     }
-    console.log(newTask.TDTSchema.list);
-    createTDT();
-    console.log(newTask);
-    console.log(JSON.stringify(newTask.TDTSchema.list));
+    if (newTask.RDTSchema.length === 0) {
+      alert("최소 하나의 원본 타입을 추가해야합니다.");
+      return;
+    }
+    createTask();
     history.push("/");
     alert("태스크가 생성되었습니다.");
   };

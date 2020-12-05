@@ -1,15 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import TextField from "@material-ui/core/TextField";
 import styles from "../CSS/mainstyle.module.css";
 import { Link } from "react-router-dom";
 
 export const CreateTaskFirst = ({ setStep, newTask }) => {
-  const check = () => {
-    if (newTask.name && newTask.desc && newTask.period && newTask.passScore) {
-      setStep(2);
-    } else alert("빈칸을 채워주세요.");
+  const axios = require("axios").default;
+  const [dup, setDup] = useState();
+  const [name, setName] = useState();
+
+  const check = async () => {
+    var check = /^[A-Za-z][A-Za-z0-9_]*$/;
+    if (name.match(check)) {
+      newTask.name = name;
+    } else {
+      alert("이름은 영문자와 숫자, '_' 로만 구성해주세요.");
+      return;
+    }
+    await axios.get(`/api/NewTask/${name}`).then((res) => setDup(res.data));
   };
+
+  useEffect(() => {
+    if (!dup) return;
+    if (dup[0].N === 1) {
+      alert("이미 같은 이름의 태스크가 존재합니다.");
+    } else {
+      if (newTask.name && newTask.desc && newTask.period && newTask.passScore) {
+        setStep(2);
+      } else alert("빈칸을 채워주세요.");
+    }
+  }, [dup]);
+
   return (
     <div className={`${styles.sub_container_a} ${styles.ninety}`}>
       <div className={styles.title}>
@@ -22,8 +43,10 @@ export const CreateTaskFirst = ({ setStep, newTask }) => {
             id="name"
             label="이름"
             placeholder="태스크 이름을 입력하시오."
-            value={newTask.name}
-            onChange={(e) => (newTask.name = e.target.value)}
+            value={name}
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
           />
         </div>
         <div>

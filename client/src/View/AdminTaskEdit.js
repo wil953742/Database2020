@@ -67,8 +67,16 @@ const AdminTaskEdit = (props) => {
   };
 
   useEffect(() => {
-    const fetchTdt = async () => {};
-    const fetchRdt = async () => {};
+    const fetchTdt = async () => {
+      axios.get(`/api/TaskDataTable/${task.taskID}`).then((res) => {
+        setTdt(JSON.parse(res.data[0].TaskDataTableSchema));
+      });
+    };
+    const fetchRdt = async () => {
+      axios.get(`/api/RawDataTable/${task.taskID}`).then((res) => {
+        console.log(res.data[0]);
+      });
+    };
     fetchTdt();
     fetchRdt();
   }, []);
@@ -79,6 +87,7 @@ const AdminTaskEdit = (props) => {
     setLoading(false);
   }, [tdt, rdt]);
 
+  console.log(row);
   return (
     <div>
       <AdminNav

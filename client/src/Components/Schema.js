@@ -6,6 +6,9 @@ import Select from "@material-ui/core/Select";
 import InputLabel from "@material-ui/core/InputLabel";
 
 export const Schema = ({ pair, raw, tdt }) => {
+  console.log(pair);
+  console.log(raw);
+  console.log(tdt);
   const dataType = [
     "bit",
     "tinyint",
@@ -40,6 +43,7 @@ export const Schema = ({ pair, raw, tdt }) => {
   const [type, setType] = useState("");
   const [maxLength, setMaxLength] = useState("");
   const [map, setMap] = useState("");
+  const [name, setName] = useState("");
 
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
@@ -49,8 +53,9 @@ export const Schema = ({ pair, raw, tdt }) => {
           id="name"
           label="속성 이름"
           placeholder="속성 이름을 입력하시오."
-          value={pair.name}
+          value={name}
           onChange={(e) => {
+            setName(e.target.value);
             pair.name = e.target.value;
           }}
         />
@@ -105,13 +110,13 @@ export const Schema = ({ pair, raw, tdt }) => {
             id="type"
             value={map}
             onChange={(e) => {
+              setMap(e.target.value);
               if (e.target.value) {
                 if (e.target.value.maxLength) {
                   setToggleMax(true);
                 } else {
                   setToggleMax(false);
                 }
-                setMap(e.target.value);
                 setMaxLength(e.target.value.maxLength);
                 setType(e.target.value.type);
                 pair.map = e.target.value.name;

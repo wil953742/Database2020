@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const data = fs.readFileSync("./database.json");
 const conf = JSON.parse(data);
 const mysql = require("mysql");
+const { Console } = require("console");
 
 const connection = mysql.createConnection({
   host: conf.host,
@@ -70,82 +71,96 @@ app.get("/api/AdminTask", (req, res) => {
   });
 });
 
-//태스크 생성 => (태스크 데이터 테이블, 원본 데이터 타입, 실제 태스크 데이터 테이블 생성)
-app.post("/api/Admin/CreateTDT", (req, res) => {
-  const Description = req.body.newTask.desc;
-  const Period = req.body.newTask.period;
-  const AllocatedTaskDataTableID = req.body.TDTId; 
-  const PreTDTSchema = req.body.newTask.TDTSchema.list;
-  const TaskDataTableSchema = JSON.stringify(PreTDTSchema); // object > toString 필요?
-  const PassScore = req.body.newTask.passScore;
-  const Name = req.body.newTask.name;
-  //매핑정보와 속성 object로 받아지는데 어떻게 ?
-  const PreRDTSchema = req.body.newTask.RDTSchema;
-  const RawDataTypeSchema = JSON.stringify(PreRDTSchema[0].list ,['name', 'type']);
-  const RawDataTypeName = PreRDTSchema[0].name;
-  const RawDataTypeMappingInfo = JSON.stringify(PreRDTSchema[0].list , ['map']);
-  
-  console.log(Description, Period, TaskDataTableSchema, PassScore, Name);
-  console.log(RawDataTypeSchema, "//" , RawDataTypeName, "//", RawDataTypeMappingInfo);
-
+app.get("/api/NewTask/:Name", (req, res) => {
+  const name = req.params.Name;
   connection.query(
-    `INSERT IGNORE INTO TASK (TaskID, Description, Period, AllocatedTaskDataTableID, \
-    TaskDataTableSchema, PassScore, Name) \
-    VALUES (null, '${Description}', ${Period}, 1, \
-    '${TaskDataTableSchema}', ${PassScore}, '${Name}');`,
-    (err,rows,fields) => {
-    if(err) {
-      console.log(err);
+    `SELECT COUNT(*) AS N FROM TASK WHERE Name="${name}"`,
+    (err, rows, fields) => {
+      res.send(rows);
     }
+  );
+});
+
+//태스크 생성 => (태스크 데이터 테이블, 원본 데이터 타입, 실제 태스크 데이터 테이블 생성)
+app.post("/api/Admin/CreateTask", (req, res) => {
+  const newTask = req.body.newTask;
+
+  // 1. Create New Task Row
+  const insert_task_sql = `INSERT IGNORE INTO TASK (TaskID, Name, Description, Period, AllocatedTaskDataTableID, \
+    TDTName, TaskDataTableSchema, PassScore) \
+    VALUES (null, '${newTask.name}', '${newTask.desc}', ${newTask.period}, 1, \
+    '${newTask.name}','${JSON.stringify(newTask.TDTSchema.list)}', ${
+    newTask.passScore
+  })`;
+
+  connection.query(insert_task_sql, (err, rows, fields) => {
+    if (err) console.log(err);
     res.send(rows);
-  })
-  
-  //태스크 데이터 테이블
-  let sqlForTaskDataTable = `INSERT INTO TASK_DATA_TABLE(TaskDataTableID, ResultParsingDataSequenceFileID, ResultTestID) \
-  VALUES(null, null, null );`
+  });
 
-  connection.query(sqlForTaskDataTable, (err,rows,fields) => {
-    if(err){
-      console.log(err);
+  // Function to get newly created taskID
+  const getNewTaskID = () => {
+    return new Promise((res, rej) => {
+      connection.query(
+        `SELECT TaskID FROM TASK WHERE Name='${newTask.name}'`,
+        (err, rows, fields) => {
+          res(rows);
+        }
+      );
+    });
+  };
+
+  // If got taskID, do the rest of the work
+  getNewTaskID().then((res) => {
+    const newTaskID = res[0].TaskID;
+
+    // 2. Create New Raw Data Type
+    const RDTSchema = newTask.RDTSchema;
+    for (var i = 0; i < newTask.RDTSchema.length; i++) {
+      let insert_rdt_sql = `INSERT IGNORE INTO RAW_DATA_TYPE (RawDataTypeID, Schema_Info, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
+      VALUES (null, '${JSON.stringify(RDTSchema[i].list)}', '${JSON.stringify(
+        newTask.RDTSchema[i].list
+      )}', ${newTaskID}, '${RDTSchema[i].name}')`;
+      connection.query(insert_rdt_sql, (err, rows, fields) => {
+        if (err) console.log(err);
+      });
     }
-  })
-  
-  //원본 데이터 타입 RAW_DATA_TYPE ( 서버에 RawDataTypeName 추가하자 )
-  let sqlForRawDataType = `INSERT INTO RAW_DATA_TYPE(RawDataTypeID, Schema_Info, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
-  VALUES(null, '${RawDataTypeSchema}', '${RawDataTypeMappingInfo}', 1, '${RawDataTypeName}');` 
+    // 3. Create New Task Data Table
+    var create_TDT_sql = `CREATE TABLE ${newTask.name} \
+    (ID INT NOT NULL AUTO_INCREMENT, \
+      Submitter_ID INT NOT NULL, \
+      Submitter_name VARCHAR(20) NOT NULL,\
+      RDT_ID INT NOT NULL,`;
 
-  connection.query(sqlForRawDataType, (err,rows,fields) => {
-    if(err){
-      console.log(err);
+    for (var i = 0; i < newTask.TDTSchema.list.length; i++) {
+      if (newTask.TDTSchema.list[i].maxLength) {
+        create_TDT_sql = create_TDT_sql.concat(
+          newTask.TDTSchema.list[i].name +
+            " " +
+            newTask.TDTSchema.list[i].type +
+            "(" +
+            newTask.TDTSchema.list +
+            "), "
+        );
+      } else {
+        create_TDT_sql = create_TDT_sql.concat(
+          newTask.TDTSchema.list[i].name +
+            " " +
+            newTask.TDTSchema.list[i].type +
+            ", "
+        );
+      }
     }
-  })
-//제이슨 파일 읽기 JSON.stringify(newTask.TDTSchema.list)
-  
-  //실제 값이 들어갈 태스크 데이터 테이블 생성 (+FOREIGN_KEY 설정)
-  var colDefFront=`CREATE TABLE ${Name} ( ${Name}_KEY INT NOT NULL AUTO_INCREMENT, ${Name}_RawDataTypeID INT, SAccount_ID INT, SName VARCHAR(20), `;
-  var colDefLast=`PRIMARY KEY(${Name}_KEY), FOREIGN KEY(SAccount_ID) REFERENCES ACCOUNT(AccountID) ON DELETE CASCADE ON UPDATE CASCADE, \
-  FOREIGN KEY(${Name}_RawDataTypeID) REFERENCES RAW_DATA_TYPE(RawDataTypeID) ON DELETE CASCADE ON UPDATE CASCADE) ENGINE=InnoDB DEFAULT CHARSET=utf8;`
 
-  for(var i=0; i<PreTDTSchema.length; i++){
-    if(PreTDTSchema[i].maxLength){
-      colDefFront = colDefFront.concat(PreTDTSchema[i].name+' '+PreTDTSchema[i].type+'('+PreTDTSchema[i].maxLength+'), ');
+    const restriction = `PRIMARY KEY (ID), FOREIGN KEY (Submitter_ID) REFERENCES ACCOUNT(AccountID) ON DELETE CASCADE ON UPDATE CASCADE, \
+    FOREIGN KEY (RDT_ID) REFERENCES RAW_DATA_TYPE(RawDataTypeID) ON DELETE CASCADE ON UPDATE CASCADE) ENGINE=InnoDB DEFAULT CHARSET=utf8;`;
 
-    } else{
-    colDefFront = colDefFront.concat(PreTDTSchema[i].name+' '+PreTDTSchema[i].type+', ');
-    }
-  }
+    create_TDT_sql = create_TDT_sql.concat(restriction);
 
-  colDefFront = colDefFront.concat(colDefLast);
-
-  console.log("bot is sql");
-  console.log(colDefFront);
-
-  connection.query(colDefFront, (err,rows,fields) => {
-    if(err){
-      console.log(err);
-    }
-  })
-
+    connection.query(create_TDT_sql, (err, rows, fields) => {
+      if (err) console.log(err);
+    });
+  });
 });
 
 /*
@@ -177,6 +192,28 @@ app.post("/api/AdminEditRawDataType", (req, res) => {
 // 태스크에 참여한 통계 정보 (제출자)
 
 // 평가한 PDSF 목록 뷰 (평가자)
+
+app.get("/api/TaskDataTable/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  let sql = `SELECT TaskDataTableSchema FROM TASK WHERE TaskID=${taskID}`;
+  connection.query(sql, (err, rows, fields) => {
+    res.send(rows);
+  });
+});
+
+app.get("/api/RawDataTable/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  let sql = `SELECT Schema_Info FROM RAW_DATA_TYPE, TASK WHERE CollectedTaskID = ${taskID}`;
+  connection.query(sql, (err, rows, fields) => {
+    res.send(rows);
+  });
+});
+
+app.post("/api/UpdateRDT", (req, res) => {
+  // const taskID = req.body.taskID;
+  // const newRDT = req.body.newRDT;
+  // let sql = `INSERT IGNORE INTO RAW_DATA_TYPE VALUES (NULL, '${JSON.stringify(newRDT.list)}', '${JSON.stringify(newRDT.list)}, ${taskID}, '${newRDT.name}')`
+});
 
 app.get("/api/userList", (req, res) => {
   connection.query(
@@ -411,6 +448,5 @@ app.get("/api/UserDetail/main/:type/:accountID", (req, res) => {
     res.send(rows);
   });
 });
-
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
