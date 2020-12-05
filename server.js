@@ -363,7 +363,8 @@ app.get("/api/GetTuple/:taskID", (req, res) => {
     const TDTName = response[0].TDTName;
     let sql = `SELECT RawDataTypeName AS RDTName, COUNT(RDT_ID) AS totalSub\
       FROM ${TDTName}, RAW_DATA_TYPE\
-      WHERE RDT_ID = RawDataTypeID`;
+      WHERE RDT_ID = RawDataTypeID
+      GROUP BY RawDataTypeName`;
     connection.query(sql, (err, rows, fields) => {
       res.send(rows);
     });
