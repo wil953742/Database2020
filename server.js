@@ -369,8 +369,8 @@ app.get("/api/UserDetail/content/:type/:accountID", (req, res) => {
   const accountID = req.params.accountID;
   let sql;
   if (type === "제출자") {
-    sql =`SELECT TaskID AS name, COUNT(*) AS totalSub, AVG(TotalTupleNum) AS avgTup, 
-          AVG(DupTupleNum) AS avgDup, AVG(NullRatio) AS avgNullRatio, SUM(TotalTupleNum) AS saveTup
+    sql =`SELECT TaskID AS name, COUNT(*) AS totalSub, round(AVG(TotalTupleNum),2) AS avgTup, 
+          round(AVG(DupTupleNum),2) AS avgDup, round(AVG(NullRatio),2) AS avgNullRatio, SUM(TotalTupleNum) AS saveTup
             FROM APPLY, TASK, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE, PARSING_DATA_SEQUENCE_FILE
             WHERE AppliedSubmitterID = ${accountID} AND 
             AppliedTaskID = TaskID AND
