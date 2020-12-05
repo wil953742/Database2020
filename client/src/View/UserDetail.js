@@ -37,16 +37,17 @@ const UserDetail = (props) => {
         .get(`/api/UserDetail/main/${user.type}/${user.accountID}`)
         .then((res) => {
           setMainData(res.data[0]);
+          console.log(mainData);
         });
     };
     const fetchContent = async () => {
       await axios
         .get(`/api/UserDetail/content/${user.type}/${user.accountID}`)
         .then((res) => {
+          console.log(res);
           setContent(res.data);
         });
     };
-    setLoading(true);
     fetchMain();
     fetchContent();
   }, []);
@@ -59,17 +60,37 @@ const UserDetail = (props) => {
       for (var i = 0; i < content.length; i++) {
         list.push(
           new UDE(
-            content[i].PDSFID,
-            content[i].TotalTupleNum,
-            content[i].DupTupleNum,
-            content[i].NullRatio,
-            content[i].Direc,
-            content[i].Score
+            content[i].ID,
+            content[i].totalTup,
+            content[i].dupTup,
+            content[i].nullRatio,
+            content[i].directory,
+            content[i].score
           )
         );
       }
       setUdeList(list);
     }
+
+    if (user.type === "제출자") {
+      var list = [];
+      for(var i=0; i< content.length; i++) {
+        list.push(
+          new UDS(
+            content[i].name,
+            content[i].totalSub,
+            content[i].avgTup,
+            content[i].avgDup,
+            content[i].avgNullRatio,
+            content[i].saveTup,
+            10,
+            true
+          )
+        );
+      }
+      setUdsList(list);
+    }
+
     setLoading(false);
   }, [mainData, content]);
 
@@ -82,8 +103,8 @@ const UserDetail = (props) => {
           userID={logInfo.userID}
         />
         {loading && <Loading />}
-        {!loading && (
-          <div className={styles.center_all}>
+        <div className={styles.center_all}>
+          {!loading && (
             <div className={styles.main_container}>
               {user.type === "제출자" && (
                 <div className={styles.mc}>
@@ -173,8 +194,8 @@ const UserDetail = (props) => {
                 </Link>
               )}
             </div>
-          </div>
-        )}
+            )}
+        </div>
       </div>
     </div>
   );

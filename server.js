@@ -90,9 +90,9 @@ app.post("/api/Admin/CreateTDT", (req, res) => {
 
   connection.query(
     `INSERT IGNORE INTO TASK (TaskID, Description, Period, AllocatedTaskDataTableID, \
-    TaskDataTableSchema, PassScore, Name) \
+    TaskDataTableSchema, TDTName , PassScore) \
     VALUES (null, '${Description}', ${Period}, 1, \
-    '${TaskDataTableSchema}', ${PassScore}, '${Name}');`,
+    '${TaskDataTableSchema}', '${Name}', ${PassScore});`,
     (err,rows,fields) => {
     if(err) {
       console.log(err);
@@ -148,7 +148,6 @@ app.post("/api/Admin/CreateTDT", (req, res) => {
 
 });
 
-/*
 // 태스크 수정(원본 데이터 타입 추가)
 
 app.post("/api/AdminEditRawDataType", (req, res) => {
@@ -159,8 +158,7 @@ app.post("/api/AdminEditRawDataType", (req, res) => {
   //태스크 수정할 때 TaskID 변수명으로 해당 태스크 ID를 같이 넘겨줘야함 
   const CollectedTaskID = req.body.TaskID;
 
-  let sqlForEditRawDataType = `SET FOREIGN_KEY_CHECKS = 0; \
-  INSERT INTO Covid_Database.RAW_DATA_TYPE(RawDataTypeID, Schema_Info, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
+  let sqlForEditRawDataType = `INSERT INTO Covid_Database.RAW_DATA_TYPE(RawDataTypeID, Schema_Info, TableMappingInfo, CollectedTaskID, RawDataTypeName) \
   VALUES(null, '${RawDataTypeSchema}', '${RawDataTypeMappingInfo}', ${CollectedTaskID}, '${RawDataTypeName}'); \
   SET FOREIGN_KEY_CHECKS = 1;` 
 
@@ -170,7 +168,7 @@ app.post("/api/AdminEditRawDataType", (req, res) => {
     }
     res.send(rows);
   })
-})*/
+})
 
 // 저장된 튜플 수 확인 (RDT 별로 확인)
 
@@ -197,6 +195,16 @@ app.get("/api/userTask", (req, res) => {
       res.send(rows);
     }
   );
+});
+
+app.get("/api/userList/task/:taskName", (req, res) => {
+  const taskName = req.params.taskName;
+  let url = `SELECT AccountID, A.Name, Role, BirthDate, Gender, UserID, T.Name\
+  FROM TASK AS T, ACCOUNT AS A, APPLY\
+  WHERE AccountID = AppliedSubmitterID AND TaskID = AppliedTaskID AND APPROVAL=1 AND T.Name = "${taskName}"`;
+  connection.query(url, (err, rows, fields) => {
+    res.send(rows);
+  });
 });
 
 app.get(`/api/userList/:category=:value`, (req, res) => {
@@ -361,18 +369,28 @@ app.get("/api/UserDetail/content/:type/:accountID", (req, res) => {
   const accountID = req.params.accountID;
   let sql;
   if (type === "제출자") {
-    sql = ``;
+    sql =`SELECT TaskID AS name, COUNT(*) AS totalSub, AVG(TotalTupleNum) AS avgTup, 
+          AVG(DupTupleNum) AS avgDup, AVG(NullRatio) AS avgNullRatio, SUM(TotalTupleNum) AS saveTup
+            FROM APPLY, TASK, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE, PARSING_DATA_SEQUENCE_FILE
+            WHERE AppliedSubmitterID = ${accountID} AND 
+            AppliedTaskID = TaskID AND
+            TaskID = CollectedTaskID AND
+            RawDataTypeID = BelongsRawDataTypeID AND
+            RawDataSequenceFileID = BeforeRawDataSequenceFileID 
+            GROUP BY TaskID`
   }
   if (type === "평가자") {
-    sql = `SELECT ParsingDataSequenceFileID AS PDSFID, TotalTupleNum, DupTupleNum, NullRatio, Direc, QualityScore AS Score
+    sql = `SELECT ParsingDataSequenceFileID AS ID, TotalTupleNum AS totalTup, DupTupleNum AS dupTup,
+           NullRatio AS nullRatio, Direc AS directory, QualityScore AS score
             FROM PARSING_DATA_SEQUENCE_FILE, ASSIGN, QUALITY_TEST
             WHERE EAccountID = ${accountID} AND 
-            AssignedParsingDataSequenceFileID = ParsingDataSequenceFileID AND
-            ParsingDataSequenceFileID2 = AssignedParsingDataSequenceFileID`;
+            ParsingDataSequenceFileID = ParsingDataSequenceFileID2 AND
+            (AssignedParsingDataSequenceFileID, QTestID) = (ParsingDataSequenceFileID2, TestID)`;
   }
 
   connection.query(sql, (err, rows, field) => {
     console.log(err);
+    console.log("Data of Content : ", rows);
     res.send(rows);
   });
 });
@@ -398,7 +416,9 @@ app.get("/api/UserDetail/main/:type/:accountID", (req, res) => {
       WHERE SubmitterID = ${accountID}`;
   }
   connection.query(sql, (err, rows, field) => {
+    console.log("Data of main : ", rows);
     res.send(rows);
+    console.log(err);
   });
 });
 

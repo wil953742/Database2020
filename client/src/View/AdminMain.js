@@ -44,16 +44,23 @@ export const AdminMain = () => {
 
   return (
     <div className={styles.center_all}>
-      {loading && <Loading />}
       <h2 className={styles.list_title}>태스크 목록</h2>
       <div className={styles.main_container}>
         <div className={styles.sub_container_1}>
-          <AdminTaskRowNav />
-          <div className={styles.scrollable_div} style={{ height: "540px" }}>
-            {taskList.map((task) => (
-              <AdminTaskRow key={task.TaskID} task={task} />
-            ))}
-          </div>
+          {loading && <Loading />}
+            {!loading && (
+              <div>
+                <AdminTaskRowNav />
+                <div
+                  className={styles.scrollable_div}
+                  style={{ height: "540px" }}
+                >
+                  {taskList.map((task) => (
+                    <AdminTaskRow key={task.TaskID} task={task} />
+                  ))}
+                </div>
+              </div>
+            )}
         </div>
       </div>
       <Link to={{ pathname: "/NewTask" }}>

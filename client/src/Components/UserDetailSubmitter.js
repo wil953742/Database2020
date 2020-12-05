@@ -11,7 +11,6 @@ export const UserDetailSubmitter = ({ top, uds }) => {
       <p>{uds.avgDup}</p>
       <p>{uds.avgNullRatio}</p>
       <p>{uds.saveTup}</p>
-      <p>{uds.avgPassRatio}</p>
     </div>
   );
 };

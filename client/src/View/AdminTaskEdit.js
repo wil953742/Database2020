@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../CSS/mainstyle.module.css";
 import TextField from "@material-ui/core/TextField";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
 import IconButton from "@material-ui/core/IconButton";
 import { useHistory } from "react-router-dom";
-import { Pair } from "../Components/classes";
+import { RPair } from "../Components/classes";
 import { RSC } from "../Components/classes";
 import { Schema } from "../Components/Schema";
 import { AdminNav } from "../Components/AdminNav";
+import { Loading } from "../Components/Loading";
 
 const AdminTaskEdit = (props) => {
   const axios = require("axios").default;
@@ -19,7 +20,10 @@ const AdminTaskEdit = (props) => {
   const [name, setName] = useState();
   const [num, setNum] = useState(2);
   const [row, setRow] = useState([1]);
-  const [pairList, setPairList] = useState([new Pair()]);
+  const [pairList, setPairList] = useState([new RPair()]);
+  const [tdt, setTdt] = useState();
+  const [rdt, setRdt] = useState();
+  const [loading, setLoading] = useState(true);
 
   var logInfo;
   var history = useHistory();
@@ -58,8 +62,22 @@ const AdminTaskEdit = (props) => {
         }
       }
       var RDT = new RSC(name, finalList);
+      console.log(RDT);
     }
   };
+
+  useEffect(() => {
+    const fetchTdt = async () => {};
+    const fetchRdt = async () => {};
+    fetchTdt();
+    fetchRdt();
+  }, []);
+
+  useEffect(() => {
+    if (!tdt) return;
+    if (!rdt) return;
+    setLoading(false);
+  }, [tdt, rdt]);
 
   return (
     <div>
@@ -139,11 +157,18 @@ const AdminTaskEdit = (props) => {
                     onChange={(e) => setName(e.target.value)}
                   />
                 </div>
-                <div className={`${styles.scrollable_div} ${styles.new_box}`}>
-                  {row.map((item) => (
-                    <Schema key={item} pair={pairList[item - 1]} />
-                  ))}
-                </div>
+                {!loading && (
+                  <div className={`${styles.scrollable_div} ${styles.new_box}`}>
+                    {row.map((item) => (
+                      <Schema
+                        key={item}
+                        pair={pairList[item - 1]}
+                        raw={true}
+                        tdt={tdt}
+                      />
+                    ))}
+                  </div>
+                )}
               </form>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <IconButton
@@ -155,7 +180,7 @@ const AdminTaskEdit = (props) => {
                 </IconButton>
                 <IconButton
                   onClick={() => {
-                    setPairList([...pairList, new Pair()]);
+                    setPairList([...pairList, new RPair()]);
                     setNum(num + 1);
                     setRow([...row, num]);
                   }}
