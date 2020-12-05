@@ -396,18 +396,28 @@ app.get("/api/UserDetail/content/:type/:accountID", (req, res) => {
   const accountID = req.params.accountID;
   let sql;
   if (type === "제출자") {
-    sql = ``;
+    sql = `SELECT TaskID AS name, COUNT(*) AS totalSub, round(AVG(TotalTupleNum),2) AS avgTup, 
+          round(AVG(DupTupleNum),2) AS avgDup, round(AVG(NullRatio),2) AS avgNullRatio, SUM(TotalTupleNum) AS saveTup
+            FROM APPLY, TASK, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE, PARSING_DATA_SEQUENCE_FILE
+            WHERE AppliedSubmitterID = ${accountID} AND 
+            AppliedTaskID = TaskID AND
+            TaskID = CollectedTaskID AND
+            RawDataTypeID = BelongsRawDataTypeID AND
+            RawDataSequenceFileID = BeforeRawDataSequenceFileID 
+            GROUP BY TaskID`;
   }
   if (type === "평가자") {
-    sql = `SELECT ParsingDataSequenceFileID AS PDSFID, TotalTupleNum, DupTupleNum, NullRatio, Direc, QualityScore AS Score
+    sql = `SELECT ParsingDataSequenceFileID AS ID, TotalTupleNum AS totalTup, DupTupleNum AS dupTup,
+           NullRatio AS nullRatio, Direc AS directory, QualityScore AS score
             FROM PARSING_DATA_SEQUENCE_FILE, ASSIGN, QUALITY_TEST
             WHERE EAccountID = ${accountID} AND 
-            AssignedParsingDataSequenceFileID = ParsingDataSequenceFileID AND
-            ParsingDataSequenceFileID2 = AssignedParsingDataSequenceFileID`;
+            ParsingDataSequenceFileID = ParsingDataSequenceFileID2 AND
+            (AssignedParsingDataSequenceFileID, QTestID) = (ParsingDataSequenceFileID2, TestID)`;
   }
 
   connection.query(sql, (err, rows, field) => {
     console.log(err);
+    console.log("Data of Content : ", rows);
     res.send(rows);
   });
 });
@@ -433,7 +443,9 @@ app.get("/api/UserDetail/main/:type/:accountID", (req, res) => {
       WHERE SubmitterID = ${accountID}`;
   }
   connection.query(sql, (err, rows, field) => {
+    console.log("Data of main : ", rows);
     res.send(rows);
+    console.log(err);
   });
 });
 
