@@ -81,6 +81,27 @@ app.get("/api/NewTask/:Name", (req, res) => {
   );
 });
 
+app.get("/api/DownloadTask/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  const getTDTName = () => {
+    return new Promise((res, rej) => {
+      connection.query(
+        `SELECT TDTName FROM TASK WHERE TaskID=${taskID}`,
+        (err, rows, fields) => {
+          res(rows);
+        }
+      );
+    });
+  };
+  getTDTName().then((response) => {
+    const TDTName = response[0].TDTName;
+    connection.query(`SELECT * FROM ${TDTName}`, (err, rows, fields) => {
+      if (err) console.log(err);
+      res.send(rows);
+    });
+  });
+});
+
 //태스크 생성 => (태스크 데이터 테이블, 원본 데이터 타입, 실제 태스크 데이터 테이블 생성)
 app.post("/api/Admin/CreateTask", (req, res) => {
   const newTask = req.body.newTask;

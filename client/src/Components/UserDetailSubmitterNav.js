@@ -10,7 +10,6 @@ export const UserDetailSubmitterNav = () => {
       <p>평균중복튜플수</p>
       <p>평균NULLRATIO</p>
       <p>저장튜플수</p>
-      <p>평균PASSRATIO</p>
     </div>
   );
 };
