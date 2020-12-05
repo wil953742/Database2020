@@ -19,10 +19,12 @@ export const SubmitterSubmit = ({
 
   var lst = [];
   const axios = require('axios').default;
+  
+  console.log(taskName); 
 
   useEffect(() => {
     async function fetchData() {
-      await axios.get('/api/RDTtypes').then((res) => {
+      await axios.get(`/api/RDTtypes/${taskName}`).then((res) => {
         setRDTtypes(res.data);
       });
     }
@@ -98,7 +100,7 @@ export const SubmitterSubmit = ({
 
       
       <div className={styles.info}>
-      <h3>Row Data Type</h3>
+      <h3>Raw Data Type</h3>
 
         <Select  
           options={RDTtypes}

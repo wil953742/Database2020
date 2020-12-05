@@ -578,11 +578,15 @@ app.post(`/api/Estimator/estimate/:ParsingDataSequenceFileID2`, (req, res) => {
   });
 });
 
-app.get(`/api/RDTtypes`, (req, res) => {
+app.get(`/api/RDTtypes/:taskName`, (req, res) => {
+  const taskName = req.params.taskName;
+  console.log(taskName);
   connection.query(
     `SELECT RawDataTypeID   AS value,
             RawDataTypeName AS label
-    FROM RAW_DATA_TYPE`,
+    FROM RAW_DATA_TYPE, TASK
+    WHERE CollectedTaskID = TaskID
+      AND Name            = '${taskName}';`,
     (err, rows, field) => {
       res.send(rows);
     }
