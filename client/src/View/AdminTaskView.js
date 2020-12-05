@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "../CSS/mainstyle.module.css";
 import { useHistory, Link } from "react-router-dom";
 import { TaskUser } from "../Components/classes";
+import { TaskData } from "../Components/classes";
 
 import { AdminParticipantRowNav } from "../Components/AdminParticipantRowNav";
 import { AdminParticipantRow } from "../Components/AdminParticipantRow";
@@ -16,6 +17,11 @@ const AdminTaskView = (props) => {
   const [userData, setUserData] = useState();
   const [reload, setReload] = useState(true);
   const [loading, setLoading] = useState(true);
+
+  const url2 = `/api/taskQueue/${task.taskID}`;
+  const [taskData, setTaskData] = useState();
+  const [taskList, setTaskList] = useState([]);
+
 
   var logInfo;
   var history = useHistory();
@@ -35,7 +41,17 @@ const AdminTaskView = (props) => {
         })
         .catch((err) => console.log(err));
     }
+    async function fetchTaskData() {
+      await axios
+      .get(url2)
+      .then((res) => {
+        setTaskData(res.data)
+      })
+      .catch((err) => console.log(err));
+    }
+
     fetchUserData();
+    fetchTaskData();
   }, [reload, props]);
 
   useEffect(() => {
@@ -63,9 +79,25 @@ const AdminTaskView = (props) => {
       );
     }
     setUserList(list);
+
     setLoading(false);
   }, [userData]);
 
+  useEffect(() => {
+    if(!taskData) {return;}
+    var list2 = [];
+    for(var i=0; i < taskData.length; i++) {
+      list2.push(
+        new TaskData(
+          taskData[i].RDTName,
+          taskData[i].totalSub,
+          taskData[i].totalTupNum,
+        )
+      );
+    }
+    setTaskList(list2);
+  }, [taskData]);
+  
   return (
     <div>
       <AdminNav
@@ -105,18 +137,12 @@ const AdminTaskView = (props) => {
                       <th>원본타입이름</th>
                       <th>제출 수</th>
                     </tr>
-                    <tr>
-                      <td>원본타입1</td>
-                      <td>10</td>
-                    </tr>
-                    <tr>
-                      <td>원본타입2</td>
-                      <td>90</td>
-                    </tr>
-                    <tr>
-                      <td>총</td>
-                      <td>100</td>
-                    </tr>
+                      {taskList.map((item) => {
+                          <tr>
+                            <td>{item.RDTName}</td>
+                            <td>{item.totalSub}</td>
+                          </tr>
+                    })}
                   </table>
                 </div>
               </div>
@@ -128,18 +154,12 @@ const AdminTaskView = (props) => {
                       <th>원본타입이름</th>
                       <th>저장 수</th>
                     </tr>
-                    <tr>
-                      <td>원본타입1</td>
-                      <td>10</td>
-                    </tr>
-                    <tr>
-                      <td>원본타입2</td>
-                      <td>90</td>
-                    </tr>
-                    <tr>
-                      <td>총</td>
-                      <td>100</td>
-                    </tr>
+                      {taskList.map((item) => {
+                          <tr>
+                            <td>{item.RDTName}</td>
+                            <td>{item.totalTupNum}</td>
+                          </tr>
+                      })}
                   </table>
                 </div>
               </div>

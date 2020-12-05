@@ -95,6 +95,15 @@ class TaskUser {
   }
 }
 
+//추가
+class TaskData {
+  constructor(RDTName, totalSub, totalTupNum) {
+    this.RDTName = RDTName;
+    this.totalSub = totalSub;
+    this.totalTupNum = totalTupNum;
+  }
+}
+
 class Pair {
   constructor(name, type, maxLength) {
     this.name = name;
@@ -157,6 +166,7 @@ class UDS {
 }
 
 export {
+  TaskData,
   TaskUser,
   User,
   Record,

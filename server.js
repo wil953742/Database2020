@@ -245,6 +245,29 @@ app.get("/api/userQueue/:taskID", (req, res) => {
   );
 });
 
+//추가
+app.get("/api/taskQueue/:taskID", (req, res) =>{
+  const taskID = req.params.taskID;
+  connection.query(
+    `SELECT RawDataTypeName AS RDTName, COUNT(RawDataSequenceFileID) AS totalSub, SUM(TotalTupleNum) AS totalTupNum
+     FROM TASK, RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE, PARSING_DATA_SEQUENCE_FILE
+     WHERE
+     TaskID = ${taskID} AND
+     TaskID = CollectedTaskID AND
+     RawDataTypeID = BelongsRawDataTypeID AND
+     RawDataSequenceFileID = BeforeRawDataSequenceFileID 
+     GROUP BY RawDataTypeName
+     ;`,
+    (err, rows, field) => {
+      if(err){
+        console.log(err);
+      }
+      console.log(rows)
+      res.send(rows);
+    }
+  )
+});
+
 app.get("/api/AdminTask", (req, res) => {
   connection.query("SELECT * \
     FROM TASK", (err, rows, fields) => {

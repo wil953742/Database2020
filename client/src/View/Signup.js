@@ -45,6 +45,7 @@ export const Signup = () => {
       return;
     }
     setUserType(UT.id);
+    
     const form2 = document.forms.sex;
     const radios2 = form2.elements.sex;
     const S = Array.from(radios2).find((radio) => radio.checked);
