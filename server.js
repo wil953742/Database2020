@@ -576,6 +576,26 @@ app.post(`/api/Estimator/estimate/:ParsingDataSequenceFileID2`, (req, res) => {
   });
 });
 
+app.get(`/api/RDTtypes`, (req, res) => {
+  connection.query(
+    `SELECT RawDataTypeID   AS value,
+            RawDataTypeName AS label
+    FROM RAW_DATA_TYPE`,
+    (err, rows, field) => {
+      res.send(rows);
+    }
+  );
+});
+
+app.get(`/api/test`, (req, res) => {
+  connection.query(
+    `SELECT SchemaInfo FROM RAW_DATA_TYPE`,
+    (err, rows, field) => {
+      res.send(rows);
+    }
+  );
+});
+
 const multer = require('multer');
 const { query } = require("express");
 const upload = multer({dest : 'uploads'});
@@ -596,22 +616,6 @@ app.post(`/api/file`, upload.single('myfile'), (req, res) => {
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 
-// entity
-
-
-// RAW_DATA_SEQUENCE_FILE
-
-// parsing rule 
-
-// PARSING_DATA_SEQUENCE_FILE
-
-// download (시스템 상의 uploads 폴더 안에 다운로드)
-
-// assign rule
-
-// ASSIGN
-
-// QUALITY_TEST
 
 
 

@@ -48,7 +48,8 @@ export const SubmitterMain = ({ loginfo }) => {
     }
     fetchData();
   }, []);
-
+  console.log(data);
+  
   useEffect(() => {
     if (!data) return;
     var taskList = [];

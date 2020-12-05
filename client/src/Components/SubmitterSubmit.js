@@ -1,4 +1,4 @@
-import React, { useState, Component } from "react";
+import React, { useState, Component, useEffect } from "react";
 import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { colors, IconButton } from "@material-ui/core";
@@ -11,24 +11,30 @@ export const SubmitterSubmit = ({
   taskDesc,
   setTogglePopUp,
 }) => {
-  const RDTtypes = [
-    { value : "type1", label : "type1"},
-    { value : "type2", label : "type2"},
-    { value : "type3", label : "type3"},
-  ];
 
+  const [RDTtypes, setRDTtypes] = useState();
+  const [RDTID, setRDT] = useState();
   const [highlighted, setHighlighted] = React.useState(false);
-  const [ RDT, setRDT] = useState();
+  const [file, setFile] = useState([]);
 
   var lst = [];
   const axios = require('axios').default;
-  // const parse = require('csv-parse');
 
-  const [file, setFile] = useState([]);
-  
+  useEffect(() => {
+    async function fetchData() {
+      await axios.get('/api/RDTtypes').then((res) => {
+        setRDTtypes(res.data);
+      });
+    }
+    fetchData();
+  }, []);
+
+
+
   const Upload = async () => {
     // process uploading
-    console.log(RDTtypes);
+    
+    console.log(RDTID);
     await axios.post('/api/file', {
       file : file
     })
@@ -99,8 +105,9 @@ export const SubmitterSubmit = ({
           placeholder="Raw Data Type을 선택하시오."
           className = {styles.select_rdt}
           isSearchable
-
-          onChange = {e => console.log(e)}>
+          // onChange = {e => console.log(e)}
+          onChange = {e => setRDT(e.value)}
+          >
           
           </Select>
         
