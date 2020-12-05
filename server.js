@@ -13,6 +13,7 @@ const data = fs.readFileSync("./database.json");
 const conf = JSON.parse(data);
 const mysql = require("mysql");
 const { Console } = require("console");
+const { response } = require("express");
 
 const connection = mysql.createConnection({
   host: conf.host,
@@ -324,6 +325,49 @@ app.get("/api/loginAuth/:id&:password", (req, res) => {
       res.send(rows);
     }
   );
+});
+
+app.get("/api/taskQueue/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  connection.query(
+    `SELECT RawDataTypeName AS RDTName, COUNT(RawDataSequenceFileID) AS totalSub, SUM(TotalTupleNum) AS totalTupNum
+     FROM RAW_DATA_TYPE, RAW_DATA_SEQUENCE_FILE, PARSING_DATA_SEQUENCE_FILE
+     WHERE
+     ${taskID} = CollectedTaskID AND
+     RawDataTypeID = BelongsRawDataTypeID AND
+     RawDataSequenceFileID = BeforeRawDataSequenceFileID 
+     GROUP BY RawDataTypeName
+     ;`,
+    (err, rows, field) => {
+      if (err) {
+        console.log(err);
+      }
+      res.send(rows);
+    }
+  );
+});
+
+app.get("/api/GetTuple/:taskID", (req, res) => {
+  const taskID = req.params.taskID;
+  const getTDTName = () => {
+    return new Promise((res, rej) => {
+      connection.query(
+        `SELECT TDTName FROM TASK WHERE TaskID=${taskID}`,
+        (err, rows, fields) => {
+          res(rows);
+        }
+      );
+    });
+  };
+  getTDTName().then((response) => {
+    const TDTName = response[0].TDTName;
+    let sql = `SELECT RawDataTypeName AS RDTName, COUNT(RDT_ID) AS totalSub\
+      FROM ${TDTName}, RAW_DATA_TYPE\
+      WHERE RDT_ID = RawDataTypeID`;
+    connection.query(sql, (err, rows, fields) => {
+      res.send(rows);
+    });
+  });
 });
 
 app.get("/api/signup/:id", (req, res) => {

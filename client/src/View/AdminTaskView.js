@@ -16,6 +16,13 @@ const AdminTaskView = (props) => {
   const [userData, setUserData] = useState();
   const [reload, setReload] = useState(true);
   const [loading, setLoading] = useState(true);
+  const [submissionData, setSubmissionData] = useState();
+  const [submission, setSubmission] = useState();
+  const [tupleData, setTupleData] = useState();
+  const [tuple, setTuple] = useState();
+  const [total1, setTotal1] = useState(0);
+  const [total2, setTotal2] = useState(0);
+  const [loading2, setLoading2] = useState(true);
 
   var logInfo;
   var history = useHistory();
@@ -94,16 +101,65 @@ const AdminTaskView = (props) => {
     });
   };
 
+  async function fetchUserData() {
+    await axios
+      .get(url)
+      .then((res) => {
+        setUserData(res.data);
+      })
+      .catch((err) => console.log(err));
+  }
+
+  async function fetchSubmissionData() {
+    await axios
+      .get(`/api/taskQueue/${task.taskID}`)
+      .then((res) => {
+        setSubmissionData(res.data);
+      })
+      .catch((err) => console.log(err));
+  }
+
+  async function fetchTupleData() {
+    await axios.get(`/api/GetTuple/${task.taskID}`).then((res) => {
+      setTupleData(res.data);
+    });
+  }
+
   useEffect(() => {
-    async function fetchUserData() {
-      await axios
-        .get(url)
-        .then((res) => {
-          setUserData(res.data);
-        })
-        .catch((err) => console.log(err));
+    fetchSubmissionData();
+    fetchTupleData();
+  }, []);
+
+  useEffect(() => {
+    if (!submissionData) return;
+    if (submissionData.length === 0) return;
+    console.log(submissionData);
+    var list = [];
+    var total = 0;
+    for (let i = 0; i < submissionData.length; i++) {
+      list.push(submissionData[i]);
+      total += submissionData[i].totalSub;
     }
+    setTotal1(total);
+    setSubmission(list);
+
+    if (!tupleData) return;
+    if (tupleData.length === 0) return;
+    var list2 = [];
+    var total2 = 0;
+    for (let i = 0; i < tupleData.length; i++) {
+      list2.push(tupleData[i]);
+      total2 += tupleData[i].totalSub;
+    }
+    setTotal2(total2);
+    setTuple(list2);
+
+    setLoading2(false);
+  }, [submissionData, tupleData]);
+
+  useEffect(() => {
     fetchUserData();
+    fetchSubmissionData();
   }, [reload, props]);
 
   useEffect(() => {
@@ -130,9 +186,10 @@ const AdminTaskView = (props) => {
         )
       );
     }
+
     setUserList(list);
     setLoading(false);
-  }, [userData]);
+  }, [userData, submissionData]);
 
   return (
     <div>
@@ -168,47 +225,51 @@ const AdminTaskView = (props) => {
               <div>
                 <h2>총 제출 수</h2>
                 <div className={styles.scrollable_div}>
-                  <table>
-                    <tr>
-                      <th>원본타입이름</th>
-                      <th>제출 수</th>
-                    </tr>
-                    <tr>
-                      <td>원본타입1</td>
-                      <td>10</td>
-                    </tr>
-                    <tr>
-                      <td>원본타입2</td>
-                      <td>90</td>
-                    </tr>
-                    <tr>
-                      <td>총</td>
-                      <td>100</td>
-                    </tr>
-                  </table>
+                  {!loading2 && (
+                    <table>
+                      <tr>
+                        <th>원본타입이름</th>
+                        <th>제출 수</th>
+                      </tr>
+                      {submission.map((item) => {
+                        return (
+                          <tr>
+                            <td>{item.RDTName}</td>
+                            <td>{item.totalSub}</td>
+                          </tr>
+                        );
+                      })}
+                      <tr>
+                        <td>총</td>
+                        <td>{total1}</td>
+                      </tr>
+                    </table>
+                  )}
                 </div>
               </div>
               <div>
                 <h2>저장된 튜플 수</h2>
                 <div className={styles.scrollable_div}>
-                  <table>
-                    <tr>
-                      <th>원본타입이름</th>
-                      <th>저장 수</th>
-                    </tr>
-                    <tr>
-                      <td>원본타입1</td>
-                      <td>10</td>
-                    </tr>
-                    <tr>
-                      <td>원본타입2</td>
-                      <td>90</td>
-                    </tr>
-                    <tr>
-                      <td>총</td>
-                      <td>100</td>
-                    </tr>
-                  </table>
+                  {!loading2 && (
+                    <table>
+                      <tr>
+                        <th>원본타입이름</th>
+                        <th>저장 수</th>
+                      </tr>
+                      {tuple.map((item) => {
+                        return (
+                          <tr>
+                            <td>{item.RDTName}</td>
+                            <td>{item.totalSub}</td>
+                          </tr>
+                        );
+                      })}
+                      <tr>
+                        <td>총</td>
+                        <td>{total2}</td>
+                      </tr>
+                    </table>
+                  )}
                 </div>
               </div>
             </div>
