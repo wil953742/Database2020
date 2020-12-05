@@ -8,7 +8,6 @@ export const UserDetailEstimatorNav = () => {
       <p>총튜플수</p>
       <p>중복튜플수</p>
       <p>NULL RATIO</p>
-      <p> </p>
       <p>부여점수</p>
     </div>
   );

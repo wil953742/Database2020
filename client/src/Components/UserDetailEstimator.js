@@ -12,11 +12,6 @@ export const UserDetailEstimator = ({ ude }) => {
       <p>{ude.totalTup}</p>
       <p>{ude.dupTup}</p>
       <p>{ude.nullRatio}</p>
-      <div>
-        <button className={styles.tiny_button} onClick={() => download()}>
-          다운로드
-        </button>
-      </div>
       <p>{ude.score}</p>
     </div>
   );
