@@ -1,389 +1,389 @@
-patient_id,sex,age,city,infection_case,contact_number,symptom_onset_date,confirmed_date,released_date,deceased_date,state
-1000000046,female,20s,etc,contact with patient,,,2020-02-26,2020-03-03,,released
-1000000083,female,20s,Songpa-gu,contact with patient,,2020-02-24,2020-03-01,,,released
-1000000086,female,30s,Gangnam-gu,etc,,,2020-03-01,,,released
-1000000088,male,40s,Gwangjin-gu,Seongdong-gu APT,,,2020-03-01,,,released
-1000000089,male,50s,Seongbuk-gu,Seongdong-gu APT,,,2020-03-01,,,released
-1000000090,male,50s,Yeongdeungpo-gu,Seongdong-gu APT,,,2020-03-01,,,released
-1000000097,male,30s,Yangcheon-gu,contact with patient,,,2020-03-01,,,released
-1000000099,female,20s,Dongdaemun-gu,etc,,,2020-03-01,,,released
-1000000098,male,50s,Seocho-gu,etc,,,2020-03-02,,,released
-1000000096,male,30s,Dobong-gu,etc,,2020-03-01,2020-03-02,,,released
-1000000095,female,20s,Seongbuk-gu,Seongdong-gu APT,,,2020-03-02,2020-03-20,,released
-1000000094,female,50s,Seongbuk-gu,Seongdong-gu APT,,,2020-03-02,,,released
-1000000093,female,50s,Gangnam-gu,etc,,,2020-03-02,,,released
-1000000092,male,20s,Yeongdeungpo-gu,Seongdong-gu APT,,2020-02-26,2020-03-02,,,released
-1000000100,male,30s,Dongdaemun-gu,Dongan Church,,,2020-03-04,,,released
-1000000101,female,10s,Jungnang-gu,contact with patient,,,2020-03-04,,,released
-1000000102,female,40s,Yongsan-gu,Seongdong-gu APT,,,2020-03-04,,,released
-1000000103,male,20s,Dongdaemun-gu,overseas inflow,,,2020-03-04,2020-03-20,,released
-1000000111,male,30s,Gangbuk-gu,contact with patient,,,2020-03-04,,,released
-1000000104,female,10s,Gangbuk-gu,etc,,,2020-03-05,,,released
-1000000105,male,30s,Gangnam-gu,etc,,,2020-03-05,,,released
-1000000119,male,60s,Gangbuk-gu,contact with patient,,2020-02-27,2020-03-06,,,released
-1000000115,female,50s,Yangcheon-gu,contact with patient,,,2020-03-06,,,released
-1000000113,female,60s,Gangbuk-gu,contact with patient,,2020-02-24,2020-03-06,,,released
-1000000120,male,30s,Seongbuk-gu,Dongan Church,,,2020-03-06,,,released
-1000000108,male,40s,etc,contact with patient,,,2020-03-06,,,released
-1000000107,male,30s,etc,contact with patient,,,2020-03-06,,,released
-1000000106,male,30s,Gangseo-gu,contact with patient,,,2020-03-06,,,released
-1000000109,male,90s,etc,contact with patient,,2020-03-02,2020-03-07,,,deceased
-1000000112,female,0s,Gwanak-gu,contact with patient,,,2020-03-07,,,released
-1000000114,female,20s,Yangcheon-gu,contact with patient,,,2020-03-07,,,released
-1000000116,male,30s,Eunpyeong-gu,overseas inflow,,,2020-03-07,,,released
-1000000117,male,60s,Seocho-gu,contact with patient,,2020-03-06,2020-03-07,,,released
-1000000118,male,50s,Yangcheon-gu,contact with patient,,,2020-03-07,,,released
-1000000110,male,50s,Gangnam-gu,contact with patient,,,2020-03-07,2020-03-19,,released
-1000000130,male,20s,Dongdaemun-gu,contact with patient,,,2020-03-08,,,released
-1000000129,female,60s,Dongdaemun-gu,contact with patient,,,2020-03-08,,,released
-1000000128,male,60s,Dongdaemun-gu,contact with patient,,2020-03-05,2020-03-08,,,released
-1000000126,female,30s,Dongdaemun-gu,contact with patient,,2020-03-04,2020-03-08,,,released
-1000000127,male,50s,Gangnam-gu,contact with patient,,,2020-03-08,,,released
-1000000124,male,20s,Dongdaemun-gu,Dongan Church,,,2020-03-08,,,released
-1000000123,female,70s,etc,etc,,,2020-03-08,,,released
-1000000122,female,20s,Dongdaemun-gu,Dongan Church,,2020-02-28,2020-03-08,,,released
-1000000121,female,0s,Dongdaemun-gu,contact with patient,,2020-03-04,2020-03-08,,,released
-1000000125,female,50s,Nowon-gu,Guro-gu Call Center,,,2020-03-08,,,released
-1000000146,female,50s,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000147,male,20s,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000148,male,50s,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000149,female,50s,etc,Guro-gu Call Center,,,2020-03-09,,,released
-1000000150,female,60s,Gangseo-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000153,female,50s,Guro-gu,Guro-gu Call Center,,2020-03-06,2020-03-09,,,released
-1000000152,female,40s,etc,Guro-gu Call Center,,,2020-03-09,,,released
-1000000154,female,50s,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000155,female,50s,Gangseo-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000156,female,30s,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000145,male,40s,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000151,female,40s,etc,Guro-gu Call Center,,,2020-03-09,,,released
-1000000144,female,40s,Gangseo-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000138,male,30s,etc,etc,,,2020-03-09,,,released
-1000000142,female,40s,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000143,male,40s,Yangcheon-gu,Guro-gu Call Center,,2020-03-06,2020-03-09,,,released
-1000000131,female,50s,Eunpyeong-gu,Guro-gu Call Center,,2020-03-07,2020-03-09,,,released
-1000000133,female,40s,Gangdong-gu,overseas inflow,,,2020-03-09,,,released
-1000000134,female,20s,Dongjak-gu,contact with patient,,,2020-03-09,,,released
-1000000135,male,30s,Eunpyeong-gu,etc,,,2020-03-09,,,released
-1000000132,male,50s,Eunpyeong-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000137,female,50s,Geumcheon-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000139,male,30s,Yangcheon-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000140,female,40s,Eunpyeong-gu,etc,,2020-02-27,2020-03-09,,,released
-1000000141,female,50s,Nowon-gu,Guro-gu Call Center,,2020-03-07,2020-03-09,,,released
-1000000136,female,50s,Jung-gu,Guro-gu Call Center,,,2020-03-09,,,released
-1000000182,female,50s,Dongjak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000190,female,50s,Mapo-gu,Guro-gu Call Center,,2020-02-28,2020-03-10,,,released
-1000000183,female,50s,Mapo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000184,male,30s,Mapo-gu,Guro-gu Call Center,,2020-03-09,2020-03-10,,,released
-1000000185,female,30s,Mapo-gu,Guro-gu Call Center,,2020-03-09,2020-03-10,,,released
-1000000186,female,50s,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000187,female,50s,Geumcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000188,female,20s,Dongdaemun-gu,contact with patient,,,2020-03-10,2020-03-19,,released
-1000000189,male,20s,Dongdaemun-gu,contact with patient,,2020-03-02,2020-03-10,,,released
-1000000191,female,30s,Eunpyeong-gu,overseas inflow,,,2020-03-10,,,released
-1000000197,male,60s,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000193,male,20s,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000194,male,40s,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000195,female,30s,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000196,female,60s,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000198,female,50s,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000199,female,40s,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000200,female,50s,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000201,male,30s,Nowon-gu,Guro-gu Call Center,,2020-03-10,2020-03-10,,,released
-1000000202,male,60s,Nowon-gu,Guro-gu Call Center,,2020-03-08,2020-03-10,,,released
-1000000181,female,30s,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000192,female,20s,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000180,female,40s,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000172,female,50s,Yangcheon-gu,Guro-gu Call Center,,2020-03-08,2020-03-10,,,released
-1000000178,female,20s,Dongdaemun-gu,contact with patient,,,2020-03-10,,,released
-1000000157,female,40s,Dongjak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000158,female,40s,Dongjak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000159,female,40s,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000160,female,60s,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000161,female,50s,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000162,female,50s,Gangseo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000163,female,40s,Gangseo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000165,female,40s,Songpa-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000166,female,40s,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000167,female,40s,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000164,female,60s,Eunpyeong-gu,contact with patient,,2020-02-29,2020-03-10,,,released
-1000000169,female,40s,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000177,male,40s,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000168,female,40s,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000175,female,20s,Gangseo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000174,male,20s,Dongdaemun-gu,contact with patient,,,2020-03-10,,,released
-1000000176,female,40s,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000179,male,50s,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000171,female,40s,Yangcheon-gu,Guro-gu Call Center,,2020-02-29,2020-03-10,,,released
-1000000170,female,50s,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000173,female,50s,Gangseo-gu,Guro-gu Call Center,,,2020-03-10,,,released
-1000000213,female,20s,Mapo-gu,Guro-gu Call Center,,2020-03-10,2020-03-11,,,released
-1000000219,female,30s,Jungnang-gu,Guro-gu Call Center,,,2020-03-11,,,released
-1000000218,male,40s,Guro-gu,Guro-gu Call Center,,2020-03-10,2020-03-11,,,released
-1000000217,male,20s,Seongbuk-gu,Dongan Church,,,2020-03-11,,,released
-1000000216,male,30s,Seongbuk-gu,overseas inflow,,,2020-03-11,,,released
-1000000215,female,60s,Songpa-gu,etc,,,2020-03-11,,,released
-1000000214,female,50s,Seodaemun-gu,Guro-gu Call Center,,,2020-03-11,,,released
-1000000212,female,20s,Dongdaemun-gu,Dongan Church,,,2020-03-11,,,released
-1000000220,male,50s,Dongdaemun-gu,Dongan Church,,,2020-03-11,,,released
-1000000210,male,50s,Eunpyeong-gu,etc,,,2020-03-11,,,released
-1000000203,male,20s,Gangseo-gu,Guro-gu Call Center,,,2020-03-11,,,released
-1000000204,male,50s,Gangseo-gu,Guro-gu Call Center,,,2020-03-11,,,released
-1000000205,female,20s,Gangseo-gu,Guro-gu Call Center,,,2020-03-11,,,released
-1000000211,male,20s,Dongdaemun-gu,Dongan Church,,,2020-03-11,,,released
-1000000207,female,70s,Eunpyeong-gu,etc,,,2020-03-11,2020-03-20,,released
-1000000208,male,40s,Jungnang-gu,Guro-gu Call Center,,,2020-03-11,,,released
-1000000209,male,70s,Guro-gu,Guro-gu Call Center,,2020-03-10,2020-03-11,,,released
-1000000206,female,20s,Seodaemun-gu,etc,,,2020-03-11,,,released
-1000000231,female,50s,Seocho-gu,Shincheonji Church,,,2020-03-12,,,released
-1000000230,male,20s,Gwanak-gu,overseas inflow,,,2020-03-12,,,released
-1000000229,male,30s,Yongsan-gu,overseas inflow,,,2020-03-12,,,released
-1000000228,female,60s,Songpa-gu,Guro-gu Call Center,,,2020-03-12,,,released
-1000000227,male,30s,Geumcheon-gu,etc,,2020-03-10,2020-03-12,,,released
-1000000226,male,20s,Geumcheon-gu,Guro-gu Call Center,,,2020-03-12,,,released
-1000000224,male,10s,Dongdaemun-gu,contact with patient,,,2020-03-12,,,released
-1000000222,male,50s,Gangbuk-gu,overseas inflow,,,2020-03-12,,,released
-1000000221,male,10s,Nowon-gu,contact with patient,,,2020-03-12,,,released
-1000000225,male,20s,Seongbuk-gu,contact with patient,,,2020-03-12,,,released
-1000000223,female,20s,Gangnam-gu,Guro-gu Call Center,,,2020-03-12,,,released
-1000000237,female,20s,Mapo-gu,overseas inflow,,2020-03-11,2020-03-13,,,released
-1000000240,male,50s,Dongdaemun-gu,Dongan Church,,2020-03-05,2020-03-13,,,released
-1000000239,male,20s,Dongdaemun-gu,Dongan Church,,,2020-03-13,,,released
-1000000238,female,70s,Dongdaemun-gu,Dongan Church,,,2020-03-13,,,released
-1000000236,male,20s,Nowon-gu,overseas inflow,,,2020-03-13,,,released
-1000000234,female,20s,Seocho-gu,etc,,,2020-03-13,,,released
-1000000233,female,20s,Seocho-gu,contact with patient,,,2020-03-13,,,released
-1000000232,male,20s,Gwanak-gu,contact with patient,,,2020-03-13,,,released
-1000000235,male,50s,Dongjak-gu,contact with patient,,,2020-03-13,,,released
-1000000247,male,50s,Guro-gu,overseas inflow,,,2020-03-14,,,released
-1000000246,male,50s,Yeongdeungpo-gu,etc,,2020-03-11,2020-03-14,,,released
-1000000245,male,30s,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-14,,,released
-1000000248,female,50s,Guro-gu,Guro-gu Call Center,,,2020-03-14,,,released
-1000000243,female,40s,Gangnam-gu,contact with patient,,,2020-03-14,,,released
-1000000242,male,20s,Mapo-gu,contact with patient,,2020-03-11,2020-03-14,,,released
-1000000241,female,60s,Jungnang-gu,Dongan Church,,,2020-03-14,,,released
-1000000244,female,60s,Dobong-gu,Dongan Church,,,2020-03-14,,,released
-1000000249,female,20s,Nowon-gu,contact with patient,,2020-03-12,2020-03-15,,,released
-1000000250,female,10s,Yeongdeungpo-gu,contact with patient,,2020-03-10,2020-03-15,,,released
-1000000251,male,0s,Guro-gu,Guro-gu Call Center,,,2020-03-15,,,released
-1000000252,male,30s,Gangseo-gu,etc,,2020-03-12,2020-03-15,,,released
-1000000253,male,50s,Guro-gu,Guro-gu Call Center,,,2020-03-15,,,released
-1000000254,female,80s,Eunpyeong-gu,Guro-gu Call Center,,2020-03-15,2020-03-15,,,released
-1000000263,male,10s,Guro-gu,contact with patient,,2020-03-13,2020-03-16,,,released
-1000000266,male,20s,Yeongdeungpo-gu,overseas inflow,,2020-03-12,2020-03-16,,,released
-1000000265,male,30s,Gwanak-gu,etc,,,2020-03-16,,,released
-1000000267,female,50s,Dongjak-gu,etc,,,2020-03-16,,,released
-1000000264,male,40s,Gangseo-gu,contact with patient,,,2020-03-16,,,released
-1000000262,female,40s,Yongsan-gu,Guro-gu Call Center,,2020-03-07,2020-03-16,,,released
-1000000257,male,30s,Guro-gu,Guro-gu Call Center,,,2020-03-16,,,released
-1000000260,male,30s,Seodaemun-gu,etc,,,2020-03-16,,,released
-1000000259,male,20s,Dongdaemun-gu,Dongan Church,,,2020-03-16,,,released
-1000000258,male,20s,Dongdaemun-gu,Dongan Church,,,2020-03-16,,,released
-1000000256,female,20s,Eunpyeong-gu,Guro-gu Call Center,,,2020-03-16,,,released
-1000000255,female,30s,Seodaemun-gu,etc,,,2020-03-16,,,released
-1000000261,male,40s,Gwanak-gu,etc,,,2020-03-16,,,released
-1000000268,male,10s,Dongdaemun-gu,Dongan Church,,,2020-03-17,,,released
-1000000269,female,20s,Songpa-gu,overseas inflow,,,2020-03-17,,,released
-1000000270,female,20s,etc,overseas inflow,,,2020-03-17,,,released
-1000000271,male,20s,Mapo-gu,overseas inflow,,2020-03-16,2020-03-17,,,released
-1000000282,male,30s,Gwangjin-gu,overseas inflow,,,2020-03-18,,,released
-1000000281,female,30s,Dongjak-gu,overseas inflow,,,2020-03-18,,,released
-1000000280,male,40s,Gangnam-gu,etc,,,2020-03-18,,,released
-1000000279,male,90s,Yongsan-gu,etc,,2020-03-11,2020-03-18,,,released
-1000000278,female,20s,Nowon-gu,overseas inflow,,2020-03-15,2020-03-18,,,released
-1000000276,male,0s,Yangcheon-gu,Guro-gu Call Center,,2020-03-16,2020-03-18,,,released
-1000000275,female,30s,Mapo-gu,Guro-gu Call Center,,2020-03-16,2020-03-18,,,released
-1000000274,female,50s,Seongbuk-gu,Dongan Church,,,2020-03-18,,,released
-1000000273,female,40s,Seongbuk-gu,Guro-gu Call Center,,,2020-03-18,,,released
-1000000272,male,40s,Gangnam-gu,overseas inflow,,,2020-03-18,,,released
-1000000277,male,30s,Dongjak-gu,overseas inflow,,,2020-03-18,,,released
-1000000292,female,40s,Seongdong-gu,overseas inflow,,,2020-03-19,,,released
-1000000298,female,50s,Yeongdeungpo-gu,contact with patient,,,2020-03-19,,,released
-1000000299,male,40s,Nowon-gu,overseas inflow,,,2020-03-19,,,released
-1000000296,female,50s,Dongjak-gu,Guro-gu Call Center,,,2020-03-19,,,released
-1000000295,female,30s,Songpa-gu,overseas inflow,,,2020-03-19,,,released
-1000000294,female,60s,Gangnam-gu,overseas inflow,,,2020-03-19,,,released
-1000000293,female,60s,Yangcheon-gu,Guro-gu Call Center,,,2020-03-19,,,released
-1000000291,female,50s,Gangseo-gu,Guro-gu Call Center,,,2020-03-19,,,released
-1000000297,female,20s,Yeongdeungpo-gu,contact with patient,,,2020-03-19,,,released
-1000000289,male,20s,Dongjak-gu,overseas inflow,,,2020-03-19,,,released
-1000000288,female,50s,Nowon-gu,contact with patient,,,2020-03-19,,,released
-1000000287,male,10s,Mapo-gu,Guro-gu Call Center,,,2020-03-19,,,released
-1000000286,female,10s,Mapo-gu,Guro-gu Call Center,,,2020-03-19,,,released
-1000000285,male,40s,Mapo-gu,Guro-gu Call Center,,,2020-03-19,,,deceased
-1000000284,female,80s,Yongsan-gu,contact with patient,,,2020-03-19,,,released
-1000000283,female,70s,Gwanak-gu,etc,,,2020-03-19,,,released
-1000000290,female,30s,Songpa-gu,overseas inflow,,,2020-03-19,,,released
-1000000316,male,20s,Nowon-gu,etc,,2020-03-18,2020-03-20,,,released
-1000000315,female,50s,Gwanak-gu,Guro-gu Call Center,,,2020-03-20,,,released
-1000000314,male,20s,Gwangjin-gu,overseas inflow,,,2020-03-20,,,released
-1000000313,female,20s,Seocho-gu,overseas inflow,,2020-03-19,2020-03-20,,,released
-1000000311,female,0s,Gangseo-gu,contact with patient,,,2020-03-20,,,released
-1000000310,female,60s,Seongbuk-gu,contact with patient,,2020-03-19,2020-03-20,,,released
-1000000309,male,40s,Gangdong-gu,overseas inflow,,,2020-03-20,,,released
-1000000308,female,20s,Seocho-gu,overseas inflow,,2020-03-17,2020-03-20,,,released
-1000000312,male,50s,Gangdong-gu,etc,,,2020-03-20,,,released
-1000000306,male,20s,Eunpyeong-gu,overseas inflow,,,2020-03-20,,,released
-1000000305,male,20s,Jungnang-gu,overseas inflow,,,2020-03-20,,,released
-1000000304,female,20s,Seongdong-gu,overseas inflow,,,2020-03-20,,,released
-1000000303,male,70s,Yeongdeungpo-gu,overseas inflow,,2020-03-07,2020-03-20,,,released
-1000000302,male,10s,Dongjak-gu,overseas inflow,8,2020-03-19,2020-03-20,,,released
-1000000301,male,30s,Dongjak-gu,etc,,,2020-03-20,,,released
-1000000300,female,40s,Guro-gu,Guro-gu Call Center,,,2020-03-20,,,released
-1000000307,male,60s,Nowon-gu,contact with patient,,,2020-03-20,,,released
-1000000324,female,50s,Seocho-gu,etc,,2020-03-19,2020-03-21,,,released
-1000000323,male,30s,Seodaemun-gu,contact with patient,,,2020-03-21,,,released
-1000000322,female,20s,Seodaemun-gu,overseas inflow,,,2020-03-21,,,released
-1000000321,male,20s,Yeongdeungpo-gu,overseas inflow,,2020-03-12,2020-03-21,,,released
-1000000319,male,20s,Jungnang-gu,contact with patient,,,2020-03-21,,,released
-1000000318,male,20s,Jungnang-gu,contact with patient,,,2020-03-21,,,released
-1000000317,female,30s,Gangseo-gu,overseas inflow,,2020-03-15,2020-03-21,,,released
-1000000320,male,60s,Seongdong-gu,contact with patient,,2020-03-21,2020-03-21,,,released
-1000000325,male,50s,Seongbuk-gu,overseas inflow,,,2020-03-22,,,released
-1000000326,male,20s,Dobong-gu,overseas inflow,,,2020-03-22,,,released
-1000000327,female,20s,Gangseo-gu,overseas inflow,,,2020-03-22,,,released
-1000000328,female,50s,Seodaemun-gu,Guro-gu Call Center,,,2020-03-22,,,released
-1000000329,female,40s,Seodaemun-gu,Guro-gu Call Center,,,2020-03-22,,,released
-1000000330,female,20s,Eunpyeong-gu,contact with patient,,,2020-03-22,,,released
-1000000336,female,20s,Gangdong-gu,overseas inflow,,,2020-03-23,,,released
-1000000348,female,20s,Songpa-gu,overseas inflow,,,2020-03-23,,,released
-1000000334,male,20s,Gangnam-gu,overseas inflow,,,2020-03-23,,,released
-1000000332,male,40s,Yongsan-gu,overseas inflow,,,2020-03-23,,,released
-1000000331,male,70s,Yeongdeungpo-gu,etc,,2020-03-18,2020-03-23,,,released
-1000000333,female,10s,Jongno-gu,overseas inflow,,,2020-03-23,,,released
-1000000346,male,50s,etc,overseas inflow,,,2020-03-24,,,released
-1000000337,female,20s,Dongjak-gu,overseas inflow,,,2020-03-24,,,released
-1000000339,male,20s,Jungnang-gu,overseas inflow,,,2020-03-24,,,released
-1000000340,female,20s,Dobong-gu,overseas inflow,,,2020-03-24,,,released
-1000000341,female,30s,Gangseo-gu,contact with patient,,2020-03-22,2020-03-24,,,released
-1000000342,female,10s,Jongno-gu,contact with patient,,,2020-03-24,,,released
-1000000343,male,30s,Yongsan-gu,overseas inflow,,2020-03-18,2020-03-24,,,released
-1000000344,male,60s,Gangnam-gu,contact with patient,,2020-03-19,2020-03-24,,,released
-1000000345,male,60s,Seocho-gu,overseas inflow,,2020-03-22,2020-03-24,,,released
-1000000347,female,20s,Eunpyeong-gu,contact with patient,,,2020-03-24,,,released
-1000000349,female,30s,Dongdaemun-gu,overseas inflow,,,2020-03-24,,,released
-1000000390,female,10s,Gangnam-gu,overseas inflow,,,2020-03-25,,,released
-1000000360,female,10s,Gangnam-gu,overseas inflow,3,,2020-03-25,,,released
-1000000359,male,20s,Gangnam-gu,overseas inflow,3,,2020-03-25,,,released
-1000000358,male,20s,etc,overseas inflow,4,,2020-03-25,,,released
-1000000372,male,50s,etc,etc,,,2020-03-25,,,released
-1000000357,female,20s,Gangnam-gu,overseas inflow,,,2020-03-25,,,released
-1000000352,female,20s,Seocho-gu,overseas inflow,,2020-03-23,2020-03-25,,,released
-1000000355,female,20s,Seocho-gu,overseas inflow,,2020-03-21,2020-03-25,,,released
-1000000354,female,20s,Seocho-gu,overseas inflow,,2020-03-24,2020-03-25,,,released
-1000000353,male,40s,Geumcheon-gu,etc,,,2020-03-25,,,released
-1000000351,male,30s,Dongjak-gu,overseas inflow,,,2020-03-25,,,released
-1000000350,male,30s,Dongjak-gu,overseas inflow,,,2020-03-25,,,released
-1000000356,female,70s,Gangseo-gu,contact with patient,,,2020-03-25,,,released
-1000000370,male,40s,Seocho-gu,overseas inflow,,2020-03-23,2020-03-26,,,released
-1000000374,male,20s,Gangnam-gu,overseas inflow,2,,2020-03-26,,,released
-1000000373,female,50s,Gangnam-gu,contact with patient,1,,2020-03-26,,,released
-1000000371,male,30s,Songpa-gu,overseas inflow,,,2020-03-26,,,released
-1000000369,female,20s,Songpa-gu,overseas inflow,,,2020-03-26,,,released
-1000000375,female,20s,Gangdong-gu,overseas inflow,,,2020-03-26,,,released
-1000000367,female,20s,Gangnam-gu,overseas inflow,6,,2020-03-26,,,released
-1000000366,male,50s,Guro-gu,overseas inflow,,,2020-03-26,,,released
-1000000365,female,50s,Guro-gu,contact with patient,,2020-03-22,2020-03-26,,,released
-1000000364,male,40s,Yongsan-gu,contact with patient,,,2020-03-26,,,released
-1000000363,female,30s,Geumcheon-gu,contact with patient,,,2020-03-26,,,released
-1000000362,female,20s,Seongbuk-gu,overseas inflow,,,2020-03-26,,,released
-1000000361,male,20s,Jungnang-gu,overseas inflow,6,,2020-03-26,,,released
-1000000368,male,60s,Gangnam-gu,overseas inflow,0,,2020-03-26,,,released
-1000000386,male,50s,etc,contact with patient,,,2020-03-27,,,released
-1000000389,male,50s,Gangnam-gu,overseas inflow,,,2020-03-27,,,released
-1000000388,male,20s,Guro-gu,overseas inflow,,2020-03-26,2020-03-27,,,released
-1000000387,female,10s,Gangnam-gu,overseas inflow,,,2020-03-27,,,released
-1000000385,male,40s,Yeongdeungpo-gu,contact with patient,,2020-03-25,2020-03-27,,,released
-1000000381,female,50s,Jungnang-gu,contact with patient,,,2020-03-27,,,released
-1000000383,female,20s,Seongbuk-gu,overseas inflow,,,2020-03-27,,,released
-1000000382,female,30s,Jung-gu,overseas inflow,,,2020-03-27,,,released
-1000000427,male,50s,Geumcheon-gu,etc,,,2020-03-27,,,released
-1000000380,male,40s,Jungnang-gu,overseas inflow,,,2020-03-27,,,released
-1000000378,female,50s,Dobong-gu,overseas inflow,,,2020-03-27,,,released
-1000000376,female,20s,Mapo-gu,overseas inflow,,,2020-03-27,,,released
-1000000384,male,20s,Songpa-gu,overseas inflow,,,2020-03-27,,,released
-1000000404,male,10s,Gangnam-gu,overseas inflow,,,2020-03-28,,,released
-1000000405,male,20s,Gangnam-gu,contact with patient,,,2020-03-28,,,released
-1000000406,male,10s,Gangnam-gu,overseas inflow,,,2020-03-28,,,released
-1000000407,female,20s,Gangnam-gu,overseas inflow,,,2020-03-28,,,released
-1000000410,female,20s,etc,overseas inflow,,,2020-03-28,,,released
-1000000409,female,40s,Seocho-gu,overseas inflow,,,2020-03-28,,,released
-1000000411,female,50s,Dongjak-gu,etc,,,2020-03-28,,,released
-1000000412,female,40s,Guro-gu,etc,,,2020-03-28,,,released
-1000000408,female,20s,Yangcheon-gu,overseas inflow,,,2020-03-28,,,released
-1000000403,female,30s,Dongjak-gu,contact with patient,,,2020-03-28,,,released
-1000000400,male,20s,Songpa-gu,overseas inflow,,,2020-03-28,,,released
-1000000401,female,40s,Gangnam-gu,overseas inflow,,,2020-03-28,,,released
-1000000399,female,40s,Guro-gu,etc,,,2020-03-28,,,released
-1000000398,male,20s,Jung-gu,overseas inflow,,,2020-03-28,,,released
-1000000397,female,20s,Seocho-gu,overseas inflow,,,2020-03-28,,,released
-1000000396,male,20s,Gwanak-gu,overseas inflow,,,2020-03-28,,,released
-1000000395,male,40s,etc,overseas inflow,,,2020-03-28,,,released
-1000000394,male,40s,etc,overseas inflow,,,2020-03-28,,,released
-1000000393,female,40s,Dongjak-gu,etc,,,2020-03-28,,,released
-1000000392,male,40s,Guro-gu,etc,,,2020-03-28,,,released
-1000000391,male,50s,Geumcheon-gu,contact with patient,,2020-03-20,2020-03-28,,,released
-1000000402,male,20s,Seocho-gu,overseas inflow,,2020-03-20,2020-03-28,,,released
-1000000429,female,50s,Geumcheon-gu,etc,,,2020-03-29,,,released
-1000000428,male,80s,Guro-gu,etc,,,2020-03-29,,,released
-1000000430,female,50s,Geumcheon-gu,etc,,,2020-03-29,,,released
-1000000420,female,50s,Gangnam-gu,overseas inflow,,,2020-03-29,,,released
-1000000432,female,40s,Geumcheon-gu,etc,,,2020-03-29,,,released
-1000000433,female,40s,Dongjak-gu,etc,,,2020-03-29,,,released
-1000000451,female,60s,Dongjak-gu,etc,,,2020-03-29,,,released
-1000000426,female,30s,Gwangjin-gu,overseas inflow,,,2020-03-29,,,released
-1000000431,female,50s,Geumcheon-gu,etc,,,2020-03-29,,,released
-1000000425,male,30s,Seodaemun-gu,overseas inflow,,,2020-03-29,,,released
-1000000416,female,50s,Gwanak-gu,contact with patient,,,2020-03-29,,,released
-1000000423,female,10s,Gangnam-gu,overseas inflow,,,2020-03-29,,,released
-1000000414,female,20s,Gwanak-gu,etc,,,2020-03-29,,,released
-1000000413,male,20s,etc,overseas inflow,,,2020-03-29,,,released
-1000000417,female,20s,Mapo-gu,overseas inflow,,,2020-03-29,,,released
-1000000418,female,50s,Dobong-gu,etc,,,2020-03-29,,,released
-1000000415,male,50s,Gwanak-gu,contact with patient,,,2020-03-29,,,released
-1000000424,female,30s,Songpa-gu,overseas inflow,,,2020-03-29,,,released
-1000000421,female,20s,Gangnam-gu,overseas inflow,,,2020-03-29,,,released
-1000000422,male,40s,Gangnam-gu,contact with patient,,,2020-03-29,,,released
-1000000419,male,20s,Seocho-gu,overseas inflow,,,2020-03-29,,,released
-1000000446,male,30s,Dongjak-gu,overseas inflow,,,2020-03-30,,,released
-1000000453,female,40s,etc,etc,,,2020-03-30,,,released
-1000000452,female,20s,Gangdong-gu,overseas inflow,,,2020-03-30,,,released
-1000000450,male,20s,etc,overseas inflow,,,2020-03-30,,,released
-1000000449,female,50s,Guro-gu,etc,,,2020-03-30,,,released
-1000000448,female,20s,Yongsan-gu,overseas inflow,,,2020-03-30,,,released
-1000000447,male,50s,Jung-gu,contact with patient,,,2020-03-30,,,released
-1000000445,female,20s,Yongsan-gu,overseas inflow,,2020-03-28,2020-03-30,,,released
-1000000444,male,50s,Guro-gu,etc,,,2020-03-30,,,released
-1000000442,male,50s,Seocho-gu,contact with patient,,,2020-03-30,,,released
-1000000441,female,10s,Songpa-gu,overseas inflow,,,2020-03-30,,,released
-1000000440,male,50s,Dongjak-gu,etc,,,2020-03-30,,,released
-1000000439,female,70s,Gwanak-gu,etc,,,2020-03-30,,,released
-1000000438,female,50s,Gwanak-gu,etc,,,2020-03-30,,,released
-1000000437,female,70s,Gwanak-gu,etc,,,2020-03-30,,,released
-1000000436,male,10s,Yongsan-gu,contact with patient,,2020-03-29,2020-03-30,,,released
-1000000435,female,50s,Gwanak-gu,etc,,,2020-03-30,,,released
-1000000434,male,40s,etc,etc,,,2020-03-30,,,released
-1000000443,female,50s,Seocho-gu,overseas inflow,,,2020-03-30,,,released
-1000000507,female,20s,Yongsan-gu,overseas inflow,,,2020-03-30,,,released
-1000000467,male,20s,Songpa-gu,overseas inflow,,,2020-03-31,,,released
-1000000468,female,20s,Mapo-gu,overseas inflow,,,2020-03-31,,,released
-1000000469,male,20s,Gwanak-gu,overseas inflow,,,2020-03-31,,,released
-1000000470,male,20s,Seocho-gu,overseas inflow,,,2020-03-31,,,released
-1000000476,female,10s,etc,etc,,2020-03-24,2020-03-31,,,released
-1000000472,female,40s,Jung-gu,contact with patient,,,2020-03-31,,,released
-1000000473,male,60s,etc,contact with patient,,,2020-03-31,,,deceased
-1000000475,female,20s,Gwangjin-gu,overseas inflow,,,2020-03-31,,,released
-1000000471,male,30s,Yangcheon-gu,contact with patient,,,2020-03-31,,,released
-1000000466,female,20s,Songpa-gu,overseas inflow,,,2020-03-31,,,released
-1000000459,female,20s,Gangnam-gu,overseas inflow,2,,2020-03-31,,,released
-1000000464,female,40s,Gwanak-gu,contact with patient,,,2020-03-31,,,released
-1000000465,female,40s,Gwanak-gu,contact with patient,,,2020-03-31,,,released
-1000000508,male,20s,Gwanak-gu,overseas inflow,,,2020-03-31,,,released
-1000000454,female,40s,Mapo-gu,overseas inflow,,,2020-03-31,,,released
-1000000456,female,20s,Jongno-gu,overseas inflow,,,2020-03-31,,,released
-1000000457,female,50s,Guro-gu,etc,,,2020-03-31,,,released
-1000000455,male,30s,Yeongdeungpo-gu,overseas inflow,,,2020-03-31,,,released
-1000000460,male,20s,Gangnam-gu,overseas inflow,,,2020-03-31,,,released
-1000000461,male,50s,Gwanak-gu,contact with patient,,,2020-03-31,,,released
-1000000462,female,50s,Dongjak-gu,etc,,,2020-03-31,,,released
-1000000463,male,70s,Gwanak-gu,contact with patient,,,2020-03-31,,,released
-1000000458,female,30s,Gangnam-gu,overseas inflow,2,,2020-03-31,,,released
+patient_id,sex,age,country,province,city,infection_case,contact_number,symptom_onset_date,confirmed_date,released_date,deceased_date,state
+1000000046,female,20s,Korea,Seoul,etc,contact with patient,,,2020-02-26,2020-03-03,,released
+1000000083,female,20s,Korea,Seoul,Songpa-gu,contact with patient,,2020-02-24,2020-03-01,,,released
+1000000086,female,30s,Korea,Seoul,Gangnam-gu,etc,,,2020-03-01,,,released
+1000000088,male,40s,Korea,Seoul,Gwangjin-gu,Seongdong-gu APT,,,2020-03-01,,,released
+1000000089,male,50s,Korea,Seoul,Seongbuk-gu,Seongdong-gu APT,,,2020-03-01,,,released
+1000000090,male,50s,Korea,Seoul,Yeongdeungpo-gu,Seongdong-gu APT,,,2020-03-01,,,released
+1000000097,male,30s,Korea,Seoul,Yangcheon-gu,contact with patient,,,2020-03-01,,,released
+1000000099,female,20s,Korea,Seoul,Dongdaemun-gu,etc,,,2020-03-01,,,released
+1000000098,male,50s,Korea,Seoul,Seocho-gu,etc,,,2020-03-02,,,released
+1000000096,male,30s,Korea,Seoul,Dobong-gu,etc,,2020-03-01,2020-03-02,,,released
+1000000095,female,20s,Korea,Seoul,Seongbuk-gu,Seongdong-gu APT,,,2020-03-02,2020-03-20,,released
+1000000094,female,50s,Korea,Seoul,Seongbuk-gu,Seongdong-gu APT,,,2020-03-02,,,released
+1000000093,female,50s,Korea,Seoul,Gangnam-gu,etc,,,2020-03-02,,,released
+1000000092,male,20s,Korea,Seoul,Yeongdeungpo-gu,Seongdong-gu APT,,2020-02-26,2020-03-02,,,released
+1000000100,male,30s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-04,,,released
+1000000101,female,10s,Korea,Seoul,Jungnang-gu,contact with patient,,,2020-03-04,,,released
+1000000102,female,40s,Korea,Seoul,Yongsan-gu,Seongdong-gu APT,,,2020-03-04,,,released
+1000000103,male,20s,Korea,Seoul,Dongdaemun-gu,overseas inflow,,,2020-03-04,2020-03-20,,released
+1000000111,male,30s,Korea,Seoul,Gangbuk-gu,contact with patient,,,2020-03-04,,,released
+1000000104,female,10s,Korea,Seoul,Gangbuk-gu,etc,,,2020-03-05,,,released
+1000000105,male,30s,Korea,Seoul,Gangnam-gu,etc,,,2020-03-05,,,released
+1000000119,male,60s,Korea,Seoul,Gangbuk-gu,contact with patient,,2020-02-27,2020-03-06,,,released
+1000000115,female,50s,Korea,Seoul,Yangcheon-gu,contact with patient,,,2020-03-06,,,released
+1000000113,female,60s,Korea,Seoul,Gangbuk-gu,contact with patient,,2020-02-24,2020-03-06,,,released
+1000000120,male,30s,Korea,Seoul,Seongbuk-gu,Dongan Church,,,2020-03-06,,,released
+1000000108,male,40s,Korea,Seoul,etc,contact with patient,,,2020-03-06,,,released
+1000000107,male,30s,Korea,Seoul,etc,contact with patient,,,2020-03-06,,,released
+1000000106,male,30s,Korea,Seoul,Gangseo-gu,contact with patient,,,2020-03-06,,,released
+1000000109,male,90s,Korea,Seoul,etc,contact with patient,,2020-03-02,2020-03-07,,,deceased
+1000000112,female,0s,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-03-07,,,released
+1000000114,female,20s,Korea,Seoul,Yangcheon-gu,contact with patient,,,2020-03-07,,,released
+1000000116,male,30s,Korea,Seoul,Eunpyeong-gu,overseas inflow,,,2020-03-07,,,released
+1000000117,male,60s,Korea,Seoul,Seocho-gu,contact with patient,,2020-03-06,2020-03-07,,,released
+1000000118,male,50s,Korea,Seoul,Yangcheon-gu,contact with patient,,,2020-03-07,,,released
+1000000110,male,50s,Korea,Seoul,Gangnam-gu,contact with patient,,,2020-03-07,2020-03-19,,released
+1000000130,male,20s,Korea,Seoul,Dongdaemun-gu,contact with patient,,,2020-03-08,,,released
+1000000129,female,60s,Korea,Seoul,Dongdaemun-gu,contact with patient,,,2020-03-08,,,released
+1000000128,male,60s,Korea,Seoul,Dongdaemun-gu,contact with patient,,2020-03-05,2020-03-08,,,released
+1000000126,female,30s,Korea,Seoul,Dongdaemun-gu,contact with patient,,2020-03-04,2020-03-08,,,released
+1000000127,male,50s,Korea,Seoul,Gangnam-gu,contact with patient,,,2020-03-08,,,released
+1000000124,male,20s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-08,,,released
+1000000123,female,70s,Korea,Seoul,etc,etc,,,2020-03-08,,,released
+1000000122,female,20s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,2020-02-28,2020-03-08,,,released
+1000000121,female,0s,Korea,Seoul,Dongdaemun-gu,contact with patient,,2020-03-04,2020-03-08,,,released
+1000000125,female,50s,Korea,Seoul,Nowon-gu,Guro-gu Call Center,,,2020-03-08,,,released
+1000000146,female,50s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000147,male,20s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000148,male,50s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000149,female,50s,Korea,Seoul,etc,Guro-gu Call Center,,,2020-03-09,,,released
+1000000150,female,60s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000153,female,50s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,2020-03-06,2020-03-09,,,released
+1000000152,female,40s,Korea,Seoul,etc,Guro-gu Call Center,,,2020-03-09,,,released
+1000000154,female,50s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000155,female,50s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000156,female,30s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000145,male,40s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000151,female,40s,Korea,Seoul,etc,Guro-gu Call Center,,,2020-03-09,,,released
+1000000144,female,40s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000138,male,30s,Korea,Seoul,etc,etc,,,2020-03-09,,,released
+1000000142,female,40s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000143,male,40s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,2020-03-06,2020-03-09,,,released
+1000000131,female,50s,Korea,Seoul,Eunpyeong-gu,Guro-gu Call Center,,2020-03-07,2020-03-09,,,released
+1000000133,female,40s,Korea,Seoul,Gangdong-gu,overseas inflow,,,2020-03-09,,,released
+1000000134,female,20s,Korea,Seoul,Dongjak-gu,contact with patient,,,2020-03-09,,,released
+1000000135,male,30s,Korea,Seoul,Eunpyeong-gu,etc,,,2020-03-09,,,released
+1000000132,male,50s,Korea,Seoul,Eunpyeong-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000137,female,50s,Korea,Seoul,Geumcheon-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000139,male,30s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000140,female,40s,Korea,Seoul,Eunpyeong-gu,etc,,2020-02-27,2020-03-09,,,released
+1000000141,female,50s,Korea,Seoul,Nowon-gu,Guro-gu Call Center,,2020-03-07,2020-03-09,,,released
+1000000136,female,50s,Korea,Seoul,Jung-gu,Guro-gu Call Center,,,2020-03-09,,,released
+1000000182,female,50s,Korea,Seoul,Dongjak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000190,female,50s,Korea,Seoul,Mapo-gu,Guro-gu Call Center,,2020-02-28,2020-03-10,,,released
+1000000183,female,50s,Korea,Seoul,Mapo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000184,male,30s,Korea,Seoul,Mapo-gu,Guro-gu Call Center,,2020-03-09,2020-03-10,,,released
+1000000185,female,30s,Korea,Seoul,Mapo-gu,Guro-gu Call Center,,2020-03-09,2020-03-10,,,released
+1000000186,female,50s,Korea,Seoul,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000187,female,50s,Korea,Seoul,Geumcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000188,female,20s,Korea,Seoul,Dongdaemun-gu,contact with patient,,,2020-03-10,2020-03-19,,released
+1000000189,male,20s,Korea,Seoul,Dongdaemun-gu,contact with patient,,2020-03-02,2020-03-10,,,released
+1000000191,female,30s,Korea,Seoul,Eunpyeong-gu,overseas inflow,,,2020-03-10,,,released
+1000000197,male,60s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000193,male,20s,Korea,Seoul,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000194,male,40s,Korea,Seoul,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000195,female,30s,Korea,Seoul,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000196,female,60s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000198,female,50s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000199,female,40s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000200,female,50s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000201,male,30s,Korea,Seoul,Nowon-gu,Guro-gu Call Center,,2020-03-10,2020-03-10,,,released
+1000000202,male,60s,Korea,Seoul,Nowon-gu,Guro-gu Call Center,,2020-03-08,2020-03-10,,,released
+1000000181,female,30s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000192,female,20s,Korea,Seoul,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000180,female,40s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000172,female,50s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,2020-03-08,2020-03-10,,,released
+1000000178,female,20s,Korea,Seoul,Dongdaemun-gu,contact with patient,,,2020-03-10,,,released
+1000000157,female,40s,Korea,Seoul,Dongjak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000158,female,40s,Korea,Seoul,Dongjak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000159,female,40s,Korea,Seoul,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000160,female,60s,Korea,Seoul,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000161,female,50s,Korea,Seoul,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000162,female,50s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000163,female,40s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000165,female,40s,Korea,Seoul,Songpa-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000166,female,40s,Korea,Seoul,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000167,female,40s,Korea,Seoul,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000164,female,60s,Korea,Seoul,Eunpyeong-gu,contact with patient,,2020-02-29,2020-03-10,,,released
+1000000169,female,40s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000177,male,40s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000168,female,40s,Korea,Seoul,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000175,female,20s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000174,male,20s,Korea,Seoul,Dongdaemun-gu,contact with patient,,,2020-03-10,,,released
+1000000176,female,40s,Korea,Seoul,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000179,male,50s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000171,female,40s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,2020-02-29,2020-03-10,,,released
+1000000170,female,50s,Korea,Seoul,Gwanak-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000173,female,50s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-10,,,released
+1000000213,female,20s,Korea,Seoul,Mapo-gu,Guro-gu Call Center,,2020-03-10,2020-03-11,,,released
+1000000219,female,30s,Korea,Seoul,Jungnang-gu,Guro-gu Call Center,,,2020-03-11,,,released
+1000000218,male,40s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,2020-03-10,2020-03-11,,,released
+1000000217,male,20s,Korea,Seoul,Seongbuk-gu,Dongan Church,,,2020-03-11,,,released
+1000000216,male,30s,Korea,Seoul,Seongbuk-gu,overseas inflow,,,2020-03-11,,,released
+1000000215,female,60s,Korea,Seoul,Songpa-gu,etc,,,2020-03-11,,,released
+1000000214,female,50s,Korea,Seoul,Seodaemun-gu,Guro-gu Call Center,,,2020-03-11,,,released
+1000000212,female,20s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-11,,,released
+1000000220,male,50s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-11,,,released
+1000000210,male,50s,Korea,Seoul,Eunpyeong-gu,etc,,,2020-03-11,,,released
+1000000203,male,20s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-11,,,released
+1000000204,male,50s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-11,,,released
+1000000205,female,20s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-11,,,released
+1000000211,male,20s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-11,,,released
+1000000207,female,70s,Korea,Seoul,Eunpyeong-gu,etc,,,2020-03-11,2020-03-20,,released
+1000000208,male,40s,Korea,Seoul,Jungnang-gu,Guro-gu Call Center,,,2020-03-11,,,released
+1000000209,male,70s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,2020-03-10,2020-03-11,,,released
+1000000206,female,20s,Korea,Seoul,Seodaemun-gu,etc,,,2020-03-11,,,released
+1000000231,female,50s,Korea,Seoul,Seocho-gu,Shincheonji Church,,,2020-03-12,,,released
+1000000230,male,20s,Korea,Seoul,Gwanak-gu,overseas inflow,,,2020-03-12,,,released
+1000000229,male,30s,Korea,Seoul,Yongsan-gu,overseas inflow,,,2020-03-12,,,released
+1000000228,female,60s,Korea,Seoul,Songpa-gu,Guro-gu Call Center,,,2020-03-12,,,released
+1000000227,male,30s,Korea,Seoul,Geumcheon-gu,etc,,2020-03-10,2020-03-12,,,released
+1000000226,male,20s,Korea,Seoul,Geumcheon-gu,Guro-gu Call Center,,,2020-03-12,,,released
+1000000224,male,10s,Korea,Seoul,Dongdaemun-gu,contact with patient,,,2020-03-12,,,released
+1000000222,male,50s,Korea,Seoul,Gangbuk-gu,overseas inflow,,,2020-03-12,,,released
+1000000221,male,10s,Korea,Seoul,Nowon-gu,contact with patient,,,2020-03-12,,,released
+1000000225,male,20s,Korea,Seoul,Seongbuk-gu,contact with patient,,,2020-03-12,,,released
+1000000223,female,20s,Korea,Seoul,Gangnam-gu,Guro-gu Call Center,,,2020-03-12,,,released
+1000000237,female,20s,Korea,Seoul,Mapo-gu,overseas inflow,,2020-03-11,2020-03-13,,,released
+1000000240,male,50s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,2020-03-05,2020-03-13,,,released
+1000000239,male,20s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-13,,,released
+1000000238,female,70s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-13,,,released
+1000000236,male,20s,Korea,Seoul,Nowon-gu,overseas inflow,,,2020-03-13,,,released
+1000000234,female,20s,Korea,Seoul,Seocho-gu,etc,,,2020-03-13,,,released
+1000000233,female,20s,Korea,Seoul,Seocho-gu,contact with patient,,,2020-03-13,,,released
+1000000232,male,20s,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-03-13,,,released
+1000000235,male,50s,Korea,Seoul,Dongjak-gu,contact with patient,,,2020-03-13,,,released
+1000000247,male,50s,Korea,Seoul,Guro-gu,overseas inflow,,,2020-03-14,,,released
+1000000246,male,50s,Korea,Seoul,Yeongdeungpo-gu,etc,,2020-03-11,2020-03-14,,,released
+1000000245,male,30s,Korea,Seoul,Yeongdeungpo-gu,Guro-gu Call Center,,,2020-03-14,,,released
+1000000248,female,50s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-14,,,released
+1000000243,female,40s,Korea,Seoul,Gangnam-gu,contact with patient,,,2020-03-14,,,released
+1000000242,male,20s,Korea,Seoul,Mapo-gu,contact with patient,,2020-03-11,2020-03-14,,,released
+1000000241,female,60s,Korea,Seoul,Jungnang-gu,Dongan Church,,,2020-03-14,,,released
+1000000244,female,60s,Korea,Seoul,Dobong-gu,Dongan Church,,,2020-03-14,,,released
+1000000249,female,20s,Korea,Seoul,Nowon-gu,contact with patient,,2020-03-12,2020-03-15,,,released
+1000000250,female,10s,Korea,Seoul,Yeongdeungpo-gu,contact with patient,,2020-03-10,2020-03-15,,,released
+1000000251,male,0s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-15,,,released
+1000000252,male,30s,Korea,Seoul,Gangseo-gu,etc,,2020-03-12,2020-03-15,,,released
+1000000253,male,50s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-15,,,released
+1000000254,female,80s,Korea,Seoul,Eunpyeong-gu,Guro-gu Call Center,,2020-03-15,2020-03-15,,,released
+1000000263,male,10s,Korea,Seoul,Guro-gu,contact with patient,,2020-03-13,2020-03-16,,,released
+1000000266,male,20s,Korea,Seoul,Yeongdeungpo-gu,overseas inflow,,2020-03-12,2020-03-16,,,released
+1000000265,male,30s,Korea,Seoul,Gwanak-gu,etc,,,2020-03-16,,,released
+1000000267,female,50s,Korea,Seoul,Dongjak-gu,etc,,,2020-03-16,,,released
+1000000264,male,40s,Korea,Seoul,Gangseo-gu,contact with patient,,,2020-03-16,,,released
+1000000262,female,40s,Korea,Seoul,Yongsan-gu,Guro-gu Call Center,,2020-03-07,2020-03-16,,,released
+1000000257,male,30s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-16,,,released
+1000000260,male,30s,Korea,Seoul,Seodaemun-gu,etc,,,2020-03-16,,,released
+1000000259,male,20s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-16,,,released
+1000000258,male,20s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-16,,,released
+1000000256,female,20s,Korea,Seoul,Eunpyeong-gu,Guro-gu Call Center,,,2020-03-16,,,released
+1000000255,female,30s,Korea,Seoul,Seodaemun-gu,etc,,,2020-03-16,,,released
+1000000261,male,40s,Korea,Seoul,Gwanak-gu,etc,,,2020-03-16,,,released
+1000000268,male,10s,Korea,Seoul,Dongdaemun-gu,Dongan Church,,,2020-03-17,,,released
+1000000269,female,20s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-17,,,released
+1000000270,female,20s,Korea,Seoul,etc,overseas inflow,,,2020-03-17,,,released
+1000000271,male,20s,Korea,Seoul,Mapo-gu,overseas inflow,,2020-03-16,2020-03-17,,,released
+1000000282,male,30s,Korea,Seoul,Gwangjin-gu,overseas inflow,,,2020-03-18,,,released
+1000000281,female,30s,Korea,Seoul,Dongjak-gu,overseas inflow,,,2020-03-18,,,released
+1000000280,male,40s,Korea,Seoul,Gangnam-gu,etc,,,2020-03-18,,,released
+1000000279,male,90s,Korea,Seoul,Yongsan-gu,etc,,2020-03-11,2020-03-18,,,released
+1000000278,female,20s,Korea,Seoul,Nowon-gu,overseas inflow,,2020-03-15,2020-03-18,,,released
+1000000276,male,0s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,2020-03-16,2020-03-18,,,released
+1000000275,female,30s,Korea,Seoul,Mapo-gu,Guro-gu Call Center,,2020-03-16,2020-03-18,,,released
+1000000274,female,50s,Korea,Seoul,Seongbuk-gu,Dongan Church,,,2020-03-18,,,released
+1000000273,female,40s,Korea,Seoul,Seongbuk-gu,Guro-gu Call Center,,,2020-03-18,,,released
+1000000272,male,40s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-18,,,released
+1000000277,male,30s,Korea,Seoul,Dongjak-gu,overseas inflow,,,2020-03-18,,,released
+1000000292,female,40s,Korea,Seoul,Seongdong-gu,overseas inflow,,,2020-03-19,,,released
+1000000298,female,50s,Korea,Seoul,Yeongdeungpo-gu,contact with patient,,,2020-03-19,,,released
+1000000299,male,40s,Korea,Seoul,Nowon-gu,overseas inflow,,,2020-03-19,,,released
+1000000296,female,50s,Korea,Seoul,Dongjak-gu,Guro-gu Call Center,,,2020-03-19,,,released
+1000000295,female,30s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-19,,,released
+1000000294,female,60s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-19,,,released
+1000000293,female,60s,Korea,Seoul,Yangcheon-gu,Guro-gu Call Center,,,2020-03-19,,,released
+1000000291,female,50s,Korea,Seoul,Gangseo-gu,Guro-gu Call Center,,,2020-03-19,,,released
+1000000297,female,20s,Korea,Seoul,Yeongdeungpo-gu,contact with patient,,,2020-03-19,,,released
+1000000289,male,20s,Korea,Seoul,Dongjak-gu,overseas inflow,,,2020-03-19,,,released
+1000000288,female,50s,Korea,Seoul,Nowon-gu,contact with patient,,,2020-03-19,,,released
+1000000287,male,10s,Korea,Seoul,Mapo-gu,Guro-gu Call Center,,,2020-03-19,,,released
+1000000286,female,10s,Korea,Seoul,Mapo-gu,Guro-gu Call Center,,,2020-03-19,,,released
+1000000285,male,40s,Korea,Seoul,Mapo-gu,Guro-gu Call Center,,,2020-03-19,,,deceased
+1000000284,female,80s,Korea,Seoul,Yongsan-gu,contact with patient,,,2020-03-19,,,released
+1000000283,female,70s,Korea,Seoul,Gwanak-gu,etc,,,2020-03-19,,,released
+1000000290,female,30s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-19,,,released
+1000000316,male,20s,Korea,Seoul,Nowon-gu,etc,,2020-03-18,2020-03-20,,,released
+1000000315,female,50s,Korea,Seoul,Gwanak-gu,Guro-gu Call Center,,,2020-03-20,,,released
+1000000314,male,20s,Korea,Seoul,Gwangjin-gu,overseas inflow,,,2020-03-20,,,released
+1000000313,female,20s,Korea,Seoul,Seocho-gu,overseas inflow,,2020-03-19,2020-03-20,,,released
+1000000311,female,0s,Korea,Seoul,Gangseo-gu,contact with patient,,,2020-03-20,,,released
+1000000310,female,60s,Korea,Seoul,Seongbuk-gu,contact with patient,,2020-03-19,2020-03-20,,,released
+1000000309,male,40s,Korea,Seoul,Gangdong-gu,overseas inflow,,,2020-03-20,,,released
+1000000308,female,20s,Korea,Seoul,Seocho-gu,overseas inflow,,2020-03-17,2020-03-20,,,released
+1000000312,male,50s,Korea,Seoul,Gangdong-gu,etc,,,2020-03-20,,,released
+1000000306,male,20s,Korea,Seoul,Eunpyeong-gu,overseas inflow,,,2020-03-20,,,released
+1000000305,male,20s,Korea,Seoul,Jungnang-gu,overseas inflow,,,2020-03-20,,,released
+1000000304,female,20s,Korea,Seoul,Seongdong-gu,overseas inflow,,,2020-03-20,,,released
+1000000303,male,70s,Korea,Seoul,Yeongdeungpo-gu,overseas inflow,,2020-03-07,2020-03-20,,,released
+1000000302,male,10s,Korea,Seoul,Dongjak-gu,overseas inflow,8.0,2020-03-19,2020-03-20,,,released
+1000000301,male,30s,Korea,Seoul,Dongjak-gu,etc,,,2020-03-20,,,released
+1000000300,female,40s,Korea,Seoul,Guro-gu,Guro-gu Call Center,,,2020-03-20,,,released
+1000000307,male,60s,Korea,Seoul,Nowon-gu,contact with patient,,,2020-03-20,,,released
+1000000324,female,50s,Korea,Seoul,Seocho-gu,etc,,2020-03-19,2020-03-21,,,released
+1000000323,male,30s,Korea,Seoul,Seodaemun-gu,contact with patient,,,2020-03-21,,,released
+1000000322,female,20s,Korea,Seoul,Seodaemun-gu,overseas inflow,,,2020-03-21,,,released
+1000000321,male,20s,Korea,Seoul,Yeongdeungpo-gu,overseas inflow,,2020-03-12,2020-03-21,,,released
+1000000319,male,20s,Korea,Seoul,Jungnang-gu,contact with patient,,,2020-03-21,,,released
+1000000318,male,20s,Korea,Seoul,Jungnang-gu,contact with patient,,,2020-03-21,,,released
+1000000317,female,30s,Korea,Seoul,Gangseo-gu,overseas inflow,,2020-03-15,2020-03-21,,,released
+1000000320,male,60s,Korea,Seoul,Seongdong-gu,contact with patient,,2020-03-21,2020-03-21,,,released
+1000000325,male,50s,Korea,Seoul,Seongbuk-gu,overseas inflow,,,2020-03-22,,,released
+1000000326,male,20s,Korea,Seoul,Dobong-gu,overseas inflow,,,2020-03-22,,,released
+1000000327,female,20s,Korea,Seoul,Gangseo-gu,overseas inflow,,,2020-03-22,,,released
+1000000328,female,50s,Korea,Seoul,Seodaemun-gu,Guro-gu Call Center,,,2020-03-22,,,released
+1000000329,female,40s,Korea,Seoul,Seodaemun-gu,Guro-gu Call Center,,,2020-03-22,,,released
+1000000330,female,20s,Korea,Seoul,Eunpyeong-gu,contact with patient,,,2020-03-22,,,released
+1000000336,female,20s,Korea,Seoul,Gangdong-gu,overseas inflow,,,2020-03-23,,,released
+1000000348,female,20s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-23,,,released
+1000000334,male,20s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-23,,,released
+1000000332,male,40s,Korea,Seoul,Yongsan-gu,overseas inflow,,,2020-03-23,,,released
+1000000331,male,70s,Korea,Seoul,Yeongdeungpo-gu,etc,,2020-03-18,2020-03-23,,,released
+1000000333,female,10s,Korea,Seoul,Jongno-gu,overseas inflow,,,2020-03-23,,,released
+1000000346,male,50s,Korea,Seoul,etc,overseas inflow,,,2020-03-24,,,released
+1000000337,female,20s,Korea,Seoul,Dongjak-gu,overseas inflow,,,2020-03-24,,,released
+1000000339,male,20s,Korea,Seoul,Jungnang-gu,overseas inflow,,,2020-03-24,,,released
+1000000340,female,20s,Korea,Seoul,Dobong-gu,overseas inflow,,,2020-03-24,,,released
+1000000341,female,30s,Korea,Seoul,Gangseo-gu,contact with patient,,2020-03-22,2020-03-24,,,released
+1000000342,female,10s,Korea,Seoul,Jongno-gu,contact with patient,,,2020-03-24,,,released
+1000000343,male,30s,Korea,Seoul,Yongsan-gu,overseas inflow,,2020-03-18,2020-03-24,,,released
+1000000344,male,60s,Korea,Seoul,Gangnam-gu,contact with patient,,2020-03-19,2020-03-24,,,released
+1000000345,male,60s,Korea,Seoul,Seocho-gu,overseas inflow,,2020-03-22,2020-03-24,,,released
+1000000347,female,20s,Korea,Seoul,Eunpyeong-gu,contact with patient,,,2020-03-24,,,released
+1000000349,female,30s,Korea,Seoul,Dongdaemun-gu,overseas inflow,,,2020-03-24,,,released
+1000000390,female,10s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-25,,,released
+1000000360,female,10s,Korea,Seoul,Gangnam-gu,overseas inflow,3.0,,2020-03-25,,,released
+1000000359,male,20s,Korea,Seoul,Gangnam-gu,overseas inflow,3.0,,2020-03-25,,,released
+1000000358,male,20s,Korea,Seoul,etc,overseas inflow,4.0,,2020-03-25,,,released
+1000000372,male,50s,Korea,Seoul,etc,etc,,,2020-03-25,,,released
+1000000357,female,20s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-25,,,released
+1000000352,female,20s,Korea,Seoul,Seocho-gu,overseas inflow,,2020-03-23,2020-03-25,,,released
+1000000355,female,20s,Korea,Seoul,Seocho-gu,overseas inflow,,2020-03-21,2020-03-25,,,released
+1000000354,female,20s,Korea,Seoul,Seocho-gu,overseas inflow,,2020-03-24,2020-03-25,,,released
+1000000353,male,40s,Korea,Seoul,Geumcheon-gu,etc,,,2020-03-25,,,released
+1000000351,male,30s,Korea,Seoul,Dongjak-gu,overseas inflow,,,2020-03-25,,,released
+1000000350,male,30s,Korea,Seoul,Dongjak-gu,overseas inflow,,,2020-03-25,,,released
+1000000356,female,70s,Korea,Seoul,Gangseo-gu,contact with patient,,,2020-03-25,,,released
+1000000370,male,40s,Korea,Seoul,Seocho-gu,overseas inflow,,2020-03-23,2020-03-26,,,released
+1000000374,male,20s,Korea,Seoul,Gangnam-gu,overseas inflow,2.0,,2020-03-26,,,released
+1000000373,female,50s,Korea,Seoul,Gangnam-gu,contact with patient,1.0,,2020-03-26,,,released
+1000000371,male,30s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-26,,,released
+1000000369,female,20s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-26,,,released
+1000000375,female,20s,Korea,Seoul,Gangdong-gu,overseas inflow,,,2020-03-26,,,released
+1000000367,female,20s,Korea,Seoul,Gangnam-gu,overseas inflow,6.0,,2020-03-26,,,released
+1000000366,male,50s,Korea,Seoul,Guro-gu,overseas inflow,,,2020-03-26,,,released
+1000000365,female,50s,Korea,Seoul,Guro-gu,contact with patient,,2020-03-22,2020-03-26,,,released
+1000000364,male,40s,Korea,Seoul,Yongsan-gu,contact with patient,,,2020-03-26,,,released
+1000000363,female,30s,Korea,Seoul,Geumcheon-gu,contact with patient,,,2020-03-26,,,released
+1000000362,female,20s,Korea,Seoul,Seongbuk-gu,overseas inflow,,,2020-03-26,,,released
+1000000361,male,20s,Korea,Seoul,Jungnang-gu,overseas inflow,6.0,,2020-03-26,,,released
+1000000368,male,60s,Korea,Seoul,Gangnam-gu,overseas inflow,0.0,,2020-03-26,,,released
+1000000386,male,50s,Korea,Seoul,etc,contact with patient,,,2020-03-27,,,released
+1000000389,male,50s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-27,,,released
+1000000388,male,20s,Korea,Seoul,Guro-gu,overseas inflow,,2020-03-26,2020-03-27,,,released
+1000000387,female,10s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-27,,,released
+1000000385,male,40s,Korea,Seoul,Yeongdeungpo-gu,contact with patient,,2020-03-25,2020-03-27,,,released
+1000000381,female,50s,Korea,Seoul,Jungnang-gu,contact with patient,,,2020-03-27,,,released
+1000000383,female,20s,Korea,Seoul,Seongbuk-gu,overseas inflow,,,2020-03-27,,,released
+1000000382,female,30s,Korea,Seoul,Jung-gu,overseas inflow,,,2020-03-27,,,released
+1000000427,male,50s,Korea,Seoul,Geumcheon-gu,etc,,,2020-03-27,,,released
+1000000380,male,40s,Korea,Seoul,Jungnang-gu,overseas inflow,,,2020-03-27,,,released
+1000000378,female,50s,Korea,Seoul,Dobong-gu,overseas inflow,,,2020-03-27,,,released
+1000000376,female,20s,Korea,Seoul,Mapo-gu,overseas inflow,,,2020-03-27,,,released
+1000000384,male,20s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-27,,,released
+1000000404,male,10s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-28,,,released
+1000000405,male,20s,Korea,Seoul,Gangnam-gu,contact with patient,,,2020-03-28,,,released
+1000000406,male,10s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-28,,,released
+1000000407,female,20s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-28,,,released
+1000000410,female,20s,Korea,Seoul,etc,overseas inflow,,,2020-03-28,,,released
+1000000409,female,40s,Korea,Seoul,Seocho-gu,overseas inflow,,,2020-03-28,,,released
+1000000411,female,50s,Korea,Seoul,Dongjak-gu,etc,,,2020-03-28,,,released
+1000000412,female,40s,Korea,Seoul,Guro-gu,etc,,,2020-03-28,,,released
+1000000408,female,20s,Korea,Seoul,Yangcheon-gu,overseas inflow,,,2020-03-28,,,released
+1000000403,female,30s,Korea,Seoul,Dongjak-gu,contact with patient,,,2020-03-28,,,released
+1000000400,male,20s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-28,,,released
+1000000401,female,40s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-28,,,released
+1000000399,female,40s,Korea,Seoul,Guro-gu,etc,,,2020-03-28,,,released
+1000000398,male,20s,Korea,Seoul,Jung-gu,overseas inflow,,,2020-03-28,,,released
+1000000397,female,20s,Korea,Seoul,Seocho-gu,overseas inflow,,,2020-03-28,,,released
+1000000396,male,20s,Korea,Seoul,Gwanak-gu,overseas inflow,,,2020-03-28,,,released
+1000000395,male,40s,Korea,Seoul,etc,overseas inflow,,,2020-03-28,,,released
+1000000394,male,40s,Korea,Seoul,etc,overseas inflow,,,2020-03-28,,,released
+1000000393,female,40s,Korea,Seoul,Dongjak-gu,etc,,,2020-03-28,,,released
+1000000392,male,40s,Korea,Seoul,Guro-gu,etc,,,2020-03-28,,,released
+1000000391,male,50s,Korea,Seoul,Geumcheon-gu,contact with patient,,2020-03-20,2020-03-28,,,released
+1000000402,male,20s,Korea,Seoul,Seocho-gu,overseas inflow,,2020-03-20,2020-03-28,,,released
+1000000429,female,50s,Korea,Seoul,Geumcheon-gu,etc,,,2020-03-29,,,released
+1000000428,male,80s,Korea,Seoul,Guro-gu,etc,,,2020-03-29,,,released
+1000000430,female,50s,Korea,Seoul,Geumcheon-gu,etc,,,2020-03-29,,,released
+1000000420,female,50s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-29,,,released
+1000000432,female,40s,Korea,Seoul,Geumcheon-gu,etc,,,2020-03-29,,,released
+1000000433,female,40s,Korea,Seoul,Dongjak-gu,etc,,,2020-03-29,,,released
+1000000451,female,60s,Korea,Seoul,Dongjak-gu,etc,,,2020-03-29,,,released
+1000000426,female,30s,Korea,Seoul,Gwangjin-gu,overseas inflow,,,2020-03-29,,,released
+1000000431,female,50s,Korea,Seoul,Geumcheon-gu,etc,,,2020-03-29,,,released
+1000000425,male,30s,Korea,Seoul,Seodaemun-gu,overseas inflow,,,2020-03-29,,,released
+1000000416,female,50s,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-03-29,,,released
+1000000423,female,10s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-29,,,released
+1000000414,female,20s,Korea,Seoul,Gwanak-gu,etc,,,2020-03-29,,,released
+1000000413,male,20s,Korea,Seoul,etc,overseas inflow,,,2020-03-29,,,released
+1000000417,female,20s,Korea,Seoul,Mapo-gu,overseas inflow,,,2020-03-29,,,released
+1000000418,female,50s,Korea,Seoul,Dobong-gu,etc,,,2020-03-29,,,released
+1000000415,male,50s,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-03-29,,,released
+1000000424,female,30s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-29,,,released
+1000000421,female,20s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-29,,,released
+1000000422,male,40s,Korea,Seoul,Gangnam-gu,contact with patient,,,2020-03-29,,,released
+1000000419,male,20s,Korea,Seoul,Seocho-gu,overseas inflow,,,2020-03-29,,,released
+1000000446,male,30s,Korea,Seoul,Dongjak-gu,overseas inflow,,,2020-03-30,,,released
+1000000453,female,40s,Korea,Seoul,etc,etc,,,2020-03-30,,,released
+1000000452,female,20s,Korea,Seoul,Gangdong-gu,overseas inflow,,,2020-03-30,,,released
+1000000450,male,20s,Korea,Seoul,etc,overseas inflow,,,2020-03-30,,,released
+1000000449,female,50s,Korea,Seoul,Guro-gu,etc,,,2020-03-30,,,released
+1000000448,female,20s,Korea,Seoul,Yongsan-gu,overseas inflow,,,2020-03-30,,,released
+1000000447,male,50s,Korea,Seoul,Jung-gu,contact with patient,,,2020-03-30,,,released
+1000000445,female,20s,Korea,Seoul,Yongsan-gu,overseas inflow,,2020-03-28,2020-03-30,,,released
+1000000444,male,50s,Korea,Seoul,Guro-gu,etc,,,2020-03-30,,,released
+1000000442,male,50s,Korea,Seoul,Seocho-gu,contact with patient,,,2020-03-30,,,released
+1000000441,female,10s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-30,,,released
+1000000440,male,50s,Korea,Seoul,Dongjak-gu,etc,,,2020-03-30,,,released
+1000000439,female,70s,Korea,Seoul,Gwanak-gu,etc,,,2020-03-30,,,released
+1000000438,female,50s,Korea,Seoul,Gwanak-gu,etc,,,2020-03-30,,,released
+1000000437,female,70s,Korea,Seoul,Gwanak-gu,etc,,,2020-03-30,,,released
+1000000436,male,10s,Korea,Seoul,Yongsan-gu,contact with patient,,2020-03-29,2020-03-30,,,released
+1000000435,female,50s,Korea,Seoul,Gwanak-gu,etc,,,2020-03-30,,,released
+1000000434,male,40s,Korea,Seoul,etc,etc,,,2020-03-30,,,released
+1000000443,female,50s,Korea,Seoul,Seocho-gu,overseas inflow,,,2020-03-30,,,released
+1000000507,female,20s,Korea,Seoul,Yongsan-gu,overseas inflow,,,2020-03-30,,,released
+1000000467,male,20s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-31,,,released
+1000000468,female,20s,Korea,Seoul,Mapo-gu,overseas inflow,,,2020-03-31,,,released
+1000000469,male,20s,Korea,Seoul,Gwanak-gu,overseas inflow,,,2020-03-31,,,released
+1000000470,male,20s,Korea,Seoul,Seocho-gu,overseas inflow,,,2020-03-31,,,released
+1000000476,female,10s,Korea,Seoul,etc,etc,,2020-03-24,2020-03-31,,,released
+1000000472,female,40s,Korea,Seoul,Jung-gu,contact with patient,,,2020-03-31,,,released
+1000000473,male,60s,Korea,Seoul,etc,contact with patient,,,2020-03-31,,,deceased
+1000000475,female,20s,Korea,Seoul,Gwangjin-gu,overseas inflow,,,2020-03-31,,,released
+1000000471,male,30s,Korea,Seoul,Yangcheon-gu,contact with patient,,,2020-03-31,,,released
+1000000466,female,20s,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-03-31,,,released
+1000000459,female,20s,Korea,Seoul,Gangnam-gu,overseas inflow,2.0,,2020-03-31,,,released
+1000000464,female,40s,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-03-31,,,released
+1000000465,female,40s,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-03-31,,,released
+1000000508,male,20s,Korea,Seoul,Gwanak-gu,overseas inflow,,,2020-03-31,,,released
+1000000454,female,40s,Korea,Seoul,Mapo-gu,overseas inflow,,,2020-03-31,,,released
+1000000456,female,20s,Korea,Seoul,Jongno-gu,overseas inflow,,,2020-03-31,,,released
+1000000457,female,50s,Korea,Seoul,Guro-gu,etc,,,2020-03-31,,,released
+1000000455,male,30s,Korea,Seoul,Yeongdeungpo-gu,overseas inflow,,,2020-03-31,,,released
+1000000460,male,20s,Korea,Seoul,Gangnam-gu,overseas inflow,,,2020-03-31,,,released
+1000000461,male,50s,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-03-31,,,released
+1000000462,female,50s,Korea,Seoul,Dongjak-gu,etc,,,2020-03-31,,,released
+1000000463,male,70s,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-03-31,,,released
+1000000458,female,30s,Korea,Seoul,Gangnam-gu,overseas inflow,2.0,,2020-03-31,,,released

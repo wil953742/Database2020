@@ -107,10 +107,51 @@ class SC {
   }
 }
 
+class RPair extends Pair {
+  constructor(Pair, map) {
+    super(Pair);
+    this.map = map;
+  }
+}
+
+
 class RSC extends SC {
   constructor(name, SC) {
     super(SC);
     this.name = name;
+  }
+}
+
+class UDE {
+  constructor(ID, totalTup, dupTup, nullRatio, directory, score) {
+    this.ID = ID;
+    this.totalTup = totalTup;
+    this.dupTup = dupTup;
+    this.nullRatio = nullRatio;
+    this.directory = directory;
+    this.score = score;
+  }
+}
+
+class UDS {
+  constructor(
+    name,
+    totalSub,
+    avgTup,
+    avgDup,
+    avgNullRatio,
+    saveTup,
+    avgPassRatio,
+    task
+  ) {
+    this.name = name;
+    this.totalSub = totalSub;
+    this.avgTub = avgTup;
+    this.avgDup = avgDup;
+    this.avgNullRatio = avgNullRatio;
+    this.saveTup = saveTup;
+    this.avgPassRatio = avgPassRatio;
+    this.task = task;
   }
 }
 
@@ -157,6 +198,10 @@ export {
   SC,
   RSC,
   NewTask,
+
+  RPair,
+  UDE,
+  UDS,
 
   SubmittedTask,
   otherTask,

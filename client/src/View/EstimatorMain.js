@@ -57,7 +57,7 @@ export const EstimatorMain = ({ loginfo }) => {
       });
     }
     fetchData();
-  }, [unfinished, finished]);
+  }, []);
   
 
   useEffect(() => {

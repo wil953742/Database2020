@@ -1,822 +1,822 @@
-patient_id,sex,age,province,city,infection_case,contact_number,confirmed_date,released_date,deceased_date,state
-2000000005,male,40s,Gyeonggi-do,Suwon-si,contact with patient,15,2020-02-02,2020-02-24,,released
-1300000001,female,40s,Gwangju,,overseas inflow,450,2020-02-03,2020-02-20,,released
-1300000002,female,20s,Gwangju,,contact with patient,8,2020-02-05,2020-02-20,,released
-2000000007,female,40s,Gyeonggi-do,Suwon-si,contact with patient,2,2020-02-05,2020-02-24,,released
-2000000006,male,30s,Gyeonggi-do,Guri-si,overseas inflow,290,2020-02-05,2020-02-12,,released
-5100000001,male,40s,Jeollanam-do,etc,contact with patient,1,2020-02-06,2020-02-15,,released
-2000000009,male,50s,Gyeonggi-do,Siheung-si,contact with patient,0,2020-02-09,,,isolated
-2000000008,female,70s,Gyeonggi-do,Siheung-si,contact with patient,12,2020-02-09,2020-03-05,,released
-1200000033,female,40s,Daegu,Jung-gu,contact with patient,,2020-02-18,,,isolated
-1200000031,female,60s,Daegu,,Shincheonji Church,1160,2020-02-18,,,isolated
-1200000036,female,40s,Daegu,Nam-gu,Shincheonji Church,,2020-02-18,,,isolated
-1200000035,female,20s,Daegu,Nam-gu,Shincheonji Church,,2020-02-18,,,isolated
-1200000034,male,20s,Daegu,Jung-gu,Shincheonji Church,,2020-02-18,,,isolated
-6015000001,male,40s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-18,2020-02-26,,released
-2000000012,female,10s,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-18,2020-03-04,,released
-6015000002,female,60s,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-18,2020-03-03,,released
-1200000038,female,50s,Daegu,Nam-gu,,,2020-02-18,,2020-02-23,deceased
-1200000047,female,60s,Daegu,,Shincheonji Church,,2020-02-19,,,isolated
-1200000046,male,20s,Daegu,Dalseo-gu,,,2020-02-19,,,isolated
-1200000049,male,50s,Daegu,,Shincheonji Church,,2020-02-19,,,isolated
-1200000045,female,50s,Daegu,Dalseong-gun,,,2020-02-19,,,isolated
-1200000050,male,70s,Daegu,,Shincheonji Church,,2020-02-19,2020-03-02,,released
-1200000051,female,60s,Daegu,,Shincheonji Church,,2020-02-19,2020-02-26,,released
-1200000053,female,30s,Daegu,,,,2020-02-19,,,isolated
-1200000057,male,30s,Daegu,Jung-gu,,,2020-02-19,,,isolated
-1200000058,female,20s,Daegu,Nam-gu,,,2020-02-19,,,isolated
-1200000059,female,30s,Daegu,Nam-gu,,,2020-02-19,,,isolated
-1200000060,female,50s,Daegu,Nam-gu,,,2020-02-19,,,isolated
-1200000065,female,50s,Daegu,,,,2020-02-19,2020-02-27,,released
-1200000064,female,50s,Daegu,,,,2020-02-19,,,isolated
-1200000063,female,50s,Daegu,,,,2020-02-19,2020-02-28,,released
-1200000062,male,60s,Daegu,Seo-gu,,,2020-02-19,,,isolated
-1200000044,female,40s,Daegu,Dalseo-gu,Shincheonji Church,,2020-02-19,,,isolated
-1200000048,female,70s,Daegu,,Shincheonji Church,,2020-02-19,,,isolated
-1200000042,female,20s,Daegu,Nam-gu,Shincheonji Church,,2020-02-19,,,isolated
-6015000003,female,70s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-19,2020-03-18,,released
-6015000004,male,20s,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-19,2020-04-27,,released
-1200000043,female,50s,Daegu,Dalseo-gu,Shincheonji Church,,2020-02-19,,,isolated
-6020100055,male,50s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-19,,2020-02-23,deceased
-6020100054,male,50s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-19,,2020-02-23,deceased
-6001000002,female,10s,Jeollanam-do,Gyeongsan-si,,2,2020-02-19,2020-03-19,,released
-6001000001,female,20s,Gyeongsangbuk-do,Gyeongsan-si,Shincheonji Church,7,2020-02-19,2020-04-09,,released
-1200000061,female,50s,Daegu,Nam-gu,,,2020-02-19,,,isolated
-6020000002,male,40s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
-1200000082,male,60s,Daegu,,,,2020-02-20,,,isolated
-1200000081,female,60s,Daegu,,,,2020-02-20,,,isolated
-1200000080,female,30s,Daegu,,,,2020-02-20,,,isolated
-1200000078,male,50s,Daegu,,,,2020-02-20,,,isolated
-1200000077,female,50s,Daegu,,,,2020-02-20,,,isolated
-1200000076,male,30s,Daegu,,,,2020-02-20,,,isolated
-1200000074,male,40s,Daegu,,,,2020-02-20,,,isolated
-1200000072,female,30s,Daegu,,,,2020-02-20,,,isolated
-1200000071,female,50s,Daegu,,,,2020-02-20,,,isolated
-1200000070,female,40s,Daegu,,,,2020-02-20,,,isolated
-1200000069,male,20s,Daegu,,,,2020-02-20,,,isolated
-1200000068,female,50s,Daegu,,,,2020-02-20,,,isolated
-6015000005,female,50s,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-20,2020-03-21,,released
-1300000003,male,30s,Gwangju,,etc,65,2020-02-20,2020-03-19,,released
-4000000001,male,30s,Chungcheongbuk-do,Jeungpyeong-gun,contact with patient,,2020-02-20,2020-03-14,,released
-1200000084,male,60s,Daegu,Dalseo-gu,,,2020-02-20,,,isolated
-6020000001,male,50s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
-1200000086,male,30s,Daegu,Suseong-gu,,,2020-02-20,,,isolated
-1200000088,female,40s,Daegu,Dong-gu,,,2020-02-20,,,isolated
-6020000003,male,60s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
-6020000004,male,40s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
-5000000002,male,20s,Jeollabuk-do,Gimje-si,etc,,2020-02-20,2020-03-10,,released
-7000000001,male,20s,Jeju-do,Jeju-do,etc,87,2020-02-20,2020-03-23,,released
-6011000003,male,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-20,,,released
-6009000001,female,20s,Gyeongsangbuk-do,Sangju-si,etc,,2020-02-20,2020-03-26,,released
-6001000003,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,3,2020-02-20,2020-03-06,,released
-6020000005,male,50s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
-6001000004,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,5,2020-02-20,2020-03-25,,released
-6001000005,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-20,2020-03-18,,released
-6100000003,female,10s,Gyeongsangnam-do,Jinju-si,Shincheonji Church,,2020-02-20,,,released
-6100000002,male,70s,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-20,,,released
-6100000001,male,20s,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-20,,,released
-1200000090,female,40s,Daegu,,,,2020-02-20,,,isolated
-1200000089,female,20s,Daegu,Suseong-gu,,,2020-02-20,,,isolated
-1200000087,female,20s,Daegu,Seo-gu,,,2020-02-20,,,isolated
-6020100104,male,60s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,2020-02-19,deceased
-6020000008,female,20s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,,released
-6020000009,male,60s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,,released
-6001000012,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,9,2020-02-21,2020-03-06,,released
-6001000011,male,50s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-21,2020-03-26,,released
-6001000010,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,3,2020-02-21,2020-03-26,,released
-6001000009,male,30s,Gyeongsangbuk-do,Gyeongsan-si,,8,2020-02-21,2020-03-24,,released
-6001000008,male,50s,Gyeongsangbuk-do,Gyeongsan-si,,5,2020-02-21,2020-03-20,,released
-6001000007,female,40s,Gyeongsangbuk-do,Gyeongsan-si,Shincheonji Church,6,2020-02-21,2020-03-27,,released
-6001000006,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,9,2020-02-21,2020-03-14,,released
-6016000001,female,50s,Gyeongsangbuk-do,Yecheon-gun,Pilgrimage to Israel,,2020-02-21,2020-03-11,,released
-5000000003,male,30s,Jeollabuk-do,Jeonju-si,contact with patient,,2020-02-21,2020-03-07,,released
-1500000001,female,20s,Daejeon,Dong-gu,etc,23,2020-02-21,2020-03-04,,released
-6100000004,male,10s,Gyeongsangnam-do,Jinju-si,Shincheonji Church,,2020-02-21,,,released
-4100000001,male,20s,Chungcheongnam-do,Gyeryong-si,etc,22,2020-02-21,2020-03-26,,released
-1200000114,male,70s,Daegu,,Shincheonji Church,,2020-02-21,,2020-02-26,deceased
-1700000001,male,30s,Sejong,Sejong,Shincheonji Church,40,2020-02-21,2020-03-29,,released
-2000000014,male,30s,Gyeonggi-do,Gimpo-si,contact with patient,,2020-02-21,,,isolated
-1300000006,male,30s,Gwangju,,contact with patient,14,2020-02-21,2020-03-16,,released
-1300000005,male,30s,Gwangju,,etc,156,2020-02-21,2020-03-16,,released
-1300000004,male,30s,Gwangju,,contact with patient,30,2020-02-21,2020-03-18,,released
-6007000001,male,60s,Gyeongsangbuk-do,Mungyeong-si,contact with patient,,2020-02-21,,,released
-6007000002,female,60s,Gyeongsangbuk-do,Mungyeong-si,contact with patient,,2020-02-21,,,released
-6011000001,female,60s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-21,,,released
-6011000002,male,60s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-21,,,released
-6011000004,male,60s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-21,,,released
-6011000005,female,60s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-21,,,released
-6020000006,male,60s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,,released
-6020000007,female,40s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,,released
-2000000013,female,30s,Gyeonggi-do,Gimpo-si,contact with patient,,2020-02-21,,,isolated
-6020100107,male,60s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,2020-02-24,deceased
-1100000001,male,10s,Busan,Dongnae-gu,Onchun Church,1091,2020-02-21,,,released
-1100000002,female,50s,Busan,Haeundae-gu,contact with patient,131,2020-02-21,,,released
-6015000007,male,60s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-21,,,isolated
-6023000001,female,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-21,2020-04-17,,released
-6015000006,female,70s,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-21,,2020-04-09,deceased
-6002000002,male,40s,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-22,,,deceased
-7000000002,female,20s,Jeju-do,Jeju-do,etc,84,2020-02-22,2020-03-07,,released
-6002000003,female,20s,Gyeongsangbuk-do,Gyeongju-si,Shincheonji Church,,2020-02-22,,,released
-6019000009,female,50s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-6023000005,male,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-22,2020-03-03,,released
-6023000004,female,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-22,2020-03-04,,released
-1100000016,male,30s,Busan,Geumjeong-gu,Onchun Church,19,2020-02-22,,,released
-6023000002,female,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-22,2020-03-28,,released
-1400000002,female,60s,Incheon,Bupyeong-gu,Shincheonji Church,,2020-02-22,2020-03-09,,released
-1500000002,female,60s,Daejeon,Yuseong-gu,etc,9,2020-02-22,2020-03-28,,released
-6011000006,female,60s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-22,,,released
-1100000015,male,10s,Busan,Dongnae-gu,Onchun Church,34,2020-02-22,,,released
-1100000014,male,30s,Busan,Dongnae-gu,Onchun Church,27,2020-02-22,,,released
-1100000013,male,20s,Busan,Seo-gu,etc,15,2020-02-22,,,released
-6023000003,male,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-22,2020-03-04,,released
-6002000001,male,20s,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-22,,,released
-6019000008,female,50s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-6019000007,male,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-3013000001,female,30s,Gangwon-do,Chuncheon-si,Shincheonji Church,,2020-02-22,2020-03-18,,released
-3005000002,male,,Gangwon-do,Sokcho-si,etc,,2020-02-22,2020-03-04,,released
-3005000001,female,,Gangwon-do,Sokcho-si,etc,,2020-02-22,2020-03-04,,released
-4000000002,male,30s,Chungcheongbuk-do,Cheongju-si,contact with patient,,2020-02-22,2020-03-07,,released
-4000000003,female,30s,Chungcheongbuk-do,Cheongju-si,contact with patient,,2020-02-22,2020-03-20,,released
-3004000001,male,20s,Gangwon-do,Samcheok-si,etc,,2020-02-22,2020-03-04,,released
-3001000001,male,40s,Gangwon-do,Gangneung-si,etc,,2020-02-22,2020-04-13,,released
-6019000001,female,50s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-1100000012,female,50s,Busan,Nam-gu,Shincheonji Church,296,2020-02-22,,,released
-6019000002,female,70s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-6019000003,female,50s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-6019000004,female,50s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-6019000005,male,70s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-6019000006,male,50s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-6100000005,male,40s,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-22,2020-03-26,,released
-6100000006,female,40s,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-22,,,released
-6100000007,male,20s,Gyeongsangnam-do,Changwon-si,etc,,2020-02-22,2020-03-24,,released
-6100000008,male,70s,Gyeongsangnam-do,Yangsan-si,contact with patient,,2020-02-22,,,released
-1600000001,female,20s,Ulsan,Ulju-gun,Shincheonji Church,,2020-02-22,2020-03-16,,released
-1100000011,female,20s,Busan,Buk-gu,Onchun Church,23,2020-02-22,,,released
-3013000002,female,30s,Gangwon-do,Chuncheon-si,Shincheonji Church,,2020-02-22,2020-03-30,,released
-1100000009,male,20s,Busan,Dongnae-gu,Onchun Church,4,2020-02-22,,,released
-2000000017,male,60s,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-22,2020-03-19,,released
-2000000016,male,20s,Gyeonggi-do,Bucheon-si,overseas inflow,,2020-02-22,2020-03-04,,released
-6001000017,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,7,2020-02-22,2020-03-18,,released
-6001000016,male,60s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-22,2020-03-20,,released
-6020100286,male,60s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-22,,2020-02-23,deceased
-1100000010,male,40s,Busan,Dongnae-gu,Onchun Church,19,2020-02-22,,,released
-6020100298,male,50s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-22,,2020-02-25,deceased
-2000000019,male,60s,Gyeonggi-do,Anyang-si,contact with patient,32,2020-02-22,,,isolated
-6006000001,male,40s,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-22,2020-04-04,,released
-6005000002,male,,Gyeongsangbuk-do,Gunwi-gun,Shincheonji Church,13,2020-02-22,,,released
-6005000001,male,,Gyeongsangbuk-do,Gunwi-gun,Shincheonji Church,16,2020-02-22,,,released
-6001000015,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,4,2020-02-22,2020-04-14,,released
-6001000014,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,15,2020-02-22,2020-03-27,,released
-2000000018,male,20s,Gyeonggi-do,Pocheon-si,etc,,2020-02-22,,,isolated
-1100000003,female,20s,Busan,Haeundae-gu,etc,16,2020-02-22,,,isolated
-6001000013,male,30s,Gyeongsangbuk-do,Gyeongsan-si,,5,2020-02-22,2020-03-21,,released
-2000000025,male,50s,Gyeonggi-do,Gimpo-si,Shincheonji Church,15,2020-02-22,,,isolated
-1100000008,male,20s,Busan,Dongnae-gu,Onchun Church,27,2020-02-22,,,released
-1100000006,female,80s,Busan,Yeonje-gu,contact with patient,0,2020-02-22,,,isolated
-1100000005,female,20s,Busan,Haeundae-gu,contact with patient,14,2020-02-22,,,released
-1100000004,female,20s,Busan,Haeundae-gu,Shincheonji Church,8,2020-02-22,,,released
-6014000001,female,60s,Gyeongsangbuk-do,Yeongju-si,etc,11,2020-02-22,2020-03-05,,released
-1300000008,female,30s,Gwangju,,contact with patient,47,2020-02-22,2020-03-06,,released
-1300000007,male,30s,Gwangju,,contact with patient,39,2020-02-22,2020-03-17,,released
-2000000015,female,30s,Gyeonggi-do,Bucheon-si,contact with patient,,2020-02-22,,,isolated
-6020100205,female,50s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-22,,2020-02-21,deceased
-2000000029,female,60s,Gyeonggi-do,Suwon-si,etc,,2020-02-22,,,isolated
-2000000021,female,60s,Gyeonggi-do,Bucheon-si,contact with patient,,2020-02-23,,,isolated
-2000000022,male,20s,Gyeonggi-do,Pyeongtaek-si,etc,,2020-02-23,,,isolated
-2000000023,male,40s,Gyeonggi-do,Bucheon-si,contact with patient,,2020-02-23,,,isolated
-1100000037,male,20s,Busan,Geumjeong-gu,Onchun Church,19,2020-02-23,,,released
-1100000038,female,50s,Busan,Dongnae-gu,Onchun Church,0,2020-02-23,,,released
-2000000026,female,50s,Gyeonggi-do,Bucheon-si,contact with patient,,2020-02-23,,,isolated
-1100000036,female,20s,Busan,Dongnae-gu,Onchun Church,18,2020-02-23,,,released
-1100000035,female,20s,Busan,Dongnae-gu,Onchun Church,3,2020-02-23,,,released
-6019000011,female,50s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-6019000012,female,70s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-1100000031,female,20s,Busan,Dongnae-gu,Onchun Church,3,2020-02-23,,,released
-1100000032,female,20s,Busan,Dongnae-gu,Onchun Church,5,2020-02-23,,,released
-1100000030,male,20s,Busan,Geumjeong-gu,Onchun Church,21,2020-02-23,,,released
-1100000029,male,20s,Busan,Dongnae-gu,etc,28,2020-02-23,,,released
-1100000028,female,60s,Busan,Suyeong-gu,contact with patient,8,2020-02-23,,,released
-1100000033,female,20s,Busan,Dongnae-gu,Onchun Church,0,2020-02-23,,,released
-1100000027,female,20s,Busan,Suyeong-gu,etc,10,2020-02-23,,,released
-1100000034,male,20s,Busan,Dongnae-gu,Onchun Church,25,2020-02-23,,,released
-6007000003,,20s,Gyeongsangbuk-do,Mungyeong-si,etc,,2020-02-23,,,released
-6004000001,female,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-23,2020-04-01,,released
-6019000019,female,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-6009000002,female,40s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-23,2020-03-24,,released
-6019000018,female,50s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-6019000016,female,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-6019000015,female,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-6019000014,female,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-6019000013,female,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-6019000010,male,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-6019000017,female,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
-1100000023,male,20s,Busan,Saha-gu,Onchun Church,1,2020-02-23,,,released
-6011000007,male,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-23,,,released
-6023000008,female,30s,Gyeongsangbuk-do,Pohang-si,,,2020-02-23,2020-03-20,,released
-6023000007,female,20s,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-23,2020-04-02,,released
-6023000006,male,30s,Gyeongsangbuk-do,Pohang-si,,,2020-02-23,2020-04-02,,released
-1500000003,male,60s,Daejeon,Yuseong-gu,contact with patient,1,2020-02-23,2020-05-05,,released
-1100000026,male,20s,Busan,Haeundae-gu,Onchun Church,7,2020-02-23,,,released
-1100000018,male,20s,Busan,Saha-gu,etc,37,2020-02-23,,,released
-1100000017,male,40s,Busan,Nam-gu,Cheongdo Daenam Hospital,1,2020-02-23,,,released
-6015000011,female,40s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-23,2020-03-19,,released
-6015000010,female,60s,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-23,2020-04-08,,released
-6015000009,male,50s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-23,2020-04-19,,released
-6011000010,female,20s,Gyeongsangbuk-do,Andong-si,contact with patient,,2020-02-23,,,released
-6001000018,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-23,2020-03-28,,released
-6015000008,female,50s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-23,2020-03-27,,released
-6001000019,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,9,2020-02-23,2020-03-17,,released
-6001000020,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,3,2020-02-23,2020-04-02,,released
-6001000021,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-23,2020-03-25,,released
-6022000001,male,50s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-23,2020-03-06,,released
-6001000022,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,4,2020-02-23,2020-03-10,,released
-6001000023,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,4,2020-02-23,2020-03-13,,released
-6023000009,female,50s,Gyeongsangbuk-do,Pohang-si,,,2020-02-23,2020-03-28,,released
-6023000010,female,20s,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-23,2020-03-29,,released
-1100000019,female,30s,Busan,Seo-gu,Onchun Church,16,2020-02-23,,,released
-1100000024,female,20s,Busan,Saha-gu,Shincheonji Church,2,2020-02-23,,,released
-1100000020,female,50s,Busan,Seo-gu,contact with patient,22,2020-02-23,,,released
-6100000009,female,30s,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-02-23,2020-03-14,,released
-6100000010,female,20s,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-23,2020-03-22,,released
-1300000009,female,30s,Gwangju,,contact with patient,0,2020-02-23,2020-03-19,,released
-6100000011,male,20s,Gyeongsangnam-do,Hamyang-gun,contact with patient,,2020-02-23,,,released
-6100000012,male,40s,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-23,2020-04-04,,released
-6100000013,female,70s,Gyeongsangnam-do,Goseong-gun,Shincheonji Church,,2020-02-23,,,released
-6100000014,male,30s,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-23,,,released
-6020000010,female,50s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-23,,,released
-1100000022,female,20s,Busan,Gangseo-gu,Onchun Church,19,2020-02-23,,,released
-1100000025,female,40s,Busan,Haeundae-gu,contact with patient,9,2020-02-23,,,released
-6011000009,female,20s,Gyeongsangbuk-do,Andong-si,contact with patient,,2020-02-23,,,released
-6011000008,female,30s,Gyeongsangbuk-do,Andong-si,contact with patient,,2020-02-23,,,released
-6100000015,female,20s,Gyeongsangnam-do,Gimhae-si,Onchun Church,,2020-02-23,,,released
-6100000016,male,30s,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-23,,,released
-6100000017,female,20s,Gyeongsangnam-do,Yangsan-si,Shincheonji Church,,2020-02-23,,,released
-1100000021,female,10s,Busan,Gangseo-gu,Onchun Church,9,2020-02-23,,,released
-2000000031,male,20s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-02-24,,,isolated
-2000000030,male,20s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-02-24,,,isolated
-6001000028,male,70s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-24,2020-04-15,,released
-2000000032,male,20s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-02-24,,,isolated
-2000000033,male,30s,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-24,2020-03-13,,released
-2000000034,female,60s,Gyeonggi-do,Paju-si,contact with patient,,2020-02-24,,,isolated
-2000000035,male,30s,Gyeonggi-do,Paju-si,contact with patient,,2020-02-24,,,isolated
-6001000029,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,6,2020-02-24,2020-03-30,,released
-6001000030,female,30s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-24,2020-03-20,,released
-6001000031,male,10s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-24,2020-03-19,,released
-6001000032,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,3,2020-02-24,2020-03-20,,released
-6001000033,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-24,2020-03-13,,released
-6001000034,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-24,2020-03-26,,released
-2000000028,female,20s,Gyeonggi-do,Yongin-si,contact with patient,,2020-02-24,2020-03-10,,released
-2000000027,female,0s,Gyeonggi-do,Gimpo-si,contact with patient,,2020-02-24,,,isolated
-6100000019,female,20s,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-24,,,released
-6001000026,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-24,2020-03-26,,released
-6100000020,female,60s,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-24,,,released
-6002000005,female,40s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-24,,,released
-6002000004,male,50s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-24,,,released
-6100000021,male,70s,Gyeongsangnam-do,Hapcheon-gun,contact with patient,,2020-02-24,,,released
-6100000022,female,50s,Gyeongsangnam-do,Gimhae-si,contact with patient,,2020-02-24,2020-03-18,,released
-6004000002,female,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-24,2020-03-18,,released
-6001000027,male,30s,Gyeongsangbuk-do,Gyeongsan-si,,5,2020-02-24,2020-03-22,,released
-6019000020,male,20s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-24,,,released
-6016000002,male,40s,Gyeongsangbuk-do,Yecheon-gun,etc,,2020-02-24,2020-04-02,,released
-1600000002,female,40s,Ulsan,Jung-gu,Shincheonji Church,,2020-02-24,2020-03-17,,released
-6100000018,female,30s,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-24,,,released
-2000000024,male,60s,Gyeonggi-do,Suwon-si,etc,,2020-02-24,,,isolated
-6001000024,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,5,2020-02-24,2020-04-02,,released
-6001000025,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-24,2020-03-06,,released
-6100000023,male,60s,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-24,2020-04-18,,released
-2000000036,male,30s,Gyeonggi-do,Bucheon-si,etc,,2020-02-24,,,isolated
-6014000002,male,20s,Gyeongsangbuk-do,Yeongju-si,etc,3,2020-02-24,2020-04-06,,released
-6022000002,male,30s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-24,2020-03-20,,released
-6015000012,male,50s,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-24,2020-03-25,,released
-1100000041,male,20s,Busan,Dongnae-gu,Onchun Church,3,2020-02-24,,,released
-2000000038,female,30s,Gyeonggi-do,Anyang-si,Shincheonji Church,,2020-02-24,,,isolated
-1100000043,female,50s,Busan,Dongnae-gu,contact with patient,7,2020-02-24,,,released
-6023000012,female,50s,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-24,2020-03-24,,released
-6023000011,female,10s,Gyeongsangbuk-do,Pohang-si,,,2020-02-24,2020-03-11,,released
-6005000003,female,,Gyeongsangbuk-do,Gunwi-gun,Shincheonji Church,31,2020-02-24,,,released
-6020000011,female,60s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-24,,,released
-2000000119,male,20s,Gyeonggi-do,Pocheon-si,etc,,2020-02-24,,,isolated
-6022000005,male,50s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-24,2020-03-23,,released
-6022000004,male,50s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-24,2020-03-06,,released
-6022000003,male,20s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-24,2020-03-16,,released
-6009000003,male,60s,Gyeongsangbuk-do,Sangju-si,Pilgrimage to Israel,,2020-02-24,2020-03-29,,released
-1100000040,male,70s,Busan,Saha-gu,contact with patient,9,2020-02-24,,,released
-1100000042,male,10s,Busan,Dongnae-gu,contact with patient,2,2020-02-24,,,released
-1100000039,male,20s,Busan,Haeundae-gu,contact with patient,159,2020-02-24,,,released
-1100000044,female,40s,Busan,Dongnae-gu,Onchun Church,0,2020-02-24,,,released
-6021000001,male,20s,Gyeongsangbuk-do,Cheongsong-gun,,,2020-02-24,,,released
-6011000011,female,40s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-24,,,released
-1200000620,male,70s,Daegu,,,,2020-02-24,,2020-03-02,deceased
-6022000009,female,50s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-12,,released
-6022000006,male,40s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,,,isolated
-6022000007,male,30s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-16,,released
-6022000008,male,50s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-25,,released
-2000000037,male,30s,Gyeonggi-do,Anyang-si,Shincheonji Church,23,2020-02-25,,,isolated
-6022000011,male,40s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,,,isolated
-1100000050,female,30s,Busan,Buk-gu,etc,11,2020-02-25,,,released
-1100000051,female,60s,Busan,Yeonje-gu,contact with patient,0,2020-02-25,,,released
-1100000052,male,70s,Busan,Saha-gu,contact with patient,4,2020-02-25,,,released
-1100000054,male,20s,Busan,Busanjin-gu,contact with patient,41,2020-02-25,,,released
-4000000004,male,50s,Chungcheongbuk-do,Eumseong-gun,etc,,2020-02-25,2020-03-19,,released
-4000000005,female,30s,Chungcheongbuk-do,Chungju-si,etc,,2020-02-25,2020-03-08,,released
-6022000010,female,50s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-21,,released
-4000000006,female,20s,Chungcheongbuk-do,Cheongju-si,etc,,2020-02-25,2020-03-04,,released
-6001000036,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-25,2020-03-29,,released
-6001000035,male,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,,2020-04-11,deceased
-6022000013,male,60s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-31,,released
-6022000012,male,30s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-11,,released
-4100000002,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,35,2020-02-25,2020-03-15,,released
-4100000003,female,50s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,4,2020-02-25,2020-03-20,,released
-1100000055,female,50s,Busan,Haeundae-gu,Onchun Church,2,2020-02-25,,,released
-4100000004,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,6,2020-02-25,2020-03-17,,released
-1600000004,female,60s,Ulsan,Dong-gu,contact with patient,,2020-02-25,2020-04-06,,released
-6011000012,female,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-25,,,released
-6022000023,male,20s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-04-06,,released
-6022000022,male,30s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-21,,released
-6022000021,female,40s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-16,,released
-6022000020,male,30s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,,,isolated
-6022000019,female,20s,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-20,,released
-6022000018,male,30s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-16,,released
-6022000017,female,40s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-19,,released
-6100000028,female,20s,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-25,2020-03-25,,released
-6100000027,female,20s,Gyeongsangnam-do,Geoje-si,contact with patient,,2020-02-25,2020-03-22,,released
-6100000026,male,30s,Gyeongsangnam-do,Changwon-si,etc,,2020-02-25,2020-03-18,,released
-6100000025,male,40s,Gyeongsangnam-do,Changwon-si,etc,,2020-02-25,2020-03-03,,released
-6100000024,male,30s,Gyeongsangnam-do,Namhae-gun,contact with patient,,2020-02-25,,,released
-6022000015,male,30s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-23,,released
-6022000016,female,20s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-19,,released
-6015000016,female,50s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-25,2020-03-13,,released
-6015000015,female,30s,Gyeongsangbuk-do,Yeongcheon-si,contact with patient,,2020-02-25,2020-03-13,,released
-6015000014,female,60s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-25,2020-04-19,,released
-6015000013,male,20s,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-25,2020-03-22,,released
-1200000901,female,80s,Daegu,,,,2020-02-25,,2020-03-04,deceased
-6020000016,male,60s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-25,,,released
-6020000015,female,50s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-25,,,released
-6020000014,female,10s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-25,,,released
-6020000013,male,50s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-25,,,released
-6020000012,female,50s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-25,,,released
-1600000003,male,20s,Ulsan,Jung-gu,Shincheonji Church,,2020-02-25,2020-03-14,,released
-6001000037,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-19,,released
-6023000013,female,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-25,2020-03-11,,released
-1100000049,female,30s,Busan,Geumjeong-gu,Onchun Church,2,2020-02-25,,,released
-1100000053,female,20s,Busan,Sasang-gu,etc,30,2020-02-25,,,released
-1100000047,male,40s,Busan,Dongnae-gu,etc,10,2020-02-25,,,released
-6019000026,male,70s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
-6004000003,male,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-25,2020-04-17,,released
-6004000004,female,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-25,2020-03-28,,released
-6019000021,male,20s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
-6019000022,female,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
-6019000023,female,80s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
-1400000003,male,50s,Incheon,Michuhol-gu,etc,,2020-02-25,2020-03-03,,released
-1100000048,male,70s,Busan,Dongnae-gu,Onchun Church,1,2020-02-25,,,released
-6004000006,male,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-25,2020-03-25,,released
-6019000024,male,80s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
-2000000046,male,60s,Gyeonggi-do,Icheon-si,etc,,2020-02-25,2020-03-16,,released
-2000000044,female,60s,Gyeonggi-do,Gwacheon-si,Shincheonji Church,,2020-02-25,,,isolated
-2000000043,female,30s,Gyeonggi-do,Anyang-si,etc,,2020-02-25,2020-03-04,,released
-2000000042,male,20s,Gyeonggi-do,Seongnam-si,Shincheonji Church,17,2020-02-25,,,isolated
-2000000041,male,30s,Gyeonggi-do,Gimpo-si,etc,,2020-02-25,,,isolated
-6022000014,male,60s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-24,,released
-6002000008,female,30s,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-25,,,released
-6019000025,female,70s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
-6001000040,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-19,,released
-6001000043,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-10,,released
-6001000042,male,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-19,,released
-6001000041,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,7,2020-02-25,2020-03-21,,released
-6001000039,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-25,2020-03-20,,released
-6001000044,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-25,2020-03-29,,released
-6002000006,male,20s,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-25,,,released
-6001000038,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-20,,released
-1100000046,male,70s,Busan,Dongnae-gu,contact with patient,27,2020-02-25,,,released
-6002000007,female,50s,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-25,,,released
-1100000045,female,60s,Busan,Dongnae-gu,contact with patient,0,2020-02-25,,,released
-6001000045,male,80s,Gyeongsangbuk-do,Gyeongsan-si,,4,2020-02-25,2020-03-13,,released
-6001000069,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-26,2020-03-23,,released
-6001000070,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,3,2020-02-26,2020-03-20,,released
-6001000071,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,3,2020-02-26,2020-03-21,,released
-6001000068,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-06-13,,released
-6015000020,male,20s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-26,2020-03-12,,released
-6015000019,female,60s,Gyeongsangbuk-do,Yeongcheon-si,contact with patient,,2020-02-26,2020-03-25,,released
-6015000021,male,70s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-26,2020-04-02,,released
-6015000018,female,50s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-26,2020-04-01,,released
-6001000074,female,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-20,,released
-6001000073,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,4,2020-02-26,2020-03-11,,released
-6015000017,male,60s,Gyeongsangbuk-do,Yeongcheon-si,contact with patient,,2020-02-26,2020-03-25,,released
-6001000075,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-26,2020-03-06,,released
-6001000076,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-26,2020-03-22,,released
-1500000008,male,30s,Daejeon,Seo-gu,contact with patient,2,2020-02-26,2020-03-26,,released
-6001000077,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-21,,released
-5000000005,male,70s,Jeollabuk-do,etc,contact with patient,,2020-02-26,2020-03-18,,released
-5000000004,female,70s,Jeollabuk-do,etc,etc,,2020-02-26,2020-03-18,,released
-6001000078,male,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-21,,released
-6001000079,female,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-04-11,,released
-1500000004,female,40s,Daejeon,Yuseong-gu,etc,46,2020-02-26,2020-03-02,,released
-1500000005,male,30s,Daejeon,Yuseong-gu,etc,15,2020-02-26,2020-03-09,,released
-1500000007,male,30s,Daejeon,Seo-gu,contact with patient,2,2020-02-26,2020-03-26,,released
-6001000072,male,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,,2020-03-18,deceased
-6001000067,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-20,,released
-6001000049,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,3,2020-02-26,2020-03-25,,released
-6001000065,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-23,,released
-6001000050,male,40s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-20,,released
-6001000051,male,10s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-13,,released
-6001000052,female,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-05,,released
-6001000053,female,10s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-16,,released
-6001000054,female,70s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-14,,released
-6001000055,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-19,,released
-6001000056,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-26,2020-03-21,,released
-6001000048,female,0s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-28,,released
-6021000002,male,20s,Gyeongsangbuk-do,Cheongsong-gun,,,2020-02-26,,,released
-6001000047,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-21,,released
-6013000001,male,20s,Gyeongsangbuk-do,Yeongyang-gun,etc,,2020-02-26,,,released
-6020000024,female,30s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-26,,,released
-6001000066,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-26,,released
-6020000023,female,30s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-26,,,released
-6020000018,female,50s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-26,,,released
-6020000017,male,50s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-26,,,released
-6011000013,male,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-26,,,released
-6001000046,male,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-30,,released
-6001000057,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-19,,released
-6001000058,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,3,2020-02-26,2020-03-22,,released
-6001000059,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-26,2020-03-19,,released
-6001000060,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-26,2020-03-23,,released
-6001000061,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-26,2020-04-11,,released
-6001000062,male,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,,2020-03-08,deceased
-6001000063,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-26,2020-04-01,,released
-6001000064,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-24,,released
-6020000019,female,50s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-26,,,released
-1500000009,male,70s,Daejeon,Seo-gu,etc,6,2020-02-26,2020-03-21,,released
-6023000014,male,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-26,2020-03-21,,released
-2000000050,female,70s,Gyeonggi-do,Namyangju-si,contact with patient,,2020-02-26,2020-03-17,,released
-2000000048,male,60s,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-26,2020-03-11,,released
-2000000049,male,30s,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-26,2020-03-15,,released
-6005000004,female,,Gyeongsangbuk-do,Gunwi-gun,Shincheonji Church,,2020-02-26,,,released
-6009000007,male,70s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-17,,released
-2000000051,male,70s,Gyeonggi-do,Namyangju-si,contact with patient,,2020-02-26,2020-03-18,,released
-2000000020,male,50s,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-26,2020-03-05,,released
-6006000002,male,40s,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-26,2020-04-15,,released
-2000000054,female,30s,Gyeonggi-do,Gwangmyeong-si,etc,,2020-02-26,2020-03-04,,released
-4100000009,female,30s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,3,2020-02-26,2020-03-23,,released
-4100000008,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,130,2020-02-26,2020-03-29,,released
-4100000007,male,40s,Chungcheongnam-do,Asan-si,contact with patient,51,2020-02-26,2020-03-26,,released
-4100000006,female,40s,Chungcheongnam-do,Asan-si,contact with patient,41,2020-02-26,2020-03-22,,released
-4100000005,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,9,2020-02-26,2020-03-27,,released
-1100000056,female,50s,Busan,Busanjin-gu,contact with patient,27,2020-02-26,,,released
-6100000043,male,20s,Gyeongsangnam-do,Gimhae-si,Shincheonji Church,,2020-02-26,,,released
-6004000010,male,10s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-26,2020-03-26,,released
-4000000007,female,30s,Chungcheongbuk-do,Chungju-si,etc,,2020-02-26,2020-03-27,,released
-6003000001,male,20s,Gyeongsangbuk-do,Goryeong-gun,etc,,2020-02-26,2020-03-19,,released
-6009000005,female,40s,Gyeongsangbuk-do,Sangju-si,etc,,2020-02-26,2020-04-09,,released
-6010000004,female,20s,Gyeongsangbuk-do,Seongju-gun,Shincheonji Church,,2020-02-26,,,released
-6010000003,female,20s,Gyeongsangbuk-do,Seongju-gun,etc,,2020-02-26,,,released
-6019000029,female,70s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-26,,,released
-6010000002,female,60s,Gyeongsangbuk-do,Seongju-gun,Shincheonji Church,,2020-02-26,2020-03-13,,released
-6010000001,female,10s,Gyeongsangbuk-do,Seongju-gun,etc,,2020-02-26,,,released
-6019000028,male,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-26,,,released
-6019000027,female,80s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-26,,,released
-6009000013,male,80s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-19,,released
-6009000009,male,30s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-22,,released
-6009000008,female,60s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-18,,released
-2000000047,male,40s,Gyeonggi-do,Anyang-si,etc,,2020-02-26,,,isolated
-1600000005,male,20s,Ulsan,Nam-gu,Shincheonji Church,,2020-02-26,2020-03-10,,released
-6009000006,female,60s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-17,,released
-1200001064,female,70s,Daegu,,,,2020-02-26,,2020-03-01,deceased
-6100000042,male,40s,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-26,2020-04-01,,released
-6100000041,male,30s,Gyeongsangnam-do,Miryang-si,contact with patient,,2020-02-26,,,released
-6100000040,male,50s,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-26,2020-03-26,,released
-6100000039,female,60s,Gyeongsangnam-do,Gimhae-si,contact with patient,,2020-02-26,,,released
-6100000038,female,50s,Gyeongsangnam-do,Changnyeong-gun,etc,,2020-02-26,,,released
-6100000037,female,50s,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-26,2020-03-14,,released
-6100000036,female,60s,Gyeongsangnam-do,Geochang-gun,contact with patient,,2020-02-26,2020-03-03,,released
-6100000035,female,40s,Gyeongsangnam-do,Geochang-gun,contact with patient,,2020-02-26,2020-03-14,,released
-6100000034,female,20s,Gyeongsangnam-do,Geochang-gun,contact with patient,,2020-02-26,2020-03-20,,released
-1100000057,male,20s,Busan,Haeundae-gu,Onchun Church,19,2020-02-26,,,released
-6100000032,,,Gyeongsangnam-do,,,,2020-02-26,,,isolated
-6100000031,,,Gyeongsangnam-do,,,,2020-02-26,,,isolated
-6100000030,male,20s,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-26,2020-03-12,,released
-6100000029,male,10s,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-26,2020-03-25,,released
-6100000033,,,Gyeongsangnam-do,,,,2020-02-26,,,isolated
-6023000015,male,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-26,2020-03-21,,released
-2000000040,female,50s,Gyeonggi-do,Bucheon-si,etc,,2020-02-26,,,isolated
-1100000058,female,50s,Busan,Suyeong-gu,contact with patient,11,2020-02-26,,,released
-1100000059,female,20s,Busan,Suyeong-gu,etc,71,2020-02-26,,,released
-1100000060,female,60s,Busan,Haeundae-gu,contact with patient,2,2020-02-26,,,released
-2000000045,male,30s,Gyeonggi-do,Suwon-si,etc,,2020-02-26,2020-02-27,,released
-6022000024,male,40s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-26,,,isolated
-6023000016,male,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-26,2020-03-30,,released
-6001000085,male,50s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-27,2020-03-13,,released
-6001000084,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-10,,released
-6001000083,female,10s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-23,,released
-6001000082,male,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-06,,released
-6001000081,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-23,,released
-6001000086,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-14,,released
-6001000080,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-09,,released
-2000000063,female,20s,Gyeonggi-do,Yongin-si,contact with patient,,2020-02-27,2020-03-23,,released
-2000000062,male,50s,Gyeonggi-do,Yongin-si,contact with patient,4,2020-02-27,2020-03-16,,released
-2000000061,male,40s,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-27,,,isolated
-2000000052,male,30s,Gyeonggi-do,Yongin-si,etc,,2020-02-27,2020-03-16,,released
-2000000053,female,20s,Gyeonggi-do,Pyeongtaek-si,etc,,2020-02-27,,,isolated
-2000000060,male,40s,Gyeonggi-do,Paju-si,contact with patient,,2020-02-27,,,isolated
-2000000055,male,20s,Gyeonggi-do,Gwacheon-si,Shincheonji Church,,2020-02-27,2020-03-14,,released
-2000000056,male,20s,Gyeonggi-do,Gwacheon-si,Shincheonji Church,,2020-02-27,2020-03-12,,released
-2000000058,female,30s,Gyeonggi-do,Yongin-si,contact with patient,,2020-02-27,2020-03-25,,released
-2000000064,female,70s,Gyeonggi-do,Goyang-si,etc,,2020-02-27,,,isolated
-6100000044,female,40s,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-27,2020-03-16,,released
-4000000010,male,20s,Chungcheongbuk-do,Cheongju-si,etc,,2020-02-27,2020-03-23,,released
-6019000031,female,70s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
-6100000045,female,40s,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-27,2020-03-16,,released
-6100000046,female,50s,Gyeongsangnam-do,Gimhae-si,contact with patient,,2020-02-27,,,released
-6100000047,male,40s,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-27,2020-03-23,,released
-6100000048,female,40s,Gyeongsangnam-do,Geochang-gun,contact with patient,,2020-02-27,2020-04-03,,released
-1500000010,male,30s,Daejeon,Seo-gu,contact with patient,4,2020-02-27,2020-03-27,,released
-6022000025,female,50s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-27,2020-03-06,,released
-6022000026,female,50s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-27,,,isolated
-6023000017,male,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-27,2020-03-30,,released
-6023000018,male,30s,Gyeongsangbuk-do,Pohang-si,,,2020-02-27,,,released
-1600000006,female,70s,Ulsan,Nam-gu,contact with patient,,2020-02-27,2020-03-25,,released
-1600000008,female,50s,Ulsan,Nam-gu,Shincheonji Church,,2020-02-27,2020-03-22,,released
-1600000009,male,10s,Ulsan,Buk-gu,Shincheonji Church,,2020-02-27,2020-03-05,,released
-1600000010,male,20s,Ulsan,Buk-gu,Shincheonji Church,,2020-02-27,2020-03-13,,released
-1600000011,male,30s,Ulsan,Dong-gu,etc,,2020-02-27,2020-03-13,,released
-4100000019,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,2,2020-02-27,2020-03-23,,released
-4100000017,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,15,2020-02-27,2020-03-14,,released
-4100000016,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,,2020-02-27,2020-03-18,,released
-4100000015,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,,2020-02-27,2020-03-23,,released
-4100000014,male,40s,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-27,2020-04-01,,released
-4100000013,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,10,2020-02-27,2020-03-17,,released
-4100000012,female,50s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,5,2020-02-27,2020-03-26,,released
-4100000011,female,30s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,31,2020-02-27,2020-04-18,,released
-4100000010,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,2,2020-02-27,2020-04-17,,released
-4000000009,male,40s,Chungcheongbuk-do,Chungju-si,etc,,2020-02-27,2020-04-16,,released
-4000000008,male,20s,Chungcheongbuk-do,Cheongju-si,etc,,2020-02-27,2020-03-11,,released
-3009000001,male,40s,Gangwon-do,Wonju-si,Shincheonji Church,41,2020-02-27,2020-03-16,,released
-6019000034,male,80s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
-6019000033,female,80s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
-6019000032,female,60s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
-6019000030,female,70s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
-6001000087,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-27,2020-04-09,,released
-6001000092,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-27,,released
-6001000089,female,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-23,,released
-1100000063,female,30s,Busan,Buk-gu,Suyeong-gu Kindergarten,2,2020-02-27,,,released
-1100000065,male,20s,Busan,Suyeong-gu,contact with patient,1,2020-02-27,,,released
-1100000066,female,0s,Busan,Dongnae-gu,etc,5,2020-02-27,,,released
-6001000088,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,4,2020-02-27,2020-03-27,,released
-6015000026,male,20s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,2020-03-25,,released
-6015000025,male,40s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,2020-04-09,,released
-6015000024,male,30s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,2020-04-02,,released
-6015000023,male,20s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,2020-03-26,,released
-6015000022,female,70s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,,,isolated
-6014000003,female,20s,Gyeongsangbuk-do,Yeongju-si,etc,,2020-02-27,2020-03-29,,released
-6002000009,male,40s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-27,,,released
-6002000010,female,80s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-27,,,released
-6002000011,female,40s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-27,,,released
-6004000005,female,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-27,2020-03-17,,released
-6004000007,male,50s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-27,2020-03-20,,released
-6004000008,male,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-27,2020-03-29,,released
-6004000009,female,30s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-27,2020-03-17,,released
-6011000018,female,40s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
-6011000016,female,10s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
-6011000015,male,30s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
-6011000014,male,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
-1200001288,male,60s,Daegu,,,,2020-02-27,,2020-03-02,deceased
-1200001443,male,70s,Daegu,,,,2020-02-27,,2020-02-27,deceased
-1100000062,male,10s,Busan,Dongnae-gu,contact with patient,3,2020-02-27,,,released
-6010000006,female,60s,Gyeongsangbuk-do,Seongju-gun,Shincheonji Church,,2020-02-27,,,released
-6008000001,male,20s,Gyeongsangbuk-do,Bonghwa-gun,,,2020-02-27,2020-03-05,,released
-6011000020,male,40s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
-6006000003,male,40s,Gyeongsangbuk-do,Gimcheon-si,contact with patient,,2020-02-27,2020-03-16,,released
-6011000021,female,40s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
-6011000022,female,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
-6011000023,male,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
-6010000005,female,40s,Gyeongsangbuk-do,Seongju-gun,Shincheonji Church,,2020-02-27,,,released
-1100000061,female,40s,Busan,Haeundae-gu,Suyeong-gu Kindergarten,10,2020-02-27,,,released
-1100000064,female,40s,Busan,Dongnae-gu,Onchun Church,3,2020-02-27,,,released
-6001000094,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-13,,released
-6001000097,female,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-07,,released
-6001000090,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-27,,released
-6001000091,female,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-16,,released
-6001000093,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-17,,released
-6001000096,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-07,,released
-6001000095,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-27,2020-03-29,,released
-4100000027,female,30s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,2,2020-02-28,2020-04-11,,released
-4100000028,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,53,2020-02-28,2020-03-23,,released
-4100000029,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,2,2020-02-28,2020-03-19,,released
-6001000123,female,80s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,,2020-03-02,deceased
-6001000124,male,10s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-01,,released
-1600000016,female,40s,Ulsan,Nam-gu,Shincheonji Church,,2020-02-28,2020-03-11,,released
-1600000015,male,60s,Ulsan,Nam-gu,etc,,2020-02-28,,2020-03-31,deceased
-1600000014,male,20s,Ulsan,Jung-gu,Shincheonji Church,,2020-02-28,2020-03-21,,released
-1600000013,male,50s,Ulsan,Nam-gu,etc,,2020-02-28,2020-03-14,,released
-1600000012,female,20s,Ulsan,Nam-gu,contact with patient,,2020-02-28,2020-03-15,,released
-1600000017,female,20s,Ulsan,Nam-gu,contact with patient,,2020-02-28,2020-03-24,,released
-4100000026,female,60s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,11,2020-02-28,2020-03-18,,released
-4100000023,female,50s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,3,2020-02-28,2020-03-23,,released
-4100000024,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,24,2020-02-28,2020-04-06,,released
-1100000071,male,70s,Busan,Busanjin-gu,etc,1,2020-02-28,,,deceased
-4100000022,female,30s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,5,2020-02-28,2020-03-06,,released
-4100000021,male,30s,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-28,2020-03-26,,released
-4100000020,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,1,2020-02-28,2020-03-22,,released
-6001000117,male,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-25,,released
-6022000028,male,40s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-28,2020-03-20,,released
-6022000027,male,60s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-28,2020-03-16,,released
-6015000027,female,70s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-28,2020-03-14,,released
-6001000116,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,2,2020-02-28,2020-03-27,,released
-6001000115,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-09,,released
-6001000114,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-01,,released
-6001000113,male,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-05-08,,released
-4100000025,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,2,2020-02-28,2020-03-18,,released
-1100000070,female,10s,Busan,Yeonje-gu,contact with patient,3,2020-02-28,,,released
-1100000067,female,60s,Busan,Haeundae-gu,contact with patient,2,2020-02-28,,,released
-1100000068,female,20s,Busan,Haeundae-gu,Onchun Church,2,2020-02-28,,,released
-6100000054,male,60s,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-03-22,,released
-6100000053,male,50s,Gyeongsangnam-do,Geoje-si,contact with patient,,2020-02-28,2020-04-01,,released
-6100000052,female,60s,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-03-14,,released
-6100000051,female,60s,Gyeongsangnam-do,Changnyeong-gun,Changnyeong Coin Karaoke,,2020-02-28,,,released
-6100000050,male,0s,Gyeongsangnam-do,Miryang-si,contact with patient,,2020-02-28,,,released
-6100000049,female,60s,Gyeongsangnam-do,Miryang-si,Shincheonji Church,,2020-02-28,,,released
-6023000020,male,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-28,2020-03-20,,released
-6023000019,female,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-28,2020-03-27,,released
-6001000122,female,70s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-10,,released
-4100000042,female,30s,Chungcheongnam-do,Asan-si,contact with patient,5,2020-02-28,2020-05-07,,released
-4100000041,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,1,2020-02-28,2020-03-22,,released
-4100000040,female,30s,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-28,2020-03-28,,released
-1100000069,female,40s,Busan,Dongnae-gu,etc,0,2020-02-28,,,released
-4100000039,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,106,2020-02-28,2020-03-24,,released
-4100000037,female,30s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,7,2020-02-28,2020-03-12,,released
-4100000036,female,40s,Chungcheongnam-do,Asan-si,contact with patient,8,2020-02-28,2020-04-03,,released
-4100000035,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,23,2020-02-28,2020-04-03,,released
-4100000034,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-02-28,2020-04-05,,released
-4100000033,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,5,2020-02-28,2020-03-15,,released
-4100000032,female,30s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,6,2020-02-28,2020-03-11,,released
-6001000121,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-26,,released
-6001000120,female,80s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-09,,released
-6001000119,male,80s,Gyeongsangbuk-do,Gyeongsan-si,Gyeongsan Seorin Nursing Home,,2020-02-28,2020-04-22,,released
-6001000118,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-07,,released
-6001000112,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,4,2020-02-28,2020-04-19,,released
-4100000031,female,40s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,0,2020-02-28,2020-03-16,,released
-4100000038,female,40s,Chungcheongnam-do,Asan-si,etc,6,2020-02-28,2020-03-18,,released
-6001000111,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-14,,released
-6001000108,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,16,2020-02-28,2020-04-05,,released
-6001000110,male,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-19,,released
-2000000066,male,40s,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-28,2020-03-13,,released
-2000000067,male,50s,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-28,2020-03-18,,released
-2000000068,male,30s,Gyeonggi-do,Seongnam-si,contact with patient,,2020-02-28,,,isolated
-2000000070,female,20s,Gyeonggi-do,Goyang-si,contact with patient,,2020-02-28,,,isolated
-2000000071,female,30s,Gyeonggi-do,Seongnam-si,contact with patient,,2020-02-28,,,isolated
-2000000072,male,50s,Gyeonggi-do,Hwaseong-si,etc,,2020-02-28,,,isolated
-2000000074,female,80s,Gyeonggi-do,Pyeongtaek-si,etc,,2020-02-28,,,isolated
-2000000076,female,70s,Gyeonggi-do,Icheon-si,etc,,2020-02-28,2020-03-14,,released
-2000000077,male,70s,Gyeonggi-do,Icheon-si,etc,,2020-02-28,2020-03-30,,released
-6001000098,male,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-28,,released
-6010000007,female,70s,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
-6010000008,male,50s,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
-6010000009,female,50s,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
-6019000035,female,80s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-28,,,released
-6010000010,female,20s,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
-6010000011,female,20s,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
-2000000112,male,20s,Gyeonggi-do,Goyang-si,etc,,2020-02-28,,,isolated
-1200002289,male,60s,Daegu,,,,2020-02-28,,2020-03-05,deceased
-1200002085,male,70s,Daegu,,,,2020-02-28,,2020-03-04,deceased
-1200001921,male,60s,Daegu,,,,2020-02-28,,2020-03-05,deceased
-6020000020,female,80s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-28,,,released
-6020000021,female,50s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-28,,,released
-6020000022,female,60s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-28,,,released
-6011000017,male,30s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6020000025,female,60s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-28,,,released
-6011000019,male,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6001000099,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-04,,released
-2000000059,female,30s,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-28,,,isolated
-6006000005,male,60s,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-28,2020-03-26,,released
-6001000109,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-29,,released
-6100000055,female,20s,Gyeongsangnam-do,Miryang-si,Shincheonji Church,,2020-02-28,,,released
-6002000012,male,20s,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-28,,,released
-6011000033,male,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-1400000006,male,40s,Incheon,Yeonsu-gu,etc,,2020-02-28,2020-05-10,,released
-1400000005,male,60s,Incheon,Bupyeong-gu,contact with patient,,2020-02-28,2020-03-16,,released
-1400000004,female,20s,Incheon,Seo-gu,contact with patient,,2020-02-28,2020-03-25,,released
-6001000107,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,3,2020-02-28,2020-03-23,,released
-6001000106,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-25,,released
-6001000105,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-29,,released
-6001000104,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-21,,released
-6004000011,male,30s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-28,2020-03-22,,released
-6011000037,male,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6011000032,male,50s,Gyeongsangbuk-do,Andong-si,Shincheonji Church,,2020-02-28,,,released
-6011000029,female,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6011000028,female,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6011000027,female,50s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6011000026,female,60s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6011000025,male,30s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6011000024,female,40s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6001000103,male,70s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,,2020-03-11,deceased
-6001000102,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-26,,released
-6005000005,male,,Gyeongsangbuk-do,Gunwi-gun,etc,,2020-02-28,,,released
-6001000101,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,1,2020-02-28,2020-03-25,,released
-6001000100,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-02,,released
-6006000004,female,20s,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-28,2020-03-28,,released
-6011000030,male,20s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
-6100000056,male,30s,Gyeongsangnam-do,Changnyeong-gun,contact with patient,,2020-02-28,,,released
-4100000030,female,50s,Chungcheongnam-do,Cheonan-si,contact with patient,6,2020-02-28,2020-04-12,,released
-6100000058,male,50s,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-03-21,,released
-4100000044,female,60s,Chungcheongnam-do,Cheonan-si,etc,2,2020-02-28,2020-03-31,,released
-4100000045,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-02-28,2020-03-22,,released
-4100000046,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-02-28,2020-03-26,,released
-1500000013,female,20s,Daejeon,Seo-gu,etc,2,2020-02-28,2020-03-29,,released
-4100000043,female,30s,Chungcheongnam-do,Asan-si,contact with patient,10,2020-02-28,2020-03-29,,released
-6100000057,male,60s,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-04-05,,released
-1500000011,male,40s,Daejeon,Yuseong-gu,contact with patient,64,2020-02-28,2020-03-29,,released
-5100000002,female,20s,Jeollanam-do,Suncheon-si,etc,14,2020-02-28,2020-04-03,,released
-6100000060,male,50s,Gyeongsangnam-do,Gimhae-si,etc,,2020-02-28,,,released
-6100000059,female,50s,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-04-11,,released
-1500000012,female,40s,Daejeon,Daedeok-gu,etc,11,2020-02-28,2020-03-19,,released
-2000000083,female,40s,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
-2000000069,female,40s,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
-2000000073,female,40s,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
-2000000075,female,40s,Gyeonggi-do,Siheung-si,etc,,2020-02-29,2020-03-26,,released
-2000000078,male,20s,Gyeonggi-do,Icheon-si,Shincheonji Church,,2020-02-29,2020-03-08,,released
-6011000034,female,20s,Gyeongsangbuk-do,Andong-si,Shincheonji Church,,2020-02-29,,,released
-2000000082,female,50s,Gyeonggi-do,Osan-si,contact with patient,,2020-02-29,,,isolated
-2000000084,female,10s,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
-4100000061,male,10s,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-29,2020-03-12,,released
-4100000063,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,5,2020-02-29,2020-03-22,,released
-4100000062,female,30s,Chungcheongnam-do,Asan-si,etc,27,2020-02-29,2020-03-20,,released
-1100000072,male,0s,Busan,Suyeong-gu,Suyeong-gu Kindergarten,8,2020-02-29,,,released
-4100000060,male,10s,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-29,2020-03-18,,released
-6020000026,female,60s,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-29,,,released
-4100000059,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-02-29,2020-03-18,,released
-4100000058,male,10s,Chungcheongnam-do,Cheonan-si,contact with patient,10,2020-02-29,2020-03-18,,released
-4100000057,male,10s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-02-29,2020-03-26,,released
-4100000056,male,40s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-02-29,2020-03-17,,released
-4100000055,female,20s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-02-29,2020-03-17,,released
-2000000086,male,40s,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
-1100000073,male,50s,Busan,Haeundae-gu,etc,1,2020-02-29,,,released
-1100000076,female,30s,Busan,Saha-gu,Shincheonji Church,3,2020-02-29,,,released
-1100000075,male,50s,Busan,Busanjin-gu,etc,38,2020-02-29,,,released
-5000000006,male,50s,Jeollabuk-do,etc,etc,,2020-02-29,2020-03-17,,released
-5100000003,male,20s,Jeollanam-do,Yeosu-si,Shincheonji Church,23,2020-02-29,2020-03-13,,released
-6012000001,female,,Gyeongsangbuk-do,Yeongdeok-gun,etc,0,2020-02-29,,,released
-6012000002,,,Gyeongsangbuk-do,Yeongdeok-gun,etc,0,2020-02-29,,,released
-6014000004,male,40s,Gyeongsangbuk-do,Yeongju-si,etc,,2020-02-29,2020-04-04,,released
-6004000012,female,50s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-20,,released
-6004000013,female,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-22,,released
-6004000014,male,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-04-14,,released
-6004000015,male,50s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-25,,released
-6004000016,female,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-25,,released
-6004000017,female,20s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-13,,released
-6004000018,female,50s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-28,,released
-6004000019,male,50s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-30,,released
-3009000002,male,50s,Gangwon-do,Wonju-si,Shincheonji Church,5,2020-02-29,2020-03-25,,released
-6004000020,female,50s,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-22,,released
-6022000029,female,60s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-29,2020-03-19,,released
-6022000030,male,20s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-29,2020-03-12,,released
-6022000031,male,10s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-29,2020-03-20,,released
-6022000032,male,20s,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-29,,,isolated
-4000000011,male,20s,Chungcheongbuk-do,Cheongju-si,contact with patient,,2020-02-29,2020-04-22,,released
-6006000006,male,60s,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-29,2020-03-23,,released
-6006000007,male,30s,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-29,2020-03-28,,released
-6006000009,male,20s,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-29,2020-03-18,,released
-2000000065,male,50s,Gyeonggi-do,Suwon-si,etc,,2020-02-29,2020-03-05,,released
-4100000054,female,50s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,1,2020-02-29,2020-03-23,,released
-1100000074,male,80s,Busan,Seo-gu,etc,10,2020-02-29,,,released
-4100000053,female,60s,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,0,2020-02-29,2020-03-24,,released
-2000000080,female,20s,Gyeonggi-do,Suwon-si,etc,,2020-02-29,2020-03-22,,released
-4100000051,female,60s,Chungcheongnam-do,Cheonan-si,etc,5,2020-02-29,2020-04-18,,released
-6001000141,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-10,,released
-6019000036,male,30s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-29,,,released
-6019000037,male,70s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-29,,,released
-6001000140,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-13,,released
-6001000139,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-12,,released
-6010000012,male,70s,Gyeongsangbuk-do,Seongju-gun,etc,,2020-02-29,,,released
-6001000138,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-14,,released
-4100000052,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,7,2020-02-29,2020-03-18,,released
-1200002936,male,80s,Daegu,,,,2020-02-29,,2020-03-06,deceased
-1200002769,female,80s,Daegu,,,,2020-02-29,,2020-03-02,deceased
-1200002614,female,70s,Daegu,,,,2020-02-29,,2020-03-01,deceased
-6001000137,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-24,,released
-6001000136,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-18,,released
-6001000135,female,10s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-05,,released
-6001000134,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-26,,released
-6001000133,male,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-12,,released
-6001000132,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-11,,released
-6001000131,male,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-19,,released
-6001000130,male,40s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-23,,released
-6001000129,female,70s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-01,,isolated
-6001000128,female,40s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-20,,released
-6001000127,male,40s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-01,,released
-6001000126,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-13,,released
-6001000125,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-27,,released
-6100000061,male,30s,Gyeongsangnam-do,Changnyeong-gun,etc,,2020-02-29,,,released
-6001000142,female,50s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-12,,released
-6001000143,female,80s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-24,,released
-6011000035,female,30s,Gyeongsangbuk-do,Andong-si,etc,,2020-02-29,,,released
-6023000025,female,50s,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-29,2020-04-22,,released
-6023000026,female,20s,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-29,2020-03-23,,released
-6023000024,male,50s,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-29,2020-04-21,,released
-6023000023,male,20s,Gyeongsangbuk-do,Pohang-si,,,2020-02-29,2020-04-01,,released
-6023000022,male,0s,Gyeongsangbuk-do,Pohang-si,,,2020-02-29,,,released
-6023000021,female,30s,Gyeongsangbuk-do,Pohang-si,,,2020-02-29,,,released
-4100000047,male,40s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-02-29,2020-03-11,,released
-6009000014,female,50s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-29,2020-04-03,,released
-6001000144,female,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-16,,released
-4100000048,male,10s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-02-29,2020-03-11,,released
-4100000049,male,30s,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-29,2020-04-12,,released
-6001000145,male,0s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-07,,released
-4100000050,female,20s,Chungcheongnam-do,Cheonan-si,contact with patient,1,2020-02-29,2020-03-13,,released
+patient_id,sex,age,country,province,city,infection_case,contact_number,confirmed_date,released_date,deceased_date,state
+2000000005,male,40s,Korea,Gyeonggi-do,Suwon-si,contact with patient,15.0,2020-02-02,2020-02-24,,released
+1300000001,female,40s,Korea,Gwangju,,overseas inflow,450.0,2020-02-03,2020-02-20,,released
+1300000002,female,20s,Korea,Gwangju,,contact with patient,8.0,2020-02-05,2020-02-20,,released
+2000000007,female,40s,Korea,Gyeonggi-do,Suwon-si,contact with patient,2.0,2020-02-05,2020-02-24,,released
+2000000006,male,30s,Korea,Gyeonggi-do,Guri-si,overseas inflow,290.0,2020-02-05,2020-02-12,,released
+5100000001,male,40s,Korea,Jeollanam-do,etc,contact with patient,1.0,2020-02-06,2020-02-15,,released
+2000000009,male,50s,Korea,Gyeonggi-do,Siheung-si,contact with patient,0.0,2020-02-09,,,isolated
+2000000008,female,70s,Korea,Gyeonggi-do,Siheung-si,contact with patient,12.0,2020-02-09,2020-03-05,,released
+1200000033,female,40s,Korea,Daegu,Jung-gu,contact with patient,,2020-02-18,,,isolated
+1200000031,female,60s,Korea,Daegu,,Shincheonji Church,1160.0,2020-02-18,,,isolated
+1200000036,female,40s,Korea,Daegu,Nam-gu,Shincheonji Church,,2020-02-18,,,isolated
+1200000035,female,20s,Korea,Daegu,Nam-gu,Shincheonji Church,,2020-02-18,,,isolated
+1200000034,male,20s,Korea,Daegu,Jung-gu,Shincheonji Church,,2020-02-18,,,isolated
+6015000001,male,40s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-18,2020-02-26,,released
+2000000012,female,10s,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-18,2020-03-04,,released
+6015000002,female,60s,Korea,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-18,2020-03-03,,released
+1200000038,female,50s,Korea,Daegu,Nam-gu,,,2020-02-18,,2020-02-23,deceased
+1200000047,female,60s,Korea,Daegu,,Shincheonji Church,,2020-02-19,,,isolated
+1200000046,male,20s,Korea,Daegu,Dalseo-gu,,,2020-02-19,,,isolated
+1200000049,male,50s,Korea,Daegu,,Shincheonji Church,,2020-02-19,,,isolated
+1200000045,female,50s,Korea,Daegu,Dalseong-gun,,,2020-02-19,,,isolated
+1200000050,male,70s,Korea,Daegu,,Shincheonji Church,,2020-02-19,2020-03-02,,released
+1200000051,female,60s,Korea,Daegu,,Shincheonji Church,,2020-02-19,2020-02-26,,released
+1200000053,female,30s,Korea,Daegu,,,,2020-02-19,,,isolated
+1200000057,male,30s,Korea,Daegu,Jung-gu,,,2020-02-19,,,isolated
+1200000058,female,20s,Korea,Daegu,Nam-gu,,,2020-02-19,,,isolated
+1200000059,female,30s,Korea,Daegu,Nam-gu,,,2020-02-19,,,isolated
+1200000060,female,50s,Korea,Daegu,Nam-gu,,,2020-02-19,,,isolated
+1200000065,female,50s,Korea,Daegu,,,,2020-02-19,2020-02-27,,released
+1200000064,female,50s,Korea,Daegu,,,,2020-02-19,,,isolated
+1200000063,female,50s,Korea,Daegu,,,,2020-02-19,2020-02-28,,released
+1200000062,male,60s,Korea,Daegu,Seo-gu,,,2020-02-19,,,isolated
+1200000044,female,40s,Korea,Daegu,Dalseo-gu,Shincheonji Church,,2020-02-19,,,isolated
+1200000048,female,70s,Korea,Daegu,,Shincheonji Church,,2020-02-19,,,isolated
+1200000042,female,20s,Korea,Daegu,Nam-gu,Shincheonji Church,,2020-02-19,,,isolated
+6015000003,female,70s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-19,2020-03-18,,released
+6015000004,male,20s,Korea,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-19,2020-04-27,,released
+1200000043,female,50s,Korea,Daegu,Dalseo-gu,Shincheonji Church,,2020-02-19,,,isolated
+6020100055,male,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-19,,2020-02-23,deceased
+6020100054,male,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-19,,2020-02-23,deceased
+6001000002,female,10s,Korea,Jeollanam-do,Gyeongsan-si,,2.0,2020-02-19,2020-03-19,,released
+6001000001,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,Shincheonji Church,7.0,2020-02-19,2020-04-09,,released
+1200000061,female,50s,Korea,Daegu,Nam-gu,,,2020-02-19,,,isolated
+6020000002,male,40s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
+1200000082,male,60s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000081,female,60s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000080,female,30s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000078,male,50s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000077,female,50s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000076,male,30s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000074,male,40s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000072,female,30s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000071,female,50s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000070,female,40s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000069,male,20s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000068,female,50s,Korea,Daegu,,,,2020-02-20,,,isolated
+6015000005,female,50s,Korea,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-20,2020-03-21,,released
+1300000003,male,30s,Korea,Gwangju,,etc,65.0,2020-02-20,2020-03-19,,released
+4000000001,male,30s,Korea,Chungcheongbuk-do,Jeungpyeong-gun,contact with patient,,2020-02-20,2020-03-14,,released
+1200000084,male,60s,Korea,Daegu,Dalseo-gu,,,2020-02-20,,,isolated
+6020000001,male,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
+1200000086,male,30s,Korea,Daegu,Suseong-gu,,,2020-02-20,,,isolated
+1200000088,female,40s,Korea,Daegu,Dong-gu,,,2020-02-20,,,isolated
+6020000003,male,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
+6020000004,male,40s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
+5000000002,male,20s,Korea,Jeollabuk-do,Gimje-si,etc,,2020-02-20,2020-03-10,,released
+7000000001,male,20s,Korea,Jeju-do,Jeju-do,etc,87.0,2020-02-20,2020-03-23,,released
+6011000003,male,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-20,,,released
+6009000001,female,20s,Korea,Gyeongsangbuk-do,Sangju-si,etc,,2020-02-20,2020-03-26,,released
+6001000003,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,3.0,2020-02-20,2020-03-06,,released
+6020000005,male,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,,released
+6001000004,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,5.0,2020-02-20,2020-03-25,,released
+6001000005,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-20,2020-03-18,,released
+6100000003,female,10s,Korea,Gyeongsangnam-do,Jinju-si,Shincheonji Church,,2020-02-20,,,released
+6100000002,male,70s,Korea,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-20,,,released
+6100000001,male,20s,Korea,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-20,,,released
+1200000090,female,40s,Korea,Daegu,,,,2020-02-20,,,isolated
+1200000089,female,20s,Korea,Daegu,Suseong-gu,,,2020-02-20,,,isolated
+1200000087,female,20s,Korea,Daegu,Seo-gu,,,2020-02-20,,,isolated
+6020100104,male,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-20,,2020-02-19,deceased
+6020000008,female,20s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,,released
+6020000009,male,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,,released
+6001000012,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,9.0,2020-02-21,2020-03-06,,released
+6001000011,male,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-21,2020-03-26,,released
+6001000010,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,3.0,2020-02-21,2020-03-26,,released
+6001000009,male,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,8.0,2020-02-21,2020-03-24,,released
+6001000008,male,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,5.0,2020-02-21,2020-03-20,,released
+6001000007,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,Shincheonji Church,6.0,2020-02-21,2020-03-27,,released
+6001000006,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,9.0,2020-02-21,2020-03-14,,released
+6016000001,female,50s,Korea,Gyeongsangbuk-do,Yecheon-gun,Pilgrimage to Israel,,2020-02-21,2020-03-11,,released
+5000000003,male,30s,Korea,Jeollabuk-do,Jeonju-si,contact with patient,,2020-02-21,2020-03-07,,released
+1500000001,female,20s,Korea,Daejeon,Dong-gu,etc,23.0,2020-02-21,2020-03-04,,released
+6100000004,male,10s,Korea,Gyeongsangnam-do,Jinju-si,Shincheonji Church,,2020-02-21,,,released
+4100000001,male,20s,Korea,Chungcheongnam-do,Gyeryong-si,etc,22.0,2020-02-21,2020-03-26,,released
+1200000114,male,70s,Korea,Daegu,,Shincheonji Church,,2020-02-21,,2020-02-26,deceased
+1700000001,male,30s,Korea,Sejong,Sejong,Shincheonji Church,40.0,2020-02-21,2020-03-29,,released
+2000000014,male,30s,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-02-21,,,isolated
+1300000006,male,30s,Korea,Gwangju,,contact with patient,14.0,2020-02-21,2020-03-16,,released
+1300000005,male,30s,Korea,Gwangju,,etc,156.0,2020-02-21,2020-03-16,,released
+1300000004,male,30s,Korea,Gwangju,,contact with patient,30.0,2020-02-21,2020-03-18,,released
+6007000001,male,60s,Korea,Gyeongsangbuk-do,Mungyeong-si,contact with patient,,2020-02-21,,,released
+6007000002,female,60s,Korea,Gyeongsangbuk-do,Mungyeong-si,contact with patient,,2020-02-21,,,released
+6011000001,female,60s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-21,,,released
+6011000002,male,60s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-21,,,released
+6011000004,male,60s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-21,,,released
+6011000005,female,60s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-21,,,released
+6020000006,male,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,,released
+6020000007,female,40s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,,released
+2000000013,female,30s,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-02-21,,,isolated
+6020100107,male,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-21,,2020-02-24,deceased
+1100000001,male,10s,Korea,Busan,Dongnae-gu,Onchun Church,1091.0,2020-02-21,,,released
+1100000002,female,50s,Korea,Busan,Haeundae-gu,contact with patient,131.0,2020-02-21,,,released
+6015000007,male,60s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-21,,,isolated
+6023000001,female,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-21,2020-04-17,,released
+6015000006,female,70s,Korea,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-21,,2020-04-09,deceased
+6002000002,male,40s,Korea,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-22,,,deceased
+7000000002,female,20s,Korea,Jeju-do,Jeju-do,etc,84.0,2020-02-22,2020-03-07,,released
+6002000003,female,20s,Korea,Gyeongsangbuk-do,Gyeongju-si,Shincheonji Church,,2020-02-22,,,released
+6019000009,female,50s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+6023000005,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-22,2020-03-03,,released
+6023000004,female,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-22,2020-03-04,,released
+1100000016,male,30s,Korea,Busan,Geumjeong-gu,Onchun Church,19.0,2020-02-22,,,released
+6023000002,female,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-22,2020-03-28,,released
+1400000002,female,60s,Korea,Incheon,Bupyeong-gu,Shincheonji Church,,2020-02-22,2020-03-09,,released
+1500000002,female,60s,Korea,Daejeon,Yuseong-gu,etc,9.0,2020-02-22,2020-03-28,,released
+6011000006,female,60s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-22,,,released
+1100000015,male,10s,Korea,Busan,Dongnae-gu,Onchun Church,34.0,2020-02-22,,,released
+1100000014,male,30s,Korea,Busan,Dongnae-gu,Onchun Church,27.0,2020-02-22,,,released
+1100000013,male,20s,Korea,Busan,Seo-gu,etc,15.0,2020-02-22,,,released
+6023000003,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-22,2020-03-04,,released
+6002000001,male,20s,Korea,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-22,,,released
+6019000008,female,50s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+6019000007,male,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+3013000001,female,30s,Korea,Gangwon-do,Chuncheon-si,Shincheonji Church,,2020-02-22,2020-03-18,,released
+3005000002,male,,Korea,Gangwon-do,Sokcho-si,etc,,2020-02-22,2020-03-04,,released
+3005000001,female,,Korea,Gangwon-do,Sokcho-si,etc,,2020-02-22,2020-03-04,,released
+4000000002,male,30s,Korea,Chungcheongbuk-do,Cheongju-si,contact with patient,,2020-02-22,2020-03-07,,released
+4000000003,female,30s,Korea,Chungcheongbuk-do,Cheongju-si,contact with patient,,2020-02-22,2020-03-20,,released
+3004000001,male,20s,Korea,Gangwon-do,Samcheok-si,etc,,2020-02-22,2020-03-04,,released
+3001000001,male,40s,Korea,Gangwon-do,Gangneung-si,etc,,2020-02-22,2020-04-13,,released
+6019000001,female,50s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+1100000012,female,50s,Korea,Busan,Nam-gu,Shincheonji Church,296.0,2020-02-22,,,released
+6019000002,female,70s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+6019000003,female,50s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+6019000004,female,50s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+6019000005,male,70s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+6019000006,male,50s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+6100000005,male,40s,Korea,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-22,2020-03-26,,released
+6100000006,female,40s,Korea,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-22,,,released
+6100000007,male,20s,Korea,Gyeongsangnam-do,Changwon-si,etc,,2020-02-22,2020-03-24,,released
+6100000008,male,70s,Korea,Gyeongsangnam-do,Yangsan-si,contact with patient,,2020-02-22,,,released
+1600000001,female,20s,Korea,Ulsan,Ulju-gun,Shincheonji Church,,2020-02-22,2020-03-16,,released
+1100000011,female,20s,Korea,Busan,Buk-gu,Onchun Church,23.0,2020-02-22,,,released
+3013000002,female,30s,Korea,Gangwon-do,Chuncheon-si,Shincheonji Church,,2020-02-22,2020-03-30,,released
+1100000009,male,20s,Korea,Busan,Dongnae-gu,Onchun Church,4.0,2020-02-22,,,released
+2000000017,male,60s,Korea,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-22,2020-03-19,,released
+2000000016,male,20s,Korea,Gyeonggi-do,Bucheon-si,overseas inflow,,2020-02-22,2020-03-04,,released
+6001000017,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,7.0,2020-02-22,2020-03-18,,released
+6001000016,male,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-22,2020-03-20,,released
+6020100286,male,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-22,,2020-02-23,deceased
+1100000010,male,40s,Korea,Busan,Dongnae-gu,Onchun Church,19.0,2020-02-22,,,released
+6020100298,male,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-22,,2020-02-25,deceased
+2000000019,male,60s,Korea,Gyeonggi-do,Anyang-si,contact with patient,32.0,2020-02-22,,,isolated
+6006000001,male,40s,Korea,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-22,2020-04-04,,released
+6005000002,male,,Korea,Gyeongsangbuk-do,Gunwi-gun,Shincheonji Church,13.0,2020-02-22,,,released
+6005000001,male,,Korea,Gyeongsangbuk-do,Gunwi-gun,Shincheonji Church,16.0,2020-02-22,,,released
+6001000015,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,4.0,2020-02-22,2020-04-14,,released
+6001000014,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,15.0,2020-02-22,2020-03-27,,released
+2000000018,male,20s,Korea,Gyeonggi-do,Pocheon-si,etc,,2020-02-22,,,isolated
+1100000003,female,20s,Korea,Busan,Haeundae-gu,etc,16.0,2020-02-22,,,isolated
+6001000013,male,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,5.0,2020-02-22,2020-03-21,,released
+2000000025,male,50s,Korea,Gyeonggi-do,Gimpo-si,Shincheonji Church,15.0,2020-02-22,,,isolated
+1100000008,male,20s,Korea,Busan,Dongnae-gu,Onchun Church,27.0,2020-02-22,,,released
+1100000006,female,80s,Korea,Busan,Yeonje-gu,contact with patient,0.0,2020-02-22,,,isolated
+1100000005,female,20s,Korea,Busan,Haeundae-gu,contact with patient,14.0,2020-02-22,,,released
+1100000004,female,20s,Korea,Busan,Haeundae-gu,Shincheonji Church,8.0,2020-02-22,,,released
+6014000001,female,60s,Korea,Gyeongsangbuk-do,Yeongju-si,etc,11.0,2020-02-22,2020-03-05,,released
+1300000008,female,30s,Korea,Gwangju,,contact with patient,47.0,2020-02-22,2020-03-06,,released
+1300000007,male,30s,Korea,Gwangju,,contact with patient,39.0,2020-02-22,2020-03-17,,released
+2000000015,female,30s,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-02-22,,,isolated
+6020100205,female,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-22,,2020-02-21,deceased
+2000000029,female,60s,Korea,Gyeonggi-do,Suwon-si,etc,,2020-02-22,,,isolated
+2000000021,female,60s,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-02-23,,,isolated
+2000000022,male,20s,Korea,Gyeonggi-do,Pyeongtaek-si,etc,,2020-02-23,,,isolated
+2000000023,male,40s,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-02-23,,,isolated
+1100000037,male,20s,Korea,Busan,Geumjeong-gu,Onchun Church,19.0,2020-02-23,,,released
+1100000038,female,50s,Korea,Busan,Dongnae-gu,Onchun Church,0.0,2020-02-23,,,released
+2000000026,female,50s,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-02-23,,,isolated
+1100000036,female,20s,Korea,Busan,Dongnae-gu,Onchun Church,18.0,2020-02-23,,,released
+1100000035,female,20s,Korea,Busan,Dongnae-gu,Onchun Church,3.0,2020-02-23,,,released
+6019000011,female,50s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+6019000012,female,70s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+1100000031,female,20s,Korea,Busan,Dongnae-gu,Onchun Church,3.0,2020-02-23,,,released
+1100000032,female,20s,Korea,Busan,Dongnae-gu,Onchun Church,5.0,2020-02-23,,,released
+1100000030,male,20s,Korea,Busan,Geumjeong-gu,Onchun Church,21.0,2020-02-23,,,released
+1100000029,male,20s,Korea,Busan,Dongnae-gu,etc,28.0,2020-02-23,,,released
+1100000028,female,60s,Korea,Busan,Suyeong-gu,contact with patient,8.0,2020-02-23,,,released
+1100000033,female,20s,Korea,Busan,Dongnae-gu,Onchun Church,0.0,2020-02-23,,,released
+1100000027,female,20s,Korea,Busan,Suyeong-gu,etc,10.0,2020-02-23,,,released
+1100000034,male,20s,Korea,Busan,Dongnae-gu,Onchun Church,25.0,2020-02-23,,,released
+6007000003,,20s,Korea,Gyeongsangbuk-do,Mungyeong-si,etc,,2020-02-23,,,released
+6004000001,female,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-23,2020-04-01,,released
+6019000019,female,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+6009000002,female,40s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-23,2020-03-24,,released
+6019000018,female,50s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+6019000016,female,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+6019000015,female,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+6019000014,female,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+6019000013,female,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+6019000010,male,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+6019000017,female,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-23,,,released
+1100000023,male,20s,Korea,Busan,Saha-gu,Onchun Church,1.0,2020-02-23,,,released
+6011000007,male,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-23,,,released
+6023000008,female,30s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-23,2020-03-20,,released
+6023000007,female,20s,Korea,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-23,2020-04-02,,released
+6023000006,male,30s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-23,2020-04-02,,released
+1500000003,male,60s,Korea,Daejeon,Yuseong-gu,contact with patient,1.0,2020-02-23,2020-05-05,,released
+1100000026,male,20s,Korea,Busan,Haeundae-gu,Onchun Church,7.0,2020-02-23,,,released
+1100000018,male,20s,Korea,Busan,Saha-gu,etc,37.0,2020-02-23,,,released
+1100000017,male,40s,Korea,Busan,Nam-gu,Cheongdo Daenam Hospital,1.0,2020-02-23,,,released
+6015000011,female,40s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-23,2020-03-19,,released
+6015000010,female,60s,Korea,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-23,2020-04-08,,released
+6015000009,male,50s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-23,2020-04-19,,released
+6011000010,female,20s,Korea,Gyeongsangbuk-do,Andong-si,contact with patient,,2020-02-23,,,released
+6001000018,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-23,2020-03-28,,released
+6015000008,female,50s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-23,2020-03-27,,released
+6001000019,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,9.0,2020-02-23,2020-03-17,,released
+6001000020,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,3.0,2020-02-23,2020-04-02,,released
+6001000021,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-23,2020-03-25,,released
+6022000001,male,50s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-23,2020-03-06,,released
+6001000022,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,4.0,2020-02-23,2020-03-10,,released
+6001000023,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,4.0,2020-02-23,2020-03-13,,released
+6023000009,female,50s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-23,2020-03-28,,released
+6023000010,female,20s,Korea,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-23,2020-03-29,,released
+1100000019,female,30s,Korea,Busan,Seo-gu,Onchun Church,16.0,2020-02-23,,,released
+1100000024,female,20s,Korea,Busan,Saha-gu,Shincheonji Church,2.0,2020-02-23,,,released
+1100000020,female,50s,Korea,Busan,Seo-gu,contact with patient,22.0,2020-02-23,,,released
+6100000009,female,30s,Korea,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-02-23,2020-03-14,,released
+6100000010,female,20s,Korea,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-23,2020-03-22,,released
+1300000009,female,30s,Korea,Gwangju,,contact with patient,0.0,2020-02-23,2020-03-19,,released
+6100000011,male,20s,Korea,Gyeongsangnam-do,Hamyang-gun,contact with patient,,2020-02-23,,,released
+6100000012,male,40s,Korea,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-23,2020-04-04,,released
+6100000013,female,70s,Korea,Gyeongsangnam-do,Goseong-gun,Shincheonji Church,,2020-02-23,,,released
+6100000014,male,30s,Korea,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-23,,,released
+6020000010,female,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-23,,,released
+1100000022,female,20s,Korea,Busan,Gangseo-gu,Onchun Church,19.0,2020-02-23,,,released
+1100000025,female,40s,Korea,Busan,Haeundae-gu,contact with patient,9.0,2020-02-23,,,released
+6011000009,female,20s,Korea,Gyeongsangbuk-do,Andong-si,contact with patient,,2020-02-23,,,released
+6011000008,female,30s,Korea,Gyeongsangbuk-do,Andong-si,contact with patient,,2020-02-23,,,released
+6100000015,female,20s,Korea,Gyeongsangnam-do,Gimhae-si,Onchun Church,,2020-02-23,,,released
+6100000016,male,30s,Korea,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-23,,,released
+6100000017,female,20s,Korea,Gyeongsangnam-do,Yangsan-si,Shincheonji Church,,2020-02-23,,,released
+1100000021,female,10s,Korea,Busan,Gangseo-gu,Onchun Church,9.0,2020-02-23,,,released
+2000000031,male,20s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-02-24,,,isolated
+2000000030,male,20s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-02-24,,,isolated
+6001000028,male,70s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-24,2020-04-15,,released
+2000000032,male,20s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-02-24,,,isolated
+2000000033,male,30s,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-24,2020-03-13,,released
+2000000034,female,60s,Korea,Gyeonggi-do,Paju-si,contact with patient,,2020-02-24,,,isolated
+2000000035,male,30s,Korea,Gyeonggi-do,Paju-si,contact with patient,,2020-02-24,,,isolated
+6001000029,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,6.0,2020-02-24,2020-03-30,,released
+6001000030,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-24,2020-03-20,,released
+6001000031,male,10s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-24,2020-03-19,,released
+6001000032,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,3.0,2020-02-24,2020-03-20,,released
+6001000033,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-24,2020-03-13,,released
+6001000034,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-24,2020-03-26,,released
+2000000028,female,20s,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-02-24,2020-03-10,,released
+2000000027,female,0s,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-02-24,,,isolated
+6100000019,female,20s,Korea,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-24,,,released
+6001000026,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-24,2020-03-26,,released
+6100000020,female,60s,Korea,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-24,,,released
+6002000005,female,40s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-24,,,released
+6002000004,male,50s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-24,,,released
+6100000021,male,70s,Korea,Gyeongsangnam-do,Hapcheon-gun,contact with patient,,2020-02-24,,,released
+6100000022,female,50s,Korea,Gyeongsangnam-do,Gimhae-si,contact with patient,,2020-02-24,2020-03-18,,released
+6004000002,female,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-24,2020-03-18,,released
+6001000027,male,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,5.0,2020-02-24,2020-03-22,,released
+6019000020,male,20s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-24,,,released
+6016000002,male,40s,Korea,Gyeongsangbuk-do,Yecheon-gun,etc,,2020-02-24,2020-04-02,,released
+1600000002,female,40s,Korea,Ulsan,Jung-gu,Shincheonji Church,,2020-02-24,2020-03-17,,released
+6100000018,female,30s,Korea,Gyeongsangnam-do,Hapcheon-gun,Shincheonji Church,,2020-02-24,,,released
+2000000024,male,60s,Korea,Gyeonggi-do,Suwon-si,etc,,2020-02-24,,,isolated
+6001000024,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,5.0,2020-02-24,2020-04-02,,released
+6001000025,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-24,2020-03-06,,released
+6100000023,male,60s,Korea,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-24,2020-04-18,,released
+2000000036,male,30s,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-02-24,,,isolated
+6014000002,male,20s,Korea,Gyeongsangbuk-do,Yeongju-si,etc,3.0,2020-02-24,2020-04-06,,released
+6022000002,male,30s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-24,2020-03-20,,released
+6015000012,male,50s,Korea,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-24,2020-03-25,,released
+1100000041,male,20s,Korea,Busan,Dongnae-gu,Onchun Church,3.0,2020-02-24,,,released
+2000000038,female,30s,Korea,Gyeonggi-do,Anyang-si,Shincheonji Church,,2020-02-24,,,isolated
+1100000043,female,50s,Korea,Busan,Dongnae-gu,contact with patient,7.0,2020-02-24,,,released
+6023000012,female,50s,Korea,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-24,2020-03-24,,released
+6023000011,female,10s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-24,2020-03-11,,released
+6005000003,female,,Korea,Gyeongsangbuk-do,Gunwi-gun,Shincheonji Church,31.0,2020-02-24,,,released
+6020000011,female,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-24,,,released
+2000000119,male,20s,Korea,Gyeonggi-do,Pocheon-si,etc,,2020-02-24,,,isolated
+6022000005,male,50s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-24,2020-03-23,,released
+6022000004,male,50s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-24,2020-03-06,,released
+6022000003,male,20s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-24,2020-03-16,,released
+6009000003,male,60s,Korea,Gyeongsangbuk-do,Sangju-si,Pilgrimage to Israel,,2020-02-24,2020-03-29,,released
+1100000040,male,70s,Korea,Busan,Saha-gu,contact with patient,9.0,2020-02-24,,,released
+1100000042,male,10s,Korea,Busan,Dongnae-gu,contact with patient,2.0,2020-02-24,,,released
+1100000039,male,20s,Korea,Busan,Haeundae-gu,contact with patient,159.0,2020-02-24,,,released
+1100000044,female,40s,Korea,Busan,Dongnae-gu,Onchun Church,0.0,2020-02-24,,,released
+6021000001,male,20s,Korea,Gyeongsangbuk-do,Cheongsong-gun,,,2020-02-24,,,released
+6011000011,female,40s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-24,,,released
+1200000620,male,70s,Korea,Daegu,,,,2020-02-24,,2020-03-02,deceased
+6022000009,female,50s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-12,,released
+6022000006,male,40s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,,,isolated
+6022000007,male,30s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-16,,released
+6022000008,male,50s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-25,,released
+2000000037,male,30s,Korea,Gyeonggi-do,Anyang-si,Shincheonji Church,23.0,2020-02-25,,,isolated
+6022000011,male,40s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,,,isolated
+1100000050,female,30s,Korea,Busan,Buk-gu,etc,11.0,2020-02-25,,,released
+1100000051,female,60s,Korea,Busan,Yeonje-gu,contact with patient,0.0,2020-02-25,,,released
+1100000052,male,70s,Korea,Busan,Saha-gu,contact with patient,4.0,2020-02-25,,,released
+1100000054,male,20s,Korea,Busan,Busanjin-gu,contact with patient,41.0,2020-02-25,,,released
+4000000004,male,50s,Korea,Chungcheongbuk-do,Eumseong-gun,etc,,2020-02-25,2020-03-19,,released
+4000000005,female,30s,Korea,Chungcheongbuk-do,Chungju-si,etc,,2020-02-25,2020-03-08,,released
+6022000010,female,50s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-21,,released
+4000000006,female,20s,Korea,Chungcheongbuk-do,Cheongju-si,etc,,2020-02-25,2020-03-04,,released
+6001000036,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-25,2020-03-29,,released
+6001000035,male,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,,2020-04-11,deceased
+6022000013,male,60s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-31,,released
+6022000012,male,30s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-11,,released
+4100000002,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,35.0,2020-02-25,2020-03-15,,released
+4100000003,female,50s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,4.0,2020-02-25,2020-03-20,,released
+1100000055,female,50s,Korea,Busan,Haeundae-gu,Onchun Church,2.0,2020-02-25,,,released
+4100000004,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,6.0,2020-02-25,2020-03-17,,released
+1600000004,female,60s,Korea,Ulsan,Dong-gu,contact with patient,,2020-02-25,2020-04-06,,released
+6011000012,female,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-25,,,released
+6022000023,male,20s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-04-06,,released
+6022000022,male,30s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-21,,released
+6022000021,female,40s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-16,,released
+6022000020,male,30s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,,,isolated
+6022000019,female,20s,Korea,Gyeongsangbuk-do,Chilgok-gun,Milal Shelter,,2020-02-25,2020-03-20,,released
+6022000018,male,30s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-16,,released
+6022000017,female,40s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-19,,released
+6100000028,female,20s,Korea,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-25,2020-03-25,,released
+6100000027,female,20s,Korea,Gyeongsangnam-do,Geoje-si,contact with patient,,2020-02-25,2020-03-22,,released
+6100000026,male,30s,Korea,Gyeongsangnam-do,Changwon-si,etc,,2020-02-25,2020-03-18,,released
+6100000025,male,40s,Korea,Gyeongsangnam-do,Changwon-si,etc,,2020-02-25,2020-03-03,,released
+6100000024,male,30s,Korea,Gyeongsangnam-do,Namhae-gun,contact with patient,,2020-02-25,,,released
+6022000015,male,30s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-23,,released
+6022000016,female,20s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-19,,released
+6015000016,female,50s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-25,2020-03-13,,released
+6015000015,female,30s,Korea,Gyeongsangbuk-do,Yeongcheon-si,contact with patient,,2020-02-25,2020-03-13,,released
+6015000014,female,60s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-25,2020-04-19,,released
+6015000013,male,20s,Korea,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-25,2020-03-22,,released
+1200000901,female,80s,Korea,Daegu,,,,2020-02-25,,2020-03-04,deceased
+6020000016,male,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-25,,,released
+6020000015,female,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-25,,,released
+6020000014,female,10s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-25,,,released
+6020000013,male,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-25,,,released
+6020000012,female,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-25,,,released
+1600000003,male,20s,Korea,Ulsan,Jung-gu,Shincheonji Church,,2020-02-25,2020-03-14,,released
+6001000037,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-19,,released
+6023000013,female,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-25,2020-03-11,,released
+1100000049,female,30s,Korea,Busan,Geumjeong-gu,Onchun Church,2.0,2020-02-25,,,released
+1100000053,female,20s,Korea,Busan,Sasang-gu,etc,30.0,2020-02-25,,,released
+1100000047,male,40s,Korea,Busan,Dongnae-gu,etc,10.0,2020-02-25,,,released
+6019000026,male,70s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
+6004000003,male,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-25,2020-04-17,,released
+6004000004,female,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-25,2020-03-28,,released
+6019000021,male,20s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
+6019000022,female,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
+6019000023,female,80s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
+1400000003,male,50s,Korea,Incheon,Michuhol-gu,etc,,2020-02-25,2020-03-03,,released
+1100000048,male,70s,Korea,Busan,Dongnae-gu,Onchun Church,1.0,2020-02-25,,,released
+6004000006,male,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-25,2020-03-25,,released
+6019000024,male,80s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
+2000000046,male,60s,Korea,Gyeonggi-do,Icheon-si,etc,,2020-02-25,2020-03-16,,released
+2000000044,female,60s,Korea,Gyeonggi-do,Gwacheon-si,Shincheonji Church,,2020-02-25,,,isolated
+2000000043,female,30s,Korea,Gyeonggi-do,Anyang-si,etc,,2020-02-25,2020-03-04,,released
+2000000042,male,20s,Korea,Gyeonggi-do,Seongnam-si,Shincheonji Church,17.0,2020-02-25,,,isolated
+2000000041,male,30s,Korea,Gyeonggi-do,Gimpo-si,etc,,2020-02-25,,,isolated
+6022000014,male,60s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-25,2020-03-24,,released
+6002000008,female,30s,Korea,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-25,,,released
+6019000025,female,70s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-25,,,released
+6001000040,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-19,,released
+6001000043,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-10,,released
+6001000042,male,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-19,,released
+6001000041,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,7.0,2020-02-25,2020-03-21,,released
+6001000039,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-25,2020-03-20,,released
+6001000044,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-25,2020-03-29,,released
+6002000006,male,20s,Korea,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-25,,,released
+6001000038,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-25,2020-03-20,,released
+1100000046,male,70s,Korea,Busan,Dongnae-gu,contact with patient,27.0,2020-02-25,,,released
+6002000007,female,50s,Korea,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-25,,,released
+1100000045,female,60s,Korea,Busan,Dongnae-gu,contact with patient,0.0,2020-02-25,,,released
+6001000045,male,80s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,4.0,2020-02-25,2020-03-13,,released
+6001000069,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-26,2020-03-23,,released
+6001000070,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,3.0,2020-02-26,2020-03-20,,released
+6001000071,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,3.0,2020-02-26,2020-03-21,,released
+6001000068,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-06-13,,released
+6015000020,male,20s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-26,2020-03-12,,released
+6015000019,female,60s,Korea,Gyeongsangbuk-do,Yeongcheon-si,contact with patient,,2020-02-26,2020-03-25,,released
+6015000021,male,70s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-26,2020-04-02,,released
+6015000018,female,50s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-26,2020-04-01,,released
+6001000074,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-20,,released
+6001000073,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,4.0,2020-02-26,2020-03-11,,released
+6015000017,male,60s,Korea,Gyeongsangbuk-do,Yeongcheon-si,contact with patient,,2020-02-26,2020-03-25,,released
+6001000075,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-26,2020-03-06,,released
+6001000076,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-26,2020-03-22,,released
+1500000008,male,30s,Korea,Daejeon,Seo-gu,contact with patient,2.0,2020-02-26,2020-03-26,,released
+6001000077,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-21,,released
+5000000005,male,70s,Korea,Jeollabuk-do,etc,contact with patient,,2020-02-26,2020-03-18,,released
+5000000004,female,70s,Korea,Jeollabuk-do,etc,etc,,2020-02-26,2020-03-18,,released
+6001000078,male,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-21,,released
+6001000079,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-04-11,,released
+1500000004,female,40s,Korea,Daejeon,Yuseong-gu,etc,46.0,2020-02-26,2020-03-02,,released
+1500000005,male,30s,Korea,Daejeon,Yuseong-gu,etc,15.0,2020-02-26,2020-03-09,,released
+1500000007,male,30s,Korea,Daejeon,Seo-gu,contact with patient,2.0,2020-02-26,2020-03-26,,released
+6001000072,male,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,,2020-03-18,deceased
+6001000067,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-20,,released
+6001000049,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,3.0,2020-02-26,2020-03-25,,released
+6001000065,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-23,,released
+6001000050,male,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-20,,released
+6001000051,male,10s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-13,,released
+6001000052,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-05,,released
+6001000053,female,10s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-16,,released
+6001000054,female,70s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-14,,released
+6001000055,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-19,,released
+6001000056,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-26,2020-03-21,,released
+6001000048,female,0s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-28,,released
+6021000002,male,20s,Korea,Gyeongsangbuk-do,Cheongsong-gun,,,2020-02-26,,,released
+6001000047,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-21,,released
+6013000001,male,20s,Korea,Gyeongsangbuk-do,Yeongyang-gun,etc,,2020-02-26,,,released
+6020000024,female,30s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-26,,,released
+6001000066,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-26,,released
+6020000023,female,30s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-26,,,released
+6020000018,female,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-26,,,released
+6020000017,male,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-26,,,released
+6011000013,male,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-26,,,released
+6001000046,male,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-30,,released
+6001000057,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-19,,released
+6001000058,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,3.0,2020-02-26,2020-03-22,,released
+6001000059,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-26,2020-03-19,,released
+6001000060,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-26,2020-03-23,,released
+6001000061,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-26,2020-04-11,,released
+6001000062,male,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,,2020-03-08,deceased
+6001000063,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-26,2020-04-01,,released
+6001000064,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-26,2020-03-24,,released
+6020000019,female,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-26,,,released
+1500000009,male,70s,Korea,Daejeon,Seo-gu,etc,6.0,2020-02-26,2020-03-21,,released
+6023000014,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-26,2020-03-21,,released
+2000000050,female,70s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-02-26,2020-03-17,,released
+2000000048,male,60s,Korea,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-26,2020-03-11,,released
+2000000049,male,30s,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-26,2020-03-15,,released
+6005000004,female,,Korea,Gyeongsangbuk-do,Gunwi-gun,Shincheonji Church,,2020-02-26,,,released
+6009000007,male,70s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-17,,released
+2000000051,male,70s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-02-26,2020-03-18,,released
+2000000020,male,50s,Korea,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-26,2020-03-05,,released
+6006000002,male,40s,Korea,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-26,2020-04-15,,released
+2000000054,female,30s,Korea,Gyeonggi-do,Gwangmyeong-si,etc,,2020-02-26,2020-03-04,,released
+4100000009,female,30s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,3.0,2020-02-26,2020-03-23,,released
+4100000008,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,130.0,2020-02-26,2020-03-29,,released
+4100000007,male,40s,Korea,Chungcheongnam-do,Asan-si,contact with patient,51.0,2020-02-26,2020-03-26,,released
+4100000006,female,40s,Korea,Chungcheongnam-do,Asan-si,contact with patient,41.0,2020-02-26,2020-03-22,,released
+4100000005,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,9.0,2020-02-26,2020-03-27,,released
+1100000056,female,50s,Korea,Busan,Busanjin-gu,contact with patient,27.0,2020-02-26,,,released
+6100000043,male,20s,Korea,Gyeongsangnam-do,Gimhae-si,Shincheonji Church,,2020-02-26,,,released
+6004000010,male,10s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-26,2020-03-26,,released
+4000000007,female,30s,Korea,Chungcheongbuk-do,Chungju-si,etc,,2020-02-26,2020-03-27,,released
+6003000001,male,20s,Korea,Gyeongsangbuk-do,Goryeong-gun,etc,,2020-02-26,2020-03-19,,released
+6009000005,female,40s,Korea,Gyeongsangbuk-do,Sangju-si,etc,,2020-02-26,2020-04-09,,released
+6010000004,female,20s,Korea,Gyeongsangbuk-do,Seongju-gun,Shincheonji Church,,2020-02-26,,,released
+6010000003,female,20s,Korea,Gyeongsangbuk-do,Seongju-gun,etc,,2020-02-26,,,released
+6019000029,female,70s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-26,,,released
+6010000002,female,60s,Korea,Gyeongsangbuk-do,Seongju-gun,Shincheonji Church,,2020-02-26,2020-03-13,,released
+6010000001,female,10s,Korea,Gyeongsangbuk-do,Seongju-gun,etc,,2020-02-26,,,released
+6019000028,male,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-26,,,released
+6019000027,female,80s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-26,,,released
+6009000013,male,80s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-19,,released
+6009000009,male,30s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-22,,released
+6009000008,female,60s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-18,,released
+2000000047,male,40s,Korea,Gyeonggi-do,Anyang-si,etc,,2020-02-26,,,isolated
+1600000005,male,20s,Korea,Ulsan,Nam-gu,Shincheonji Church,,2020-02-26,2020-03-10,,released
+6009000006,female,60s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-26,2020-03-17,,released
+1200001064,female,70s,Korea,Daegu,,,,2020-02-26,,2020-03-01,deceased
+6100000042,male,40s,Korea,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-26,2020-04-01,,released
+6100000041,male,30s,Korea,Gyeongsangnam-do,Miryang-si,contact with patient,,2020-02-26,,,released
+6100000040,male,50s,Korea,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-26,2020-03-26,,released
+6100000039,female,60s,Korea,Gyeongsangnam-do,Gimhae-si,contact with patient,,2020-02-26,,,released
+6100000038,female,50s,Korea,Gyeongsangnam-do,Changnyeong-gun,etc,,2020-02-26,,,released
+6100000037,female,50s,Korea,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-26,2020-03-14,,released
+6100000036,female,60s,Korea,Gyeongsangnam-do,Geochang-gun,contact with patient,,2020-02-26,2020-03-03,,released
+6100000035,female,40s,Korea,Gyeongsangnam-do,Geochang-gun,contact with patient,,2020-02-26,2020-03-14,,released
+6100000034,female,20s,Korea,Gyeongsangnam-do,Geochang-gun,contact with patient,,2020-02-26,2020-03-20,,released
+1100000057,male,20s,Korea,Busan,Haeundae-gu,Onchun Church,19.0,2020-02-26,,,released
+6100000032,,,Korea,Gyeongsangnam-do,,,,2020-02-26,,,isolated
+6100000031,,,Korea,Gyeongsangnam-do,,,,2020-02-26,,,isolated
+6100000030,male,20s,Korea,Gyeongsangnam-do,Changwon-si,Shincheonji Church,,2020-02-26,2020-03-12,,released
+6100000029,male,10s,Korea,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-26,2020-03-25,,released
+6100000033,,,Korea,Gyeongsangnam-do,,,,2020-02-26,,,isolated
+6023000015,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-26,2020-03-21,,released
+2000000040,female,50s,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-02-26,,,isolated
+1100000058,female,50s,Korea,Busan,Suyeong-gu,contact with patient,11.0,2020-02-26,,,released
+1100000059,female,20s,Korea,Busan,Suyeong-gu,etc,71.0,2020-02-26,,,released
+1100000060,female,60s,Korea,Busan,Haeundae-gu,contact with patient,2.0,2020-02-26,,,released
+2000000045,male,30s,Korea,Gyeonggi-do,Suwon-si,etc,,2020-02-26,2020-02-27,,released
+6022000024,male,40s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-26,,,isolated
+6023000016,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-26,2020-03-30,,released
+6001000085,male,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-27,2020-03-13,,released
+6001000084,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-10,,released
+6001000083,female,10s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-23,,released
+6001000082,male,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-06,,released
+6001000081,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-23,,released
+6001000086,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-14,,released
+6001000080,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-09,,released
+2000000063,female,20s,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-02-27,2020-03-23,,released
+2000000062,male,50s,Korea,Gyeonggi-do,Yongin-si,contact with patient,4.0,2020-02-27,2020-03-16,,released
+2000000061,male,40s,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-27,,,isolated
+2000000052,male,30s,Korea,Gyeonggi-do,Yongin-si,etc,,2020-02-27,2020-03-16,,released
+2000000053,female,20s,Korea,Gyeonggi-do,Pyeongtaek-si,etc,,2020-02-27,,,isolated
+2000000060,male,40s,Korea,Gyeonggi-do,Paju-si,contact with patient,,2020-02-27,,,isolated
+2000000055,male,20s,Korea,Gyeonggi-do,Gwacheon-si,Shincheonji Church,,2020-02-27,2020-03-14,,released
+2000000056,male,20s,Korea,Gyeonggi-do,Gwacheon-si,Shincheonji Church,,2020-02-27,2020-03-12,,released
+2000000058,female,30s,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-02-27,2020-03-25,,released
+2000000064,female,70s,Korea,Gyeonggi-do,Goyang-si,etc,,2020-02-27,,,isolated
+6100000044,female,40s,Korea,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-27,2020-03-16,,released
+4000000010,male,20s,Korea,Chungcheongbuk-do,Cheongju-si,etc,,2020-02-27,2020-03-23,,released
+6019000031,female,70s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
+6100000045,female,40s,Korea,Gyeongsangnam-do,Changwon-si,contact with patient,,2020-02-27,2020-03-16,,released
+6100000046,female,50s,Korea,Gyeongsangnam-do,Gimhae-si,contact with patient,,2020-02-27,,,released
+6100000047,male,40s,Korea,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-27,2020-03-23,,released
+6100000048,female,40s,Korea,Gyeongsangnam-do,Geochang-gun,contact with patient,,2020-02-27,2020-04-03,,released
+1500000010,male,30s,Korea,Daejeon,Seo-gu,contact with patient,4.0,2020-02-27,2020-03-27,,released
+6022000025,female,50s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-27,2020-03-06,,released
+6022000026,female,50s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-27,,,isolated
+6023000017,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-27,2020-03-30,,released
+6023000018,male,30s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-27,,,released
+1600000006,female,70s,Korea,Ulsan,Nam-gu,contact with patient,,2020-02-27,2020-03-25,,released
+1600000008,female,50s,Korea,Ulsan,Nam-gu,Shincheonji Church,,2020-02-27,2020-03-22,,released
+1600000009,male,10s,Korea,Ulsan,Buk-gu,Shincheonji Church,,2020-02-27,2020-03-05,,released
+1600000010,male,20s,Korea,Ulsan,Buk-gu,Shincheonji Church,,2020-02-27,2020-03-13,,released
+1600000011,male,30s,Korea,Ulsan,Dong-gu,etc,,2020-02-27,2020-03-13,,released
+4100000019,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,2.0,2020-02-27,2020-03-23,,released
+4100000017,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,15.0,2020-02-27,2020-03-14,,released
+4100000016,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,,2020-02-27,2020-03-18,,released
+4100000015,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,,2020-02-27,2020-03-23,,released
+4100000014,male,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-27,2020-04-01,,released
+4100000013,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,10.0,2020-02-27,2020-03-17,,released
+4100000012,female,50s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,5.0,2020-02-27,2020-03-26,,released
+4100000011,female,30s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,31.0,2020-02-27,2020-04-18,,released
+4100000010,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,2.0,2020-02-27,2020-04-17,,released
+4000000009,male,40s,Korea,Chungcheongbuk-do,Chungju-si,etc,,2020-02-27,2020-04-16,,released
+4000000008,male,20s,Korea,Chungcheongbuk-do,Cheongju-si,etc,,2020-02-27,2020-03-11,,released
+3009000001,male,40s,Korea,Gangwon-do,Wonju-si,Shincheonji Church,41.0,2020-02-27,2020-03-16,,released
+6019000034,male,80s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
+6019000033,female,80s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
+6019000032,female,60s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
+6019000030,female,70s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-27,,,released
+6001000087,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-27,2020-04-09,,released
+6001000092,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-27,,released
+6001000089,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-23,,released
+1100000063,female,30s,Korea,Busan,Buk-gu,Suyeong-gu Kindergarten,2.0,2020-02-27,,,released
+1100000065,male,20s,Korea,Busan,Suyeong-gu,contact with patient,1.0,2020-02-27,,,released
+1100000066,female,0s,Korea,Busan,Dongnae-gu,etc,5.0,2020-02-27,,,released
+6001000088,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,4.0,2020-02-27,2020-03-27,,released
+6015000026,male,20s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,2020-03-25,,released
+6015000025,male,40s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,2020-04-09,,released
+6015000024,male,30s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,2020-04-02,,released
+6015000023,male,20s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,2020-03-26,,released
+6015000022,female,70s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-27,,,isolated
+6014000003,female,20s,Korea,Gyeongsangbuk-do,Yeongju-si,etc,,2020-02-27,2020-03-29,,released
+6002000009,male,40s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-27,,,released
+6002000010,female,80s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-27,,,released
+6002000011,female,40s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-02-27,,,released
+6004000005,female,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-27,2020-03-17,,released
+6004000007,male,50s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-27,2020-03-20,,released
+6004000008,male,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-27,2020-03-29,,released
+6004000009,female,30s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-27,2020-03-17,,released
+6011000018,female,40s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
+6011000016,female,10s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
+6011000015,male,30s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
+6011000014,male,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
+1200001288,male,60s,Korea,Daegu,,,,2020-02-27,,2020-03-02,deceased
+1200001443,male,70s,Korea,Daegu,,,,2020-02-27,,2020-02-27,deceased
+1100000062,male,10s,Korea,Busan,Dongnae-gu,contact with patient,3.0,2020-02-27,,,released
+6010000006,female,60s,Korea,Gyeongsangbuk-do,Seongju-gun,Shincheonji Church,,2020-02-27,,,released
+6008000001,male,20s,Korea,Gyeongsangbuk-do,Bonghwa-gun,,,2020-02-27,2020-03-05,,released
+6011000020,male,40s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
+6006000003,male,40s,Korea,Gyeongsangbuk-do,Gimcheon-si,contact with patient,,2020-02-27,2020-03-16,,released
+6011000021,female,40s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
+6011000022,female,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
+6011000023,male,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-27,,,released
+6010000005,female,40s,Korea,Gyeongsangbuk-do,Seongju-gun,Shincheonji Church,,2020-02-27,,,released
+1100000061,female,40s,Korea,Busan,Haeundae-gu,Suyeong-gu Kindergarten,10.0,2020-02-27,,,released
+1100000064,female,40s,Korea,Busan,Dongnae-gu,Onchun Church,3.0,2020-02-27,,,released
+6001000094,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-13,,released
+6001000097,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-07,,released
+6001000090,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-27,,released
+6001000091,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-16,,released
+6001000093,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-03-17,,released
+6001000096,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-27,2020-04-07,,released
+6001000095,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-27,2020-03-29,,released
+4100000027,female,30s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,2.0,2020-02-28,2020-04-11,,released
+4100000028,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,53.0,2020-02-28,2020-03-23,,released
+4100000029,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,2.0,2020-02-28,2020-03-19,,released
+6001000123,female,80s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,,2020-03-02,deceased
+6001000124,male,10s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-01,,released
+1600000016,female,40s,Korea,Ulsan,Nam-gu,Shincheonji Church,,2020-02-28,2020-03-11,,released
+1600000015,male,60s,Korea,Ulsan,Nam-gu,etc,,2020-02-28,,2020-03-31,deceased
+1600000014,male,20s,Korea,Ulsan,Jung-gu,Shincheonji Church,,2020-02-28,2020-03-21,,released
+1600000013,male,50s,Korea,Ulsan,Nam-gu,etc,,2020-02-28,2020-03-14,,released
+1600000012,female,20s,Korea,Ulsan,Nam-gu,contact with patient,,2020-02-28,2020-03-15,,released
+1600000017,female,20s,Korea,Ulsan,Nam-gu,contact with patient,,2020-02-28,2020-03-24,,released
+4100000026,female,60s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,11.0,2020-02-28,2020-03-18,,released
+4100000023,female,50s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,3.0,2020-02-28,2020-03-23,,released
+4100000024,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,24.0,2020-02-28,2020-04-06,,released
+1100000071,male,70s,Korea,Busan,Busanjin-gu,etc,1.0,2020-02-28,,,deceased
+4100000022,female,30s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,5.0,2020-02-28,2020-03-06,,released
+4100000021,male,30s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-28,2020-03-26,,released
+4100000020,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,1.0,2020-02-28,2020-03-22,,released
+6001000117,male,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-25,,released
+6022000028,male,40s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-28,2020-03-20,,released
+6022000027,male,60s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-28,2020-03-16,,released
+6015000027,female,70s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-02-28,2020-03-14,,released
+6001000116,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,2.0,2020-02-28,2020-03-27,,released
+6001000115,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-09,,released
+6001000114,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-01,,released
+6001000113,male,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-05-08,,released
+4100000025,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,2.0,2020-02-28,2020-03-18,,released
+1100000070,female,10s,Korea,Busan,Yeonje-gu,contact with patient,3.0,2020-02-28,,,released
+1100000067,female,60s,Korea,Busan,Haeundae-gu,contact with patient,2.0,2020-02-28,,,released
+1100000068,female,20s,Korea,Busan,Haeundae-gu,Onchun Church,2.0,2020-02-28,,,released
+6100000054,male,60s,Korea,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-03-22,,released
+6100000053,male,50s,Korea,Gyeongsangnam-do,Geoje-si,contact with patient,,2020-02-28,2020-04-01,,released
+6100000052,female,60s,Korea,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-03-14,,released
+6100000051,female,60s,Korea,Gyeongsangnam-do,Changnyeong-gun,Changnyeong Coin Karaoke,,2020-02-28,,,released
+6100000050,male,0s,Korea,Gyeongsangnam-do,Miryang-si,contact with patient,,2020-02-28,,,released
+6100000049,female,60s,Korea,Gyeongsangnam-do,Miryang-si,Shincheonji Church,,2020-02-28,,,released
+6023000020,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-28,2020-03-20,,released
+6023000019,female,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-28,2020-03-27,,released
+6001000122,female,70s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-10,,released
+4100000042,female,30s,Korea,Chungcheongnam-do,Asan-si,contact with patient,5.0,2020-02-28,2020-05-07,,released
+4100000041,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,1.0,2020-02-28,2020-03-22,,released
+4100000040,female,30s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-28,2020-03-28,,released
+1100000069,female,40s,Korea,Busan,Dongnae-gu,etc,0.0,2020-02-28,,,released
+4100000039,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,106.0,2020-02-28,2020-03-24,,released
+4100000037,female,30s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,7.0,2020-02-28,2020-03-12,,released
+4100000036,female,40s,Korea,Chungcheongnam-do,Asan-si,contact with patient,8.0,2020-02-28,2020-04-03,,released
+4100000035,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,23.0,2020-02-28,2020-04-03,,released
+4100000034,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-02-28,2020-04-05,,released
+4100000033,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,5.0,2020-02-28,2020-03-15,,released
+4100000032,female,30s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,6.0,2020-02-28,2020-03-11,,released
+6001000121,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-26,,released
+6001000120,female,80s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-09,,released
+6001000119,male,80s,Korea,Gyeongsangbuk-do,Gyeongsan-si,Gyeongsan Seorin Nursing Home,,2020-02-28,2020-04-22,,released
+6001000118,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-07,,released
+6001000112,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,4.0,2020-02-28,2020-04-19,,released
+4100000031,female,40s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,0.0,2020-02-28,2020-03-16,,released
+4100000038,female,40s,Korea,Chungcheongnam-do,Asan-si,etc,6.0,2020-02-28,2020-03-18,,released
+6001000111,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-14,,released
+6001000108,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,16.0,2020-02-28,2020-04-05,,released
+6001000110,male,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-19,,released
+2000000066,male,40s,Korea,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-28,2020-03-13,,released
+2000000067,male,50s,Korea,Gyeonggi-do,Icheon-si,contact with patient,,2020-02-28,2020-03-18,,released
+2000000068,male,30s,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-02-28,,,isolated
+2000000070,female,20s,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-02-28,,,isolated
+2000000071,female,30s,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-02-28,,,isolated
+2000000072,male,50s,Korea,Gyeonggi-do,Hwaseong-si,etc,,2020-02-28,,,isolated
+2000000074,female,80s,Korea,Gyeonggi-do,Pyeongtaek-si,etc,,2020-02-28,,,isolated
+2000000076,female,70s,Korea,Gyeonggi-do,Icheon-si,etc,,2020-02-28,2020-03-14,,released
+2000000077,male,70s,Korea,Gyeonggi-do,Icheon-si,etc,,2020-02-28,2020-03-30,,released
+6001000098,male,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-28,,released
+6010000007,female,70s,Korea,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
+6010000008,male,50s,Korea,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
+6010000009,female,50s,Korea,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
+6019000035,female,80s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-28,,,released
+6010000010,female,20s,Korea,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
+6010000011,female,20s,Korea,Gyeongsangbuk-do,Seongju-gun,contact with patient,,2020-02-28,,,released
+2000000112,male,20s,Korea,Gyeonggi-do,Goyang-si,etc,,2020-02-28,,,isolated
+1200002289,male,60s,Korea,Daegu,,,,2020-02-28,,2020-03-05,deceased
+1200002085,male,70s,Korea,Daegu,,,,2020-02-28,,2020-03-04,deceased
+1200001921,male,60s,Korea,Daegu,,,,2020-02-28,,2020-03-05,deceased
+6020000020,female,80s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-28,,,released
+6020000021,female,50s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-28,,,released
+6020000022,female,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-28,,,released
+6011000017,male,30s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6020000025,female,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-28,,,released
+6011000019,male,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6001000099,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-04,,released
+2000000059,female,30s,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-02-28,,,isolated
+6006000005,male,60s,Korea,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-28,2020-03-26,,released
+6001000109,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-29,,released
+6100000055,female,20s,Korea,Gyeongsangnam-do,Miryang-si,Shincheonji Church,,2020-02-28,,,released
+6002000012,male,20s,Korea,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-02-28,,,released
+6011000033,male,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+1400000006,male,40s,Korea,Incheon,Yeonsu-gu,etc,,2020-02-28,2020-05-10,,released
+1400000005,male,60s,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-02-28,2020-03-16,,released
+1400000004,female,20s,Korea,Incheon,Seo-gu,contact with patient,,2020-02-28,2020-03-25,,released
+6001000107,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,3.0,2020-02-28,2020-03-23,,released
+6001000106,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-25,,released
+6001000105,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-29,,released
+6001000104,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-21,,released
+6004000011,male,30s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-28,2020-03-22,,released
+6011000037,male,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6011000032,male,50s,Korea,Gyeongsangbuk-do,Andong-si,Shincheonji Church,,2020-02-28,,,released
+6011000029,female,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6011000028,female,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6011000027,female,50s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6011000026,female,60s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6011000025,male,30s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6011000024,female,40s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6001000103,male,70s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,,2020-03-11,deceased
+6001000102,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-03-26,,released
+6005000005,male,,Korea,Gyeongsangbuk-do,Gunwi-gun,etc,,2020-02-28,,,released
+6001000101,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,1.0,2020-02-28,2020-03-25,,released
+6001000100,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-28,2020-04-02,,released
+6006000004,female,20s,Korea,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-28,2020-03-28,,released
+6011000030,male,20s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-28,,,released
+6100000056,male,30s,Korea,Gyeongsangnam-do,Changnyeong-gun,contact with patient,,2020-02-28,,,released
+4100000030,female,50s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,6.0,2020-02-28,2020-04-12,,released
+6100000058,male,50s,Korea,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-03-21,,released
+4100000044,female,60s,Korea,Chungcheongnam-do,Cheonan-si,etc,2.0,2020-02-28,2020-03-31,,released
+4100000045,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-02-28,2020-03-22,,released
+4100000046,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-02-28,2020-03-26,,released
+1500000013,female,20s,Korea,Daejeon,Seo-gu,etc,2.0,2020-02-28,2020-03-29,,released
+4100000043,female,30s,Korea,Chungcheongnam-do,Asan-si,contact with patient,10.0,2020-02-28,2020-03-29,,released
+6100000057,male,60s,Korea,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-04-05,,released
+1500000011,male,40s,Korea,Daejeon,Yuseong-gu,contact with patient,64.0,2020-02-28,2020-03-29,,released
+5100000002,female,20s,Korea,Jeollanam-do,Suncheon-si,etc,14.0,2020-02-28,2020-04-03,,released
+6100000060,male,50s,Korea,Gyeongsangnam-do,Gimhae-si,etc,,2020-02-28,,,released
+6100000059,female,50s,Korea,Gyeongsangnam-do,Geochang-gun,Geochang Church,,2020-02-28,2020-04-11,,released
+1500000012,female,40s,Korea,Daejeon,Daedeok-gu,etc,11.0,2020-02-28,2020-03-19,,released
+2000000083,female,40s,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
+2000000069,female,40s,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
+2000000073,female,40s,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
+2000000075,female,40s,Korea,Gyeonggi-do,Siheung-si,etc,,2020-02-29,2020-03-26,,released
+2000000078,male,20s,Korea,Gyeonggi-do,Icheon-si,Shincheonji Church,,2020-02-29,2020-03-08,,released
+6011000034,female,20s,Korea,Gyeongsangbuk-do,Andong-si,Shincheonji Church,,2020-02-29,,,released
+2000000082,female,50s,Korea,Gyeonggi-do,Osan-si,contact with patient,,2020-02-29,,,isolated
+2000000084,female,10s,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
+4100000061,male,10s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-29,2020-03-12,,released
+4100000063,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,5.0,2020-02-29,2020-03-22,,released
+4100000062,female,30s,Korea,Chungcheongnam-do,Asan-si,etc,27.0,2020-02-29,2020-03-20,,released
+1100000072,male,0s,Korea,Busan,Suyeong-gu,Suyeong-gu Kindergarten,8.0,2020-02-29,,,released
+4100000060,male,10s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-29,2020-03-18,,released
+6020000026,female,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,,,2020-02-29,,,released
+4100000059,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-02-29,2020-03-18,,released
+4100000058,male,10s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,10.0,2020-02-29,2020-03-18,,released
+4100000057,male,10s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-02-29,2020-03-26,,released
+4100000056,male,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-02-29,2020-03-17,,released
+4100000055,female,20s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-02-29,2020-03-17,,released
+2000000086,male,40s,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-02-29,,,isolated
+1100000073,male,50s,Korea,Busan,Haeundae-gu,etc,1.0,2020-02-29,,,released
+1100000076,female,30s,Korea,Busan,Saha-gu,Shincheonji Church,3.0,2020-02-29,,,released
+1100000075,male,50s,Korea,Busan,Busanjin-gu,etc,38.0,2020-02-29,,,released
+5000000006,male,50s,Korea,Jeollabuk-do,etc,etc,,2020-02-29,2020-03-17,,released
+5100000003,male,20s,Korea,Jeollanam-do,Yeosu-si,Shincheonji Church,23.0,2020-02-29,2020-03-13,,released
+6012000001,female,,Korea,Gyeongsangbuk-do,Yeongdeok-gun,etc,0.0,2020-02-29,,,released
+6012000002,,,Korea,Gyeongsangbuk-do,Yeongdeok-gun,etc,0.0,2020-02-29,,,released
+6014000004,male,40s,Korea,Gyeongsangbuk-do,Yeongju-si,etc,,2020-02-29,2020-04-04,,released
+6004000012,female,50s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-20,,released
+6004000013,female,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-22,,released
+6004000014,male,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-04-14,,released
+6004000015,male,50s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-25,,released
+6004000016,female,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-25,,released
+6004000017,female,20s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-13,,released
+6004000018,female,50s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-28,,released
+6004000019,male,50s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-30,,released
+3009000002,male,50s,Korea,Gangwon-do,Wonju-si,Shincheonji Church,5.0,2020-02-29,2020-03-25,,released
+6004000020,female,50s,Korea,Gyeongsangbuk-do,Gumi-si,etc,,2020-02-29,2020-03-22,,released
+6022000029,female,60s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-29,2020-03-19,,released
+6022000030,male,20s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-29,2020-03-12,,released
+6022000031,male,10s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-29,2020-03-20,,released
+6022000032,male,20s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-02-29,,,isolated
+4000000011,male,20s,Korea,Chungcheongbuk-do,Cheongju-si,contact with patient,,2020-02-29,2020-04-22,,released
+6006000006,male,60s,Korea,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-29,2020-03-23,,released
+6006000007,male,30s,Korea,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-29,2020-03-28,,released
+6006000009,male,20s,Korea,Gyeongsangbuk-do,Gimcheon-si,etc,,2020-02-29,2020-03-18,,released
+2000000065,male,50s,Korea,Gyeonggi-do,Suwon-si,etc,,2020-02-29,2020-03-05,,released
+4100000054,female,50s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,1.0,2020-02-29,2020-03-23,,released
+1100000074,male,80s,Korea,Busan,Seo-gu,etc,10.0,2020-02-29,,,released
+4100000053,female,60s,Korea,Chungcheongnam-do,Cheonan-si,gym facility in Cheonan,0.0,2020-02-29,2020-03-24,,released
+2000000080,female,20s,Korea,Gyeonggi-do,Suwon-si,etc,,2020-02-29,2020-03-22,,released
+4100000051,female,60s,Korea,Chungcheongnam-do,Cheonan-si,etc,5.0,2020-02-29,2020-04-18,,released
+6001000141,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-10,,released
+6019000036,male,30s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-29,,,released
+6019000037,male,70s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-29,,,released
+6001000140,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-13,,released
+6001000139,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-12,,released
+6010000012,male,70s,Korea,Gyeongsangbuk-do,Seongju-gun,etc,,2020-02-29,,,released
+6001000138,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-14,,released
+4100000052,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,7.0,2020-02-29,2020-03-18,,released
+1200002936,male,80s,Korea,Daegu,,,,2020-02-29,,2020-03-06,deceased
+1200002769,female,80s,Korea,Daegu,,,,2020-02-29,,2020-03-02,deceased
+1200002614,female,70s,Korea,Daegu,,,,2020-02-29,,2020-03-01,deceased
+6001000137,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-24,,released
+6001000136,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-18,,released
+6001000135,female,10s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-05,,released
+6001000134,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-26,,released
+6001000133,male,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-12,,released
+6001000132,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-11,,released
+6001000131,male,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-19,,released
+6001000130,male,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-23,,released
+6001000129,female,70s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-01,,isolated
+6001000128,female,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-20,,released
+6001000127,male,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-01,,released
+6001000126,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-13,,released
+6001000125,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-27,,released
+6100000061,male,30s,Korea,Gyeongsangnam-do,Changnyeong-gun,etc,,2020-02-29,,,released
+6001000142,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-12,,released
+6001000143,female,80s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-03-24,,released
+6011000035,female,30s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-02-29,,,released
+6023000025,female,50s,Korea,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-29,2020-04-22,,released
+6023000026,female,20s,Korea,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-29,2020-03-23,,released
+6023000024,male,50s,Korea,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-02-29,2020-04-21,,released
+6023000023,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-29,2020-04-01,,released
+6023000022,male,0s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-29,,,released
+6023000021,female,30s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-02-29,,,released
+4100000047,male,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-02-29,2020-03-11,,released
+6009000014,female,50s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-02-29,2020-04-03,,released
+6001000144,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-16,,released
+4100000048,male,10s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-02-29,2020-03-11,,released
+4100000049,male,30s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,,2020-02-29,2020-04-12,,released
+6001000145,male,0s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-02-29,2020-04-07,,released
+4100000050,female,20s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,1.0,2020-02-29,2020-03-13,,released

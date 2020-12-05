@@ -1,450 +1,450 @@
-patient_id,sex,age,city,infection_case,contact_number,symptom_onset_date,confirmed_date,released_date,deceased_date,state
-1000000876,,,Gangdong-gu,Itaewon Clubs,,,2020-06-01,,,released
-1000000875,,,Seodaemun-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
-1000000874,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,isolated
-1000000873,,,Gwanak-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
-1000000871,,,Seocho-gu,Seocho Family,,,2020-06-01,,,isolated
-1000000870,,,Seocho-gu,Seocho Family,,,2020-06-01,,,released
-1000000872,,,Songpa-gu,,,,2020-06-01,,,released
-1000000868,,,Yeongdeungpo-gu,Yeongdeungpo Learning Institute,,,2020-06-01,,,released
-1000000867,,,Yeongdeungpo-gu,,,,2020-06-01,,,released
-1000000866,,,Yeongdeungpo-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
-1000000865,male,50s,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,isolated
-1000000864,female,60s,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
-1000000863,male,10s,Yangcheon-gu,overseas inflow,,,2020-06-01,,,released
-1000000869,female,50s,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
-1000000890,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
-1000000891,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
-1000000892,,,Yangcheon-gu,KB Life Insurance,,2020-05-30,2020-06-02,,,released
-1000000881,male,30s,Gangseo-gu,KB Life Insurance,,2020-05-31,2020-06-02,,,released
-1000000894,,,Gangbuk-gu,KB Life Insurance,,,2020-06-02,,,released
-1000000895,male,60s,Gangseo-gu,Samsung Fire & Marine Insurance,,2020-06-02,2020-06-02,,,released
-1000000896,,,Yangcheon-gu,overseas inflow,,2020-05-29,2020-06-02,,,isolated
-1000000889,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
-1000000893,,,Gangdong-gu,overseas inflow,,,2020-06-02,,,released
-1000000888,,,Seongdong-gu,overseas inflow,,,2020-06-02,,,released
-1000000878,female,60s,etc,SMR Newly Planted Churches Group,,,2020-06-02,,,isolated
-1000000886,,,Seodaemun-gu,Seocho Family,,,2020-06-02,,,released
-1000000885,,,Seodaemun-gu,Seocho Family,,,2020-06-02,,,released
-1000000884,,,Gangbuk-gu,Seocho Family,,,2020-06-02,,,released
-1000000883,,,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
-1000000882,,,Geumcheon-gu,Anyang Gunpo Pastors Group,,,2020-06-02,,,isolated
-1000000880,,,Gangnam-gu,,,,2020-06-02,,,isolated
-1000000879,,,etc,,,,2020-06-02,,,isolated
-1000000877,male,60s,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
-1000000887,,,Guro-gu,Richway,,2020-05-31,2020-06-02,,,released
-1000000911,,,Gangbuk-gu,,,,2020-06-03,,,isolated
-1000000906,,,Geumcheon-gu,Coupang Logistics Center,,,2020-06-03,,,isolated
-1000000905,,,Geumcheon-gu,Korea Campus Crusade of Christ,,,2020-06-03,,,released
-1000000908,,,Yeongdeungpo-gu,SMR Newly Planted Churches Group,,2020-06-02,2020-06-03,,,released
-1000000909,,,Gangnam-gu,Samsung Fire & Marine Insurance,,,2020-06-03,,,isolated
-1000000907,,,Guro-gu,,,,2020-06-03,,,released
-1000000904,,,etc,Richway,,,2020-06-03,,,isolated
-1000000901,,,Gangseo-gu,Coupang Logistics Center,,2020-06-02,2020-06-03,,,isolated
-1000000902,,,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-03,,,released
-1000000900,,,Dobong-gu,,,,2020-06-03,,,isolated
-1000000899,,,Mapo-gu,SMR Newly Planted Churches Group,,2020-06-02,2020-06-03,,,released
-1000000898,,,Gwanak-gu,SMR Newly Planted Churches Group,,,2020-06-03,,,isolated
-1000000897,,,Yongsan-gu,Richway,,2020-05-23,2020-06-03,,,released
-1000000903,,,Gangnam-gu,Richway,,,2020-06-03,,,released
-1000000925,,,Guro-gu,Richway,,,2020-06-04,,,released
-1000000924,,,Nowon-gu,Richway,,2020-05-31,2020-06-04,,,released
-1000000923,,,Gangdong-gu,Richway,,2020-06-01,2020-06-04,,,released
-1000000922,,,Gangdong-gu,Yongin Brothers,,2020-06-01,2020-06-04,,,released
-1000000920,,,Dobong-gu,,,,2020-06-04,,,released
-1000000919,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-04,,,released
-1000000918,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-04,,,released
-1000000921,,,Yangcheon-gu,,,2020-06-01,2020-06-04,,,isolated
-1000000916,,,Guro-gu,Richway,,,2020-06-04,,,isolated
-1000000915,,,etc,Richway,,,2020-06-04,,,isolated
-1000000914,,,Gangseo-gu,Richway,,,2020-06-04,,,released
-1000000913,,,Mapo-gu,Samsung Fire & Marine Insurance,,,2020-06-04,,,released
-1000000912,,,Yongsan-gu,Richway,,,2020-06-04,,,released
-1000000917,,,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-04,,,isolated
-1000000910,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-04,,,released
-1000000941,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-05,,,released
-1000000942,,,Nowon-gu,contact with patient,,2020-05-31,2020-06-05,,,isolated
-1000000943,,,Gangdong-gu,Richway,,,2020-06-05,,,isolated
-1000000944,,,Gangdong-gu,Richway,,2020-06-05,2020-06-05,,,released
-1000000945,,,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-05,,,released
-1000000948,,,Guro-gu,Yongin Brothers,,,2020-06-05,,,isolated
-1000000949,,,Eunpyeong-gu,Itaewon Clubs,,2020-05-30,2020-06-05,,,released
-1000000950,,,Guro-gu,Richway,,,2020-06-05,,,released
-1000000975,,,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-05,,,isolated
-1000000940,,,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-05,,,released
-1000000947,,,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-05,,,released
-1000000939,,,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-03,2020-06-05,,,released
-1000000946,,,Songpa-gu,Yangcheon Table Tennis Club,,,2020-06-05,,,released
-1000000937,,,Gangbuk-gu,Richway,,,2020-06-05,,,released
-1000000996,,,Guro-gu,,,,2020-06-05,,,released
-1000000938,,,Yeongdeungpo-gu,Yangcheon Table Tennis Club,,2020-06-03,2020-06-05,,,isolated
-1000000926,,,Nowon-gu,Richway,,2020-05-31,2020-06-05,,,released
-1000000927,,,Yongsan-gu,Richway,13,,2020-06-05,,,isolated
-1000000929,,,Dongdaemun-gu,Richway,,,2020-06-05,,,released
-1000000930,,,Dobong-gu,,,,2020-06-05,,,released
-1000000928,,,Yongsan-gu,Richway,,,2020-06-05,,,isolated
-1000000932,,,Gwanak-gu,Richway,,,2020-06-05,,,released
-1000000933,,,Gwanak-gu,Richway,,,2020-06-05,,,released
-1000000934,,,Seongdong-gu,Itaewon Clubs,,,2020-06-05,,,released
-1000000935,,,Eunpyeong-gu,Samsung Fire & Marine Insurance,,,2020-06-05,,,released
-1000000936,,,Jungnang-gu,Richway,,,2020-06-05,,,released
-1000000931,,,Gwanak-gu,Richway,,,2020-06-05,,,isolated
-1000000971,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-06,,,released
-1000000968,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-06,,,released
-1000000969,,,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-06,,,released
-1000000970,,,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-05,2020-06-06,,,released
-1000000972,,,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-01,2020-06-06,,,released
-1000000978,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-06,,,isolated
-1000000974,,,etc,Yangcheon Table Tennis Club,,2020-06-04,2020-06-06,,,isolated
-1000000976,,,Dongjak-gu,,,,2020-06-06,,,released
-1000000977,,,Guro-gu,SMR Newly Planted Churches Group,,2020-06-05,2020-06-06,,,isolated
-1000000967,,,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-06,,,isolated
-1000000979,,,Gwanak-gu,Richway,,,2020-06-06,,,released
-1000000973,,,etc,Richway,,,2020-06-06,,,isolated
-1000000966,,,Guro-gu,Yongin Brothers,,,2020-06-06,,,released
-1000000963,,,etc,Yangcheon Table Tennis Club,,,2020-06-06,,,isolated
-1000000964,,,Eunpyeong-gu,Yangcheon Table Tennis Club,,,2020-06-06,,,released
-1000000951,,,Mapo-gu,Richway,,2020-06-05,2020-06-06,,,isolated
-1000000952,,,etc,,,,2020-06-06,,,released
-1000000965,,,Eunpyeong-gu,Itaewon Clubs,,,2020-06-06,,,released
-1000000954,,,Yongsan-gu,Richway,,2020-06-05,2020-06-06,,,released
-1000000955,,,Gangseo-gu,,,,2020-06-06,,,released
-1000000956,,,Seongdong-gu,Itaewon Clubs,,,2020-06-06,,,isolated
-1000000953,,,Yongsan-gu,Richway,,,2020-06-06,,,isolated
-1000000958,,,Gangbuk-gu,Yangcheon Table Tennis Club,,2020-06-02,2020-06-06,,,released
-1000000959,,,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-06,,,isolated
-1000000960,,,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-06,,,released
-1000000961,,,Guro-gu,contact with patient,,,2020-06-06,,,released
-1000000962,,,Yeongdeungpo-gu,Yongin Brothers,,,2020-06-06,,,released
-1000000957,,,Seongdong-gu,,,2020-05-31,2020-06-06,,,released
-1000000995,,,Gangdong-gu,Richway,,,2020-06-07,,,isolated
-1000000994,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,released
-1000000993,,,etc,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
-1000000992,,,Guro-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
-1000000991,,,Guro-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
-1000000990,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-07,,,released
-1000000989,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-07,,,isolated
-1000000986,,,Guro-gu,Richway,,,2020-06-07,,,isolated
-1000000987,,,etc,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
-1000000985,,,Gangseo-gu,,,,2020-06-07,,,isolated
-1000000984,,,Gangbuk-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,released
-1000000983,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,released
-1000000982,,,Gangseo-gu,,,,2020-06-07,,,released
-1000000981,,,Seongdong-gu,,,,2020-06-07,,,released
-1000000980,,,Seongdong-gu,Itaewon Clubs,,,2020-06-07,,,released
-1000000988,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
-1000001014,,,etc,Yangcheon Table Tennis Club,,,2020-06-08,,,isolated
-1000001012,,,Guro-gu,Richway,,,2020-06-08,,,isolated
-1000001011,,,Guro-gu,Richway,,,2020-06-08,,,released
-1000001010,,,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-08,,,isolated
-1000001009,,,Guro-gu,Richway,,,2020-06-08,,,released
-1000001008,,,Guro-gu,Richway,,2020-06-06,2020-06-08,,,released
-1000001007,,,Guro-gu,Richway,,,2020-06-08,,,released
-1000001006,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-08,,,released
-1000001013,,,Guro-gu,Richway,,,2020-06-08,,,isolated
-1000001004,,,Guro-gu,Richway,,,2020-06-08,,,released
-1000001003,,,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-08,,,isolated
-1000001002,,,Gangseo-gu,,,,2020-06-08,,,isolated
-1000001001,,,Gangseo-gu,,,,2020-06-08,,,released
-1000001000,,,Seocho-gu,overseas inflow,,2020-06-05,2020-06-08,,,released
-1000000999,,,Gwanak-gu,Richway,,,2020-06-08,,,released
-1000000998,,,Jungnang-gu,KB Life Insurance,,,2020-06-08,,,released
-1000000997,,,Seodaemun-gu,,,,2020-06-08,,,deceased
-1000001005,,,Guro-gu,Richway,,,2020-06-08,,,released
-1000001028,,,etc,Yangcheon Table Tennis Club,,,2020-06-09,,,isolated
-1000001027,,,Guro-gu,Coupang Logistics Center,,,2020-06-09,,,released
-1000001026,,,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-02,2020-06-09,,,released
-1000001025,,,Yangcheon-gu,Richway,,,2020-06-09,,,isolated
-1000001024,,,Dongjak-gu,Richway,,,2020-06-09,,,released
-1000001023,,,Dongjak-gu,,,,2020-06-09,,,isolated
-1000001022,,,Dongjak-gu,,,,2020-06-09,,,isolated
-1000001021,,,Geumcheon-gu,Richway,,,2020-06-09,,,isolated
-1000001019,,,Gwanak-gu,Richway,,,2020-06-09,,,released
-1000001018,,,Gwanak-gu,Richway,,,2020-06-09,,,released
-1000001017,,,Mapo-gu,Richway,,,2020-06-09,,,released
-1000001016,,,Yeongdeungpo-gu,Richway,12,,2020-06-09,,,released
-1000001015,,,Seongdong-gu,,,,2020-06-09,,,released
-1000001020,,,Jung-gu,Yangcheon Table Tennis Club,,,2020-06-09,,,isolated
-1000001040,,,Dobong-gu,Day Care Center,,,2020-06-10,,,isolated
-1000001047,,,etc,,,,2020-06-10,,,released
-1000001046,,,Guro-gu,,,,2020-06-10,,,isolated
-1000001045,,,Guro-gu,,,,2020-06-10,,,released
-1000001044,,,Eunpyeong-gu,Richway,,,2020-06-10,,,released
-1000001043,,,Geumcheon-gu,Richway,,,2020-06-10,,,isolated
-1000001042,,,Geumcheon-gu,Richway,,,2020-06-10,,,isolated
-1000001041,,,Yangcheon-gu,Richway,,,2020-06-10,,,isolated
-1000001039,,,Nowon-gu,overseas inflow,,,2020-06-10,,,released
-1000001038,,,Seocho-gu,Richway,,,2020-06-10,,,released
-1000001037,,,Dongjak-gu,Richway,,,2020-06-10,,,released
-1000001036,,,Songpa-gu,Coupang Logistics Center,,,2020-06-10,,,released
-1000001035,,,Geumcheon-gu,Richway,,,2020-06-10,,,released
-1000001034,,,Geumcheon-gu,Richway,,,2020-06-10,,,released
-1000001033,,,Yangcheon-gu,Richway,,,2020-06-10,,,isolated
-1000001032,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-10,,,released
-1000001031,,,Seongbuk-gu,Richway,,,2020-06-10,,,released
-1000001030,,,Gwangjin-gu,Richway,,,2020-06-10,,,released
-1000001029,,,Gwanak-gu,Richway,,,2020-06-10,,,released
-1000001062,,,Dobong-gu,Day Care Center,,,2020-06-11,,,deceased
-1000001064,,,Gwanak-gu,Richway,,,2020-06-11,,,isolated
-1000001065,,,Gangseo-gu,Richway,,,2020-06-11,,,released
-1000001066,,,Yeongdeungpo-gu,,,,2020-06-11,,,isolated
-1000001067,,,Eunpyeong-gu,KB Life Insurance,,,2020-06-11,,,released
-1000001071,,,Gangdong-gu,overseas inflow,,,2020-06-11,,,isolated
-1000001069,,,Yeongdeungpo-gu,Richway,,,2020-06-11,,,isolated
-1000001070,,,Geumcheon-gu,Richway,,,2020-06-11,,,isolated
-1000001061,,,Geumcheon-gu,Yangcheon Table Tennis Club,,,2020-06-11,,,isolated
-1000001072,,,Yeongdeungpo-gu,Richway,,,2020-06-11,,,isolated
-1000001068,,,Seocho-gu,Richway,,,2020-06-11,,,released
-1000001060,,,Geumcheon-gu,Richway,,,2020-06-11,,,released
-1000001063,,,Gwanak-gu,Richway,,,2020-06-11,,,isolated
-1000001058,,,Yeongdeungpo-gu,Richway,,,2020-06-11,,,isolated
-1000001059,,,Yangcheon-gu,Richway,,,2020-06-11,,,isolated
-1000001048,,,Nowon-gu,Richway,,,2020-06-11,,,isolated
-1000001049,,,Jungnang-gu,Richway,,,2020-06-11,,,isolated
-1000001050,,,Jungnang-gu,Richway,,,2020-06-11,,,isolated
-1000001052,,,Gwanak-gu,Richway,,,2020-06-11,,,released
-1000001051,,,Gwanak-gu,Richway,,,2020-06-11,,,isolated
-1000001054,,,Gangseo-gu,Coupang Logistics Center,,,2020-06-11,,,isolated
-1000001055,,,Gangseo-gu,,,,2020-06-11,,,isolated
-1000001056,,,Yeongdeungpo-gu,Richway,,,2020-06-11,,,isolated
-1000001057,,,Guro-gu,,,,2020-06-11,,,released
-1000001053,,,Gwanak-gu,Richway,,,2020-06-11,,,isolated
-1000001094,,,Jongno-gu,Korea Campus Crusade of Christ,,,2020-06-12,,,released
-1000001090,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001091,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001092,,,Gangbuk-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001093,,,Gwanak-gu,Richway,,,2020-06-12,,,isolated
-1000001095,,,Yangcheon-gu,,,,2020-06-12,,,released
-1000001101,,,Yeongdeungpo-gu,Richway,,,2020-06-12,,,released
-1000001097,,,Jungnang-gu,,,,2020-06-12,,,isolated
-1000001098,,,Yongsan-gu,Richway,,,2020-06-12,,,released
-1000001099,,,Gangseo-gu,,,,2020-06-12,,,released
-1000001100,,,Gangdong-gu,,,,2020-06-12,,,released
-1000001102,,,Guro-gu,,,,2020-06-12,,,isolated
-1000001089,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001096,,,Jungnang-gu,,,,2020-06-12,,,isolated
-1000001088,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001073,,,Nowon-gu,Richway,,,2020-06-12,,,isolated
-1000001086,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001087,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001074,,,Gangbuk-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001075,,,Seongbuk-gu,,,,2020-06-12,,,released
-1000001076,,,Jungnang-gu,Richway,,,2020-06-12,,,released
-1000001078,,,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-12,,,isolated
-1000001079,,,Geumcheon-gu,Richway,,,2020-06-12,,,isolated
-1000001077,,,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-12,,,isolated
-1000001081,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001082,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001083,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001084,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001085,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001080,,,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
-1000001110,,,Gwanak-gu,Richway,,,2020-06-13,,,released
-1000001114,,,Eunpyeong-gu,Yangcheon Table Tennis Club,,,2020-06-13,,,isolated
-1000001113,,,Yeongdeungpo-gu,,,,2020-06-13,,,released
-1000001112,,,Seocho-gu,Richway,,,2020-06-13,,,isolated
-1000001111,,,Gwanak-gu,,,,2020-06-13,,,isolated
-1000001109,,,Jungnang-gu,Richway,,,2020-06-13,,,released
-1000001107,,,Yeongdeungpo-gu,Yeonana News Class,,,2020-06-13,,,isolated
-1000001106,,,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-13,,,isolated
-1000001105,,,Gangseo-gu,Korea Campus Crusade of Christ,,,2020-06-13,,,released
-1000001104,,,Jongno-gu,,,,2020-06-13,,,isolated
-1000001103,,,Gangbuk-gu,Richway,,,2020-06-13,,,released
-1000001108,,,Geumcheon-gu,Richway,,,2020-06-13,,,isolated
-1000001118,,,etc,,,,2020-06-14,,,deceased
-1000001115,,,Dobong-gu,Day Care Center,,,2020-06-14,,,isolated
-1000001116,,,Eunpyeong-gu,overseas inflow,,,2020-06-14,,,isolated
-1000001117,,,Yongsan-gu,Richway,,,2020-06-14,,,isolated
-1000001119,,,Guro-gu,,,,2020-06-14,,,released
-1000001120,,,Seocho-gu,,,,2020-06-14,,,released
-1000001121,,,Seodaemun-gu,overseas inflow,,,2020-06-14,,,isolated
-1000001130,,,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,isolated
-1000001129,,,Eunpyeong-gu,,,,2020-06-15,,,isolated
-1000001131,,,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,isolated
-1000001132,,,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,isolated
-1000001128,,,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,isolated
-1000001123,,,Yongsan-gu,Richway,,,2020-06-15,,,isolated
-1000001126,,,Seodaemun-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,released
-1000001125,,,Dongjak-gu,Richway,,,2020-06-15,,,isolated
-1000001124,,,Yongsan-gu,Richway,,,2020-06-15,,,isolated
-1000001122,,,Dobong-gu,Day Care Center,,,2020-06-15,,,isolated
-1000001127,,,Geumcheon-gu,Richway,,,2020-06-15,,,isolated
-1000001146,,,Gwanak-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-16,,,isolated
-1000001145,,,Songpa-gu,overseas inflow,,,2020-06-16,,,isolated
-1000001144,,,Dongjak-gu,contact with patient,,,2020-06-16,,,released
-1000001142,,,Gangnam-gu,Richway,,,2020-06-16,,,isolated
-1000001141,,,Dongjak-gu,Richway,,,2020-06-16,,,isolated
-1000001140,,,Eunpyeong-gu,Yangcheon Table Tennis Club,,,2020-06-16,,,isolated
-1000001143,,,Mapo-gu,etc,,,2020-06-16,,,released
-1000001138,,,Seocho-gu,Richway,,,2020-06-16,,,released
-1000001137,,,Jungnang-gu,Yangcheon Table Tennis Club,,,2020-06-16,,,isolated
-1000001136,,,Dobong-gu,Day Care Center,,,2020-06-16,,,isolated
-1000001135,,,Dobong-gu,Day Care Center,,,2020-06-16,,,isolated
-1000001134,,,Eunpyeong-gu,,,,2020-06-16,,,released
-1000001133,,,Eunpyeong-gu,,,,2020-06-16,,,released
-1000001139,,,Gwanak-gu,overseas inflow,,,2020-06-16,,,isolated
-1000001161,,,Gangnam-gu,Richway,,,2020-06-17,,,isolated
-1000001162,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001163,,,Yeongdeungpo-gu,,,,2020-06-17,,,isolated
-1000001164,,,Gangseo-gu,Daezayeon Korea,,,2020-06-17,,,isolated
-1000001165,,,Seocho-gu,contact with patient,,,2020-06-17,,,isolated
-1000001167,,,Gwanak-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-17,,,isolated
-1000001170,,,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-17,,,isolated
-1000001168,,,Eunpyeong-gu,Yangcheon Table Tennis Club,,,2020-06-17,,,isolated
-1000001169,,,Eunpyeong-gu,,,,2020-06-17,,,isolated
-1000001160,,,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-17,,,isolated
-1000001166,,,etc,,,,2020-06-17,,,isolated
-1000001159,,,Yeongdeungpo-gu,SMR Newly Planted Churches Group,,,2020-06-17,,,released
-1000001150,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001157,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001158,,,Yeongdeungpo-gu,Richway,,,2020-06-17,,,isolated
-1000001148,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001149,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001151,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001147,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001153,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001154,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001155,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001156,,,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
-1000001152,,,Gwanak-gu,overseas inflow,,,2020-06-17,,,isolated
-1000001181,,,Yeongdeungpo-gu,Richway,,,2020-06-18,,,isolated
-1000001188,,,Seongbuk-gu,,,,2020-06-18,,,isolated
-1000001187,,,Gwangjin-gu,Richway,,,2020-06-18,,,isolated
-1000001186,,,Gangbuk-gu,,,,2020-06-18,,,isolated
-1000001185,,,etc,,,,2020-06-18,,,isolated
-1000001184,,,Eunpyeong-gu,Richway,,,2020-06-18,,,isolated
-1000001183,,,Gangseo-gu,,,,2020-06-18,,,isolated
-1000001182,,,Seocho-gu,Richway,,,2020-06-18,,,released
-1000001180,,,Yangcheon-gu,,,,2020-06-18,,,isolated
-1000001177,,,Gwanak-gu,Richway,,,2020-06-18,,,released
-1000001178,,,Jung-gu,Richway,,,2020-06-18,,,isolated
-1000001176,,,Yangcheon-gu,Daezayeon Korea,,,2020-06-18,,,isolated
-1000001175,,,Gangseo-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-18,,,isolated
-1000001174,,,Mapo-gu,contact with patient,,,2020-06-18,,,isolated
-1000001173,,,Dobong-gu,Day Care Center,,,2020-06-18,,,isolated
-1000001172,,,Dobong-gu,Day Care Center,,,2020-06-18,,,isolated
-1000001171,,,Seodaemun-gu,overseas inflow,,,2020-06-18,,,isolated
-1000001179,,,Jungnang-gu,Day Care Center,,,2020-06-18,,,isolated
-1000001204,,,Yeongdeungpo-gu,contact with patient,,,2020-06-19,,,isolated
-1000001203,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-19,,,isolated
-1000001202,,,Jungnang-gu,,,,2020-06-19,,,isolated
-1000001201,,,Seocho-gu,Richway,,,2020-06-19,,,isolated
-1000001200,,,etc,Richway,,,2020-06-19,,,isolated
-1000001199,,,etc,Richway,,,2020-06-19,,,isolated
-1000001197,,,Dongdaemun-gu,overseas inflow,,,2020-06-19,,,isolated
-1000001198,male,80s,Yeongdeungpo-gu,Seoul City Hall Station safety worker,,2020-06-18,2020-06-19,,,isolated
-1000001195,,,Eunpyeong-gu,contact with patient,,,2020-06-19,,,isolated
-1000001194,,,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-19,,,isolated
-1000001193,,,Dongjak-gu,Daejeon door-to-door sales,,,2020-06-19,,,isolated
-1000001192,,,Seodaemun-gu,Orange Life,,,2020-06-19,,,isolated
-1000001191,,,Gangseo-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-19,,,isolated
-1000001190,,,Dobong-gu,Day Care Center,,,2020-06-19,,,isolated
-1000001189,,,Dobong-gu,Day Care Center,,,2020-06-19,,,isolated
-1000001196,,,Mapo-gu,,,,2020-06-19,,,isolated
-1000001219,,,Yeongdeungpo-gu,Seoul City Hall Station safety worker,,,2020-06-20,,,isolated
-1000001218,,,Gangseo-gu,Daezayeon Korea,,,2020-06-20,,,isolated
-1000001217,,,Gwanak-gu,,,,2020-06-20,,,isolated
-1000001215,,,Yeongdeungpo-gu,Seoul City Hall Station safety worker,,,2020-06-20,,,isolated
-1000001214,female,70s,Dongjak-gu,,,,2020-06-20,,,isolated
-1000001213,,,Yeongdeungpo-gu,Uiwang Logistics Center,,,2020-06-20,,,isolated
-1000001212,,,etc,Richway,,,2020-06-20,,,isolated
-1000001216,,,etc,overseas inflow,,,2020-06-20,,,released
-1000001210,,,Seongdong-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-20,,,isolated
-1000001209,,,Seocho-gu,Uiwang Logistics Center,,,2020-06-20,,,isolated
-1000001208,,,Nowon-gu,Richway,,,2020-06-20,,,isolated
-1000001207,,,Nowon-gu,Richway,,,2020-06-20,,,isolated
-1000001206,,,Dobong-gu,Day Care Center,,,2020-06-20,,,isolated
-1000001205,,,Dobong-gu,Day Care Center,,,2020-06-20,,,isolated
-1000001211,,,Seongdong-gu,Geumcheon-gu rice milling machine manufacture,,2020-06-19,2020-06-20,,,isolated
-1000001227,,,Guro-gu,Richway,,,2020-06-21,,,isolated
-1000001226,,,Guro-gu,Richway,,,2020-06-21,,,isolated
-1000001225,,,Guro-gu,Richway,,,2020-06-21,,,isolated
-1000001224,,,Seongbuk-gu,overseas inflow,,,2020-06-21,,,isolated
-1000001222,,,Guro-gu,contact with patient,,,2020-06-21,,,isolated
-1000001221,,,Gangseo-gu,,,,2020-06-21,,,isolated
-1000001220,,,Dobong-gu,Day Care Center,,2020-06-18,2020-06-21,,,isolated
-1000001223,,,Songpa-gu,,,,2020-06-21,,,isolated
-1000001228,,,Gangseo-gu,Richway,,,2020-06-22,,,isolated
-1000001229,,,Gangnam-gu,Richway,,,2020-06-22,,,isolated
-1000001230,,,Gangdong-gu,contact with patient,,,2020-06-22,,,isolated
-1000001233,,,Gangdong-gu,,,,2020-06-22,,,isolated
-1000001241,,,Gwanak-gu,contact with patient,,,2020-06-23,,,isolated
-1000001240,,,Gwanak-gu,contact with patient,,,2020-06-23,,,isolated
-1000001239,,,Dobong-gu,Day Care Center,,,2020-06-23,,,isolated
-1000001238,,,Dobong-gu,Day Care Center,,,2020-06-23,,,isolated
-1000001237,,,Gwanak-gu,,,,2020-06-23,,,isolated
-1000001235,,,Guro-gu,,,,2020-06-23,,,isolated
-1000001234,,,Gwanak-gu,,,,2020-06-23,,,isolated
-1000001231,,,Dobong-gu,Day Care Center,,,2020-06-23,,,isolated
-1000001236,,,Yeongdeungpo-gu,overseas inflow,,2020-06-11,2020-06-23,,,isolated
-1000001232,,,Jungnang-gu,Richway,,,2020-06-23,,,isolated
-1000001250,,,Gwanak-gu,Wangsung Church,,,2020-06-24,,,isolated
-1000001242,,,Dobong-gu,Day Care Center,,,2020-06-24,,,isolated
-1000001243,,,Geumcheon-gu,,,,2020-06-24,,,isolated
-1000001244,,,etc,,,,2020-06-24,,,isolated
-1000001245,,,Gangnam-gu,contact with patient,,,2020-06-24,,,isolated
-1000001246,,,Guro-gu,contact with patient,,2020-06-19,2020-06-24,,,isolated
-1000001248,,,Gwanak-gu,contact with patient,,,2020-06-24,,,isolated
-1000001249,,,etc,,,2020-06-17,2020-06-24,,,isolated
-1000001261,,,Gwanak-gu,Wangsung Church,,,2020-06-25,,,isolated
-1000001262,,,Dongjak-gu,Wangsung Church,,,2020-06-25,,,isolated
-1000001263,,,Gwanak-gu,,,,2020-06-25,,,isolated
-1000001258,,,Guro-gu,contact with patient,,2020-06-24,2020-06-25,,,isolated
-1000001265,,,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
-1000001266,,,Gwanak-gu,Wangsung Church,,,2020-06-25,,,isolated
-1000001267,,,Gwanak-gu,Wangsung Church,,,2020-06-25,,,isolated
-1000001264,,,etc,Wangsung Church,,,2020-06-25,,,isolated
-1000001260,,,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
-1000001257,,,Gwanak-gu,Richway,,,2020-06-25,,,isolated
-1000001256,,,Gangseo-gu,contact with patient,,,2020-06-25,,,isolated
-1000001255,,,Nowon-gu,contact with patient,,2020-06-17,2020-06-25,,,isolated
-1000001254,,,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
-1000001253,,,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
-1000001252,,,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
-1000001251,,,Jungnang-gu,overseas inflow,,,2020-06-25,,,isolated
-1000001259,,,Gwanak-gu,Wangsung Church,,,2020-06-25,,,isolated
-1000001277,,,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
-1000001283,,,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
-1000001282,,,Jung-gu,overseas inflow,,,2020-06-26,,,isolated
-1000001281,,,Guro-gu,contact with patient,,2020-06-21,2020-06-26,,,isolated
-1000001280,,,Eunpyeong-gu,overseas inflow,,,2020-06-26,,,isolated
-1000001279,,,Gwanak-gu,contact with patient,,,2020-06-26,,,isolated
-1000001278,,,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
-1000001284,,,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
-1000001275,,,Dongjak-gu,contact with patient,,,2020-06-26,,,isolated
-1000001274,,,Dongdaemun-gu,Gangnam Yeoksam-dong gathering,,,2020-06-26,,,isolated
-1000001273,,,Gwangjin-gu,Gangnam Yeoksam-dong gathering,,,2020-06-26,,,isolated
-1000001272,,,Nowon-gu,Wangsung Church,,2020-06-22,2020-06-26,,,isolated
-1000001271,,,Dongjak-gu,Wangsung Church,,,2020-06-26,,,isolated
-1000001270,,,Jungnang-gu,Gangnam Yeoksam-dong gathering,,,2020-06-26,,,isolated
-1000001269,,,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
-1000001268,,,Seocho-gu,Wangsung Church,,,2020-06-26,,,isolated
-1000001276,,,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
-1000001298,,,Songpa-gu,Gangnam Yeoksam-dong gathering,,,2020-06-27,,,isolated
-1000001297,,,Yeongdeungpo-gu,,,,2020-06-27,,,isolated
-1000001296,,,Gwanak-gu,,,,2020-06-27,,,isolated
-1000001295,,,Gwanak-gu,Wangsung Church,,,2020-06-27,,,isolated
-1000001293,,,Yangcheon-gu,overseas inflow,,,2020-06-27,,,isolated
-1000001292,,,Gwanak-gu,Wangsung Church,,,2020-06-27,,,isolated
-1000001294,,,Gwanak-gu,Wangsung Church,,,2020-06-27,,,isolated
-1000001290,female,70s,Mapo-gu,Richway,,,2020-06-27,,,isolated
-1000001289,,,Yeongdeungpo-gu,Wangsung Church,,,2020-06-27,,,isolated
-1000001288,,,Gangnam-gu,Gangnam Yeoksam-dong gathering,0,,2020-06-27,,,isolated
-1000001287,,,Gwanak-gu,Wangsung Church,,,2020-06-27,,,isolated
-1000001286,,,Yongsan-gu,,,2020-06-25,2020-06-27,,,isolated
-1000001285,,,Dongdaemun-gu,Gangnam Yeoksam-dong gathering,,,2020-06-27,,,isolated
-1000001291,,,Guro-gu,contact with patient,,2020-06-26,2020-06-27,,,isolated
-1000001305,,,etc,,,,2020-06-28,,,isolated
-1000001304,,,Gwanak-gu,contact with patient,,,2020-06-28,,,isolated
-1000001303,,,Seocho-gu,overseas inflow,,,2020-06-28,,,isolated
-1000001302,,,Songpa-gu,Wangsung Church,,,2020-06-28,,,isolated
-1000001300,,,Nowon-gu,Wangsung Church,,2020-06-27,2020-06-28,,,isolated
-1000001299,,,Yongsan-gu,contact with patient,,,2020-06-28,,,isolated
-1000001301,,,Guro-gu,Wangsung Church,,,2020-06-28,,,isolated
-1000001311,,,etc,,,,2020-06-29,,,isolated
-1000001306,,,Nowon-gu,overseas inflow,,,2020-06-29,,,isolated
-1000001307,,,Mapo-gu,Richway,,,2020-06-29,,,isolated
-1000001308,,,Mapo-gu,Richway,,,2020-06-29,,,isolated
-1000001309,,,Mapo-gu,Richway,,,2020-06-29,,,isolated
-1000001310,,,Geumcheon-gu,contact with patient,,,2020-06-29,,,isolated
-1000001312,,,Eunpyeong-gu,,,2020-06-24,2020-06-29,,,isolated
+patient_id,sex,age,country,province,city,infection_case,contact_number,symptom_onset_date,confirmed_date,released_date,deceased_date,state
+1000000876,,,Korea,Seoul,Gangdong-gu,Itaewon Clubs,,,2020-06-01,,,released
+1000000875,,,Korea,Seoul,Seodaemun-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
+1000000874,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,isolated
+1000000873,,,Korea,Seoul,Gwanak-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
+1000000871,,,Korea,Seoul,Seocho-gu,Seocho Family,,,2020-06-01,,,isolated
+1000000870,,,Korea,Seoul,Seocho-gu,Seocho Family,,,2020-06-01,,,released
+1000000872,,,Korea,Seoul,Songpa-gu,,,,2020-06-01,,,released
+1000000868,,,Korea,Seoul,Yeongdeungpo-gu,Yeongdeungpo Learning Institute,,,2020-06-01,,,released
+1000000867,,,Korea,Seoul,Yeongdeungpo-gu,,,,2020-06-01,,,released
+1000000866,,,Korea,Seoul,Yeongdeungpo-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
+1000000865,male,50s,Korea,Seoul,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,isolated
+1000000864,female,60s,Korea,Seoul,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
+1000000863,male,10s,Korea,Seoul,Yangcheon-gu,overseas inflow,,,2020-06-01,,,released
+1000000869,female,50s,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-01,,,released
+1000000890,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
+1000000891,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
+1000000892,,,Korea,Seoul,Yangcheon-gu,KB Life Insurance,,2020-05-30,2020-06-02,,,released
+1000000881,male,30s,Korea,Seoul,Gangseo-gu,KB Life Insurance,,2020-05-31,2020-06-02,,,released
+1000000894,,,Korea,Seoul,Gangbuk-gu,KB Life Insurance,,,2020-06-02,,,released
+1000000895,male,60s,Korea,Seoul,Gangseo-gu,Samsung Fire & Marine Insurance,,2020-06-02,2020-06-02,,,released
+1000000896,,,Korea,Seoul,Yangcheon-gu,overseas inflow,,2020-05-29,2020-06-02,,,isolated
+1000000889,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
+1000000893,,,Korea,Seoul,Gangdong-gu,overseas inflow,,,2020-06-02,,,released
+1000000888,,,Korea,Seoul,Seongdong-gu,overseas inflow,,,2020-06-02,,,released
+1000000878,female,60s,Korea,Seoul,etc,SMR Newly Planted Churches Group,,,2020-06-02,,,isolated
+1000000886,,,Korea,Seoul,Seodaemun-gu,Seocho Family,,,2020-06-02,,,released
+1000000885,,,Korea,Seoul,Seodaemun-gu,Seocho Family,,,2020-06-02,,,released
+1000000884,,,Korea,Seoul,Gangbuk-gu,Seocho Family,,,2020-06-02,,,released
+1000000883,,,Korea,Seoul,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
+1000000882,,,Korea,Seoul,Geumcheon-gu,Anyang Gunpo Pastors Group,,,2020-06-02,,,isolated
+1000000880,,,Korea,Seoul,Gangnam-gu,,,,2020-06-02,,,isolated
+1000000879,,,Korea,Seoul,etc,,,,2020-06-02,,,isolated
+1000000877,male,60s,Korea,Seoul,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-02,,,released
+1000000887,,,Korea,Seoul,Guro-gu,Richway,,2020-05-31,2020-06-02,,,released
+1000000911,,,Korea,Seoul,Gangbuk-gu,,,,2020-06-03,,,isolated
+1000000906,,,Korea,Seoul,Geumcheon-gu,Coupang Logistics Center,,,2020-06-03,,,isolated
+1000000905,,,Korea,Seoul,Geumcheon-gu,Korea Campus Crusade of Christ,,,2020-06-03,,,released
+1000000908,,,Korea,Seoul,Yeongdeungpo-gu,SMR Newly Planted Churches Group,,2020-06-02,2020-06-03,,,released
+1000000909,,,Korea,Seoul,Gangnam-gu,Samsung Fire & Marine Insurance,,,2020-06-03,,,isolated
+1000000907,,,Korea,Seoul,Guro-gu,,,,2020-06-03,,,released
+1000000904,,,Korea,Seoul,etc,Richway,,,2020-06-03,,,isolated
+1000000901,,,Korea,Seoul,Gangseo-gu,Coupang Logistics Center,,2020-06-02,2020-06-03,,,isolated
+1000000902,,,Korea,Seoul,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-03,,,released
+1000000900,,,Korea,Seoul,Dobong-gu,,,,2020-06-03,,,isolated
+1000000899,,,Korea,Seoul,Mapo-gu,SMR Newly Planted Churches Group,,2020-06-02,2020-06-03,,,released
+1000000898,,,Korea,Seoul,Gwanak-gu,SMR Newly Planted Churches Group,,,2020-06-03,,,isolated
+1000000897,,,Korea,Seoul,Yongsan-gu,Richway,,2020-05-23,2020-06-03,,,released
+1000000903,,,Korea,Seoul,Gangnam-gu,Richway,,,2020-06-03,,,released
+1000000925,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-04,,,released
+1000000924,,,Korea,Seoul,Nowon-gu,Richway,,2020-05-31,2020-06-04,,,released
+1000000923,,,Korea,Seoul,Gangdong-gu,Richway,,2020-06-01,2020-06-04,,,released
+1000000922,,,Korea,Seoul,Gangdong-gu,Yongin Brothers,,2020-06-01,2020-06-04,,,released
+1000000920,,,Korea,Seoul,Dobong-gu,,,,2020-06-04,,,released
+1000000919,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-04,,,released
+1000000918,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-04,,,released
+1000000921,,,Korea,Seoul,Yangcheon-gu,,,2020-06-01,2020-06-04,,,isolated
+1000000916,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-04,,,isolated
+1000000915,,,Korea,Seoul,etc,Richway,,,2020-06-04,,,isolated
+1000000914,,,Korea,Seoul,Gangseo-gu,Richway,,,2020-06-04,,,released
+1000000913,,,Korea,Seoul,Mapo-gu,Samsung Fire & Marine Insurance,,,2020-06-04,,,released
+1000000912,,,Korea,Seoul,Yongsan-gu,Richway,,,2020-06-04,,,released
+1000000917,,,Korea,Seoul,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-04,,,isolated
+1000000910,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-04,,,released
+1000000941,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-05,,,released
+1000000942,,,Korea,Seoul,Nowon-gu,contact with patient,,2020-05-31,2020-06-05,,,isolated
+1000000943,,,Korea,Seoul,Gangdong-gu,Richway,,,2020-06-05,,,isolated
+1000000944,,,Korea,Seoul,Gangdong-gu,Richway,,2020-06-05,2020-06-05,,,released
+1000000945,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-05,,,released
+1000000948,,,Korea,Seoul,Guro-gu,Yongin Brothers,,,2020-06-05,,,isolated
+1000000949,,,Korea,Seoul,Eunpyeong-gu,Itaewon Clubs,,2020-05-30,2020-06-05,,,released
+1000000950,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-05,,,released
+1000000975,,,Korea,Seoul,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-05,,,isolated
+1000000940,,,Korea,Seoul,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-05,,,released
+1000000947,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-05,,,released
+1000000939,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-03,2020-06-05,,,released
+1000000946,,,Korea,Seoul,Songpa-gu,Yangcheon Table Tennis Club,,,2020-06-05,,,released
+1000000937,,,Korea,Seoul,Gangbuk-gu,Richway,,,2020-06-05,,,released
+1000000996,,,Korea,Seoul,Guro-gu,,,,2020-06-05,,,released
+1000000938,,,Korea,Seoul,Yeongdeungpo-gu,Yangcheon Table Tennis Club,,2020-06-03,2020-06-05,,,isolated
+1000000926,,,Korea,Seoul,Nowon-gu,Richway,,2020-05-31,2020-06-05,,,released
+1000000927,,,Korea,Seoul,Yongsan-gu,Richway,13.0,,2020-06-05,,,isolated
+1000000929,,,Korea,Seoul,Dongdaemun-gu,Richway,,,2020-06-05,,,released
+1000000930,,,Korea,Seoul,Dobong-gu,,,,2020-06-05,,,released
+1000000928,,,Korea,Seoul,Yongsan-gu,Richway,,,2020-06-05,,,isolated
+1000000932,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-05,,,released
+1000000933,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-05,,,released
+1000000934,,,Korea,Seoul,Seongdong-gu,Itaewon Clubs,,,2020-06-05,,,released
+1000000935,,,Korea,Seoul,Eunpyeong-gu,Samsung Fire & Marine Insurance,,,2020-06-05,,,released
+1000000936,,,Korea,Seoul,Jungnang-gu,Richway,,,2020-06-05,,,released
+1000000931,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-05,,,isolated
+1000000971,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-06,,,released
+1000000968,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-06,,,released
+1000000969,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-06,,,released
+1000000970,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-05,2020-06-06,,,released
+1000000972,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-01,2020-06-06,,,released
+1000000978,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-06,,,isolated
+1000000974,,,Korea,Seoul,etc,Yangcheon Table Tennis Club,,2020-06-04,2020-06-06,,,isolated
+1000000976,,,Korea,Seoul,Dongjak-gu,,,,2020-06-06,,,released
+1000000977,,,Korea,Seoul,Guro-gu,SMR Newly Planted Churches Group,,2020-06-05,2020-06-06,,,isolated
+1000000967,,,Korea,Seoul,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-06,,,isolated
+1000000979,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-06,,,released
+1000000973,,,Korea,Seoul,etc,Richway,,,2020-06-06,,,isolated
+1000000966,,,Korea,Seoul,Guro-gu,Yongin Brothers,,,2020-06-06,,,released
+1000000963,,,Korea,Seoul,etc,Yangcheon Table Tennis Club,,,2020-06-06,,,isolated
+1000000964,,,Korea,Seoul,Eunpyeong-gu,Yangcheon Table Tennis Club,,,2020-06-06,,,released
+1000000951,,,Korea,Seoul,Mapo-gu,Richway,,2020-06-05,2020-06-06,,,isolated
+1000000952,,,Korea,Seoul,etc,,,,2020-06-06,,,released
+1000000965,,,Korea,Seoul,Eunpyeong-gu,Itaewon Clubs,,,2020-06-06,,,released
+1000000954,,,Korea,Seoul,Yongsan-gu,Richway,,2020-06-05,2020-06-06,,,released
+1000000955,,,Korea,Seoul,Gangseo-gu,,,,2020-06-06,,,released
+1000000956,,,Korea,Seoul,Seongdong-gu,Itaewon Clubs,,,2020-06-06,,,isolated
+1000000953,,,Korea,Seoul,Yongsan-gu,Richway,,,2020-06-06,,,isolated
+1000000958,,,Korea,Seoul,Gangbuk-gu,Yangcheon Table Tennis Club,,2020-06-02,2020-06-06,,,released
+1000000959,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-06,,,isolated
+1000000960,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-04,2020-06-06,,,released
+1000000961,,,Korea,Seoul,Guro-gu,contact with patient,,,2020-06-06,,,released
+1000000962,,,Korea,Seoul,Yeongdeungpo-gu,Yongin Brothers,,,2020-06-06,,,released
+1000000957,,,Korea,Seoul,Seongdong-gu,,,2020-05-31,2020-06-06,,,released
+1000000995,,,Korea,Seoul,Gangdong-gu,Richway,,,2020-06-07,,,isolated
+1000000994,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,released
+1000000993,,,Korea,Seoul,etc,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
+1000000992,,,Korea,Seoul,Guro-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
+1000000991,,,Korea,Seoul,Guro-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
+1000000990,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-07,,,released
+1000000989,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-07,,,isolated
+1000000986,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-07,,,isolated
+1000000987,,,Korea,Seoul,etc,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
+1000000985,,,Korea,Seoul,Gangseo-gu,,,,2020-06-07,,,isolated
+1000000984,,,Korea,Seoul,Gangbuk-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,released
+1000000983,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,released
+1000000982,,,Korea,Seoul,Gangseo-gu,,,,2020-06-07,,,released
+1000000981,,,Korea,Seoul,Seongdong-gu,,,,2020-06-07,,,released
+1000000980,,,Korea,Seoul,Seongdong-gu,Itaewon Clubs,,,2020-06-07,,,released
+1000000988,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-07,,,isolated
+1000001014,,,Korea,Seoul,etc,Yangcheon Table Tennis Club,,,2020-06-08,,,isolated
+1000001012,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-08,,,isolated
+1000001011,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-08,,,released
+1000001010,,,Korea,Seoul,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-08,,,isolated
+1000001009,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-08,,,released
+1000001008,,,Korea,Seoul,Guro-gu,Richway,,2020-06-06,2020-06-08,,,released
+1000001007,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-08,,,released
+1000001006,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-08,,,released
+1000001013,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-08,,,isolated
+1000001004,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-08,,,released
+1000001003,,,Korea,Seoul,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-08,,,isolated
+1000001002,,,Korea,Seoul,Gangseo-gu,,,,2020-06-08,,,isolated
+1000001001,,,Korea,Seoul,Gangseo-gu,,,,2020-06-08,,,released
+1000001000,,,Korea,Seoul,Seocho-gu,overseas inflow,,2020-06-05,2020-06-08,,,released
+1000000999,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-08,,,released
+1000000998,,,Korea,Seoul,Jungnang-gu,KB Life Insurance,,,2020-06-08,,,released
+1000000997,,,Korea,Seoul,Seodaemun-gu,,,,2020-06-08,,,deceased
+1000001005,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-08,,,released
+1000001028,,,Korea,Seoul,etc,Yangcheon Table Tennis Club,,,2020-06-09,,,isolated
+1000001027,,,Korea,Seoul,Guro-gu,Coupang Logistics Center,,,2020-06-09,,,released
+1000001026,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,2020-06-02,2020-06-09,,,released
+1000001025,,,Korea,Seoul,Yangcheon-gu,Richway,,,2020-06-09,,,isolated
+1000001024,,,Korea,Seoul,Dongjak-gu,Richway,,,2020-06-09,,,released
+1000001023,,,Korea,Seoul,Dongjak-gu,,,,2020-06-09,,,isolated
+1000001022,,,Korea,Seoul,Dongjak-gu,,,,2020-06-09,,,isolated
+1000001021,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-09,,,isolated
+1000001019,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-09,,,released
+1000001018,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-09,,,released
+1000001017,,,Korea,Seoul,Mapo-gu,Richway,,,2020-06-09,,,released
+1000001016,,,Korea,Seoul,Yeongdeungpo-gu,Richway,12.0,,2020-06-09,,,released
+1000001015,,,Korea,Seoul,Seongdong-gu,,,,2020-06-09,,,released
+1000001020,,,Korea,Seoul,Jung-gu,Yangcheon Table Tennis Club,,,2020-06-09,,,isolated
+1000001040,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-10,,,isolated
+1000001047,,,Korea,Seoul,etc,,,,2020-06-10,,,released
+1000001046,,,Korea,Seoul,Guro-gu,,,,2020-06-10,,,isolated
+1000001045,,,Korea,Seoul,Guro-gu,,,,2020-06-10,,,released
+1000001044,,,Korea,Seoul,Eunpyeong-gu,Richway,,,2020-06-10,,,released
+1000001043,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-10,,,isolated
+1000001042,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-10,,,isolated
+1000001041,,,Korea,Seoul,Yangcheon-gu,Richway,,,2020-06-10,,,isolated
+1000001039,,,Korea,Seoul,Nowon-gu,overseas inflow,,,2020-06-10,,,released
+1000001038,,,Korea,Seoul,Seocho-gu,Richway,,,2020-06-10,,,released
+1000001037,,,Korea,Seoul,Dongjak-gu,Richway,,,2020-06-10,,,released
+1000001036,,,Korea,Seoul,Songpa-gu,Coupang Logistics Center,,,2020-06-10,,,released
+1000001035,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-10,,,released
+1000001034,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-10,,,released
+1000001033,,,Korea,Seoul,Yangcheon-gu,Richway,,,2020-06-10,,,isolated
+1000001032,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-10,,,released
+1000001031,,,Korea,Seoul,Seongbuk-gu,Richway,,,2020-06-10,,,released
+1000001030,,,Korea,Seoul,Gwangjin-gu,Richway,,,2020-06-10,,,released
+1000001029,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-10,,,released
+1000001062,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-11,,,deceased
+1000001064,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-11,,,isolated
+1000001065,,,Korea,Seoul,Gangseo-gu,Richway,,,2020-06-11,,,released
+1000001066,,,Korea,Seoul,Yeongdeungpo-gu,,,,2020-06-11,,,isolated
+1000001067,,,Korea,Seoul,Eunpyeong-gu,KB Life Insurance,,,2020-06-11,,,released
+1000001071,,,Korea,Seoul,Gangdong-gu,overseas inflow,,,2020-06-11,,,isolated
+1000001069,,,Korea,Seoul,Yeongdeungpo-gu,Richway,,,2020-06-11,,,isolated
+1000001070,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-11,,,isolated
+1000001061,,,Korea,Seoul,Geumcheon-gu,Yangcheon Table Tennis Club,,,2020-06-11,,,isolated
+1000001072,,,Korea,Seoul,Yeongdeungpo-gu,Richway,,,2020-06-11,,,isolated
+1000001068,,,Korea,Seoul,Seocho-gu,Richway,,,2020-06-11,,,released
+1000001060,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-11,,,released
+1000001063,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-11,,,isolated
+1000001058,,,Korea,Seoul,Yeongdeungpo-gu,Richway,,,2020-06-11,,,isolated
+1000001059,,,Korea,Seoul,Yangcheon-gu,Richway,,,2020-06-11,,,isolated
+1000001048,,,Korea,Seoul,Nowon-gu,Richway,,,2020-06-11,,,isolated
+1000001049,,,Korea,Seoul,Jungnang-gu,Richway,,,2020-06-11,,,isolated
+1000001050,,,Korea,Seoul,Jungnang-gu,Richway,,,2020-06-11,,,isolated
+1000001052,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-11,,,released
+1000001051,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-11,,,isolated
+1000001054,,,Korea,Seoul,Gangseo-gu,Coupang Logistics Center,,,2020-06-11,,,isolated
+1000001055,,,Korea,Seoul,Gangseo-gu,,,,2020-06-11,,,isolated
+1000001056,,,Korea,Seoul,Yeongdeungpo-gu,Richway,,,2020-06-11,,,isolated
+1000001057,,,Korea,Seoul,Guro-gu,,,,2020-06-11,,,released
+1000001053,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-11,,,isolated
+1000001094,,,Korea,Seoul,Jongno-gu,Korea Campus Crusade of Christ,,,2020-06-12,,,released
+1000001090,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001091,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001092,,,Korea,Seoul,Gangbuk-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001093,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-12,,,isolated
+1000001095,,,Korea,Seoul,Yangcheon-gu,,,,2020-06-12,,,released
+1000001101,,,Korea,Seoul,Yeongdeungpo-gu,Richway,,,2020-06-12,,,released
+1000001097,,,Korea,Seoul,Jungnang-gu,,,,2020-06-12,,,isolated
+1000001098,,,Korea,Seoul,Yongsan-gu,Richway,,,2020-06-12,,,released
+1000001099,,,Korea,Seoul,Gangseo-gu,,,,2020-06-12,,,released
+1000001100,,,Korea,Seoul,Gangdong-gu,,,,2020-06-12,,,released
+1000001102,,,Korea,Seoul,Guro-gu,,,,2020-06-12,,,isolated
+1000001089,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001096,,,Korea,Seoul,Jungnang-gu,,,,2020-06-12,,,isolated
+1000001088,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001073,,,Korea,Seoul,Nowon-gu,Richway,,,2020-06-12,,,isolated
+1000001086,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001087,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001074,,,Korea,Seoul,Gangbuk-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001075,,,Korea,Seoul,Seongbuk-gu,,,,2020-06-12,,,released
+1000001076,,,Korea,Seoul,Jungnang-gu,Richway,,,2020-06-12,,,released
+1000001078,,,Korea,Seoul,Yangcheon-gu,SMR Newly Planted Churches Group,,,2020-06-12,,,isolated
+1000001079,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-12,,,isolated
+1000001077,,,Korea,Seoul,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-12,,,isolated
+1000001081,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001082,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001083,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001084,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001085,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001080,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-12,,,isolated
+1000001110,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-13,,,released
+1000001114,,,Korea,Seoul,Eunpyeong-gu,Yangcheon Table Tennis Club,,,2020-06-13,,,isolated
+1000001113,,,Korea,Seoul,Yeongdeungpo-gu,,,,2020-06-13,,,released
+1000001112,,,Korea,Seoul,Seocho-gu,Richway,,,2020-06-13,,,isolated
+1000001111,,,Korea,Seoul,Gwanak-gu,,,,2020-06-13,,,isolated
+1000001109,,,Korea,Seoul,Jungnang-gu,Richway,,,2020-06-13,,,released
+1000001107,,,Korea,Seoul,Yeongdeungpo-gu,Yeonana News Class,,,2020-06-13,,,isolated
+1000001106,,,Korea,Seoul,Gangseo-gu,Yangcheon Table Tennis Club,,,2020-06-13,,,isolated
+1000001105,,,Korea,Seoul,Gangseo-gu,Korea Campus Crusade of Christ,,,2020-06-13,,,released
+1000001104,,,Korea,Seoul,Jongno-gu,,,,2020-06-13,,,isolated
+1000001103,,,Korea,Seoul,Gangbuk-gu,Richway,,,2020-06-13,,,released
+1000001108,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-13,,,isolated
+1000001118,,,Korea,Seoul,etc,,,,2020-06-14,,,deceased
+1000001115,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-14,,,isolated
+1000001116,,,Korea,Seoul,Eunpyeong-gu,overseas inflow,,,2020-06-14,,,isolated
+1000001117,,,Korea,Seoul,Yongsan-gu,Richway,,,2020-06-14,,,isolated
+1000001119,,,Korea,Seoul,Guro-gu,,,,2020-06-14,,,released
+1000001120,,,Korea,Seoul,Seocho-gu,,,,2020-06-14,,,released
+1000001121,,,Korea,Seoul,Seodaemun-gu,overseas inflow,,,2020-06-14,,,isolated
+1000001130,,,Korea,Seoul,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,isolated
+1000001129,,,Korea,Seoul,Eunpyeong-gu,,,,2020-06-15,,,isolated
+1000001131,,,Korea,Seoul,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,isolated
+1000001132,,,Korea,Seoul,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,isolated
+1000001128,,,Korea,Seoul,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,isolated
+1000001123,,,Korea,Seoul,Yongsan-gu,Richway,,,2020-06-15,,,isolated
+1000001126,,,Korea,Seoul,Seodaemun-gu,SMR Newly Planted Churches Group,,,2020-06-15,,,released
+1000001125,,,Korea,Seoul,Dongjak-gu,Richway,,,2020-06-15,,,isolated
+1000001124,,,Korea,Seoul,Yongsan-gu,Richway,,,2020-06-15,,,isolated
+1000001122,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-15,,,isolated
+1000001127,,,Korea,Seoul,Geumcheon-gu,Richway,,,2020-06-15,,,isolated
+1000001146,,,Korea,Seoul,Gwanak-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-16,,,isolated
+1000001145,,,Korea,Seoul,Songpa-gu,overseas inflow,,,2020-06-16,,,isolated
+1000001144,,,Korea,Seoul,Dongjak-gu,contact with patient,,,2020-06-16,,,released
+1000001142,,,Korea,Seoul,Gangnam-gu,Richway,,,2020-06-16,,,isolated
+1000001141,,,Korea,Seoul,Dongjak-gu,Richway,,,2020-06-16,,,isolated
+1000001140,,,Korea,Seoul,Eunpyeong-gu,Yangcheon Table Tennis Club,,,2020-06-16,,,isolated
+1000001143,,,Korea,Seoul,Mapo-gu,etc,,,2020-06-16,,,released
+1000001138,,,Korea,Seoul,Seocho-gu,Richway,,,2020-06-16,,,released
+1000001137,,,Korea,Seoul,Jungnang-gu,Yangcheon Table Tennis Club,,,2020-06-16,,,isolated
+1000001136,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-16,,,isolated
+1000001135,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-16,,,isolated
+1000001134,,,Korea,Seoul,Eunpyeong-gu,,,,2020-06-16,,,released
+1000001133,,,Korea,Seoul,Eunpyeong-gu,,,,2020-06-16,,,released
+1000001139,,,Korea,Seoul,Gwanak-gu,overseas inflow,,,2020-06-16,,,isolated
+1000001161,,,Korea,Seoul,Gangnam-gu,Richway,,,2020-06-17,,,isolated
+1000001162,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001163,,,Korea,Seoul,Yeongdeungpo-gu,,,,2020-06-17,,,isolated
+1000001164,,,Korea,Seoul,Gangseo-gu,Daezayeon Korea,,,2020-06-17,,,isolated
+1000001165,,,Korea,Seoul,Seocho-gu,contact with patient,,,2020-06-17,,,isolated
+1000001167,,,Korea,Seoul,Gwanak-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-17,,,isolated
+1000001170,,,Korea,Seoul,Guro-gu,SMR Newly Planted Churches Group,,,2020-06-17,,,isolated
+1000001168,,,Korea,Seoul,Eunpyeong-gu,Yangcheon Table Tennis Club,,,2020-06-17,,,isolated
+1000001169,,,Korea,Seoul,Eunpyeong-gu,,,,2020-06-17,,,isolated
+1000001160,,,Korea,Seoul,Gangseo-gu,SMR Newly Planted Churches Group,,,2020-06-17,,,isolated
+1000001166,,,Korea,Seoul,etc,,,,2020-06-17,,,isolated
+1000001159,,,Korea,Seoul,Yeongdeungpo-gu,SMR Newly Planted Churches Group,,,2020-06-17,,,released
+1000001150,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001157,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001158,,,Korea,Seoul,Yeongdeungpo-gu,Richway,,,2020-06-17,,,isolated
+1000001148,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001149,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001151,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001147,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001153,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001154,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001155,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001156,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-17,,,isolated
+1000001152,,,Korea,Seoul,Gwanak-gu,overseas inflow,,,2020-06-17,,,isolated
+1000001181,,,Korea,Seoul,Yeongdeungpo-gu,Richway,,,2020-06-18,,,isolated
+1000001188,,,Korea,Seoul,Seongbuk-gu,,,,2020-06-18,,,isolated
+1000001187,,,Korea,Seoul,Gwangjin-gu,Richway,,,2020-06-18,,,isolated
+1000001186,,,Korea,Seoul,Gangbuk-gu,,,,2020-06-18,,,isolated
+1000001185,,,Korea,Seoul,etc,,,,2020-06-18,,,isolated
+1000001184,,,Korea,Seoul,Eunpyeong-gu,Richway,,,2020-06-18,,,isolated
+1000001183,,,Korea,Seoul,Gangseo-gu,,,,2020-06-18,,,isolated
+1000001182,,,Korea,Seoul,Seocho-gu,Richway,,,2020-06-18,,,released
+1000001180,,,Korea,Seoul,Yangcheon-gu,,,,2020-06-18,,,isolated
+1000001177,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-18,,,released
+1000001178,,,Korea,Seoul,Jung-gu,Richway,,,2020-06-18,,,isolated
+1000001176,,,Korea,Seoul,Yangcheon-gu,Daezayeon Korea,,,2020-06-18,,,isolated
+1000001175,,,Korea,Seoul,Gangseo-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-18,,,isolated
+1000001174,,,Korea,Seoul,Mapo-gu,contact with patient,,,2020-06-18,,,isolated
+1000001173,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-18,,,isolated
+1000001172,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-18,,,isolated
+1000001171,,,Korea,Seoul,Seodaemun-gu,overseas inflow,,,2020-06-18,,,isolated
+1000001179,,,Korea,Seoul,Jungnang-gu,Day Care Center,,,2020-06-18,,,isolated
+1000001204,,,Korea,Seoul,Yeongdeungpo-gu,contact with patient,,,2020-06-19,,,isolated
+1000001203,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-19,,,isolated
+1000001202,,,Korea,Seoul,Jungnang-gu,,,,2020-06-19,,,isolated
+1000001201,,,Korea,Seoul,Seocho-gu,Richway,,,2020-06-19,,,isolated
+1000001200,,,Korea,Seoul,etc,Richway,,,2020-06-19,,,isolated
+1000001199,,,Korea,Seoul,etc,Richway,,,2020-06-19,,,isolated
+1000001197,,,Korea,Seoul,Dongdaemun-gu,overseas inflow,,,2020-06-19,,,isolated
+1000001198,male,80s,Korea,Seoul,Yeongdeungpo-gu,Seoul City Hall Station safety worker,,2020-06-18,2020-06-19,,,isolated
+1000001195,,,Korea,Seoul,Eunpyeong-gu,contact with patient,,,2020-06-19,,,isolated
+1000001194,,,Korea,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,,,2020-06-19,,,isolated
+1000001193,,,Korea,Seoul,Dongjak-gu,Daejeon door-to-door sales,,,2020-06-19,,,isolated
+1000001192,,,Korea,Seoul,Seodaemun-gu,Orange Life,,,2020-06-19,,,isolated
+1000001191,,,Korea,Seoul,Gangseo-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-19,,,isolated
+1000001190,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-19,,,isolated
+1000001189,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-19,,,isolated
+1000001196,,,Korea,Seoul,Mapo-gu,,,,2020-06-19,,,isolated
+1000001219,,,Korea,Seoul,Yeongdeungpo-gu,Seoul City Hall Station safety worker,,,2020-06-20,,,isolated
+1000001218,,,Korea,Seoul,Gangseo-gu,Daezayeon Korea,,,2020-06-20,,,isolated
+1000001217,,,Korea,Seoul,Gwanak-gu,,,,2020-06-20,,,isolated
+1000001215,,,Korea,Seoul,Yeongdeungpo-gu,Seoul City Hall Station safety worker,,,2020-06-20,,,isolated
+1000001214,female,70s,Korea,Seoul,Dongjak-gu,,,,2020-06-20,,,isolated
+1000001213,,,Korea,Seoul,Yeongdeungpo-gu,Uiwang Logistics Center,,,2020-06-20,,,isolated
+1000001212,,,Korea,Seoul,etc,Richway,,,2020-06-20,,,isolated
+1000001216,,,Korea,Seoul,etc,overseas inflow,,,2020-06-20,,,released
+1000001210,,,Korea,Seoul,Seongdong-gu,Geumcheon-gu rice milling machine manufacture,,,2020-06-20,,,isolated
+1000001209,,,Korea,Seoul,Seocho-gu,Uiwang Logistics Center,,,2020-06-20,,,isolated
+1000001208,,,Korea,Seoul,Nowon-gu,Richway,,,2020-06-20,,,isolated
+1000001207,,,Korea,Seoul,Nowon-gu,Richway,,,2020-06-20,,,isolated
+1000001206,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-20,,,isolated
+1000001205,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-20,,,isolated
+1000001211,,,Korea,Seoul,Seongdong-gu,Geumcheon-gu rice milling machine manufacture,,2020-06-19,2020-06-20,,,isolated
+1000001227,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-21,,,isolated
+1000001226,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-21,,,isolated
+1000001225,,,Korea,Seoul,Guro-gu,Richway,,,2020-06-21,,,isolated
+1000001224,,,Korea,Seoul,Seongbuk-gu,overseas inflow,,,2020-06-21,,,isolated
+1000001222,,,Korea,Seoul,Guro-gu,contact with patient,,,2020-06-21,,,isolated
+1000001221,,,Korea,Seoul,Gangseo-gu,,,,2020-06-21,,,isolated
+1000001220,,,Korea,Seoul,Dobong-gu,Day Care Center,,2020-06-18,2020-06-21,,,isolated
+1000001223,,,Korea,Seoul,Songpa-gu,,,,2020-06-21,,,isolated
+1000001228,,,Korea,Seoul,Gangseo-gu,Richway,,,2020-06-22,,,isolated
+1000001229,,,Korea,Seoul,Gangnam-gu,Richway,,,2020-06-22,,,isolated
+1000001230,,,Korea,Seoul,Gangdong-gu,contact with patient,,,2020-06-22,,,isolated
+1000001233,,,Korea,Seoul,Gangdong-gu,,,,2020-06-22,,,isolated
+1000001241,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-23,,,isolated
+1000001240,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-23,,,isolated
+1000001239,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-23,,,isolated
+1000001238,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-23,,,isolated
+1000001237,,,Korea,Seoul,Gwanak-gu,,,,2020-06-23,,,isolated
+1000001235,,,Korea,Seoul,Guro-gu,,,,2020-06-23,,,isolated
+1000001234,,,Korea,Seoul,Gwanak-gu,,,,2020-06-23,,,isolated
+1000001231,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-23,,,isolated
+1000001236,,,Korea,Seoul,Yeongdeungpo-gu,overseas inflow,,2020-06-11,2020-06-23,,,isolated
+1000001232,,,Korea,Seoul,Jungnang-gu,Richway,,,2020-06-23,,,isolated
+1000001250,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-24,,,isolated
+1000001242,,,Korea,Seoul,Dobong-gu,Day Care Center,,,2020-06-24,,,isolated
+1000001243,,,Korea,Seoul,Geumcheon-gu,,,,2020-06-24,,,isolated
+1000001244,,,Korea,Seoul,etc,,,,2020-06-24,,,isolated
+1000001245,,,Korea,Seoul,Gangnam-gu,contact with patient,,,2020-06-24,,,isolated
+1000001246,,,Korea,Seoul,Guro-gu,contact with patient,,2020-06-19,2020-06-24,,,isolated
+1000001248,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-24,,,isolated
+1000001249,,,Korea,Seoul,etc,,,2020-06-17,2020-06-24,,,isolated
+1000001261,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-25,,,isolated
+1000001262,,,Korea,Seoul,Dongjak-gu,Wangsung Church,,,2020-06-25,,,isolated
+1000001263,,,Korea,Seoul,Gwanak-gu,,,,2020-06-25,,,isolated
+1000001258,,,Korea,Seoul,Guro-gu,contact with patient,,2020-06-24,2020-06-25,,,isolated
+1000001265,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
+1000001266,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-25,,,isolated
+1000001267,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-25,,,isolated
+1000001264,,,Korea,Seoul,etc,Wangsung Church,,,2020-06-25,,,isolated
+1000001260,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
+1000001257,,,Korea,Seoul,Gwanak-gu,Richway,,,2020-06-25,,,isolated
+1000001256,,,Korea,Seoul,Gangseo-gu,contact with patient,,,2020-06-25,,,isolated
+1000001255,,,Korea,Seoul,Nowon-gu,contact with patient,,2020-06-17,2020-06-25,,,isolated
+1000001254,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
+1000001253,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
+1000001252,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-25,,,isolated
+1000001251,,,Korea,Seoul,Jungnang-gu,overseas inflow,,,2020-06-25,,,isolated
+1000001259,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-25,,,isolated
+1000001277,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
+1000001283,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
+1000001282,,,Korea,Seoul,Jung-gu,overseas inflow,,,2020-06-26,,,isolated
+1000001281,,,Korea,Seoul,Guro-gu,contact with patient,,2020-06-21,2020-06-26,,,isolated
+1000001280,,,Korea,Seoul,Eunpyeong-gu,overseas inflow,,,2020-06-26,,,isolated
+1000001279,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-26,,,isolated
+1000001278,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
+1000001284,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
+1000001275,,,Korea,Seoul,Dongjak-gu,contact with patient,,,2020-06-26,,,isolated
+1000001274,,,Korea,Seoul,Dongdaemun-gu,Gangnam Yeoksam-dong gathering,,,2020-06-26,,,isolated
+1000001273,,,Korea,Seoul,Gwangjin-gu,Gangnam Yeoksam-dong gathering,,,2020-06-26,,,isolated
+1000001272,,,Korea,Seoul,Nowon-gu,Wangsung Church,,2020-06-22,2020-06-26,,,isolated
+1000001271,,,Korea,Seoul,Dongjak-gu,Wangsung Church,,,2020-06-26,,,isolated
+1000001270,,,Korea,Seoul,Jungnang-gu,Gangnam Yeoksam-dong gathering,,,2020-06-26,,,isolated
+1000001269,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
+1000001268,,,Korea,Seoul,Seocho-gu,Wangsung Church,,,2020-06-26,,,isolated
+1000001276,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-26,,,isolated
+1000001298,,,Korea,Seoul,Songpa-gu,Gangnam Yeoksam-dong gathering,,,2020-06-27,,,isolated
+1000001297,,,Korea,Seoul,Yeongdeungpo-gu,,,,2020-06-27,,,isolated
+1000001296,,,Korea,Seoul,Gwanak-gu,,,,2020-06-27,,,isolated
+1000001295,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-27,,,isolated
+1000001293,,,Korea,Seoul,Yangcheon-gu,overseas inflow,,,2020-06-27,,,isolated
+1000001292,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-27,,,isolated
+1000001294,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-27,,,isolated
+1000001290,female,70s,Korea,Seoul,Mapo-gu,Richway,,,2020-06-27,,,isolated
+1000001289,,,Korea,Seoul,Yeongdeungpo-gu,Wangsung Church,,,2020-06-27,,,isolated
+1000001288,,,Korea,Seoul,Gangnam-gu,Gangnam Yeoksam-dong gathering,0.0,,2020-06-27,,,isolated
+1000001287,,,Korea,Seoul,Gwanak-gu,Wangsung Church,,,2020-06-27,,,isolated
+1000001286,,,Korea,Seoul,Yongsan-gu,,,2020-06-25,2020-06-27,,,isolated
+1000001285,,,Korea,Seoul,Dongdaemun-gu,Gangnam Yeoksam-dong gathering,,,2020-06-27,,,isolated
+1000001291,,,Korea,Seoul,Guro-gu,contact with patient,,2020-06-26,2020-06-27,,,isolated
+1000001305,,,Korea,Seoul,etc,,,,2020-06-28,,,isolated
+1000001304,,,Korea,Seoul,Gwanak-gu,contact with patient,,,2020-06-28,,,isolated
+1000001303,,,Korea,Seoul,Seocho-gu,overseas inflow,,,2020-06-28,,,isolated
+1000001302,,,Korea,Seoul,Songpa-gu,Wangsung Church,,,2020-06-28,,,isolated
+1000001300,,,Korea,Seoul,Nowon-gu,Wangsung Church,,2020-06-27,2020-06-28,,,isolated
+1000001299,,,Korea,Seoul,Yongsan-gu,contact with patient,,,2020-06-28,,,isolated
+1000001301,,,Korea,Seoul,Guro-gu,Wangsung Church,,,2020-06-28,,,isolated
+1000001311,,,Korea,Seoul,etc,,,,2020-06-29,,,isolated
+1000001306,,,Korea,Seoul,Nowon-gu,overseas inflow,,,2020-06-29,,,isolated
+1000001307,,,Korea,Seoul,Mapo-gu,Richway,,,2020-06-29,,,isolated
+1000001308,,,Korea,Seoul,Mapo-gu,Richway,,,2020-06-29,,,isolated
+1000001309,,,Korea,Seoul,Mapo-gu,Richway,,,2020-06-29,,,isolated
+1000001310,,,Korea,Seoul,Geumcheon-gu,contact with patient,,,2020-06-29,,,isolated
+1000001312,,,Korea,Seoul,Eunpyeong-gu,,,2020-06-24,2020-06-29,,,isolated

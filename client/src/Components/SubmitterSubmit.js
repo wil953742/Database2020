@@ -18,7 +18,8 @@ export const SubmitterSubmit = ({
   ];
 
   const [highlighted, setHighlighted] = React.useState(false);
-  
+  const [ RDT, setRDT] = useState();
+
   var lst = [];
   const axios = require('axios').default;
   // const parse = require('csv-parse');
@@ -27,6 +28,7 @@ export const SubmitterSubmit = ({
   
   const Upload = async () => {
     // process uploading
+    console.log(RDTtypes);
     await axios.post('/api/file', {
       file : file
     })
@@ -36,7 +38,6 @@ export const SubmitterSubmit = ({
     .catch(function (error)  {
       console.log(error);
     });
-    
     setTogglePopUp(false);
   };
 
@@ -80,7 +81,6 @@ export const SubmitterSubmit = ({
             .forEach(async (file) => {
               const text = await file.text();
               const result = parse(text, { header : true});            
-              console.log(text);
               console.log(result);
               setFile((existing) => [...existing, ...result.data]);
             });
@@ -99,9 +99,13 @@ export const SubmitterSubmit = ({
           placeholder="Raw Data Type을 선택하시오."
           className = {styles.select_rdt}
           isSearchable
-        />
-      </div>
 
+          onChange = {e => console.log(e)}>
+          
+          </Select>
+        
+      </div>
+        
       <button className={styles.complete_btn} onClick={() => Upload()}>
         제출
       </button>

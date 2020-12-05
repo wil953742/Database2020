@@ -1,381 +1,381 @@
-patient_id,sex,age,province,city,infection_case,contact_number,confirmed_date,released_date,deceased_date,state
-6019000006,male,50s,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
-6020000025,female,60s,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-28,,,released
-6001000224,female,30s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-03-02,2020-03-25,,released
-6001000258,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-03-03,2020-03-26,,released
-6023000033,female,20s,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-03-05,2020-03-20,,released
-6015000035,male,70s,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-03-06,,2020-03-07,deceased
-2000000181,female,50s,Gyeonggi-do,Bucheon-si,contact with patient,,2020-03-12,,,isolated
-2000000251,female,40s,Gyeonggi-do,Seongnam-si,contact with patient,,2020-03-16,,,isolated
-2000000286,female,60s,Gyeonggi-do,Seongnam-si,contact with patient,1,2020-03-18,,,isolated
-6004000065,male,40s,Gyeongsangbuk-do,Gumi-si,overseas inflow,,2020-04-01,2020-05-05,,released
-1400000073,female,40s,Incheon,Yeonsu-gu,contact with patient,,2020-04-01,2020-05-11,,released
-2000000512,male,50s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-01,,,isolated
-1400000074,female,0s,Incheon,Yeonsu-gu,contact with patient,,2020-04-01,2020-05-12,,isolated
-2000000510,male,20s,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-01,,,isolated
-2000000506,female,20s,Gyeonggi-do,Suwon-si,overseas inflow,4,2020-04-01,,,isolated
-1300000025,female,10s,Gwangju,,overseas inflow,1,2020-04-01,,,isolated
-5100000014,female,50s,Jeollanam-do,Mokpo-si,overseas inflow,30,2020-04-01,2020-05-17,,released
-1400000072,female,60s,Incheon,Michuhol-gu,Eunpyeong St. Mary's Hospital,,2020-04-01,2020-04-08,,released
-6004000066,male,30s,Gyeongsangbuk-do,Gumi-si,overseas inflow,,2020-04-01,2020-06-06,,released
-2000000508,female,40s,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-04-01,,,isolated
-2000000513,male,60s,Gyeonggi-do,Paju-si,contact with patient,,2020-04-01,,,isolated
-6001000618,female,20s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-01,2020-05-07,,released
-2000000514,female,20s,Gyeonggi-do,Seongnam-si,contact with patient,,2020-04-01,,,isolated
-2000000516,female,70s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-01,,,isolated
-1400000071,female,60s,Incheon,Yeonsu-gu,Eunpyeong St. Mary's Hospital,,2020-04-01,2020-05-06,,released
-2000000511,male,70s,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-01,,,isolated
-2000000509,female,50s,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-01,,,isolated
-2000000505,male,60s,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-01,,,isolated
-6100000105,male,20s,Gyeongsangnam-do,Gimhae-si,overseas inflow,,2020-04-01,,,released
-4100000133,female,50s,Chungcheongnam-do,Buyeo-gun,etc,8,2020-04-01,2020-04-29,,released
-4100000132,female,70s,Chungcheongnam-do,Buyeo-gun,etc,3,2020-04-01,2020-06-11,,released
-2000000520,female,20s,Gyeonggi-do,Uijeongbu-si,overseas inflow,,2020-04-01,,,isolated
-2000000519,female,20s,Gyeonggi-do,Uijeongbu-si,overseas inflow,,2020-04-01,,,isolated
-2000000504,female,60s,Gyeonggi-do,Seongnam-si,overseas inflow,1,2020-04-01,,,isolated
-2000000503,female,40s,Gyeonggi-do,Namyangju-si,contact with patient,2,2020-04-01,,,isolated
-2000000502,female,20s,Gyeonggi-do,Ansan-si,overseas inflow,,2020-04-01,,,isolated
-2000000515,male,80s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-01,,,isolated
-2000000507,male,20s,Gyeonggi-do,Suwon-si,overseas inflow,5,2020-04-01,,,isolated
-2000000518,female,50s,Gyeonggi-do,Siheung-si,contact with patient,,2020-04-01,,,isolated
-2000000517,male,50s,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-01,,,isolated
-1600000040,male,20s,Ulsan,Dong-gu,overseas inflow,,2020-04-01,2020-04-10,,released
-6001000620,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-04-02,2020-05-07,,released
-6001000621,male,60s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-02,2020-05-15,,released
-6001000622,female,70s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-02,2020-04-16,,released
-6100000106,male,20s,Gyeongsangnam-do,Sacheon-si,overseas inflow,,2020-04-02,,,released
-5100000015,male,40s,Jeollanam-do,Mokpo-si,overseas inflow,42,2020-04-02,2020-04-29,,released
-2000000531,female,60s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-02,,,isolated
-2000000532,female,30s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-02,,,isolated
-2000000533,female,70s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-02,,,isolated
-6001000619,male,40s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-02,2020-04-24,,released
-4100000134,female,20s,Chungcheongnam-do,Buyeo-gun,contact with patient,0,2020-04-02,2020-04-29,,released
-1300000026,male,30s,Gwangju,,overseas inflow,1,2020-04-02,2020-04-10,,released
-3012000002,female,10s,Gangwon-do,Cheorwon-gun,etc,17,2020-04-02,,,released
-3012000003,female,60s,Gangwon-do,Cheorwon-gun,contact with patient,5,2020-04-02,,,released
-2000000535,male,50s,Gyeonggi-do,Suwon-si,contact with patient,3,2020-04-02,,,isolated
-2000000530,female,50s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
-2000000536,female,60s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-02,,,isolated
-2000000538,male,20s,Gyeonggi-do,Gimpo-si,overseas inflow,,2020-04-02,,,isolated
-2000000539,male,30s,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-02,,,isolated
-2000000540,female,50s,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-02,,,isolated
-2000000541,female,50s,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-02,,,isolated
-2000000542,male,40s,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-04-02,,,isolated
-2000000543,female,80s,Gyeonggi-do,Anseong-si,contact with patient,,2020-04-02,,,isolated
-2000000544,male,10s,Gyeonggi-do,Bucheon-si,contact with patient,,2020-04-02,,,isolated
-2000000545,male,80s,Gyeonggi-do,Yangju-si,contact with patient,,2020-04-02,,,isolated
-2000000546,female,30s,Gyeonggi-do,Osan-si,contact with patient,,2020-04-02,,,isolated
-2000000537,female,20s,Gyeonggi-do,Gimpo-si,overseas inflow,,2020-04-02,,,isolated
-2000000529,male,60s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
-2000000534,female,40s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-02,,,isolated
-2000000527,male,40s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
-2000000528,female,40s,Gyeonggi-do,Dongducheon-si,contact with patient,6,2020-04-02,,,isolated
-1400000075,male,60s,Incheon,Seo-gu,overseas inflow,,2020-04-02,2020-04-11,,released
-6003000009,male,20s,Gyeongsangbuk-do,Goryeong-gun,overseas inflow,,2020-04-02,2020-04-18,,released
-2000000521,female,30s,Gyeonggi-do,Pyeongtaek-si,etc,,2020-04-02,,,isolated
-4000000045,female,0s,Chungcheongbuk-do,Chungju-si,overseas inflow,,2020-04-02,2020-05-21,,released
-2000000522,female,30s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
-5000000015,male,20s,Jeollabuk-do,Jeonju-si,overseas inflow,,2020-04-02,2020-04-28,,released
-2000000524,male,30s,Gyeonggi-do,Anyang-si,etc,,2020-04-02,,,isolated
-2000000525,male,60s,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-02,,,isolated
-2000000526,female,60s,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-02,,,isolated
-2000000523,male,40s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
-2000000550,male,80s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
-6001000624,female,80s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-03,2020-05-10,,released
-2000000548,female,30s,Gyeonggi-do,Osan-si,contact with patient,,2020-04-03,,,isolated
-2000000547,male,20s,Gyeonggi-do,Gapyeong-gun,overseas inflow,,2020-04-03,,,isolated
-2000000551,male,20s,Gyeonggi-do,Hanam-si,overseas inflow,,2020-04-03,,,isolated
-1400000077,female,20s,Incheon,Seo-gu,overseas inflow,,2020-04-03,2020-04-14,,released
-1400000076,male,60s,Incheon,Seo-gu,overseas inflow,,2020-04-03,2020-04-11,,released
-2000000582,male,30s,Gyeonggi-do,Gimpo-si,etc,,2020-04-03,,,isolated
-2000000552,female,30s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
-6100000107,female,50s,Gyeongsangnam-do,Jinju-si,etc,,2020-04-03,,,released
-2000000554,female,50s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-03,,,isolated
-2000000549,female,30s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
-2000000561,male,30s,Gyeonggi-do,Bucheon-si,contact with patient,,2020-04-03,,,isolated
-2000000562,female,50s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-03,,,isolated
-1400000078,male,30s,Incheon,Seo-gu,etc,,2020-04-03,2020-04-10,,released
-2000000560,male,40s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
-7000000012,female,20s,Jeju-do,Jeju-do,overseas inflow,9,2020-04-03,2020-05-05,,released
-2000000555,male,50s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-03,,,isolated
-2000000556,female,70s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-03,,,isolated
-2000000557,female,20s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
-3012000004,female,70s,Gangwon-do,Cheorwon-gun,contact with patient,10,2020-04-03,,2020-04-18,deceased
-2000000558,female,50s,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-03,,,isolated
-2000000559,female,20s,Gyeonggi-do,Icheon-si,overseas inflow,,2020-04-03,,,isolated
-7000000010,female,20s,Jeju-do,Jeju-do,overseas inflow,18,2020-04-03,2020-04-21,,released
-7000000011,male,30s,Jeju-do,Jeju-do,contact with patient,5,2020-04-03,2020-05-19,,released
-6001000623,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-04-03,2020-05-06,,released
-2000000553,female,70s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
-1400000079,male,60s,Incheon,Gyeyang-gu,overseas inflow,,2020-04-04,2020-05-09,,released
-3001000008,female,30s,Gangwon-do,Gangneung-si,overseas inflow,,2020-04-04,2020-04-29,,released
-1300000027,female,20s,Gwangju,,overseas inflow,4,2020-04-04,,,isolated
-6023000052,male,20s,Gyeongsangbuk-do,Pohang-si,,,2020-04-04,2020-05-19,,released
-2000000575,female,20s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-04,,,isolated
-2000000574,male,20s,Gyeonggi-do,Siheung-si,overseas inflow,,2020-04-04,,,isolated
-2000000571,male,50s,Gyeonggi-do,Goyang-si,etc,,2020-04-04,,,isolated
-2000000570,male,30s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-04,,,isolated
-2000000569,female,30s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-04,,,isolated
-2000000568,female,20s,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-04,,,isolated
-2000000567,female,20s,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-04,,,isolated
-2000000573,female,20s,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-04,,,isolated
-2000000572,male,70s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-04,,,isolated
-2000000565,female,40s,Gyeonggi-do,Yongin-si,contact with patient,,2020-04-04,,,isolated
-2000000566,male,30s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-04,,,isolated
-2000000563,female,50s,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-04,,,isolated
-6100000108,male,10s,Gyeongsangnam-do,Sacheon-si,overseas inflow,,2020-04-04,,,released
-2000000564,female,20s,Gyeonggi-do,Suwon-si,overseas inflow,,2020-04-04,,,isolated
-6002000046,female,30s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-04-04,,,released
-6002000045,female,70s,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-04-04,,,released
-5000000016,female,40s,Jeollabuk-do,Jangsu-gun,etc,,2020-04-04,2020-05-16,,released
-6011000050,male,70s,Gyeongsangbuk-do,Andong-si,etc,,2020-04-04,,,released
-6008000071,female,60s,Gyeongsangbuk-do,Bonghwa-gun,etc,,2020-04-04,,,isolated
-3012000005,male,70s,Gangwon-do,Cheorwon-gun,contact with patient,4,2020-04-04,,,released
-3013000006,female,20s,Gangwon-do,Chuncheon-si,overseas inflow,,2020-04-05,2020-04-19,,released
-6001000625,female,80s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-05,2020-04-28,,released
-2000000581,male,40s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-05,,,isolated
-2000000576,female,80s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-05,,,isolated
-2000000577,male,20s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-05,,,isolated
-1400000080,female,70s,Incheon,Yeonsu-gu,contact with patient,,2020-04-05,2020-04-24,,released
-2000000578,male,60s,Gyeonggi-do,Dongducheon-si,contact with patient,4,2020-04-05,,,isolated
-2000000579,female,30s,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-05,,,isolated
-2000000580,female,20s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-05,,,isolated
-2000000583,male,70s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-05,,,isolated
-6100000109,male,30s,Gyeongsangnam-do,Changwon-si,etc,,2020-04-05,2020-05-11,,released
-6002000047,male,70s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-04-05,,,released
-4100000136,male,70s,Chungcheongnam-do,Buyeo-gun,contact with patient,0,2020-04-05,2020-05-19,,released
-1500000038,female,20s,Daejeon,Yuseong-gu,overseas inflow,,2020-04-05,2020-04-23,,released
-1500000039,female,20s,Daejeon,Daedeok-gu,overseas inflow,,2020-04-05,2020-04-27,,released
-6100000110,male,0s,Gyeongsangnam-do,Changwon-si,etc,,2020-04-05,,,released
-2000000589,female,80s,Gyeonggi-do,Dongducheon-si,contact with patient,1,2020-04-06,,,isolated
-6002000048,male,40s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-04-06,,,released
-3013000007,female,30s,Gangwon-do,Chuncheon-si,overseas inflow,,2020-04-06,2020-04-17,,released
-4100000137,female,20s,Chungcheongnam-do,Cheonan-si,etc,29,2020-04-06,2020-04-10,,released
-3012000006,male,60s,Gangwon-do,Cheorwon-gun,contact with patient,0,2020-04-06,,,released
-1100000120,male,20s,Busan,Dong-gu,overseas inflow,2,2020-04-06,,,isolated
-6100000111,male,20s,Gyeongsangnam-do,Sacheon-si,contact with patient,,2020-04-06,,,released
-2000000590,female,60s,Gyeonggi-do,Dongducheon-si,contact with patient,1,2020-04-06,,,isolated
-2000000588,male,20s,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-06,,,isolated
-2000000587,female,60s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-06,,,isolated
-2000000586,female,50s,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-06,,,isolated
-2000000585,female,60s,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-06,,,isolated
-2000000584,male,40s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-06,,,isolated
-2000000591,female,70s,Gyeonggi-do,Guri-si,contact with patient,,2020-04-06,,,isolated
-2000000592,female,40s,Gyeonggi-do,Yongin-si,etc,,2020-04-07,,,isolated
-2000000593,male,20s,Gyeonggi-do,Bucheon-si,overseas inflow,,2020-04-07,,,isolated
-2000000596,male,50s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-07,,,isolated
-1400000081,female,60s,Incheon,Seo-gu,contact with patient,,2020-04-07,2020-04-17,,released
-2000000599,male,50s,Gyeonggi-do,Namyangju-si,contact with patient,71,2020-04-07,,,isolated
-2000000598,female,20s,Gyeonggi-do,Anyang-si,overseas inflow,,2020-04-07,,,isolated
-2000000597,female,20s,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-07,,,isolated
-6100000112,male,60s,Gyeongsangnam-do,Hapcheon-gun,contact with patient,,2020-04-07,,,released
-2000000595,male,80s,Gyeonggi-do,Suwon-si,contact with patient,,2020-04-07,,,isolated
-6001000626,female,70s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-07,2020-04-29,,released
-1400000083,female,40s,Incheon,Bupyeong-gu,etc,,2020-04-07,2020-04-17,,released
-1400000082,male,30s,Incheon,Seo-gu,overseas inflow,,2020-04-07,2020-04-22,,released
-6001000628,female,60s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-07,2020-04-23,,released
-2000000594,male,10s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-07,,,isolated
-6001000627,female,60s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-07,2020-05-22,,released
-6004000068,female,60s,Gyeongsangbuk-do,Gumi-si,overseas inflow,,2020-04-07,2020-05-19,,released
-3012000007,male,80s,Gangwon-do,Cheorwon-gun,contact with patient,1,2020-04-07,,2020-05-25,deceased
-1700000006,female,40s,Sejong,Sejong,gym facility in Sejong,2,2020-04-07,2020-04-18,,released
-1700000002,female,40s,Sejong,Sejong,gym facility in Cheonan,7,2020-04-07,2020-04-21,,released
-1700000011,female,10s,Sejong,Sejong,etc,2,2020-04-07,2020-04-28,,released
-1100000122,male,30s,Busan,Haeundae-gu,overseas inflow,0,2020-04-07,,,isolated
-1100000121,female,10s,Busan,Haeundae-gu,overseas inflow,3,2020-04-07,,,released
-5000000017,male,20s,Jeollabuk-do,Jeonju-si,overseas inflow,,2020-04-07,2020-05-15,,released
-4100000138,male,30s,Chungcheongnam-do,Cheonan-si,overseas inflow,1,2020-04-07,2020-05-08,,released
-2000000603,female,60s,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-08,,,isolated
-1500000006,female,40s,Daejeon,Daedeok-gu,etc,12,2020-04-08,2020-04-24,,released
-2000000600,male,20s,Gyeonggi-do,Anyang-si,overseas inflow,,2020-04-08,,,isolated
-2000000601,male,30s,Gyeonggi-do,Anyang-si,overseas inflow,,2020-04-08,,,isolated
-2000000602,female,20s,Gyeonggi-do,Gunpo-si,overseas inflow,9,2020-04-08,,,isolated
-6100000114,female,0s,Gyeongsangnam-do,Jinju-si,overseas inflow,,2020-04-08,,,released
-2000000608,male,20s,Gyeonggi-do,Suwon-si,contact with patient,5,2020-04-08,,,isolated
-1700000016,male,50s,Sejong,Sejong,contact with patient,25,2020-04-08,2020-05-03,,released
-2000000607,female,20s,Gyeonggi-do,Bucheon-si,etc,,2020-04-08,,,isolated
-2000000606,male,20s,Gyeonggi-do,Gimpo-si,overseas inflow,,2020-04-08,,,isolated
-2000000605,male,20s,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-04-08,,,isolated
-2000000604,female,60s,Gyeonggi-do,Dongducheon-si,contact with patient,1,2020-04-08,,,isolated
-6100000113,male,30s,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-04-08,,,released
-1400000084,female,60s,Incheon,Namdong-gu,overseas inflow,,2020-04-09,2020-05-12,,released
-6016000007,female,40s,Gyeongsangbuk-do,Yecheon-gun,,,2020-04-09,,,isolated
-6016000011,female,50s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-09,,,isolated
-6001000630,female,60s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-09,2020-05-19,,released
-1400000085,male,90s,Incheon,Bupyeong-gu,contact with patient,,2020-04-09,2020-05-12,,released
-1100000123,male,20s,Busan,etc,overseas inflow,0,2020-04-09,,,isolated
-6001000629,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-04-09,2020-05-08,,released
-6016000008,male,40s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-09,,,isolated
-2000000616,female,60s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-09,,,isolated
-2000000609,female,20s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-09,,,isolated
-2000000615,male,0s,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-04-09,,,isolated
-2000000614,female,60s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-09,,,isolated
-2000000610,male,30s,Gyeonggi-do,Hanam-si,etc,,2020-04-09,,,isolated
-2000000611,male,30s,Gyeonggi-do,Suwon-si,overseas inflow,,2020-04-09,,,isolated
-2000000613,male,60s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-09,,,isolated
-2000000612,male,20s,Gyeonggi-do,Bucheon-si,overseas inflow,,2020-04-09,,,isolated
-6016000009,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-09,,,isolated
-6016000010,female,70s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-09,,,isolated
-2000000618,female,50s,Gyeonggi-do,Gwangju-si,contact with patient,17,2020-04-10,,,isolated
-1600000041,female,20s,Ulsan,Ulju-gun,overseas inflow,,2020-04-10,2020-04-28,,released
-6016000014,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-10,,,isolated
-6016000013,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-10,,,isolated
-6016000012,male,20s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-10,,,isolated
-2000000621,female,20s,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-04-10,,,isolated
-2000000617,male,30s,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-10,,,isolated
-1400000086,male,20s,Incheon,Ganghwa-gun,overseas inflow,,2020-04-10,2020-04-24,,released
-2000000619,male,60s,Gyeonggi-do,Gwangju-si,contact with patient,10,2020-04-10,,,isolated
-2000000620,male,50s,Gyeonggi-do,Yangju-si,contact with patient,,2020-04-10,,,isolated
-2000000624,female,50s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-10,,,isolated
-2000000623,female,70s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-10,,,isolated
-2000000622,female,50s,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-04-10,,,isolated
-2000000629,male,60s,Gyeonggi-do,Guri-si,etc,,2020-04-11,,,isolated
-2000000628,female,20s,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-04-11,,,isolated
-6016000017,female,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-11,,,isolated
-6016000016,female,40s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-11,,,isolated
-6016000015,female,60s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-11,,,isolated
-2000000625,female,50s,Gyeonggi-do,Seongnam-si,contact with patient,,2020-04-11,,,isolated
-2000000627,male,60s,Gyeonggi-do,Seongnam-si,contact with patient,,2020-04-11,,,isolated
-1600000023,female,30s,Ulsan,Nam-gu,contact with patient,,2020-04-11,2020-04-20,,released
-2000000626,female,30s,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-11,,,isolated
-1400000087,male,60s,Incheon,Yeonsu-gu,overseas inflow,,2020-04-12,,,isolated
-6016000021,female,50s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-12,2020-04-28,,released
-6016000018,male,60s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-12,,,isolated
-6016000019,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-12,,,isolated
-2000000634,female,20s,Gyeonggi-do,Gimpo-si,overseas inflow,,2020-04-12,,,isolated
-2000000633,female,70s,Gyeonggi-do,Guri-si,overseas inflow,,2020-04-12,,,isolated
-2000000632,female,60s,Gyeonggi-do,Anseong-si,overseas inflow,,2020-04-12,,,isolated
-2000000631,female,50s,Gyeonggi-do,Yangju-si,overseas inflow,,2020-04-12,,,isolated
-2000000630,female,20s,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-12,,,isolated
-6016000020,female,80s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-12,,2020-04-22,deceased
-6016000022,male,50s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-13,,,isolated
-6016000023,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-13,,,isolated
-6016000024,male,80s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-13,,,isolated
-6016000026,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-13,,,isolated
-1400000088,male,30s,Incheon,Namdong-gu,overseas inflow,,2020-04-13,2020-05-19,,released
-2000000640,female,30s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-13,,,isolated
-1700000028,male,40s,Sejong,Sejong,Ministry of Oceans and Fisheries,6,2020-04-13,2020-04-21,,released
-1600000042,male,20s,Ulsan,Nam-gu,overseas inflow,,2020-04-13,2020-04-22,,released
-2000000635,female,60s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-13,,,isolated
-2000000636,male,60s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-13,,,isolated
-2000000637,male,70s,Gyeonggi-do,Namyangju-si,contact with patient,1,2020-04-13,,,isolated
-2000000638,female,60s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-13,,,isolated
-2000000639,male,50s,Gyeonggi-do,Namyangju-si,overseas inflow,8,2020-04-13,,,isolated
-2000000641,male,40s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-13,,,isolated
-6016000030,female,10s,Gyeongsangbuk-do,Yecheon-gun,,,2020-04-14,,,isolated
-3012000008,male,50s,Gangwon-do,Cheorwon-gun,contact with patient,3,2020-04-14,,,released
-3012000009,female,70s,Gangwon-do,Cheorwon-gun,contact with patient,0,2020-04-14,,,isolated
-2000000642,female,30s,Gyeonggi-do,Gwangmyeong-si,overseas inflow,,2020-04-14,,,isolated
-2000000643,female,40s,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-14,,,isolated
-2000000644,male,60s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-14,,,isolated
-2000000646,male,30s,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-14,,,isolated
-2000000645,male,70s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-14,,,isolated
-6016000029,female,20s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-14,,,isolated
-6016000025,male,40s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-14,,,isolated
-6016000027,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-14,,,isolated
-6016000028,female,40s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-14,,,isolated
-1300000028,male,20s,Gwangju,,overseas inflow,2,2020-04-14,2020-04-22,,isolated
-6001000631,female,50s,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-14,2020-04-22,,released
-2000000647,female,60s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-15,,,isolated
-1100000127,female,40s,Busan,Dongnae-gu,overseas inflow,2,2020-04-15,,,isolated
-6016000035,female,30s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
-6016000034,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
-6016000033,female,40s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
-1100000126,male,0s,Busan,Dongnae-gu,overseas inflow,3,2020-04-15,,,isolated
-1100000125,male,0s,Busan,Dongnae-gu,overseas inflow,2,2020-04-15,,,isolated
-2000000648,female,30s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-15,,,isolated
-4100000018,male,30s,Chungcheongnam-do,Cheonan-si,contact with patient,51,2020-04-15,2020-05-04,,released
-6016000031,female,50s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
-2000000649,female,10s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-15,,,isolated
-6016000032,female,0s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
-6009000012,male,0s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-04-16,2020-05-19,,released
-2000000650,female,60s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-16,,,isolated
-6002000049,male,20s,Gyeongsangbuk-do,Gyeongju-si,overseas inflow,,2020-04-16,,,released
-6009000011,male,0s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-04-16,2020-04-29,,released
-1300000029,male,60s,Gwangju,,overseas inflow,3,2020-04-16,,,isolated
-1300000030,female,20s,Gwangju,,overseas inflow,2,2020-04-16,,,isolated
-6100000115,male,20s,Gyeongsangnam-do,Changwon-si,etc,,2020-04-16,2020-04-25,,released
-1400000089,female,30s,Incheon,Seo-gu,overseas inflow,,2020-04-16,2020-04-21,,released
-6016000037,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-16,,,isolated
-6016000036,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-16,,,isolated
-3008000001,male,30s,Gangwon-do,Yeongwol-gun,overseas inflow,0,2020-04-17,,,released
-4100000141,male,20s,Chungcheongnam-do,Nonsan-si,contact with patient,89,2020-04-17,2020-05-29,,released
-6016000038,female,0s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-17,,,isolated
-1400000090,female,40s,Incheon,Michuhol-gu,overseas inflow,,2020-04-17,2020-04-25,,released
-6009000004,female,30s,Gyeongsangbuk-do,Sangju-si,etc,,2020-04-17,2020-05-10,,released
-4100000140,female,60s,Chungcheongnam-do,Cheonan-si,overseas inflow,1,2020-04-17,2020-05-12,,released
-2000000652,female,80s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-17,,,isolated
-2000000653,male,50s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-17,,,isolated
-2000000654,female,0s,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-17,,,isolated
-2000000651,male,50s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-17,,,isolated
-1400000091,female,20s,Incheon,Namdong-gu,overseas inflow,,2020-04-18,2020-04-26,,released
-1100000129,female,20s,Busan,etc,etc,131,2020-04-18,,,isolated
-1100000128,male,50s,Busan,Buk-gu,etc,185,2020-04-18,,,isolated
-6016000039,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-18,,,isolated
-1400000092,male,20s,Incheon,Gyeyang-gu,overseas inflow,,2020-04-19,2020-04-26,,released
-1200010674,female,30s,Daegu,Dalseo-gu,,,2020-04-19,,,isolated
-1600000043,female,50s,Ulsan,Buk-gu,overseas inflow,,2020-04-19,2020-05-08,,released
-6016000040,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-19,,,isolated
-2000000655,female,20s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-19,,,isolated
-2000000656,male,50s,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-19,,,isolated
-2000000658,female,50s,Gyeonggi-do,Yangju-si,contact with patient,,2020-04-20,,,isolated
-1200010680,male,70s,Daegu,Dalsung-gun,,,2020-04-20,,,isolated
-1700000027,male,40s,Sejong,Sejong,Ministry of Oceans and Fisheries,10,2020-04-20,2020-04-29,,released
-1200010682,female,50s,Daegu,Dong-gu,,,2020-04-20,,,isolated
-2000000657,male,50s,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-20,,,isolated
-4100000092,male,60s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-04-21,2020-04-30,,released
-1500000040,male,30s,Daejeon,Jung-gu,overseas inflow,0,2020-04-21,2020-05-06,,released
-1100000130,female,30s,Busan,Nam-gu,overseas inflow,2,2020-04-21,,,isolated
-1100000131,female,70s,Busan,Buk-gu,contact with patient,5,2020-04-21,,,isolated
-6100000116,male,60s,Gyeongsangnam-do,Changwon-si,etc,,2020-04-21,2020-05-15,,released
-6002000050,male,40s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-04-21,,,isolated
-1200010689,female,40s,Daegu,Nam-gu,,,2020-04-21,,,isolated
-6016000041,male,10s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-21,,,isolated
-2000000659,male,70s,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-22,,,isolated
-1200010700,female,40s,Daegu,Seo-gu,,,2020-04-22,,,isolated
-1100000132,female,30s,Busan,Suyeong-gu,overseas inflow,0,2020-04-22,,,isolated
-1200010699,male,20s,Daegu,Dalseo-gu,,,2020-04-22,,,isolated
-1700000019,male,40s,Sejong,Sejong,Ministry of Oceans and Fisheries,9,2020-04-22,2020-05-01,,released
-1200010702,male,50s,Daegu,Suseong-gu,,,2020-04-22,,,isolated
-1200010701,male,80s,Daegu,Seo-gu,,,2020-04-22,,,isolated
-1200010708,male,10s,Daegu,Dong-gu,,,2020-04-23,,,isolated
-1100000133,male,60s,Busan,Sasang-gu,overseas inflow,0,2020-04-23,,,isolated
-1200010704,female,80s,Daegu,Suseong-gu,,,2020-04-23,,,isolated
-1200010705,male,20s,Daegu,Suseong-gu,,,2020-04-23,,,isolated
-2000000660,male,50s,Gyeonggi-do,Hanam-si,etc,,2020-04-23,,,isolated
-1200010716,male,40s,Daegu,Dalseo-gu,,,2020-04-24,,,isolated
-2000000661,female,20s,Gyeonggi-do,Hanam-si,contact with patient,,2020-04-24,,,isolated
-6001000632,female,30s,Gyeongsangbuk-do,Gyeongsan-si,overseas inflow,,2020-04-24,2020-05-19,,released
-2000000662,female,50s,Gyeonggi-do,Hanam-si,contact with patient,,2020-04-24,,,isolated
-1200010720,female,0s,Daegu,Dalseo-gu,,,2020-04-24,,,isolated
-6016000042,male,0s,Gyeongsangbuk-do,Yecheon-gun,,,2020-04-24,,,isolated
-1200010713,male,60s,Daegu,Buk-gu,,,2020-04-24,,,isolated
-2000000664,male,20s,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-25,,,isolated
-2000000667,male,30s,Gyeonggi-do,Seongnam-si,overseas inflow,3,2020-04-25,,,isolated
-2000000666,male,30s,Gyeonggi-do,Suwon-si,overseas inflow,,2020-04-25,,,isolated
-2000000665,male,50s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-25,,,isolated
-1100000134,female,30s,Busan,Suyeong-gu,overseas inflow,1,2020-04-25,,,isolated
-2000000669,female,20s,Gyeonggi-do,Goyang-si,contact with patient,,2020-04-25,,,isolated
-2000000668,male,20s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-25,,,isolated
-5000000018,male,,Jeollabuk-do,Gimje-si,overseas inflow,,2020-04-25,2020-05-16,,released
-2000000663,female,20s,Gyeonggi-do,Paju-si,overseas inflow,,2020-04-25,,,isolated
-2000000672,female,20s,Gyeonggi-do,Anyang-si,overseas inflow,,2020-04-26,,,isolated
-2000000671,male,20s,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-04-26,,,isolated
-4100000142,female,10s,Chungcheongnam-do,Nonsan-si,overseas inflow,2,2020-04-26,2020-05-10,,released
-2000000670,female,30s,Gyeonggi-do,Goyang-si,contact with patient,,2020-04-26,,,isolated
-1200010737,male,10s,Daegu,Suseong-gu,,,2020-04-26,,,isolated
-2000000674,female,20s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-27,,,isolated
-2000000673,male,50s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-27,,,isolated
-1200010751,male,20s,Daegu,Dong-gu,,,2020-04-27,,,isolated
-1400000093,male,,Incheon,Namdong-gu,overseas inflow,,2020-04-27,2020-05-26,,released
-6016000043,female,70s,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-27,,,isolated
-1200010756,female,40s,Daegu,Dong-gu,,,2020-04-28,,,isolated
-4100000143,male,30s,Chungcheongnam-do,Cheonan-si,overseas inflow,4,2020-04-28,2020-05-16,,released
-1200010761,female,40s,Daegu,Buk-gu,,,2020-04-28,,,isolated
-2000000675,male,40s,Gyeonggi-do,Goyang-si,etc,,2020-04-28,,,isolated
-2000000676,female,20s,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-28,,,isolated
-1200010760,female,40s,Daegu,Nam-gu,,,2020-04-28,,,isolated
-2000000677,female,20s,Gyeonggi-do,Gwangmyeong-si,overseas inflow,,2020-04-29,,,isolated
-6009000010,male,30s,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-04-30,2020-05-04,,released
-2000000678,male,20s,Gyeonggi-do,Hanam-si,overseas inflow,,2020-04-30,,,isolated
-1400000094,female,,Incheon,Michuhol-gu,overseas inflow,,2020-04-30,,,isolated
+patient_id,sex,age,country,province,city,infection_case,contact_number,confirmed_date,released_date,deceased_date,state
+6019000006,male,50s,Korea,Gyeongsangbuk-do,Uiseong-gun,,,2020-02-22,,,released
+6020000025,female,60s,Korea,Gyeongsangbuk-do,Cheongdo-gun,Cheongdo Daenam Hospital,,2020-02-28,,,released
+6001000224,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-03-02,2020-03-25,,released
+6001000258,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-03-03,2020-03-26,,released
+6023000033,female,20s,Korea,Gyeongsangbuk-do,Pohang-si,contact with patient,,2020-03-05,2020-03-20,,released
+6015000035,male,70s,Korea,Gyeongsangbuk-do,Yeongcheon-si,etc,,2020-03-06,,2020-03-07,deceased
+2000000181,female,50s,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-03-12,,,isolated
+2000000251,female,40s,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-03-16,,,isolated
+2000000286,female,60s,Korea,Gyeonggi-do,Seongnam-si,contact with patient,1.0,2020-03-18,,,isolated
+6004000065,male,40s,Korea,Gyeongsangbuk-do,Gumi-si,overseas inflow,,2020-04-01,2020-05-05,,released
+1400000073,female,40s,Korea,Incheon,Yeonsu-gu,contact with patient,,2020-04-01,2020-05-11,,released
+2000000512,male,50s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-01,,,isolated
+1400000074,female,0s,Korea,Incheon,Yeonsu-gu,contact with patient,,2020-04-01,2020-05-12,,isolated
+2000000510,male,20s,Korea,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-01,,,isolated
+2000000506,female,20s,Korea,Gyeonggi-do,Suwon-si,overseas inflow,4.0,2020-04-01,,,isolated
+1300000025,female,10s,Korea,Gwangju,,overseas inflow,1.0,2020-04-01,,,isolated
+5100000014,female,50s,Korea,Jeollanam-do,Mokpo-si,overseas inflow,30.0,2020-04-01,2020-05-17,,released
+1400000072,female,60s,Korea,Incheon,Michuhol-gu,Eunpyeong St. Mary's Hospital,,2020-04-01,2020-04-08,,released
+6004000066,male,30s,Korea,Gyeongsangbuk-do,Gumi-si,overseas inflow,,2020-04-01,2020-06-06,,released
+2000000508,female,40s,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-04-01,,,isolated
+2000000513,male,60s,Korea,Gyeonggi-do,Paju-si,contact with patient,,2020-04-01,,,isolated
+6001000618,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-01,2020-05-07,,released
+2000000514,female,20s,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-04-01,,,isolated
+2000000516,female,70s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-01,,,isolated
+1400000071,female,60s,Korea,Incheon,Yeonsu-gu,Eunpyeong St. Mary's Hospital,,2020-04-01,2020-05-06,,released
+2000000511,male,70s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-01,,,isolated
+2000000509,female,50s,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-01,,,isolated
+2000000505,male,60s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-01,,,isolated
+6100000105,male,20s,Korea,Gyeongsangnam-do,Gimhae-si,overseas inflow,,2020-04-01,,,released
+4100000133,female,50s,Korea,Chungcheongnam-do,Buyeo-gun,etc,8.0,2020-04-01,2020-04-29,,released
+4100000132,female,70s,Korea,Chungcheongnam-do,Buyeo-gun,etc,3.0,2020-04-01,2020-06-11,,released
+2000000520,female,20s,Korea,Gyeonggi-do,Uijeongbu-si,overseas inflow,,2020-04-01,,,isolated
+2000000519,female,20s,Korea,Gyeonggi-do,Uijeongbu-si,overseas inflow,,2020-04-01,,,isolated
+2000000504,female,60s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,1.0,2020-04-01,,,isolated
+2000000503,female,40s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,2.0,2020-04-01,,,isolated
+2000000502,female,20s,Korea,Gyeonggi-do,Ansan-si,overseas inflow,,2020-04-01,,,isolated
+2000000515,male,80s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-01,,,isolated
+2000000507,male,20s,Korea,Gyeonggi-do,Suwon-si,overseas inflow,5.0,2020-04-01,,,isolated
+2000000518,female,50s,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-04-01,,,isolated
+2000000517,male,50s,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-01,,,isolated
+1600000040,male,20s,Korea,Ulsan,Dong-gu,overseas inflow,,2020-04-01,2020-04-10,,released
+6001000620,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-04-02,2020-05-07,,released
+6001000621,male,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-02,2020-05-15,,released
+6001000622,female,70s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-02,2020-04-16,,released
+6100000106,male,20s,Korea,Gyeongsangnam-do,Sacheon-si,overseas inflow,,2020-04-02,,,released
+5100000015,male,40s,Korea,Jeollanam-do,Mokpo-si,overseas inflow,42.0,2020-04-02,2020-04-29,,released
+2000000531,female,60s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-02,,,isolated
+2000000532,female,30s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-02,,,isolated
+2000000533,female,70s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-02,,,isolated
+6001000619,male,40s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-02,2020-04-24,,released
+4100000134,female,20s,Korea,Chungcheongnam-do,Buyeo-gun,contact with patient,0.0,2020-04-02,2020-04-29,,released
+1300000026,male,30s,Korea,Gwangju,,overseas inflow,1.0,2020-04-02,2020-04-10,,released
+3012000002,female,10s,Korea,Gangwon-do,Cheorwon-gun,etc,17.0,2020-04-02,,,released
+3012000003,female,60s,Korea,Gangwon-do,Cheorwon-gun,contact with patient,5.0,2020-04-02,,,released
+2000000535,male,50s,Korea,Gyeonggi-do,Suwon-si,contact with patient,3.0,2020-04-02,,,isolated
+2000000530,female,50s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
+2000000536,female,60s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-02,,,isolated
+2000000538,male,20s,Korea,Gyeonggi-do,Gimpo-si,overseas inflow,,2020-04-02,,,isolated
+2000000539,male,30s,Korea,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-02,,,isolated
+2000000540,female,50s,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-02,,,isolated
+2000000541,female,50s,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-02,,,isolated
+2000000542,male,40s,Korea,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-04-02,,,isolated
+2000000543,female,80s,Korea,Gyeonggi-do,Anseong-si,contact with patient,,2020-04-02,,,isolated
+2000000544,male,10s,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-04-02,,,isolated
+2000000545,male,80s,Korea,Gyeonggi-do,Yangju-si,contact with patient,,2020-04-02,,,isolated
+2000000546,female,30s,Korea,Gyeonggi-do,Osan-si,contact with patient,,2020-04-02,,,isolated
+2000000537,female,20s,Korea,Gyeonggi-do,Gimpo-si,overseas inflow,,2020-04-02,,,isolated
+2000000529,male,60s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
+2000000534,female,40s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-02,,,isolated
+2000000527,male,40s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
+2000000528,female,40s,Korea,Gyeonggi-do,Dongducheon-si,contact with patient,6.0,2020-04-02,,,isolated
+1400000075,male,60s,Korea,Incheon,Seo-gu,overseas inflow,,2020-04-02,2020-04-11,,released
+6003000009,male,20s,Korea,Gyeongsangbuk-do,Goryeong-gun,overseas inflow,,2020-04-02,2020-04-18,,released
+2000000521,female,30s,Korea,Gyeonggi-do,Pyeongtaek-si,etc,,2020-04-02,,,isolated
+4000000045,female,0s,Korea,Chungcheongbuk-do,Chungju-si,overseas inflow,,2020-04-02,2020-05-21,,released
+2000000522,female,30s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
+5000000015,male,20s,Korea,Jeollabuk-do,Jeonju-si,overseas inflow,,2020-04-02,2020-04-28,,released
+2000000524,male,30s,Korea,Gyeonggi-do,Anyang-si,etc,,2020-04-02,,,isolated
+2000000525,male,60s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-02,,,isolated
+2000000526,female,60s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-02,,,isolated
+2000000523,male,40s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-02,,,isolated
+2000000550,male,80s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
+6001000624,female,80s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-03,2020-05-10,,released
+2000000548,female,30s,Korea,Gyeonggi-do,Osan-si,contact with patient,,2020-04-03,,,isolated
+2000000547,male,20s,Korea,Gyeonggi-do,Gapyeong-gun,overseas inflow,,2020-04-03,,,isolated
+2000000551,male,20s,Korea,Gyeonggi-do,Hanam-si,overseas inflow,,2020-04-03,,,isolated
+1400000077,female,20s,Korea,Incheon,Seo-gu,overseas inflow,,2020-04-03,2020-04-14,,released
+1400000076,male,60s,Korea,Incheon,Seo-gu,overseas inflow,,2020-04-03,2020-04-11,,released
+2000000582,male,30s,Korea,Gyeonggi-do,Gimpo-si,etc,,2020-04-03,,,isolated
+2000000552,female,30s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
+6100000107,female,50s,Korea,Gyeongsangnam-do,Jinju-si,etc,,2020-04-03,,,released
+2000000554,female,50s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-03,,,isolated
+2000000549,female,30s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
+2000000561,male,30s,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-04-03,,,isolated
+2000000562,female,50s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-03,,,isolated
+1400000078,male,30s,Korea,Incheon,Seo-gu,etc,,2020-04-03,2020-04-10,,released
+2000000560,male,40s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
+7000000012,female,20s,Korea,Jeju-do,Jeju-do,overseas inflow,9.0,2020-04-03,2020-05-05,,released
+2000000555,male,50s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-03,,,isolated
+2000000556,female,70s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-03,,,isolated
+2000000557,female,20s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
+3012000004,female,70s,Korea,Gangwon-do,Cheorwon-gun,contact with patient,10.0,2020-04-03,,2020-04-18,deceased
+2000000558,female,50s,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-03,,,isolated
+2000000559,female,20s,Korea,Gyeonggi-do,Icheon-si,overseas inflow,,2020-04-03,,,isolated
+7000000010,female,20s,Korea,Jeju-do,Jeju-do,overseas inflow,18.0,2020-04-03,2020-04-21,,released
+7000000011,male,30s,Korea,Jeju-do,Jeju-do,contact with patient,5.0,2020-04-03,2020-05-19,,released
+6001000623,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-04-03,2020-05-06,,released
+2000000553,female,70s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-03,,,isolated
+1400000079,male,60s,Korea,Incheon,Gyeyang-gu,overseas inflow,,2020-04-04,2020-05-09,,released
+3001000008,female,30s,Korea,Gangwon-do,Gangneung-si,overseas inflow,,2020-04-04,2020-04-29,,released
+1300000027,female,20s,Korea,Gwangju,,overseas inflow,4.0,2020-04-04,,,isolated
+6023000052,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,,,2020-04-04,2020-05-19,,released
+2000000575,female,20s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-04,,,isolated
+2000000574,male,20s,Korea,Gyeonggi-do,Siheung-si,overseas inflow,,2020-04-04,,,isolated
+2000000571,male,50s,Korea,Gyeonggi-do,Goyang-si,etc,,2020-04-04,,,isolated
+2000000570,male,30s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-04,,,isolated
+2000000569,female,30s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-04,,,isolated
+2000000568,female,20s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-04,,,isolated
+2000000567,female,20s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-04,,,isolated
+2000000573,female,20s,Korea,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-04,,,isolated
+2000000572,male,70s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-04,,,isolated
+2000000565,female,40s,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-04-04,,,isolated
+2000000566,male,30s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-04,,,isolated
+2000000563,female,50s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-04,,,isolated
+6100000108,male,10s,Korea,Gyeongsangnam-do,Sacheon-si,overseas inflow,,2020-04-04,,,released
+2000000564,female,20s,Korea,Gyeonggi-do,Suwon-si,overseas inflow,,2020-04-04,,,isolated
+6002000046,female,30s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-04-04,,,released
+6002000045,female,70s,Korea,Gyeongsangbuk-do,Gyeongju-si,etc,,2020-04-04,,,released
+5000000016,female,40s,Korea,Jeollabuk-do,Jangsu-gun,etc,,2020-04-04,2020-05-16,,released
+6011000050,male,70s,Korea,Gyeongsangbuk-do,Andong-si,etc,,2020-04-04,,,released
+6008000071,female,60s,Korea,Gyeongsangbuk-do,Bonghwa-gun,etc,,2020-04-04,,,isolated
+3012000005,male,70s,Korea,Gangwon-do,Cheorwon-gun,contact with patient,4.0,2020-04-04,,,released
+3013000006,female,20s,Korea,Gangwon-do,Chuncheon-si,overseas inflow,,2020-04-05,2020-04-19,,released
+6001000625,female,80s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-05,2020-04-28,,released
+2000000581,male,40s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-05,,,isolated
+2000000576,female,80s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-05,,,isolated
+2000000577,male,20s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-05,,,isolated
+1400000080,female,70s,Korea,Incheon,Yeonsu-gu,contact with patient,,2020-04-05,2020-04-24,,released
+2000000578,male,60s,Korea,Gyeonggi-do,Dongducheon-si,contact with patient,4.0,2020-04-05,,,isolated
+2000000579,female,30s,Korea,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-05,,,isolated
+2000000580,female,20s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-05,,,isolated
+2000000583,male,70s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-05,,,isolated
+6100000109,male,30s,Korea,Gyeongsangnam-do,Changwon-si,etc,,2020-04-05,2020-05-11,,released
+6002000047,male,70s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-04-05,,,released
+4100000136,male,70s,Korea,Chungcheongnam-do,Buyeo-gun,contact with patient,0.0,2020-04-05,2020-05-19,,released
+1500000038,female,20s,Korea,Daejeon,Yuseong-gu,overseas inflow,,2020-04-05,2020-04-23,,released
+1500000039,female,20s,Korea,Daejeon,Daedeok-gu,overseas inflow,,2020-04-05,2020-04-27,,released
+6100000110,male,0s,Korea,Gyeongsangnam-do,Changwon-si,etc,,2020-04-05,,,released
+2000000589,female,80s,Korea,Gyeonggi-do,Dongducheon-si,contact with patient,1.0,2020-04-06,,,isolated
+6002000048,male,40s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-04-06,,,released
+3013000007,female,30s,Korea,Gangwon-do,Chuncheon-si,overseas inflow,,2020-04-06,2020-04-17,,released
+4100000137,female,20s,Korea,Chungcheongnam-do,Cheonan-si,etc,29.0,2020-04-06,2020-04-10,,released
+3012000006,male,60s,Korea,Gangwon-do,Cheorwon-gun,contact with patient,0.0,2020-04-06,,,released
+1100000120,male,20s,Korea,Busan,Dong-gu,overseas inflow,2.0,2020-04-06,,,isolated
+6100000111,male,20s,Korea,Gyeongsangnam-do,Sacheon-si,contact with patient,,2020-04-06,,,released
+2000000590,female,60s,Korea,Gyeonggi-do,Dongducheon-si,contact with patient,1.0,2020-04-06,,,isolated
+2000000588,male,20s,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-06,,,isolated
+2000000587,female,60s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-06,,,isolated
+2000000586,female,50s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-06,,,isolated
+2000000585,female,60s,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-06,,,isolated
+2000000584,male,40s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-06,,,isolated
+2000000591,female,70s,Korea,Gyeonggi-do,Guri-si,contact with patient,,2020-04-06,,,isolated
+2000000592,female,40s,Korea,Gyeonggi-do,Yongin-si,etc,,2020-04-07,,,isolated
+2000000593,male,20s,Korea,Gyeonggi-do,Bucheon-si,overseas inflow,,2020-04-07,,,isolated
+2000000596,male,50s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-07,,,isolated
+1400000081,female,60s,Korea,Incheon,Seo-gu,contact with patient,,2020-04-07,2020-04-17,,released
+2000000599,male,50s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,71.0,2020-04-07,,,isolated
+2000000598,female,20s,Korea,Gyeonggi-do,Anyang-si,overseas inflow,,2020-04-07,,,isolated
+2000000597,female,20s,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-07,,,isolated
+6100000112,male,60s,Korea,Gyeongsangnam-do,Hapcheon-gun,contact with patient,,2020-04-07,,,released
+2000000595,male,80s,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-04-07,,,isolated
+6001000626,female,70s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-07,2020-04-29,,released
+1400000083,female,40s,Korea,Incheon,Bupyeong-gu,etc,,2020-04-07,2020-04-17,,released
+1400000082,male,30s,Korea,Incheon,Seo-gu,overseas inflow,,2020-04-07,2020-04-22,,released
+6001000628,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-07,2020-04-23,,released
+2000000594,male,10s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-07,,,isolated
+6001000627,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-07,2020-05-22,,released
+6004000068,female,60s,Korea,Gyeongsangbuk-do,Gumi-si,overseas inflow,,2020-04-07,2020-05-19,,released
+3012000007,male,80s,Korea,Gangwon-do,Cheorwon-gun,contact with patient,1.0,2020-04-07,,2020-05-25,deceased
+1700000006,female,40s,Korea,Sejong,Sejong,gym facility in Sejong,2.0,2020-04-07,2020-04-18,,released
+1700000002,female,40s,Korea,Sejong,Sejong,gym facility in Cheonan,7.0,2020-04-07,2020-04-21,,released
+1700000011,female,10s,Korea,Sejong,Sejong,etc,2.0,2020-04-07,2020-04-28,,released
+1100000122,male,30s,Korea,Busan,Haeundae-gu,overseas inflow,0.0,2020-04-07,,,isolated
+1100000121,female,10s,Korea,Busan,Haeundae-gu,overseas inflow,3.0,2020-04-07,,,released
+5000000017,male,20s,Korea,Jeollabuk-do,Jeonju-si,overseas inflow,,2020-04-07,2020-05-15,,released
+4100000138,male,30s,Korea,Chungcheongnam-do,Cheonan-si,overseas inflow,1.0,2020-04-07,2020-05-08,,released
+2000000603,female,60s,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-08,,,isolated
+1500000006,female,40s,Korea,Daejeon,Daedeok-gu,etc,12.0,2020-04-08,2020-04-24,,released
+2000000600,male,20s,Korea,Gyeonggi-do,Anyang-si,overseas inflow,,2020-04-08,,,isolated
+2000000601,male,30s,Korea,Gyeonggi-do,Anyang-si,overseas inflow,,2020-04-08,,,isolated
+2000000602,female,20s,Korea,Gyeonggi-do,Gunpo-si,overseas inflow,9.0,2020-04-08,,,isolated
+6100000114,female,0s,Korea,Gyeongsangnam-do,Jinju-si,overseas inflow,,2020-04-08,,,released
+2000000608,male,20s,Korea,Gyeonggi-do,Suwon-si,contact with patient,5.0,2020-04-08,,,isolated
+1700000016,male,50s,Korea,Sejong,Sejong,contact with patient,25.0,2020-04-08,2020-05-03,,released
+2000000607,female,20s,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-04-08,,,isolated
+2000000606,male,20s,Korea,Gyeonggi-do,Gimpo-si,overseas inflow,,2020-04-08,,,isolated
+2000000605,male,20s,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-04-08,,,isolated
+2000000604,female,60s,Korea,Gyeonggi-do,Dongducheon-si,contact with patient,1.0,2020-04-08,,,isolated
+6100000113,male,30s,Korea,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-04-08,,,released
+1400000084,female,60s,Korea,Incheon,Namdong-gu,overseas inflow,,2020-04-09,2020-05-12,,released
+6016000007,female,40s,Korea,Gyeongsangbuk-do,Yecheon-gun,,,2020-04-09,,,isolated
+6016000011,female,50s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-09,,,isolated
+6001000630,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-09,2020-05-19,,released
+1400000085,male,90s,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-04-09,2020-05-12,,released
+1100000123,male,20s,Korea,Busan,etc,overseas inflow,0.0,2020-04-09,,,isolated
+6001000629,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-04-09,2020-05-08,,released
+6016000008,male,40s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-09,,,isolated
+2000000616,female,60s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-09,,,isolated
+2000000609,female,20s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-09,,,isolated
+2000000615,male,0s,Korea,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-04-09,,,isolated
+2000000614,female,60s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-09,,,isolated
+2000000610,male,30s,Korea,Gyeonggi-do,Hanam-si,etc,,2020-04-09,,,isolated
+2000000611,male,30s,Korea,Gyeonggi-do,Suwon-si,overseas inflow,,2020-04-09,,,isolated
+2000000613,male,60s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-09,,,isolated
+2000000612,male,20s,Korea,Gyeonggi-do,Bucheon-si,overseas inflow,,2020-04-09,,,isolated
+6016000009,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-09,,,isolated
+6016000010,female,70s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-09,,,isolated
+2000000618,female,50s,Korea,Gyeonggi-do,Gwangju-si,contact with patient,17.0,2020-04-10,,,isolated
+1600000041,female,20s,Korea,Ulsan,Ulju-gun,overseas inflow,,2020-04-10,2020-04-28,,released
+6016000014,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-10,,,isolated
+6016000013,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-10,,,isolated
+6016000012,male,20s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-10,,,isolated
+2000000621,female,20s,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-04-10,,,isolated
+2000000617,male,30s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-10,,,isolated
+1400000086,male,20s,Korea,Incheon,Ganghwa-gun,overseas inflow,,2020-04-10,2020-04-24,,released
+2000000619,male,60s,Korea,Gyeonggi-do,Gwangju-si,contact with patient,10.0,2020-04-10,,,isolated
+2000000620,male,50s,Korea,Gyeonggi-do,Yangju-si,contact with patient,,2020-04-10,,,isolated
+2000000624,female,50s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-10,,,isolated
+2000000623,female,70s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-10,,,isolated
+2000000622,female,50s,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-04-10,,,isolated
+2000000629,male,60s,Korea,Gyeonggi-do,Guri-si,etc,,2020-04-11,,,isolated
+2000000628,female,20s,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-04-11,,,isolated
+6016000017,female,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-11,,,isolated
+6016000016,female,40s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-11,,,isolated
+6016000015,female,60s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-11,,,isolated
+2000000625,female,50s,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-04-11,,,isolated
+2000000627,male,60s,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-04-11,,,isolated
+1600000023,female,30s,Korea,Ulsan,Nam-gu,contact with patient,,2020-04-11,2020-04-20,,released
+2000000626,female,30s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-11,,,isolated
+1400000087,male,60s,Korea,Incheon,Yeonsu-gu,overseas inflow,,2020-04-12,,,isolated
+6016000021,female,50s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-12,2020-04-28,,released
+6016000018,male,60s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-12,,,isolated
+6016000019,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-12,,,isolated
+2000000634,female,20s,Korea,Gyeonggi-do,Gimpo-si,overseas inflow,,2020-04-12,,,isolated
+2000000633,female,70s,Korea,Gyeonggi-do,Guri-si,overseas inflow,,2020-04-12,,,isolated
+2000000632,female,60s,Korea,Gyeonggi-do,Anseong-si,overseas inflow,,2020-04-12,,,isolated
+2000000631,female,50s,Korea,Gyeonggi-do,Yangju-si,overseas inflow,,2020-04-12,,,isolated
+2000000630,female,20s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-12,,,isolated
+6016000020,female,80s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-12,,2020-04-22,deceased
+6016000022,male,50s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-13,,,isolated
+6016000023,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-13,,,isolated
+6016000024,male,80s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-13,,,isolated
+6016000026,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-13,,,isolated
+1400000088,male,30s,Korea,Incheon,Namdong-gu,overseas inflow,,2020-04-13,2020-05-19,,released
+2000000640,female,30s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-13,,,isolated
+1700000028,male,40s,Korea,Sejong,Sejong,Ministry of Oceans and Fisheries,6.0,2020-04-13,2020-04-21,,released
+1600000042,male,20s,Korea,Ulsan,Nam-gu,overseas inflow,,2020-04-13,2020-04-22,,released
+2000000635,female,60s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-13,,,isolated
+2000000636,male,60s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-13,,,isolated
+2000000637,male,70s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,1.0,2020-04-13,,,isolated
+2000000638,female,60s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-13,,,isolated
+2000000639,male,50s,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,8.0,2020-04-13,,,isolated
+2000000641,male,40s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-13,,,isolated
+6016000030,female,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,,,2020-04-14,,,isolated
+3012000008,male,50s,Korea,Gangwon-do,Cheorwon-gun,contact with patient,3.0,2020-04-14,,,released
+3012000009,female,70s,Korea,Gangwon-do,Cheorwon-gun,contact with patient,0.0,2020-04-14,,,isolated
+2000000642,female,30s,Korea,Gyeonggi-do,Gwangmyeong-si,overseas inflow,,2020-04-14,,,isolated
+2000000643,female,40s,Korea,Gyeonggi-do,Pyeongtaek-si,contact with patient,,2020-04-14,,,isolated
+2000000644,male,60s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-14,,,isolated
+2000000646,male,30s,Korea,Gyeonggi-do,Goyang-si,overseas inflow,,2020-04-14,,,isolated
+2000000645,male,70s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-14,,,isolated
+6016000029,female,20s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-14,,,isolated
+6016000025,male,40s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-14,,,isolated
+6016000027,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-14,,,isolated
+6016000028,female,40s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-14,,,isolated
+1300000028,male,20s,Korea,Gwangju,,overseas inflow,2.0,2020-04-14,2020-04-22,,isolated
+6001000631,female,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,etc,,2020-04-14,2020-04-22,,released
+2000000647,female,60s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-15,,,isolated
+1100000127,female,40s,Korea,Busan,Dongnae-gu,overseas inflow,2.0,2020-04-15,,,isolated
+6016000035,female,30s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
+6016000034,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
+6016000033,female,40s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
+1100000126,male,0s,Korea,Busan,Dongnae-gu,overseas inflow,3.0,2020-04-15,,,isolated
+1100000125,male,0s,Korea,Busan,Dongnae-gu,overseas inflow,2.0,2020-04-15,,,isolated
+2000000648,female,30s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-15,,,isolated
+4100000018,male,30s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,51.0,2020-04-15,2020-05-04,,released
+6016000031,female,50s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
+2000000649,female,10s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-15,,,isolated
+6016000032,female,0s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-15,,,isolated
+6009000012,male,0s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-04-16,2020-05-19,,released
+2000000650,female,60s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-16,,,isolated
+6002000049,male,20s,Korea,Gyeongsangbuk-do,Gyeongju-si,overseas inflow,,2020-04-16,,,released
+6009000011,male,0s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-04-16,2020-04-29,,released
+1300000029,male,60s,Korea,Gwangju,,overseas inflow,3.0,2020-04-16,,,isolated
+1300000030,female,20s,Korea,Gwangju,,overseas inflow,2.0,2020-04-16,,,isolated
+6100000115,male,20s,Korea,Gyeongsangnam-do,Changwon-si,etc,,2020-04-16,2020-04-25,,released
+1400000089,female,30s,Korea,Incheon,Seo-gu,overseas inflow,,2020-04-16,2020-04-21,,released
+6016000037,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-16,,,isolated
+6016000036,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-16,,,isolated
+3008000001,male,30s,Korea,Gangwon-do,Yeongwol-gun,overseas inflow,0.0,2020-04-17,,,released
+4100000141,male,20s,Korea,Chungcheongnam-do,Nonsan-si,contact with patient,89.0,2020-04-17,2020-05-29,,released
+6016000038,female,0s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-17,,,isolated
+1400000090,female,40s,Korea,Incheon,Michuhol-gu,overseas inflow,,2020-04-17,2020-04-25,,released
+6009000004,female,30s,Korea,Gyeongsangbuk-do,Sangju-si,etc,,2020-04-17,2020-05-10,,released
+4100000140,female,60s,Korea,Chungcheongnam-do,Cheonan-si,overseas inflow,1.0,2020-04-17,2020-05-12,,released
+2000000652,female,80s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-17,,,isolated
+2000000653,male,50s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-04-17,,,isolated
+2000000654,female,0s,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-04-17,,,isolated
+2000000651,male,50s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-17,,,isolated
+1400000091,female,20s,Korea,Incheon,Namdong-gu,overseas inflow,,2020-04-18,2020-04-26,,released
+1100000129,female,20s,Korea,Busan,etc,etc,131.0,2020-04-18,,,isolated
+1100000128,male,50s,Korea,Busan,Buk-gu,etc,185.0,2020-04-18,,,isolated
+6016000039,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-18,,,isolated
+1400000092,male,20s,Korea,Incheon,Gyeyang-gu,overseas inflow,,2020-04-19,2020-04-26,,released
+1200010674,female,30s,Korea,Daegu,Dalseo-gu,,,2020-04-19,,,isolated
+1600000043,female,50s,Korea,Ulsan,Buk-gu,overseas inflow,,2020-04-19,2020-05-08,,released
+6016000040,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-19,,,isolated
+2000000655,female,20s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-19,,,isolated
+2000000656,male,50s,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-04-19,,,isolated
+2000000658,female,50s,Korea,Gyeonggi-do,Yangju-si,contact with patient,,2020-04-20,,,isolated
+1200010680,male,70s,Korea,Daegu,Dalsung-gun,,,2020-04-20,,,isolated
+1700000027,male,40s,Korea,Sejong,Sejong,Ministry of Oceans and Fisheries,10.0,2020-04-20,2020-04-29,,released
+1200010682,female,50s,Korea,Daegu,Dong-gu,,,2020-04-20,,,isolated
+2000000657,male,50s,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-04-20,,,isolated
+4100000092,male,60s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-04-21,2020-04-30,,released
+1500000040,male,30s,Korea,Daejeon,Jung-gu,overseas inflow,0.0,2020-04-21,2020-05-06,,released
+1100000130,female,30s,Korea,Busan,Nam-gu,overseas inflow,2.0,2020-04-21,,,isolated
+1100000131,female,70s,Korea,Busan,Buk-gu,contact with patient,5.0,2020-04-21,,,isolated
+6100000116,male,60s,Korea,Gyeongsangnam-do,Changwon-si,etc,,2020-04-21,2020-05-15,,released
+6002000050,male,40s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-04-21,,,isolated
+1200010689,female,40s,Korea,Daegu,Nam-gu,,,2020-04-21,,,isolated
+6016000041,male,10s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-21,,,isolated
+2000000659,male,70s,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-04-22,,,isolated
+1200010700,female,40s,Korea,Daegu,Seo-gu,,,2020-04-22,,,isolated
+1100000132,female,30s,Korea,Busan,Suyeong-gu,overseas inflow,0.0,2020-04-22,,,isolated
+1200010699,male,20s,Korea,Daegu,Dalseo-gu,,,2020-04-22,,,isolated
+1700000019,male,40s,Korea,Sejong,Sejong,Ministry of Oceans and Fisheries,9.0,2020-04-22,2020-05-01,,released
+1200010702,male,50s,Korea,Daegu,Suseong-gu,,,2020-04-22,,,isolated
+1200010701,male,80s,Korea,Daegu,Seo-gu,,,2020-04-22,,,isolated
+1200010708,male,10s,Korea,Daegu,Dong-gu,,,2020-04-23,,,isolated
+1100000133,male,60s,Korea,Busan,Sasang-gu,overseas inflow,0.0,2020-04-23,,,isolated
+1200010704,female,80s,Korea,Daegu,Suseong-gu,,,2020-04-23,,,isolated
+1200010705,male,20s,Korea,Daegu,Suseong-gu,,,2020-04-23,,,isolated
+2000000660,male,50s,Korea,Gyeonggi-do,Hanam-si,etc,,2020-04-23,,,isolated
+1200010716,male,40s,Korea,Daegu,Dalseo-gu,,,2020-04-24,,,isolated
+2000000661,female,20s,Korea,Gyeonggi-do,Hanam-si,contact with patient,,2020-04-24,,,isolated
+6001000632,female,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,overseas inflow,,2020-04-24,2020-05-19,,released
+2000000662,female,50s,Korea,Gyeonggi-do,Hanam-si,contact with patient,,2020-04-24,,,isolated
+1200010720,female,0s,Korea,Daegu,Dalseo-gu,,,2020-04-24,,,isolated
+6016000042,male,0s,Korea,Gyeongsangbuk-do,Yecheon-gun,,,2020-04-24,,,isolated
+1200010713,male,60s,Korea,Daegu,Buk-gu,,,2020-04-24,,,isolated
+2000000664,male,20s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-04-25,,,isolated
+2000000667,male,30s,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,3.0,2020-04-25,,,isolated
+2000000666,male,30s,Korea,Gyeonggi-do,Suwon-si,overseas inflow,,2020-04-25,,,isolated
+2000000665,male,50s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-25,,,isolated
+1100000134,female,30s,Korea,Busan,Suyeong-gu,overseas inflow,1.0,2020-04-25,,,isolated
+2000000669,female,20s,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-04-25,,,isolated
+2000000668,male,20s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-25,,,isolated
+5000000018,male,,Korea,Jeollabuk-do,Gimje-si,overseas inflow,,2020-04-25,2020-05-16,,released
+2000000663,female,20s,Korea,Gyeonggi-do,Paju-si,overseas inflow,,2020-04-25,,,isolated
+2000000672,female,20s,Korea,Gyeonggi-do,Anyang-si,overseas inflow,,2020-04-26,,,isolated
+2000000671,male,20s,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-04-26,,,isolated
+4100000142,female,10s,Korea,Chungcheongnam-do,Nonsan-si,overseas inflow,2.0,2020-04-26,2020-05-10,,released
+2000000670,female,30s,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-04-26,,,isolated
+1200010737,male,10s,Korea,Daegu,Suseong-gu,,,2020-04-26,,,isolated
+2000000674,female,20s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-27,,,isolated
+2000000673,male,50s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-27,,,isolated
+1200010751,male,20s,Korea,Daegu,Dong-gu,,,2020-04-27,,,isolated
+1400000093,male,,Korea,Incheon,Namdong-gu,overseas inflow,,2020-04-27,2020-05-26,,released
+6016000043,female,70s,Korea,Gyeongsangbuk-do,Yecheon-gun,contact with patient,,2020-04-27,,,isolated
+1200010756,female,40s,Korea,Daegu,Dong-gu,,,2020-04-28,,,isolated
+4100000143,male,30s,Korea,Chungcheongnam-do,Cheonan-si,overseas inflow,4.0,2020-04-28,2020-05-16,,released
+1200010761,female,40s,Korea,Daegu,Buk-gu,,,2020-04-28,,,isolated
+2000000675,male,40s,Korea,Gyeonggi-do,Goyang-si,etc,,2020-04-28,,,isolated
+2000000676,female,20s,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-04-28,,,isolated
+1200010760,female,40s,Korea,Daegu,Nam-gu,,,2020-04-28,,,isolated
+2000000677,female,20s,Korea,Gyeonggi-do,Gwangmyeong-si,overseas inflow,,2020-04-29,,,isolated
+6009000010,male,30s,Korea,Gyeongsangbuk-do,Sangju-si,contact with patient,,2020-04-30,2020-05-04,,released
+2000000678,male,20s,Korea,Gyeonggi-do,Hanam-si,overseas inflow,,2020-04-30,,,isolated
+1400000094,female,,Korea,Incheon,Michuhol-gu,overseas inflow,,2020-04-30,,,isolated

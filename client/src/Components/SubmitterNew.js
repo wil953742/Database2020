@@ -12,7 +12,7 @@ export const SubmitterNew =  ({task })  => {
   } else {
     history.push("/");
   }
-  console.log(logInfo);
+  
 
   const SubmitterID = logInfo.accountID;
   const TaskID = task.taskID;

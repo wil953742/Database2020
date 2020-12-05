@@ -1,668 +1,668 @@
-patient_id,sex,age,province,city,infection_case,contact_number,confirmed_date,released_date,deceased_date,state
-6015000005,female,50s,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-20,2020-03-21,,released
-6001000112,male,20s,Gyeongsangbuk-do,Gyeongsan-si,,4,2020-02-28,2020-04-19,,released
-6001000421,female,60s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-03-06,2020-04-15,,released
-2000000209,female,20s,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-03-14,,,isolated
-2000000205,female,70s,Gyeonggi-do,Seongnam-si,contact with patient,8,2020-03-14,,,isolated
-2000000312,male,10s,Gyeonggi-do,Siheung-si,contact with patient,,2020-03-19,,,isolated
-6004000070,male,20s,Gyeongsangbuk-do,Gumi-si,contact with patient,,2020-05-21,2020-06-05,,released
-2000000829,female,50s,Gyeonggi-do,Bucheon-si,contact with patient,,2020-05-29,,,isolated
-2000000868,,,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-01,,,isolated
-1400000229,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-1400000230,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-1400000231,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-01,,,isolated
-1400000232,male,,Incheon,Michuhol-gu,contact with patient,,2020-06-01,,,isolated
-1400000233,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-1400000234,female,,Incheon,Yeonsu-gu,contact with patient,,2020-06-01,,,isolated
-1400000235,female,,Incheon,Jung-gu,contact with patient,,2020-06-01,,,isolated
-1400000237,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-1400000238,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-1400000239,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-1400000240,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-01,,,isolated
-2000000867,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-01,,,isolated
-1400000228,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-1400000227,male,,Incheon,Seo-gu,contact with patient,,2020-06-01,,,isolated
-1400000236,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-1400000225,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-1400000226,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
-2000000869,,,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-01,,,isolated
-2000000866,,,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-01,,,isolated
-2000000864,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-01,,,isolated
-2000000863,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-01,,,isolated
-2000000862,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-01,,,isolated
-2000000861,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-01,,,isolated
-2000000865,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-01,,,isolated
-2000000860,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-01,,,isolated
-2000000859,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-01,,,isolated
-2000000858,,,Gyeonggi-do,Seongnam-si,etc,,2020-06-01,,,isolated
-2000000857,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-01,,,isolated
-2000000856,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-01,,,isolated
-2000000855,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-01,,,isolated
-2000000854,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-01,,,isolated
-2000000878,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-02,,,isolated
-6023000053,male,20s,Gyeongsangbuk-do,Pohang-si,overseas inflow,,2020-06-02,2020-06-26,,released
-2000000877,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-02,,,isolated
-2000000876,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-02,,,isolated
-2000000873,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-02,,,isolated
-2000000874,,,Gyeonggi-do,Yongin-si,etc,,2020-06-02,,,isolated
-2000000881,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-02,,,isolated
-2000000872,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-02,,,isolated
-2000000871,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-02,,,isolated
-2000000870,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-02,,,isolated
-2000000875,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-02,,,isolated
-2000000882,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-02,,,isolated
-1200011577,female,50s,Daegu,Suseong-gu,,,2020-06-02,,,isolated
-2000000879,,,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-06-02,,,isolated
-1400000244,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-02,,,isolated
-1400000243,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-02,,,isolated
-1400000246,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-02,,,isolated
-1400000247,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-02,,,isolated
-1400000248,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-02,,,isolated
-1400000249,female,,Incheon,Namdong-gu,contact with patient,,2020-06-02,,,isolated
-1400000242,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-02,,,isolated
-1400000241,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-02,,,isolated
-2000000880,,,Gyeonggi-do,Namyangju-si,etc,,2020-06-02,,,isolated
-1400000245,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-02,,,isolated
-2000000885,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-03,,,isolated
-2000000884,,,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-03,,,isolated
-2000000883,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-03,,,isolated
-2000000895,,,Gyeonggi-do,Uijeongbu-si,overseas inflow,,2020-06-03,,,isolated
-2000000887,,,Gyeonggi-do,Siheung-si,overseas inflow,,2020-06-03,,,isolated
-2000000888,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-03,,,isolated
-2000000889,,,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-03,,,isolated
-2000000890,,,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-03,,,isolated
-2000000891,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-03,,,isolated
-2000000892,,,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-06-03,,,isolated
-2000000893,,,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-03,,,isolated
-2000000894,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-03,,,isolated
-2000000886,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-03,,,isolated
-1400000254,male,,Incheon,Jung-gu,contact with patient,,2020-06-03,,,isolated
-1400000255,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-03,,,isolated
-1400000253,female,,Incheon,Jung-gu,contact with patient,,2020-06-03,,,isolated
-1400000252,female,,Incheon,Namdong-gu,contact with patient,,2020-06-03,,,isolated
-1400000251,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-03,,,isolated
-1400000250,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-03,,,isolated
-6001000637,female,20s,Gyeongsangbuk-do,Gyeongsan-si,,,2020-06-04,2020-06-19,,released
-1200011647,male,10s,Daegu,Dalseo-gu,,,2020-06-04,,,isolated
-2000000908,,,Gyeonggi-do,Hwaseong-si,etc,,2020-06-04,,,isolated
-4100000147,female,60s,Chungcheongnam-do,Asan-si,Richway,7,2020-06-04,,,isolated
-2000000907,,,Gyeonggi-do,Hwaseong-si,etc,,2020-06-04,,,isolated
-2000000906,,,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-04,,,isolated
-2000000905,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-04,,,isolated
-2000000904,,,Gyeonggi-do,Bucheon-si,overseas inflow,,2020-06-04,,,isolated
-2000000903,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-04,,,isolated
-2000000902,,,Gyeonggi-do,Ansan-si,Richway,,2020-06-04,,,isolated
-2000000901,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-04,,,isolated
-2000000900,,,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-04,,,isolated
-2000000899,,,Gyeonggi-do,Suwon-si,Richway,,2020-06-04,,,isolated
-2000000896,,,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-04,,,isolated
-2000000898,,,Gyeonggi-do,Anyang-si,Richway,,2020-06-04,,,isolated
-2000000897,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-04,,,isolated
-1400000261,female,,Incheon,Yeonsu-gu,contact with patient,,2020-06-04,,,isolated
-1400000260,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-04,,,isolated
-1400000256,male,,Incheon,Namdong-gu,contact with patient,,2020-06-04,,,isolated
-1400000257,female,,Incheon,Namdong-gu,contact with patient,,2020-06-04,,,isolated
-1400000258,female,,Incheon,Jung-gu,contact with patient,,2020-06-04,,,isolated
-1400000259,female,,Incheon,Yeonsu-gu,contact with patient,,2020-06-04,,,isolated
-1400000262,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-04,,,isolated
-1400000263,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-04,,,isolated
-1400000278,female,,Incheon,Gyeyang-gu,contact with patient,,2020-06-05,,,isolated
-1400000277,female,,Incheon,Gyeyang-gu,contact with patient,,2020-06-05,,,isolated
-1400000276,female,,Incheon,Gyeyang-gu,contact with patient,,2020-06-05,,,isolated
-1400000275,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-05,,,isolated
-1400000274,female,,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
-1400000272,male,,Incheon,Namdong-gu,,,2020-06-05,,,isolated
-4100000148,female,40s,Chungcheongnam-do,Asan-si,Richway,3,2020-06-05,2020-06-25,,released
-1400000271,male,,Incheon,Jung-gu,,,2020-06-05,,,isolated
-1400000270,male,,Incheon,Seo-gu,contact with patient,,2020-06-05,,,isolated
-1400000269,male,,Incheon,Gyeyang-gu,overseas inflow,,2020-06-05,,,isolated
-1400000273,female,,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
-1400000266,male,,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
-2000000910,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-05,,,isolated
-2000000909,,,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-05,,,isolated
-1400000268,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-05,,,isolated
-2000000911,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-05,,,isolated
-2000000912,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-05,,,isolated
-2000000913,,,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-05,,,isolated
-2000000914,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-05,,,isolated
-1400000264,female,,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
-6100000123,female,20s,Gyeongsangnam-do,Gimhae-si,etc,,2020-06-05,,,released
-2000000915,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-05,,,isolated
-3013000008,male,80s,Gangwon-do,Chuncheon-si,Richway,,2020-06-05,,,isolated
-6004000078,male,50s,Gyeongsangbuk-do,Gumi-si,contact with patient,,2020-06-05,2020-06-19,,released
-1400000265,male,,Incheon,Michuhol-gu,contact with patient,,2020-06-05,,,isolated
-1400000267,female,,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
-2000000922,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-06,,,isolated
-2000000923,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-06,,,isolated
-2000000925,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-06,,,isolated
-2000000920,,,Gyeonggi-do,Anyang-si,etc,,2020-06-06,,,isolated
-2000000926,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-06,,,isolated
-2000000927,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
-2000000928,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
-2000000929,,,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-06,,,isolated
-2000000930,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
-2000000931,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
-2000000932,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
-2000000933,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
-2000000934,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-06,,,isolated
-1200011727,female,20s,Daegu,Dalseo-gu,,,2020-06-06,,,isolated
-2000000924,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-06,,,isolated
-2000000919,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-06,,,isolated
-2000000921,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-06,,,isolated
-2000000917,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-06,,,isolated
-2000000916,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
-4000000053,male,10s,Chungcheongbuk-do,Cheongju-si,overseas inflow,,2020-06-06,2020-06-25,,released
-1400000279,female,,Incheon,Namdong-gu,contact with patient,,2020-06-06,,,isolated
-1400000280,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-06,,,isolated
-2000000918,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-06,,,isolated
-2000000938,,,Gyeonggi-do,Bucheon-si,Richway,,2020-06-07,,,isolated
-2000000937,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-07,,,isolated
-2000000936,,,Gyeonggi-do,Yongin-si,overseas inflow,,2020-06-07,,,isolated
-2000000935,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-07,,,isolated
-2000000941,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-07,,,isolated
-2000000942,,,Gyeonggi-do,Pocheon-si,contact with patient,,2020-06-07,,,isolated
-1400000282,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-07,,,isolated
-1400000283,male,,Incheon,Gyeyang-gu,contact with patient,,2020-06-07,,,isolated
-2000000939,,,Gyeonggi-do,Seongnam-si,etc,,2020-06-07,,,isolated
-1400000281,female,,Incheon,Gyeyang-gu,Coupang Logistics Center,,2020-06-07,,,isolated
-1200011814,female,30s,Daegu,Dalsung-gun,overseas inflow,,2020-06-07,,,isolated
-2000000940,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-07,,,isolated
-2000000948,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-08,,,isolated
-2000000947,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-08,,,isolated
-2000000946,,,Gyeonggi-do,Osan-si,overseas inflow,,2020-06-08,,,isolated
-2000000945,,,Gyeonggi-do,Goyang-si,Richway,,2020-06-08,,,isolated
-2000000950,,,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
-2000000951,,,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
-2000000953,,,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
-2000000954,,,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
-2000000955,,,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
-2000000956,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-08,,,isolated
-2000000949,,,Gyeonggi-do,Bucheon-si,etc,,2020-06-08,,,isolated
-2000000944,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-08,,,isolated
-2000000952,,,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
-6100000124,male,40s,Gyeongsangnam-do,Yangsan-si,etc,,2020-06-08,,,released
-1400000286,female,,Incheon,Namdong-gu,Coupang Logistics Center,,2020-06-08,,,isolated
-1400000285,male,,Incheon,Gyeyang-gu,Coupang Logistics Center,,2020-06-08,,,isolated
-1400000284,female,,Incheon,Gyeyang-gu,Coupang Logistics Center,,2020-06-08,,,isolated
-4100000149,female,20s,Chungcheongnam-do,Hongseong-gun,overseas inflow,1,2020-06-08,2020-06-19,,released
-2000000943,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-08,,,isolated
-4100000150,female,40s,Chungcheongnam-do,Asan-si,etc,51,2020-06-08,,,isolated
-2000000981,,,Gyeonggi-do,Gwacheon-si,contact with patient,,2020-06-09,,,isolated
-2000000965,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-09,,,isolated
-2000000966,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-09,,,isolated
-2000000967,,,Gyeonggi-do,Bucheon-si,etc,,2020-06-09,,,isolated
-3013000009,female,20s,Gangwon-do,Chuncheon-si,etc,,2020-06-09,,,isolated
-2000000964,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
-2000000968,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-09,,,isolated
-2000000974,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
-2000000970,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
-2000000969,,,Gyeonggi-do,Seongnam-si,etc,,2020-06-09,,,isolated
-2000000971,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-09,,,isolated
-2000000972,,,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-09,,,isolated
-2000000973,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
-2000000976,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-09,,,isolated
-2000000977,,,Gyeonggi-do,Seongnam-si,etc,,2020-06-09,,,isolated
-2000000978,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
-2000000979,,,Gyeonggi-do,Gwacheon-si,contact with patient,,2020-06-09,,,isolated
-2000000975,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-09,,,isolated
-2000000980,,,Gyeonggi-do,Gwacheon-si,contact with patient,,2020-06-09,,,isolated
-1400000288,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
-2000000962,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
-1400000293,male,,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
-1400000292,male,,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
-1400000291,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
-1400000290,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
-1400000289,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
-1400000287,male,,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
-6100000125,female,40s,Gyeongsangnam-do,Yangsan-si,etc,,2020-06-09,,,isolated
-2000000963,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
-6100000126,female,10s,Gyeongsangnam-do,Yangsan-si,etc,,2020-06-09,,,isolated
-2000000957,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
-2000000958,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-09,,,isolated
-2000000959,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
-2000000960,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-09,,,isolated
-2000000961,,,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-09,,,isolated
-1400000294,female,,Incheon,Gyeyang-gu,contact with patient,,2020-06-09,,,isolated
-1400000296,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-10,,,isolated
-1400000300,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-10,,,isolated
-2000000989,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-10,,,isolated
-1400000299,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-10,,,isolated
-2000000994,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-10,,,isolated
-2000000993,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-10,,,isolated
-2000000992,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-10,,,isolated
-2000000991,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-10,,,isolated
-2000000990,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-10,,,isolated
-1400000295,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-10,,,isolated
-1400000298,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-10,,,isolated
-2000000987,,,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-10,,,isolated
-2000000986,,,Gyeonggi-do,Anyang-si,etc,,2020-06-10,,,isolated
-2000000985,,,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-10,,,isolated
-2000000984,,,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-10,,,isolated
-2000000983,,,Gyeonggi-do,Uijeongbu-si,overseas inflow,,2020-06-10,,,isolated
-2000000982,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-10,,,isolated
-2000000988,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-10,,,isolated
-1400000297,male,,Incheon,Yeonsu-gu,overseas inflow,,2020-06-10,,,isolated
-1400000301,female,,Incheon,Yeonsu-gu,overseas inflow,,2020-06-11,,,isolated
-1200011999,male,10s,Daegu,Buk-gu,,,2020-06-11,,,isolated
-2000001010,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-11,,,isolated
-2000001009,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-11,,,isolated
-2000001008,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-11,,,isolated
-2000001007,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-11,,,isolated
-2000001006,,,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-06-11,,,isolated
-2000001005,,,Gyeonggi-do,Icheon-si,etc,,2020-06-11,,,isolated
-2000001011,,,Gyeonggi-do,Siheung-si,etc,,2020-06-11,,,isolated
-2000001003,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-11,,,isolated
-2000000995,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-11,,,isolated
-2000001004,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-11,,,isolated
-2000000996,,,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-11,,,isolated
-2000000997,,,Gyeonggi-do,Anyang-si,etc,,2020-06-11,,,isolated
-2000000998,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-11,,,isolated
-2000001000,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-11,,,isolated
-2000001002,,,Gyeonggi-do,Hanam-si,contact with patient,,2020-06-11,,,isolated
-2000001001,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-11,,,isolated
-2000000999,,,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-11,,,isolated
-2000001012,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-12,,,isolated
-1200012045,male,20s,Daegu,Buk-gu,overseas inflow,,2020-06-12,,,isolated
-2000001026,,,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-12,,,isolated
-2000001025,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-12,,,isolated
-2000001024,,,Gyeonggi-do,Seongnam-si,etc,,2020-06-12,,,isolated
-1200012044,female,50s,Daegu,Buk-gu,overseas inflow,,2020-06-12,,,isolated
-2000001023,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-12,,,isolated
-2000001022,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-12,,,isolated
-2000001021,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-12,,,isolated
-2000001020,,,Gyeonggi-do,Icheon-si,contact with patient,,2020-06-12,,,isolated
-2000001019,,,Gyeonggi-do,Icheon-si,contact with patient,,2020-06-12,,,isolated
-2000001017,,,Gyeonggi-do,Yongin-si,overseas inflow,,2020-06-12,,,isolated
-2000001016,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-12,,,isolated
-1200012043,male,50s,Daegu,Buk-gu,overseas inflow,,2020-06-12,,,isolated
-2000001015,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-12,,,isolated
-2000001014,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-12,,,isolated
-2000001013,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-12,,,isolated
-1400000302,male,,Incheon,Namdong-gu,Richway,,2020-06-12,,,isolated
-2000001018,,,Gyeonggi-do,Siheung-si,etc,,2020-06-12,,,isolated
-2000001028,,,Gyeonggi-do,Anyang-si,overseas inflow,,2020-06-13,,,isolated
-1400000307,male,,Incheon,Dong-gu,,,2020-06-13,,,isolated
-4100000151,male,40s,Chungcheongnam-do,Asan-si,contact with patient,,2020-06-13,2020-06-25,,released
-2000001032,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-13,,,isolated
-2000001031,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-13,,,isolated
-2000001030,,,Gyeonggi-do,Bucheon-si,etc,,2020-06-13,,,isolated
-2000001029,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-13,,,isolated
-3013000010,female,20s,Gangwon-do,Chuncheon-si,etc,,2020-06-13,,,isolated
-1400000313,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-13,,,isolated
-1400000312,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-13,,,isolated
-1400000311,female,,Incheon,Yeonsu-gu,contact with patient,,2020-06-13,,,isolated
-1400000310,female,,Incheon,Yeonsu-gu,contact with patient,,2020-06-13,,,isolated
-1400000309,male,,Incheon,Gyeyang-gu,contact with patient,,2020-06-13,,,isolated
-1400000308,male,,Incheon,Michuhol-gu,contact with patient,,2020-06-13,,,isolated
-2000001034,,,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-13,,,isolated
-2000001033,,,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-13,,,isolated
-1400000305,female,,Incheon,Bupyeong-gu,contact with patient,,2020-06-13,,,isolated
-1400000304,female,,Incheon,Gyeyang-gu,contact with patient,,2020-06-13,,,isolated
-1400000303,female,,Incheon,Dong-gu,contact with patient,,2020-06-13,,,isolated
-2000001027,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-13,,,isolated
-2000001035,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-13,,,isolated
-2000001036,,,Gyeonggi-do,Yongin-si,etc,,2020-06-13,,,isolated
-2000001037,,,Gyeonggi-do,Yongin-si,etc,,2020-06-13,,,isolated
-1200012077,female,20s,Daegu,Dalseo-gu,,,2020-06-13,,,isolated
-1200012084,male,40s,Daegu,Buk-gu,overseas inflow,,2020-06-13,,,isolated
-1400000306,female,,Incheon,Namdong-gu,contact with patient,,2020-06-13,,,isolated
-2000001045,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-14,,,isolated
-2000001044,,,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-14,,,isolated
-2000001043,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-14,,,isolated
-4100000152,female,50s,Chungcheongnam-do,Asan-si,etc,11,2020-06-14,2020-06-23,,released
-2000001040,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-14,,,isolated
-1400000314,female,,Incheon,Seo-gu,contact with patient,,2020-06-14,,,isolated
-1400000319,male,,Incheon,Gyeyang-gu,contact with patient,,2020-06-14,,,isolated
-1400000318,male,,Incheon,Gyeyang-gu,contact with patient,,2020-06-14,,,isolated
-1400000317,female,,Incheon,Gyeyang-gu,Coupang Logistics Center,,2020-06-14,,,isolated
-1400000316,female,,Incheon,Namdong-gu,contact with patient,,2020-06-14,,,isolated
-1400000315,male,,Incheon,Gyeyang-gu,contact with patient,,2020-06-14,,,isolated
-2000001042,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-14,,,isolated
-6100000127,male,40s,Gyeongsangnam-do,Gimhae-si,etc,,2020-06-14,,,released
-6100000128,male,40s,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-06-14,,,released
-6100000129,male,40s,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-06-14,,,isolated
-2000001038,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-14,,,isolated
-2000001039,,,Gyeonggi-do,Yongin-si,etc,,2020-06-14,,,isolated
-2000001041,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-14,,,isolated
-1500000047,male,60s,Daejeon,Seo-gu,etc,14,2020-06-15,,,isolated
-1500000049,female,60s,Daejeon,Seo-gu,etc,20,2020-06-15,,,isolated
-1500000048,female,60s,Daejeon,Seo-gu,etc,12,2020-06-15,,,isolated
-2000001050,,,Gyeonggi-do,Yongin-si,etc,,2020-06-15,,,isolated
-2000001047,,,Gyeonggi-do,Suwon-si,overseas inflow,,2020-06-15,,,isolated
-4100000153,female,50s,Chungcheongnam-do,Asan-si,contact with patient,1,2020-06-15,,,isolated
-2000001048,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-15,,,isolated
-6100000130,,,Gyeongsangnam-do,Hapcheon-gun,overseas inflow,,2020-06-15,,,released
-6100000131,male,40s,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-06-15,,,isolated
-2000001049,,,Gyeonggi-do,Bucheon-si,etc,,2020-06-15,,,isolated
-1100000145,female,20s,Busan,Gangseo-gu,overseas inflow,3,2020-06-15,,,isolated
-2000001046,,,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-15,,,isolated
-1400000320,female,,Incheon,Namdong-gu,,,2020-06-15,,,isolated
-2000001057,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-16,,,isolated
-2000001055,,,Gyeonggi-do,Suwon-si,overseas inflow,,2020-06-16,,,isolated
-2000001056,,,Gyeonggi-do,Icheon-si,etc,,2020-06-16,,,isolated
-2000001058,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-16,,,isolated
-2000001059,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-16,,,isolated
-2000001060,,,Gyeonggi-do,Goyang-si,etc,,2020-06-16,,,isolated
-2000001061,,,Gyeonggi-do,Bucheon-si,etc,,2020-06-16,,,isolated
-2000001062,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-16,,,isolated
-2000001063,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-16,,,isolated
-2000001054,,,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-16,,,isolated
-2000001053,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-16,,,isolated
-1500000052,female,60s,Gyeonggi-do,Suwon-si,contact with patient,1,2020-06-16,,,isolated
-2000001051,,,Gyeonggi-do,Goyang-si,etc,,2020-06-16,,,isolated
-1500000055,female,50s,Sejong,Sejong,contact with patient,3,2020-06-16,,,isolated
-1500000054,male,50s,Daejeon,Yuseong-gu,contact with patient,3,2020-06-16,,,isolated
-1500000053,female,50s,Daejeon,Yuseong-gu,contact with patient,4,2020-06-16,,,isolated
-2000001064,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-16,,,isolated
-1500000051,female,50s,Daejeon,Seo-gu,contact with patient,34,2020-06-16,,,isolated
-1500000050,female,40s,Daejeon,Seo-gu,contact with patient,3,2020-06-16,,,isolated
-1400000322,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-16,,,isolated
-1400000321,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-16,,,isolated
-1200012183,male,30s,Daegu,sankyeock-dong,overseas inflow,,2020-06-16,,,isolated
-2000001052,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-16,,,isolated
-2000001065,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-16,,,isolated
-7000000016,,,Jeju-do,Jeju-do,overseas inflow,,2020-06-16,2020-06-24,,released
-4100000154,male,60s,Chungcheongnam-do,Gyeryong-si,etc,4,2020-06-16,,,isolated
-2000001071,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-17,,,isolated
-1500000059,female,50s,Daejeon,Sejong,contact with patient,6,2020-06-17,,,isolated
-1500000058,male,60s,Daejeon,Seo-gu,contact with patient,6,2020-06-17,,,isolated
-1500000057,female,60s,Daejeon,Yuseong-gu,contact with patient,3,2020-06-17,,,isolated
-1500000056,female,70s,Daejeon,Jung-gu,Orange Town,10,2020-06-17,,,isolated
-1400000323,male,,Incheon,Yeonsu-gu,overseas inflow,,2020-06-17,,,isolated
-4100000155,female,60s,Chungcheongnam-do,Gyeryong-si,contact with patient,,2020-06-17,,,isolated
-4100000156,female,60s,Chungcheongnam-do,Hongseong-gun,contact with patient,11,2020-06-17,,,isolated
-2000001076,,,Gyeonggi-do,Anyang-si,etc,,2020-06-17,,,isolated
-5000000022,female,10s,Jeollabuk-do,etc,etc,,2020-06-17,,,isolated
-2000001066,,,Gyeonggi-do,Suwon,contact with patient,,2020-06-17,,,isolated
-2000001067,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
-2000001068,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
-2000001069,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-17,,,isolated
-2000001070,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-17,,,isolated
-2000001072,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
-2000001073,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
-2000001074,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
-2000001079,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-17,,,isolated
-2000001078,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-17,,,isolated
-2000001077,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-17,,,isolated
-1500000060,male,50s,Daejeon,Yuseong-gu,Orange Town,3,2020-06-17,,,isolated
-1500000061,female,60s,Daejeon,Seo-gu,Orange Town,30,2020-06-17,,,isolated
-2000001075,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-17,,,isolated
-1200012238,female,20s,Daegu,Icheon-dong,overseas inflow,,2020-06-17,,,isolated
-1200012238,female,20s,Daegu,Nam-gu,overseas inflow,,2020-06-17,,,isolated
-1500000062,female,60s,Daejeon,Yuseong-gu,Orange Town,3,2020-06-18,,,isolated
-1500000063,female,60s,Daejeon,Jung-gu,etc,9,2020-06-18,,,isolated
-2000001090,,,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-06-18,,,isolated
-2000001089,,,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-06-18,,,isolated
-2000001088,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-18,,,isolated
-2000001086,,,Gyeonggi-do,Yangju-si,overseas inflow,,2020-06-18,,,isolated
-1400000324,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-18,,,isolated
-1400000325,male,,Incheon,Michuhol-gu,overseas inflow,,2020-06-18,,,isolated
-2000001085,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-18,,,isolated
-2000001084,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-18,,,isolated
-2000001087,,,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-06-18,,,isolated
-2000001082,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-18,,,isolated
-2000001081,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-18,,,isolated
-2000001080,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-18,,,isolated
-1700000048,female,40s,Sejong,Sejong,etc,13,2020-06-18,,,isolated
-1500000064,female,20s,Daejeon,Daedeok-gu,etc,42,2020-06-18,,,isolated
-1500000068,female,60s,Daejeon,Yuseong-gu,etc,0,2020-06-18,,,isolated
-1500000067,female,60s,Daejeon,Yuseong-gu,etc,9,2020-06-18,,,isolated
-1500000065,female,50s,Daejeon,Jung-gu,etc,11,2020-06-18,,,isolated
-2000001083,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-18,,,isolated
-1500000066,female,60s,Daejeon,Yuseong-gu,etc,6,2020-06-18,,,isolated
-2000001101,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-19,,,isolated
-2000001100,,,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-19,,,isolated
-2000001099,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-19,,,isolated
-2000001098,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-19,,,isolated
-2000001097,,,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-06-19,,,isolated
-2000001094,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-19,,,isolated
-2000001095,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-19,,,isolated
-2000001093,,,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-19,,,isolated
-2000001092,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-19,,,isolated
-2000001091,,,Gyeonggi-do,Seongnam-si,etc,,2020-06-19,,,isolated
-1100000146,male,30s,Busan,Haeundae-gu,overseas inflow,7,2020-06-19,,,isolated
-2000001102,,,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-06-19,,,isolated
-1100000147,male,30s,Busan,Nam-gu,overseas inflow,39,2020-06-19,,,isolated
-2000001096,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-19,,,isolated
-2000001103,,,Gyeonggi-do,Anyang-si,overseas inflow,,2020-06-19,,,isolated
-4100000157,female,60s,Chungcheongnam-do,Gongju-si,contact with patient,1,2020-06-19,,,isolated
-2000001105,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-19,,,isolated
-1500000070,female,50s,Daejeon,Jung-gu,Orange Town,24,2020-06-19,,,isolated
-1500000071,male,60s,Daejeon,Jung-gu,Orange Town,1,2020-06-19,,,isolated
-1500000072,female,60s,Daejeon,Seo-gu,contact with patient,0,2020-06-19,,,isolated
-2000001104,,,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-19,,,isolated
-1400000328,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-19,,,isolated
-4100000158,female,70s,Chungcheongnam-do,Nonsan-si,contact with patient,5,2020-06-19,,,isolated
-1400000329,male,,Incheon,Michuhol-gu,contact with patient,,2020-06-19,,,isolated
-1200012364,male,70s,Daegu,Dalseo-gu,,,2020-06-19,,,isolated
-5000000023,male,30s,Jeollabuk-do,etc,overseas inflow,,2020-06-19,,,isolated
-1200012334,female,60s,Daegu,Dalseo-gu,,,2020-06-19,,,isolated
-3009000023,male,30s,Gangwon-do,Wonju-si,etc,16,2020-06-19,,,isolated
-1700000049,female,50s,Sejong,Sejong,contact with patient,,2020-06-19,,,isolated
-3009000022,male,30s,Gangwon-do,Wonju-si,etc,16,2020-06-19,,,isolated
-1500000069,female,50s,Daejeon,Seo-gu,etc,0,2020-06-19,,,isolated
-2000001107,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-19,,,isolated
-2000001106,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-19,,,isolated
-1400000326,female,,Incheon,Michuhol-gu,contact with patient,,2020-06-19,,,isolated
-1400000327,female,,Incheon,Namdong-gu,contact with patient,,2020-06-19,,,isolated
-1500000076,female,40s,Daejeon,Dong-gu,etc,31,2020-06-20,,,isolated
-1500000073,female,90s,Daejeon,Seo-gu,etc,107,2020-06-20,,,isolated
-4100000159,female,80s,Chungcheongnam-do,Nonsan-si,contact with patient,5,2020-06-20,,,isolated
-1500000081,female,70s,Daejeon,Seo-gu,Dunsan Electronics Town,3,2020-06-20,,,isolated
-1500000080,female,50s,Daejeon,Seo-gu,etc,1,2020-06-20,,,isolated
-1500000075,male,60s,Daejeon,Seo-gu,Dunsan Electronics Town,4,2020-06-20,,,isolated
-1500000079,male,60s,Daejeon,Yuseong-gu,Dunsan Electronics Town,11,2020-06-20,,,isolated
-1500000077,male,60s,Daejeon,Dong-gu,Dunsan Electronics Town,11,2020-06-20,,,isolated
-1500000082,male,80s,Daejeon,Yuseong-gu,Dunsan Electronics Town,1,2020-06-20,,,isolated
-1500000078,female,70s,Daejeon,Yuseong-gu,Dunsan Electronics Town,4,2020-06-20,,,isolated
-1500000074,male,60s,Daejeon,Seo-gu,Dunsan Electronics Town,4,2020-06-20,,,isolated
-2000001109,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-20,,,isolated
-6100000132,male,30s,Gyeongsangnam-do,Gimhae-si,overseas inflow,,2020-06-20,,,isolated
-2000001118,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-20,,,isolated
-2000001117,,,Gyeonggi-do,Suwon-si,overseas inflow,,2020-06-20,,,isolated
-2000001120,,,Gyeonggi-do,Bucheon-si,Yangcheon Table Tennis Club,,2020-06-20,,,isolated
-1200012411,female,30s,Daegu,Suseong-gu,contact with patient,,2020-06-20,,,isolated
-2000001108,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-20,,,isolated
-2000001119,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-20,,,isolated
-2000001115,,,Gyeonggi-do,Uiwang-si,contact with patient,,2020-06-20,,,isolated
-2000001114,,,Gyeonggi-do,Gunpo-si,overseas inflow,,2020-06-20,,,isolated
-2000001113,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-20,,,isolated
-2000001112,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-20,,,isolated
-2000001111,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-20,,,isolated
-2000001110,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-20,,,isolated
-2000001116,,,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-20,,,isolated
-4000000054,male,40s,Chungcheongbuk-do,Eumseong-gun,overseas inflow,,2020-06-21,,,isolated
-1400000330,male,,Incheon,Namdong-gu,overseas inflow,,2020-06-21,,,isolated
-2000001125,,,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-21,,,isolated
-2000001123,,,Gyeonggi-do,Anyang-si,etc,,2020-06-21,,,isolated
-2000001122,,,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-21,,,isolated
-2000001121,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-21,,,isolated
-1200012433,female,60s,Daegu,Buk-gu,contact with patient,,2020-06-21,,,isolated
-2000001124,,,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-21,,,isolated
-4100000161,female,70s,Chungcheongnam-do,Nonsan-si,contact with patient,61,2020-06-21,,,isolated
-5000000024,female,20s,Jeollabuk-do,etc,etc,,2020-06-21,,,isolated
-4100000160,female,50s,Chungcheongnam-do,Gongju-si,contact with patient,1,2020-06-21,,,isolated
-6001000638,male,30s,Gyeongsangbuk-do,Gyeongsan-si,overseas inflow,,2020-06-21,,,isolated
-2000001126,,,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-06-22,,,isolated
-2000001127,,,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-06-22,,,isolated
-2000001128,,,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-22,,,isolated
-2000001129,,,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-22,,,isolated
-3012000011,male,20s,Gangwon-do,Cheorwon-gun,contact with patient,2,2020-06-22,,,isolated
-1500000084,male,50s,Daejeon,Dong-gu,Dunsan Electronics Town,4,2020-06-22,,,isolated
-1500000085,female,60s,Daejeon,Jung-gu,contact with patient,1,2020-06-22,,,isolated
-1500000083,male,70s,Daejeon,Jung-gu,Dunsan Electronics Town,1,2020-06-22,,,isolated
-4100000162,female,40s,Chungcheongnam-do,Cheonan-si,contact with patient,26,2020-06-22,,,isolated
-1200012508,male,40s,Daegu,Dalseo-gu,overseas inflow,,2020-06-22,,,isolated
-2000001130,,,Gyeonggi-do,Siheung-si,etc,,2020-06-22,,,isolated
-1100000148,male,50s,Busan,etc,overseas inflow,,2020-06-23,,,isolated
-2000001139,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-23,,,isolated
-1100000149,male,30s,Busan,Sasang-gu,overseas inflow,,2020-06-23,,,isolated
-2000001138,,,Gyeonggi-do,Yongin-si,etc,,2020-06-23,,,isolated
-1500000087,male,60s,Daejeon,Seo-gu,Dunsan Electronics Town,5,2020-06-23,,,isolated
-1500000091,male,70s,Daejeon,Yuseong-gu,Dunsan Electronics Town,0,2020-06-23,,,isolated
-1500000090,female,60s,Daejeon,Seo-gu,contact with patient,0,2020-06-23,,,isolated
-1500000089,male,50s,Daejeon,Yuseong-gu,etc,7,2020-06-23,,,isolated
-1500000088,female,60s,Daejeon,Jung-gu,Dunsan Electronics Town,20,2020-06-23,,,isolated
-1500000086,male,60s,Daejeon,Seo-gu,etc,3,2020-06-23,,,isolated
-6015000037,male,20s,Gyeongsangbuk-do,Yeongcheon-si,,,2020-06-23,,,isolated
-1200012525,male,40s,Daegu,Suseong-gu,overseas inflow,,2020-06-23,,,isolated
-2000001137,,,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-23,,,isolated
-1500000092,male,60s,Daejeon,Yuseong-gu,Dunsan Electronics Town,40,2020-06-23,,,isolated
-2000001136,,,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-23,,,isolated
-2000001134,,,Gyeonggi-do,Bucheon-si,etc,,2020-06-23,,,isolated
-1600000054,,,Ulsan,Buk-gu,contact with patient,,2020-06-23,,,isolated
-5000000025,male,40s,Jeollabuk-do,etc,overseas inflow,,2020-06-23,,,isolated
-2000001131,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-23,,,isolated
-1400000331,male,,Incheon,Gyeyang-gu,contact with patient,,2020-06-23,,,isolated
-1400000332,male,,Incheon,Yeonsu-gu,contact with patient,,2020-06-23,,,isolated
-1400000333,male,,Incheon,Michuhol-gu,contact with patient,,2020-06-23,,,isolated
-2000001135,,,Gyeonggi-do,Goyang-si,overseas inflow,,2020-06-23,,,isolated
-2000001132,,,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-06-23,,,isolated
-6002000051,female,30s,Gyeongsangbuk-do,Gyeongju-si,overseas inflow,,2020-06-23,,,isolated
-1600000055,,,Ulsan,Jung-gu,etc,,2020-06-23,,,isolated
-2000001133,,,Gyeonggi-do,Gimpo-si,etc,,2020-06-23,,,isolated
-1500000097,female,50s,Daejeon,Yuseong-gu,contact with patient,2,2020-06-24,,,isolated
-2000001141,,,Gyeonggi-do,Uijeongbu-si,etc,,2020-06-24,,,isolated
-2000001140,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-24,,,isolated
-2000001145,,,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-06-24,,,isolated
-1500000093,female,50s,Daejeon,Seo-gu,Orange Town,2,2020-06-24,,,isolated
-1500000094,female,50s,Daejeon,Seo-gu,contact with patient,13,2020-06-24,,,isolated
-1500000095,female,50s,Daejeon,Seo-gu,contact with patient,1,2020-06-24,,,isolated
-1500000096,female,60s,Daejeon,Seo-gu,etc,3,2020-06-24,,,isolated
-2000001143,,,Gyeonggi-do,Seongnam-si,etc,,2020-06-24,,,isolated
-1500000098,male,50s,Daejeon,Yuseong-gu,contact with patient,0,2020-06-24,,,isolated
-1500000099,female,80s,Daejeon,Seo-gu,etc,0,2020-06-24,,,isolated
-1500000100,female,50s,Daejeon,Jung-gu,contact with patient,3,2020-06-24,,,isolated
-4100000163,female,60s,Chungcheongnam-do,Buyeo-gun,contact with patient,3,2020-06-24,,,isolated
-2000001144,,,Gyeonggi-do,Gwangmyeong-si,etc,,2020-06-24,,,isolated
-2000001142,,,Gyeonggi-do,Goyang-si,etc,,2020-06-24,,,isolated
-1400000334,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-24,,,isolated
-6002000052,male,0s,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-06-25,,,isolated
-4100000164,male,70s,Chungcheongnam-do,Nonsan-si,contact with patient,0,2020-06-25,,,isolated
-4100000165,female,60s,Chungcheongnam-do,Asan-si,contact with patient,2,2020-06-25,,,isolated
-4100000166,male,60s,Chungcheongnam-do,Cheonan-si,contact with patient,0,2020-06-25,,,isolated
-1200012628,male,70s,Daegu,Suseong-gu,,,2020-06-25,,,isolated
-2000001146,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-25,,,isolated
-1400000336,male,,Incheon,Jung-gu,overseas inflow,,2020-06-25,,,isolated
-1500000101,female,50s,Daejeon,Seo-gu,contact with patient,3,2020-06-25,,,isolated
-1500000102,male,20s,Daejeon,Seo-gu,etc,29,2020-06-25,,,isolated
-3009000025,female,30s,Gangwon-do,Wonju-si,etc,0,2020-06-25,,,isolated
-3009000024,male,40s,Gangwon-do,Wonju-si,etc,4,2020-06-25,,,isolated
-2000001150,,,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-25,,,isolated
-2000001149,,,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-25,,,isolated
-2000001148,,,Gyeonggi-do,Icheon-si,overseas inflow,,2020-06-25,,,isolated
-2000001147,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-25,,,isolated
-1400000335,female,,Incheon,Namdong-gu,overseas inflow,,2020-06-25,,,isolated
-1400000337,male,,Incheon,Yeonsu-gu,overseas inflow,,2020-06-26,,,isolated
-5000000026,male,60s,Jeollabuk-do,etc,contact with patient,,2020-06-26,,,isolated
-4000000055,male,10s,Chungcheongbuk-do,Cheongju-si,overseas inflow,,2020-06-26,,,isolated
-2000001167,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-26,,,isolated
-1500000104,female,40s,Daejeon,Seo-gu,etc,10,2020-06-26,,,isolated
-1500000103,male,50s,Daejeon,Seo-gu,contact with patient,6,2020-06-26,,,isolated
-2000001151,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
-2000001152,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
-2000001153,,,Gyeonggi-do,Gunpo-si,etc,,2020-06-26,,,isolated
-2000001154,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
-2000001155,,,Gyeonggi-do,Ansan-si,overseas inflow,,2020-06-26,,,isolated
-2000001156,,,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-26,,,isolated
-2000001168,,,Gyeonggi-do,Gunpo-si,overseas inflow,,2020-06-26,,,isolated
-2000001157,,,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-26,,,isolated
-2000001164,,,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-06-26,,,isolated
-2000001159,,,Gyeonggi-do,Suwon-si,overseas inflow,,2020-06-26,,,isolated
-2000001160,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-26,,,isolated
-2000001161,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
-2000001162,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
-2000001163,,,Gyeonggi-do,Ansan-si,overseas inflow,,2020-06-26,,,isolated
-2000001158,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-26,,,isolated
-2000001165,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-26,,,isolated
-2000001166,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-26,,,isolated
-2000001175,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
-2000001176,,,Gyeonggi-do,Ansan-si,overseas inflow,,2020-06-27,,,isolated
-2000001177,,,Gyeonggi-do,Gwangju-si,etc,,2020-06-27,,,isolated
-2000001178,,,Gyeonggi-do,Uiwang-si,contact with patient,,2020-06-27,,,isolated
-2000001184,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-27,,,isolated
-2000001181,,,Gyeonggi-do,Guri,etc,,2020-06-27,,,isolated
-2000001174,,,Gyeonggi-do,Suwon-si,etc,,2020-06-27,,,isolated
-2000001182,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-27,,,isolated
-2000001183,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
-2000001180,,,Gyeonggi-do,Suwon-si,etc,,2020-06-27,,,isolated
-2000001173,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
-1300000033,male,20s,Gwangju,,etc,,2020-06-27,,,isolated
-2000001172,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
-2000001171,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
-2000001170,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-27,,,isolated
-1300000037,female,60s,Gwangju,,etc,,2020-06-27,,,isolated
-1300000036,male,60s,Gwangju,,etc,,2020-06-27,,,isolated
-1300000035,male,60s,Gwangju,,contact with patient,,2020-06-27,,,isolated
-1300000034,female,60s,Gwangju,,etc,,2020-06-27,,,isolated
-2000001185,,,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-27,,,isolated
-2000001169,,,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-27,,,isolated
-5100000021,male,60s,Jeollanam-do,etc,etc,4,2020-06-27,,,isolated
-5100000022,male,60s,Jeollanam-do,etc,contact with patient,5,2020-06-27,,,isolated
-5100000023,male,10s,Jeollanam-do,etc,contact with patient,,2020-06-27,,,isolated
-4100000167,male,20s,Chungcheongnam-do,Asan-si,overseas inflow,,2020-06-27,,,isolated
-4000000056,male,30s,Chungcheongbuk-do,Okcheon-gun,etc,,2020-06-27,,,isolated
-2000001179,,,Gyeonggi-do,Suwon-si,etc,,2020-06-27,,,isolated
-1500000108,female,60s,Daejeon,Seo-gu,etc,19,2020-06-27,,,isolated
-1500000106,male,0s,Daejeon,Dong-gu,contact with patient,15,2020-06-27,,,isolated
-1500000105,male,30s,Daejeon,Dong-gu,etc,21,2020-06-27,,,isolated
-1400000338,male,,Incheon,Bupyeong-gu,contact with patient,,2020-06-27,,,isolated
-1500000110,male,50s,Daejeon,Seo-gu,etc,3,2020-06-27,,,isolated
-1500000109,male,30s,Daejeon,Seo-gu,etc,10,2020-06-27,,,isolated
-1500000107,male,30s,Daejeon,Daedeok-gu,contact with patient,8,2020-06-27,,,isolated
-1300000042,female,70s,Gwangju,,etc,,2020-06-28,,,isolated
-1300000041,female,60s,Gwangju,,contact with patient,,2020-06-28,,,isolated
-1300000040,female,60s,Gwangju,,contact with patient,,2020-06-28,,,isolated
-1300000039,female,60s,Gwangju,,contact with patient,,2020-06-28,,,isolated
-2000001201,,,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-06-28,,,isolated
-2000001187,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
-1200012728,male,40s,Daegu,Seo-gu,contact with patient,,2020-06-28,,,isolated
-1200012727,male,0s,Daegu,Dong-gu,,,2020-06-28,,,isolated
-5100000024,male,40s,Jeollanam-do,etc,overseas inflow,4,2020-06-28,,,isolated
-1500000111,male,60s,Daejeon,Dong-gu,contact with patient,20,2020-06-28,,,isolated
-1500000112,female,60s,Daejeon,Dong-gu,contact with patient,26,2020-06-28,,,isolated
-6100000133,male,30s,Gyeongsangnam-do,Yangsan-si,overseas inflow,,2020-06-28,,,isolated
-1300000038,female,30s,Gwangju,,overseas inflow,,2020-06-28,,,isolated
-1100000150,,,Busan,Haeundae-gu,contact with patient,,2020-06-28,,,isolated
-2000001186,,,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-28,,,isolated
-6022000051,male,20s,Gyeongsangbuk-do,Chilgok-gun,,,2020-06-28,,,isolated
-2000001188,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
-2000001189,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
-2000001190,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
-2000001191,,,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-06-28,,,isolated
-2000001192,,,Gyeonggi-do,Ansan-si,overseas inflow,,2020-06-28,,,isolated
-2000001193,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
-2000001195,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-28,,,isolated
-2000001194,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-28,,,isolated
-2000001197,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-28,,,isolated
-2000001198,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
-2000001199,,,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
-2000001200,,,Gyeonggi-do,Yongin-si,etc,,2020-06-28,,,isolated
-1400000339,female,,Incheon,Yeonsu-gu,overseas inflow,,2020-06-28,,,isolated
-2000001196,,,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-28,,,isolated
-5000000027,female,50s,Jeollabuk-do,etc,contact with patient,34,2020-06-28,,,isolated
-1500000117,female,50s,Daejeon,Seo-gu,contact with patient,,2020-06-29,,,isolated
-1100000151,,,Busan,Dongnae-gu,overseas inflow,,2020-06-29,,,isolated
-6001000639,male,50s,Gyeongsangbuk-do,Gyeongsan-si,overseas inflow,,2020-06-29,,,isolated
-1500000113,female,40s,Daejeon,Dong-gu,contact with patient,10,2020-06-29,,,isolated
-1500000114,male,10s,Daejeon,Dong-gu,contact with patient,,2020-06-29,,,isolated
-1500000115,male,10s,Daejeon,Dong-gu,contact with patient,,2020-06-29,,,isolated
-2000001203,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-29,,,isolated
-2000001202,,,Gyeonggi-do,Paju-si,etc,,2020-06-29,,,isolated
-1400000340,female,,Incheon,Yeonsu-gu,overseas inflow,,2020-06-29,,,isolated
-1400000341,female,,Incheon,Yeonsu-gu,overseas inflow,,2020-06-29,,,isolated
-1300000044,female,60s,Gwangju,,etc,,2020-06-29,,,isolated
-1300000043,male,60s,Gwangju,,etc,,2020-06-29,,,isolated
-2000001204,,,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-29,,,isolated
-1500000116,female,50s,Daejeon,Jung-gu,contact with patient,0,2020-06-29,,,isolated
-1700000050,,40s,Sejong,Sejong,overseas inflow,,2020-06-29,,,isolated
-2000001207,,,Gyeonggi-do,Uijeongbu-si,etc,,2020-06-29,,,isolated
-2000001206,,,Gyeonggi-do,Bucheon-si,etc,,2020-06-29,,,isolated
-2000001205,,,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-29,,,isolated
-1500000118,female,20s,Daejeon,Dong-gu,overseas inflow,0,2020-06-30,,,isolated
-1400000343,female,,Incheon,,overseas inflow,,2020-06-30,,,isolated
-1500000121,male,10s,Daejeon,Dong-gu,contact with patient,3,2020-06-30,,,isolated
-1400000342,female,,Incheon,,overseas inflow,,2020-06-30,,,isolated
-1500000120,male,10s,Daejeon,Dong-gu,contact with patient,2,2020-06-30,,,isolated
-4100000168,,20s,Chungcheongnam-do,Buyeo-gun,overseas inflow,1,2020-06-30,,,isolated
-1500000119,female,70s,Daejeon,Seo-gu,etc,,2020-06-30,,,isolated
+patient_id,sex,age,country,province,city,infection_case,contact_number,confirmed_date,released_date,deceased_date,state
+6015000005,female,50s,Korea,Gyeongsangbuk-do,Yeongcheon-si,Shincheonji Church,,2020-02-20,2020-03-21,,released
+6001000112,male,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,4.0,2020-02-28,2020-04-19,,released
+6001000421,female,60s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-03-06,2020-04-15,,released
+2000000209,female,20s,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-03-14,,,isolated
+2000000205,female,70s,Korea,Gyeonggi-do,Seongnam-si,contact with patient,8.0,2020-03-14,,,isolated
+2000000312,male,10s,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-03-19,,,isolated
+6004000070,male,20s,Korea,Gyeongsangbuk-do,Gumi-si,contact with patient,,2020-05-21,2020-06-05,,released
+2000000829,female,50s,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-05-29,,,isolated
+2000000868,,,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-01,,,isolated
+1400000229,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+1400000230,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+1400000231,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-01,,,isolated
+1400000232,male,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-01,,,isolated
+1400000233,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+1400000234,female,,Korea,Incheon,Yeonsu-gu,contact with patient,,2020-06-01,,,isolated
+1400000235,female,,Korea,Incheon,Jung-gu,contact with patient,,2020-06-01,,,isolated
+1400000237,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+1400000238,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+1400000239,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+1400000240,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-01,,,isolated
+2000000867,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-01,,,isolated
+1400000228,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+1400000227,male,,Korea,Incheon,Seo-gu,contact with patient,,2020-06-01,,,isolated
+1400000236,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+1400000225,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+1400000226,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-01,,,isolated
+2000000869,,,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-01,,,isolated
+2000000866,,,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-01,,,isolated
+2000000864,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-01,,,isolated
+2000000863,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-01,,,isolated
+2000000862,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-01,,,isolated
+2000000861,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-01,,,isolated
+2000000865,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-01,,,isolated
+2000000860,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-01,,,isolated
+2000000859,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-01,,,isolated
+2000000858,,,Korea,Gyeonggi-do,Seongnam-si,etc,,2020-06-01,,,isolated
+2000000857,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-01,,,isolated
+2000000856,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-01,,,isolated
+2000000855,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-01,,,isolated
+2000000854,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-01,,,isolated
+2000000878,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-02,,,isolated
+6023000053,male,20s,Korea,Gyeongsangbuk-do,Pohang-si,overseas inflow,,2020-06-02,2020-06-26,,released
+2000000877,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-02,,,isolated
+2000000876,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-02,,,isolated
+2000000873,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-02,,,isolated
+2000000874,,,Korea,Gyeonggi-do,Yongin-si,etc,,2020-06-02,,,isolated
+2000000881,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-02,,,isolated
+2000000872,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-02,,,isolated
+2000000871,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-02,,,isolated
+2000000870,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-02,,,isolated
+2000000875,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-02,,,isolated
+2000000882,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-02,,,isolated
+1200011577,female,50s,Korea,Daegu,Suseong-gu,,,2020-06-02,,,isolated
+2000000879,,,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-06-02,,,isolated
+1400000244,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-02,,,isolated
+1400000243,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-02,,,isolated
+1400000246,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-02,,,isolated
+1400000247,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-02,,,isolated
+1400000248,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-02,,,isolated
+1400000249,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-02,,,isolated
+1400000242,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-02,,,isolated
+1400000241,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-02,,,isolated
+2000000880,,,Korea,Gyeonggi-do,Namyangju-si,etc,,2020-06-02,,,isolated
+1400000245,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-02,,,isolated
+2000000885,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-03,,,isolated
+2000000884,,,Korea,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-03,,,isolated
+2000000883,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-03,,,isolated
+2000000895,,,Korea,Gyeonggi-do,Uijeongbu-si,overseas inflow,,2020-06-03,,,isolated
+2000000887,,,Korea,Gyeonggi-do,Siheung-si,overseas inflow,,2020-06-03,,,isolated
+2000000888,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-03,,,isolated
+2000000889,,,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-03,,,isolated
+2000000890,,,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-03,,,isolated
+2000000891,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-03,,,isolated
+2000000892,,,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-06-03,,,isolated
+2000000893,,,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-03,,,isolated
+2000000894,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-03,,,isolated
+2000000886,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-03,,,isolated
+1400000254,male,,Korea,Incheon,Jung-gu,contact with patient,,2020-06-03,,,isolated
+1400000255,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-03,,,isolated
+1400000253,female,,Korea,Incheon,Jung-gu,contact with patient,,2020-06-03,,,isolated
+1400000252,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-03,,,isolated
+1400000251,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-03,,,isolated
+1400000250,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-03,,,isolated
+6001000637,female,20s,Korea,Gyeongsangbuk-do,Gyeongsan-si,,,2020-06-04,2020-06-19,,released
+1200011647,male,10s,Korea,Daegu,Dalseo-gu,,,2020-06-04,,,isolated
+2000000908,,,Korea,Gyeonggi-do,Hwaseong-si,etc,,2020-06-04,,,isolated
+4100000147,female,60s,Korea,Chungcheongnam-do,Asan-si,Richway,7.0,2020-06-04,,,isolated
+2000000907,,,Korea,Gyeonggi-do,Hwaseong-si,etc,,2020-06-04,,,isolated
+2000000906,,,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-04,,,isolated
+2000000905,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-04,,,isolated
+2000000904,,,Korea,Gyeonggi-do,Bucheon-si,overseas inflow,,2020-06-04,,,isolated
+2000000903,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-04,,,isolated
+2000000902,,,Korea,Gyeonggi-do,Ansan-si,Richway,,2020-06-04,,,isolated
+2000000901,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-04,,,isolated
+2000000900,,,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-04,,,isolated
+2000000899,,,Korea,Gyeonggi-do,Suwon-si,Richway,,2020-06-04,,,isolated
+2000000896,,,Korea,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-04,,,isolated
+2000000898,,,Korea,Gyeonggi-do,Anyang-si,Richway,,2020-06-04,,,isolated
+2000000897,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-04,,,isolated
+1400000261,female,,Korea,Incheon,Yeonsu-gu,contact with patient,,2020-06-04,,,isolated
+1400000260,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-04,,,isolated
+1400000256,male,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-04,,,isolated
+1400000257,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-04,,,isolated
+1400000258,female,,Korea,Incheon,Jung-gu,contact with patient,,2020-06-04,,,isolated
+1400000259,female,,Korea,Incheon,Yeonsu-gu,contact with patient,,2020-06-04,,,isolated
+1400000262,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-04,,,isolated
+1400000263,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-04,,,isolated
+1400000278,female,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-05,,,isolated
+1400000277,female,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-05,,,isolated
+1400000276,female,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-05,,,isolated
+1400000275,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-05,,,isolated
+1400000274,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
+1400000272,male,,Korea,Incheon,Namdong-gu,,,2020-06-05,,,isolated
+4100000148,female,40s,Korea,Chungcheongnam-do,Asan-si,Richway,3.0,2020-06-05,2020-06-25,,released
+1400000271,male,,Korea,Incheon,Jung-gu,,,2020-06-05,,,isolated
+1400000270,male,,Korea,Incheon,Seo-gu,contact with patient,,2020-06-05,,,isolated
+1400000269,male,,Korea,Incheon,Gyeyang-gu,overseas inflow,,2020-06-05,,,isolated
+1400000273,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
+1400000266,male,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
+2000000910,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-05,,,isolated
+2000000909,,,Korea,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-05,,,isolated
+1400000268,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-05,,,isolated
+2000000911,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-05,,,isolated
+2000000912,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-05,,,isolated
+2000000913,,,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-05,,,isolated
+2000000914,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-05,,,isolated
+1400000264,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
+6100000123,female,20s,Korea,Gyeongsangnam-do,Gimhae-si,etc,,2020-06-05,,,released
+2000000915,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-05,,,isolated
+3013000008,male,80s,Korea,Gangwon-do,Chuncheon-si,Richway,,2020-06-05,,,isolated
+6004000078,male,50s,Korea,Gyeongsangbuk-do,Gumi-si,contact with patient,,2020-06-05,2020-06-19,,released
+1400000265,male,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-05,,,isolated
+1400000267,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-05,,,isolated
+2000000922,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-06,,,isolated
+2000000923,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-06,,,isolated
+2000000925,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-06,,,isolated
+2000000920,,,Korea,Gyeonggi-do,Anyang-si,etc,,2020-06-06,,,isolated
+2000000926,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-06,,,isolated
+2000000927,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
+2000000928,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
+2000000929,,,Korea,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-06,,,isolated
+2000000930,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
+2000000931,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
+2000000932,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
+2000000933,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
+2000000934,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-06,,,isolated
+1200011727,female,20s,Korea,Daegu,Dalseo-gu,,,2020-06-06,,,isolated
+2000000924,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-06,,,isolated
+2000000919,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-06,,,isolated
+2000000921,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-06,,,isolated
+2000000917,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-06,,,isolated
+2000000916,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-06,,,isolated
+4000000053,male,10s,Korea,Chungcheongbuk-do,Cheongju-si,overseas inflow,,2020-06-06,2020-06-25,,released
+1400000279,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-06,,,isolated
+1400000280,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-06,,,isolated
+2000000918,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-06,,,isolated
+2000000938,,,Korea,Gyeonggi-do,Bucheon-si,Richway,,2020-06-07,,,isolated
+2000000937,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-07,,,isolated
+2000000936,,,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-06-07,,,isolated
+2000000935,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-07,,,isolated
+2000000941,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-07,,,isolated
+2000000942,,,Korea,Gyeonggi-do,Pocheon-si,contact with patient,,2020-06-07,,,isolated
+1400000282,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-07,,,isolated
+1400000283,male,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-07,,,isolated
+2000000939,,,Korea,Gyeonggi-do,Seongnam-si,etc,,2020-06-07,,,isolated
+1400000281,female,,Korea,Incheon,Gyeyang-gu,Coupang Logistics Center,,2020-06-07,,,isolated
+1200011814,female,30s,Korea,Daegu,Dalsung-gun,overseas inflow,,2020-06-07,,,isolated
+2000000940,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-07,,,isolated
+2000000948,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-08,,,isolated
+2000000947,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-08,,,isolated
+2000000946,,,Korea,Gyeonggi-do,Osan-si,overseas inflow,,2020-06-08,,,isolated
+2000000945,,,Korea,Gyeonggi-do,Goyang-si,Richway,,2020-06-08,,,isolated
+2000000950,,,Korea,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
+2000000951,,,Korea,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
+2000000953,,,Korea,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
+2000000954,,,Korea,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
+2000000955,,,Korea,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
+2000000956,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-08,,,isolated
+2000000949,,,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-06-08,,,isolated
+2000000944,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-08,,,isolated
+2000000952,,,Korea,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-08,,,isolated
+6100000124,male,40s,Korea,Gyeongsangnam-do,Yangsan-si,etc,,2020-06-08,,,released
+1400000286,female,,Korea,Incheon,Namdong-gu,Coupang Logistics Center,,2020-06-08,,,isolated
+1400000285,male,,Korea,Incheon,Gyeyang-gu,Coupang Logistics Center,,2020-06-08,,,isolated
+1400000284,female,,Korea,Incheon,Gyeyang-gu,Coupang Logistics Center,,2020-06-08,,,isolated
+4100000149,female,20s,Korea,Chungcheongnam-do,Hongseong-gun,overseas inflow,1.0,2020-06-08,2020-06-19,,released
+2000000943,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-08,,,isolated
+4100000150,female,40s,Korea,Chungcheongnam-do,Asan-si,etc,51.0,2020-06-08,,,isolated
+2000000981,,,Korea,Gyeonggi-do,Gwacheon-si,contact with patient,,2020-06-09,,,isolated
+2000000965,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-09,,,isolated
+2000000966,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-09,,,isolated
+2000000967,,,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-06-09,,,isolated
+3013000009,female,20s,Korea,Gangwon-do,Chuncheon-si,etc,,2020-06-09,,,isolated
+2000000964,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
+2000000968,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-09,,,isolated
+2000000974,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
+2000000970,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
+2000000969,,,Korea,Gyeonggi-do,Seongnam-si,etc,,2020-06-09,,,isolated
+2000000971,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-09,,,isolated
+2000000972,,,Korea,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-09,,,isolated
+2000000973,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
+2000000976,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-09,,,isolated
+2000000977,,,Korea,Gyeonggi-do,Seongnam-si,etc,,2020-06-09,,,isolated
+2000000978,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
+2000000979,,,Korea,Gyeonggi-do,Gwacheon-si,contact with patient,,2020-06-09,,,isolated
+2000000975,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-09,,,isolated
+2000000980,,,Korea,Gyeonggi-do,Gwacheon-si,contact with patient,,2020-06-09,,,isolated
+1400000288,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
+2000000962,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
+1400000293,male,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
+1400000292,male,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
+1400000291,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
+1400000290,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
+1400000289,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
+1400000287,male,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-09,,,isolated
+6100000125,female,40s,Korea,Gyeongsangnam-do,Yangsan-si,etc,,2020-06-09,,,isolated
+2000000963,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
+6100000126,female,10s,Korea,Gyeongsangnam-do,Yangsan-si,etc,,2020-06-09,,,isolated
+2000000957,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
+2000000958,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-09,,,isolated
+2000000959,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-09,,,isolated
+2000000960,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-09,,,isolated
+2000000961,,,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-09,,,isolated
+1400000294,female,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-09,,,isolated
+1400000296,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-10,,,isolated
+1400000300,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-10,,,isolated
+2000000989,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-10,,,isolated
+1400000299,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-10,,,isolated
+2000000994,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-10,,,isolated
+2000000993,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-10,,,isolated
+2000000992,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-10,,,isolated
+2000000991,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-10,,,isolated
+2000000990,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-10,,,isolated
+1400000295,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-10,,,isolated
+1400000298,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-10,,,isolated
+2000000987,,,Korea,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-10,,,isolated
+2000000986,,,Korea,Gyeonggi-do,Anyang-si,etc,,2020-06-10,,,isolated
+2000000985,,,Korea,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-10,,,isolated
+2000000984,,,Korea,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-10,,,isolated
+2000000983,,,Korea,Gyeonggi-do,Uijeongbu-si,overseas inflow,,2020-06-10,,,isolated
+2000000982,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-10,,,isolated
+2000000988,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-10,,,isolated
+1400000297,male,,Korea,Incheon,Yeonsu-gu,overseas inflow,,2020-06-10,,,isolated
+1400000301,female,,Korea,Incheon,Yeonsu-gu,overseas inflow,,2020-06-11,,,isolated
+1200011999,male,10s,Korea,Daegu,Buk-gu,,,2020-06-11,,,isolated
+2000001010,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-11,,,isolated
+2000001009,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-11,,,isolated
+2000001008,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-11,,,isolated
+2000001007,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-11,,,isolated
+2000001006,,,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-06-11,,,isolated
+2000001005,,,Korea,Gyeonggi-do,Icheon-si,etc,,2020-06-11,,,isolated
+2000001011,,,Korea,Gyeonggi-do,Siheung-si,etc,,2020-06-11,,,isolated
+2000001003,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-11,,,isolated
+2000000995,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-11,,,isolated
+2000001004,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-11,,,isolated
+2000000996,,,Korea,Gyeonggi-do,Gwangmyeong-si,contact with patient,,2020-06-11,,,isolated
+2000000997,,,Korea,Gyeonggi-do,Anyang-si,etc,,2020-06-11,,,isolated
+2000000998,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-11,,,isolated
+2000001000,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-11,,,isolated
+2000001002,,,Korea,Gyeonggi-do,Hanam-si,contact with patient,,2020-06-11,,,isolated
+2000001001,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-11,,,isolated
+2000000999,,,Korea,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-11,,,isolated
+2000001012,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-12,,,isolated
+1200012045,male,20s,Korea,Daegu,Buk-gu,overseas inflow,,2020-06-12,,,isolated
+2000001026,,,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-12,,,isolated
+2000001025,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-12,,,isolated
+2000001024,,,Korea,Gyeonggi-do,Seongnam-si,etc,,2020-06-12,,,isolated
+1200012044,female,50s,Korea,Daegu,Buk-gu,overseas inflow,,2020-06-12,,,isolated
+2000001023,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-12,,,isolated
+2000001022,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-12,,,isolated
+2000001021,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-12,,,isolated
+2000001020,,,Korea,Gyeonggi-do,Icheon-si,contact with patient,,2020-06-12,,,isolated
+2000001019,,,Korea,Gyeonggi-do,Icheon-si,contact with patient,,2020-06-12,,,isolated
+2000001017,,,Korea,Gyeonggi-do,Yongin-si,overseas inflow,,2020-06-12,,,isolated
+2000001016,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-12,,,isolated
+1200012043,male,50s,Korea,Daegu,Buk-gu,overseas inflow,,2020-06-12,,,isolated
+2000001015,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-12,,,isolated
+2000001014,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-12,,,isolated
+2000001013,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-12,,,isolated
+1400000302,male,,Korea,Incheon,Namdong-gu,Richway,,2020-06-12,,,isolated
+2000001018,,,Korea,Gyeonggi-do,Siheung-si,etc,,2020-06-12,,,isolated
+2000001028,,,Korea,Gyeonggi-do,Anyang-si,overseas inflow,,2020-06-13,,,isolated
+1400000307,male,,Korea,Incheon,Dong-gu,,,2020-06-13,,,isolated
+4100000151,male,40s,Korea,Chungcheongnam-do,Asan-si,contact with patient,,2020-06-13,2020-06-25,,released
+2000001032,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-13,,,isolated
+2000001031,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-13,,,isolated
+2000001030,,,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-06-13,,,isolated
+2000001029,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-13,,,isolated
+3013000010,female,20s,Korea,Gangwon-do,Chuncheon-si,etc,,2020-06-13,,,isolated
+1400000313,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-13,,,isolated
+1400000312,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-13,,,isolated
+1400000311,female,,Korea,Incheon,Yeonsu-gu,contact with patient,,2020-06-13,,,isolated
+1400000310,female,,Korea,Incheon,Yeonsu-gu,contact with patient,,2020-06-13,,,isolated
+1400000309,male,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-13,,,isolated
+1400000308,male,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-13,,,isolated
+2000001034,,,Korea,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-13,,,isolated
+2000001033,,,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-13,,,isolated
+1400000305,female,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-13,,,isolated
+1400000304,female,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-13,,,isolated
+1400000303,female,,Korea,Incheon,Dong-gu,contact with patient,,2020-06-13,,,isolated
+2000001027,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-13,,,isolated
+2000001035,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-13,,,isolated
+2000001036,,,Korea,Gyeonggi-do,Yongin-si,etc,,2020-06-13,,,isolated
+2000001037,,,Korea,Gyeonggi-do,Yongin-si,etc,,2020-06-13,,,isolated
+1200012077,female,20s,Korea,Daegu,Dalseo-gu,,,2020-06-13,,,isolated
+1200012084,male,40s,Korea,Daegu,Buk-gu,overseas inflow,,2020-06-13,,,isolated
+1400000306,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-13,,,isolated
+2000001045,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-14,,,isolated
+2000001044,,,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-14,,,isolated
+2000001043,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-14,,,isolated
+4100000152,female,50s,Korea,Chungcheongnam-do,Asan-si,etc,11.0,2020-06-14,2020-06-23,,released
+2000001040,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-14,,,isolated
+1400000314,female,,Korea,Incheon,Seo-gu,contact with patient,,2020-06-14,,,isolated
+1400000319,male,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-14,,,isolated
+1400000318,male,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-14,,,isolated
+1400000317,female,,Korea,Incheon,Gyeyang-gu,Coupang Logistics Center,,2020-06-14,,,isolated
+1400000316,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-14,,,isolated
+1400000315,male,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-14,,,isolated
+2000001042,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-14,,,isolated
+6100000127,male,40s,Korea,Gyeongsangnam-do,Gimhae-si,etc,,2020-06-14,,,released
+6100000128,male,40s,Korea,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-06-14,,,released
+6100000129,male,40s,Korea,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-06-14,,,isolated
+2000001038,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-14,,,isolated
+2000001039,,,Korea,Gyeonggi-do,Yongin-si,etc,,2020-06-14,,,isolated
+2000001041,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-14,,,isolated
+1500000047,male,60s,Korea,Daejeon,Seo-gu,etc,14.0,2020-06-15,,,isolated
+1500000049,female,60s,Korea,Daejeon,Seo-gu,etc,20.0,2020-06-15,,,isolated
+1500000048,female,60s,Korea,Daejeon,Seo-gu,etc,12.0,2020-06-15,,,isolated
+2000001050,,,Korea,Gyeonggi-do,Yongin-si,etc,,2020-06-15,,,isolated
+2000001047,,,Korea,Gyeonggi-do,Suwon-si,overseas inflow,,2020-06-15,,,isolated
+4100000153,female,50s,Korea,Chungcheongnam-do,Asan-si,contact with patient,1.0,2020-06-15,,,isolated
+2000001048,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-15,,,isolated
+6100000130,,,Korea,Gyeongsangnam-do,Hapcheon-gun,overseas inflow,,2020-06-15,,,released
+6100000131,male,40s,Korea,Gyeongsangnam-do,Geoje-si,overseas inflow,,2020-06-15,,,isolated
+2000001049,,,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-06-15,,,isolated
+1100000145,female,20s,Korea,Busan,Gangseo-gu,overseas inflow,3.0,2020-06-15,,,isolated
+2000001046,,,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-15,,,isolated
+1400000320,female,,Korea,Incheon,Namdong-gu,,,2020-06-15,,,isolated
+2000001057,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-16,,,isolated
+2000001055,,,Korea,Gyeonggi-do,Suwon-si,overseas inflow,,2020-06-16,,,isolated
+2000001056,,,Korea,Gyeonggi-do,Icheon-si,etc,,2020-06-16,,,isolated
+2000001058,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-16,,,isolated
+2000001059,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-16,,,isolated
+2000001060,,,Korea,Gyeonggi-do,Goyang-si,etc,,2020-06-16,,,isolated
+2000001061,,,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-06-16,,,isolated
+2000001062,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-16,,,isolated
+2000001063,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-16,,,isolated
+2000001054,,,Korea,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-16,,,isolated
+2000001053,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-16,,,isolated
+1500000052,female,60s,Korea,Gyeonggi-do,Suwon-si,contact with patient,1.0,2020-06-16,,,isolated
+2000001051,,,Korea,Gyeonggi-do,Goyang-si,etc,,2020-06-16,,,isolated
+1500000055,female,50s,Korea,Sejong,Sejong,contact with patient,3.0,2020-06-16,,,isolated
+1500000054,male,50s,Korea,Daejeon,Yuseong-gu,contact with patient,3.0,2020-06-16,,,isolated
+1500000053,female,50s,Korea,Daejeon,Yuseong-gu,contact with patient,4.0,2020-06-16,,,isolated
+2000001064,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-16,,,isolated
+1500000051,female,50s,Korea,Daejeon,Seo-gu,contact with patient,34.0,2020-06-16,,,isolated
+1500000050,female,40s,Korea,Daejeon,Seo-gu,contact with patient,3.0,2020-06-16,,,isolated
+1400000322,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-16,,,isolated
+1400000321,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-16,,,isolated
+1200012183,male,30s,Korea,Daegu,sankyeock-dong,overseas inflow,,2020-06-16,,,isolated
+2000001052,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-16,,,isolated
+2000001065,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-16,,,isolated
+7000000016,,,Korea,Jeju-do,Jeju-do,overseas inflow,,2020-06-16,2020-06-24,,released
+4100000154,male,60s,Korea,Chungcheongnam-do,Gyeryong-si,etc,4.0,2020-06-16,,,isolated
+2000001071,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-17,,,isolated
+1500000059,female,50s,Korea,Daejeon,Sejong,contact with patient,6.0,2020-06-17,,,isolated
+1500000058,male,60s,Korea,Daejeon,Seo-gu,contact with patient,6.0,2020-06-17,,,isolated
+1500000057,female,60s,Korea,Daejeon,Yuseong-gu,contact with patient,3.0,2020-06-17,,,isolated
+1500000056,female,70s,Korea,Daejeon,Jung-gu,Orange Town,10.0,2020-06-17,,,isolated
+1400000323,male,,Korea,Incheon,Yeonsu-gu,overseas inflow,,2020-06-17,,,isolated
+4100000155,female,60s,Korea,Chungcheongnam-do,Gyeryong-si,contact with patient,,2020-06-17,,,isolated
+4100000156,female,60s,Korea,Chungcheongnam-do,Hongseong-gun,contact with patient,11.0,2020-06-17,,,isolated
+2000001076,,,Korea,Gyeonggi-do,Anyang-si,etc,,2020-06-17,,,isolated
+5000000022,female,10s,Korea,Jeollabuk-do,etc,etc,,2020-06-17,,,isolated
+2000001066,,,Korea,Gyeonggi-do,Suwon,contact with patient,,2020-06-17,,,isolated
+2000001067,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
+2000001068,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
+2000001069,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-17,,,isolated
+2000001070,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-17,,,isolated
+2000001072,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
+2000001073,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
+2000001074,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-17,,,isolated
+2000001079,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-17,,,isolated
+2000001078,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-17,,,isolated
+2000001077,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-17,,,isolated
+1500000060,male,50s,Korea,Daejeon,Yuseong-gu,Orange Town,3.0,2020-06-17,,,isolated
+1500000061,female,60s,Korea,Daejeon,Seo-gu,Orange Town,30.0,2020-06-17,,,isolated
+2000001075,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-17,,,isolated
+1200012238,female,20s,Korea,Daegu,Icheon-dong,overseas inflow,,2020-06-17,,,isolated
+1200012238,female,20s,Korea,Daegu,Nam-gu,overseas inflow,,2020-06-17,,,isolated
+1500000062,female,60s,Korea,Daejeon,Yuseong-gu,Orange Town,3.0,2020-06-18,,,isolated
+1500000063,female,60s,Korea,Daejeon,Jung-gu,etc,9.0,2020-06-18,,,isolated
+2000001090,,,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-06-18,,,isolated
+2000001089,,,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-06-18,,,isolated
+2000001088,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-18,,,isolated
+2000001086,,,Korea,Gyeonggi-do,Yangju-si,overseas inflow,,2020-06-18,,,isolated
+1400000324,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-18,,,isolated
+1400000325,male,,Korea,Incheon,Michuhol-gu,overseas inflow,,2020-06-18,,,isolated
+2000001085,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-18,,,isolated
+2000001084,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-18,,,isolated
+2000001087,,,Korea,Gyeonggi-do,Hwaseong-si,contact with patient,,2020-06-18,,,isolated
+2000001082,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-18,,,isolated
+2000001081,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-18,,,isolated
+2000001080,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-18,,,isolated
+1700000048,female,40s,Korea,Sejong,Sejong,etc,13.0,2020-06-18,,,isolated
+1500000064,female,20s,Korea,Daejeon,Daedeok-gu,etc,42.0,2020-06-18,,,isolated
+1500000068,female,60s,Korea,Daejeon,Yuseong-gu,etc,0.0,2020-06-18,,,isolated
+1500000067,female,60s,Korea,Daejeon,Yuseong-gu,etc,9.0,2020-06-18,,,isolated
+1500000065,female,50s,Korea,Daejeon,Jung-gu,etc,11.0,2020-06-18,,,isolated
+2000001083,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-18,,,isolated
+1500000066,female,60s,Korea,Daejeon,Yuseong-gu,etc,6.0,2020-06-18,,,isolated
+2000001101,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-19,,,isolated
+2000001100,,,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-19,,,isolated
+2000001099,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-19,,,isolated
+2000001098,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-19,,,isolated
+2000001097,,,Korea,Gyeonggi-do,Seongnam-si,overseas inflow,,2020-06-19,,,isolated
+2000001094,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-19,,,isolated
+2000001095,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-19,,,isolated
+2000001093,,,Korea,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-19,,,isolated
+2000001092,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-19,,,isolated
+2000001091,,,Korea,Gyeonggi-do,Seongnam-si,etc,,2020-06-19,,,isolated
+1100000146,male,30s,Korea,Busan,Haeundae-gu,overseas inflow,7.0,2020-06-19,,,isolated
+2000001102,,,Korea,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-06-19,,,isolated
+1100000147,male,30s,Korea,Busan,Nam-gu,overseas inflow,39.0,2020-06-19,,,isolated
+2000001096,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-19,,,isolated
+2000001103,,,Korea,Gyeonggi-do,Anyang-si,overseas inflow,,2020-06-19,,,isolated
+4100000157,female,60s,Korea,Chungcheongnam-do,Gongju-si,contact with patient,1.0,2020-06-19,,,isolated
+2000001105,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-19,,,isolated
+1500000070,female,50s,Korea,Daejeon,Jung-gu,Orange Town,24.0,2020-06-19,,,isolated
+1500000071,male,60s,Korea,Daejeon,Jung-gu,Orange Town,1.0,2020-06-19,,,isolated
+1500000072,female,60s,Korea,Daejeon,Seo-gu,contact with patient,0.0,2020-06-19,,,isolated
+2000001104,,,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-19,,,isolated
+1400000328,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-19,,,isolated
+4100000158,female,70s,Korea,Chungcheongnam-do,Nonsan-si,contact with patient,5.0,2020-06-19,,,isolated
+1400000329,male,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-19,,,isolated
+1200012364,male,70s,Korea,Daegu,Dalseo-gu,,,2020-06-19,,,isolated
+5000000023,male,30s,Korea,Jeollabuk-do,etc,overseas inflow,,2020-06-19,,,isolated
+1200012334,female,60s,Korea,Daegu,Dalseo-gu,,,2020-06-19,,,isolated
+3009000023,male,30s,Korea,Gangwon-do,Wonju-si,etc,16.0,2020-06-19,,,isolated
+1700000049,female,50s,Korea,Sejong,Sejong,contact with patient,,2020-06-19,,,isolated
+3009000022,male,30s,Korea,Gangwon-do,Wonju-si,etc,16.0,2020-06-19,,,isolated
+1500000069,female,50s,Korea,Daejeon,Seo-gu,etc,0.0,2020-06-19,,,isolated
+2000001107,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-19,,,isolated
+2000001106,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-19,,,isolated
+1400000326,female,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-19,,,isolated
+1400000327,female,,Korea,Incheon,Namdong-gu,contact with patient,,2020-06-19,,,isolated
+1500000076,female,40s,Korea,Daejeon,Dong-gu,etc,31.0,2020-06-20,,,isolated
+1500000073,female,90s,Korea,Daejeon,Seo-gu,etc,107.0,2020-06-20,,,isolated
+4100000159,female,80s,Korea,Chungcheongnam-do,Nonsan-si,contact with patient,5.0,2020-06-20,,,isolated
+1500000081,female,70s,Korea,Daejeon,Seo-gu,Dunsan Electronics Town,3.0,2020-06-20,,,isolated
+1500000080,female,50s,Korea,Daejeon,Seo-gu,etc,1.0,2020-06-20,,,isolated
+1500000075,male,60s,Korea,Daejeon,Seo-gu,Dunsan Electronics Town,4.0,2020-06-20,,,isolated
+1500000079,male,60s,Korea,Daejeon,Yuseong-gu,Dunsan Electronics Town,11.0,2020-06-20,,,isolated
+1500000077,male,60s,Korea,Daejeon,Dong-gu,Dunsan Electronics Town,11.0,2020-06-20,,,isolated
+1500000082,male,80s,Korea,Daejeon,Yuseong-gu,Dunsan Electronics Town,1.0,2020-06-20,,,isolated
+1500000078,female,70s,Korea,Daejeon,Yuseong-gu,Dunsan Electronics Town,4.0,2020-06-20,,,isolated
+1500000074,male,60s,Korea,Daejeon,Seo-gu,Dunsan Electronics Town,4.0,2020-06-20,,,isolated
+2000001109,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-20,,,isolated
+6100000132,male,30s,Korea,Gyeongsangnam-do,Gimhae-si,overseas inflow,,2020-06-20,,,isolated
+2000001118,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-20,,,isolated
+2000001117,,,Korea,Gyeonggi-do,Suwon-si,overseas inflow,,2020-06-20,,,isolated
+2000001120,,,Korea,Gyeonggi-do,Bucheon-si,Yangcheon Table Tennis Club,,2020-06-20,,,isolated
+1200012411,female,30s,Korea,Daegu,Suseong-gu,contact with patient,,2020-06-20,,,isolated
+2000001108,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-20,,,isolated
+2000001119,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-20,,,isolated
+2000001115,,,Korea,Gyeonggi-do,Uiwang-si,contact with patient,,2020-06-20,,,isolated
+2000001114,,,Korea,Gyeonggi-do,Gunpo-si,overseas inflow,,2020-06-20,,,isolated
+2000001113,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-20,,,isolated
+2000001112,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-20,,,isolated
+2000001111,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-20,,,isolated
+2000001110,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-20,,,isolated
+2000001116,,,Korea,Gyeonggi-do,Gwangju-si,contact with patient,,2020-06-20,,,isolated
+4000000054,male,40s,Korea,Chungcheongbuk-do,Eumseong-gun,overseas inflow,,2020-06-21,,,isolated
+1400000330,male,,Korea,Incheon,Namdong-gu,overseas inflow,,2020-06-21,,,isolated
+2000001125,,,Korea,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-21,,,isolated
+2000001123,,,Korea,Gyeonggi-do,Anyang-si,etc,,2020-06-21,,,isolated
+2000001122,,,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-21,,,isolated
+2000001121,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-21,,,isolated
+1200012433,female,60s,Korea,Daegu,Buk-gu,contact with patient,,2020-06-21,,,isolated
+2000001124,,,Korea,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-21,,,isolated
+4100000161,female,70s,Korea,Chungcheongnam-do,Nonsan-si,contact with patient,61.0,2020-06-21,,,isolated
+5000000024,female,20s,Korea,Jeollabuk-do,etc,etc,,2020-06-21,,,isolated
+4100000160,female,50s,Korea,Chungcheongnam-do,Gongju-si,contact with patient,1.0,2020-06-21,,,isolated
+6001000638,male,30s,Korea,Gyeongsangbuk-do,Gyeongsan-si,overseas inflow,,2020-06-21,,,isolated
+2000001126,,,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-06-22,,,isolated
+2000001127,,,Korea,Gyeonggi-do,Namyangju-si,overseas inflow,,2020-06-22,,,isolated
+2000001128,,,Korea,Gyeonggi-do,Namyangju-si,contact with patient,,2020-06-22,,,isolated
+2000001129,,,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-22,,,isolated
+3012000011,male,20s,Korea,Gangwon-do,Cheorwon-gun,contact with patient,2.0,2020-06-22,,,isolated
+1500000084,male,50s,Korea,Daejeon,Dong-gu,Dunsan Electronics Town,4.0,2020-06-22,,,isolated
+1500000085,female,60s,Korea,Daejeon,Jung-gu,contact with patient,1.0,2020-06-22,,,isolated
+1500000083,male,70s,Korea,Daejeon,Jung-gu,Dunsan Electronics Town,1.0,2020-06-22,,,isolated
+4100000162,female,40s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,26.0,2020-06-22,,,isolated
+1200012508,male,40s,Korea,Daegu,Dalseo-gu,overseas inflow,,2020-06-22,,,isolated
+2000001130,,,Korea,Gyeonggi-do,Siheung-si,etc,,2020-06-22,,,isolated
+1100000148,male,50s,Korea,Busan,etc,overseas inflow,,2020-06-23,,,isolated
+2000001139,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-23,,,isolated
+1100000149,male,30s,Korea,Busan,Sasang-gu,overseas inflow,,2020-06-23,,,isolated
+2000001138,,,Korea,Gyeonggi-do,Yongin-si,etc,,2020-06-23,,,isolated
+1500000087,male,60s,Korea,Daejeon,Seo-gu,Dunsan Electronics Town,5.0,2020-06-23,,,isolated
+1500000091,male,70s,Korea,Daejeon,Yuseong-gu,Dunsan Electronics Town,0.0,2020-06-23,,,isolated
+1500000090,female,60s,Korea,Daejeon,Seo-gu,contact with patient,0.0,2020-06-23,,,isolated
+1500000089,male,50s,Korea,Daejeon,Yuseong-gu,etc,7.0,2020-06-23,,,isolated
+1500000088,female,60s,Korea,Daejeon,Jung-gu,Dunsan Electronics Town,20.0,2020-06-23,,,isolated
+1500000086,male,60s,Korea,Daejeon,Seo-gu,etc,3.0,2020-06-23,,,isolated
+6015000037,male,20s,Korea,Gyeongsangbuk-do,Yeongcheon-si,,,2020-06-23,,,isolated
+1200012525,male,40s,Korea,Daegu,Suseong-gu,overseas inflow,,2020-06-23,,,isolated
+2000001137,,,Korea,Gyeonggi-do,Paju-si,overseas inflow,,2020-06-23,,,isolated
+1500000092,male,60s,Korea,Daejeon,Yuseong-gu,Dunsan Electronics Town,40.0,2020-06-23,,,isolated
+2000001136,,,Korea,Gyeonggi-do,Ansan-si,contact with patient,,2020-06-23,,,isolated
+2000001134,,,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-06-23,,,isolated
+1600000054,,,Korea,Ulsan,Buk-gu,contact with patient,,2020-06-23,,,isolated
+5000000025,male,40s,Korea,Jeollabuk-do,etc,overseas inflow,,2020-06-23,,,isolated
+2000001131,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-23,,,isolated
+1400000331,male,,Korea,Incheon,Gyeyang-gu,contact with patient,,2020-06-23,,,isolated
+1400000332,male,,Korea,Incheon,Yeonsu-gu,contact with patient,,2020-06-23,,,isolated
+1400000333,male,,Korea,Incheon,Michuhol-gu,contact with patient,,2020-06-23,,,isolated
+2000001135,,,Korea,Gyeonggi-do,Goyang-si,overseas inflow,,2020-06-23,,,isolated
+2000001132,,,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-06-23,,,isolated
+6002000051,female,30s,Korea,Gyeongsangbuk-do,Gyeongju-si,overseas inflow,,2020-06-23,,,isolated
+1600000055,,,Korea,Ulsan,Jung-gu,etc,,2020-06-23,,,isolated
+2000001133,,,Korea,Gyeonggi-do,Gimpo-si,etc,,2020-06-23,,,isolated
+1500000097,female,50s,Korea,Daejeon,Yuseong-gu,contact with patient,2.0,2020-06-24,,,isolated
+2000001141,,,Korea,Gyeonggi-do,Uijeongbu-si,etc,,2020-06-24,,,isolated
+2000001140,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-24,,,isolated
+2000001145,,,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-06-24,,,isolated
+1500000093,female,50s,Korea,Daejeon,Seo-gu,Orange Town,2.0,2020-06-24,,,isolated
+1500000094,female,50s,Korea,Daejeon,Seo-gu,contact with patient,13.0,2020-06-24,,,isolated
+1500000095,female,50s,Korea,Daejeon,Seo-gu,contact with patient,1.0,2020-06-24,,,isolated
+1500000096,female,60s,Korea,Daejeon,Seo-gu,etc,3.0,2020-06-24,,,isolated
+2000001143,,,Korea,Gyeonggi-do,Seongnam-si,etc,,2020-06-24,,,isolated
+1500000098,male,50s,Korea,Daejeon,Yuseong-gu,contact with patient,0.0,2020-06-24,,,isolated
+1500000099,female,80s,Korea,Daejeon,Seo-gu,etc,0.0,2020-06-24,,,isolated
+1500000100,female,50s,Korea,Daejeon,Jung-gu,contact with patient,3.0,2020-06-24,,,isolated
+4100000163,female,60s,Korea,Chungcheongnam-do,Buyeo-gun,contact with patient,3.0,2020-06-24,,,isolated
+2000001144,,,Korea,Gyeonggi-do,Gwangmyeong-si,etc,,2020-06-24,,,isolated
+2000001142,,,Korea,Gyeonggi-do,Goyang-si,etc,,2020-06-24,,,isolated
+1400000334,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-24,,,isolated
+6002000052,male,0s,Korea,Gyeongsangbuk-do,Gyeongju-si,contact with patient,,2020-06-25,,,isolated
+4100000164,male,70s,Korea,Chungcheongnam-do,Nonsan-si,contact with patient,0.0,2020-06-25,,,isolated
+4100000165,female,60s,Korea,Chungcheongnam-do,Asan-si,contact with patient,2.0,2020-06-25,,,isolated
+4100000166,male,60s,Korea,Chungcheongnam-do,Cheonan-si,contact with patient,0.0,2020-06-25,,,isolated
+1200012628,male,70s,Korea,Daegu,Suseong-gu,,,2020-06-25,,,isolated
+2000001146,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-25,,,isolated
+1400000336,male,,Korea,Incheon,Jung-gu,overseas inflow,,2020-06-25,,,isolated
+1500000101,female,50s,Korea,Daejeon,Seo-gu,contact with patient,3.0,2020-06-25,,,isolated
+1500000102,male,20s,Korea,Daejeon,Seo-gu,etc,29.0,2020-06-25,,,isolated
+3009000025,female,30s,Korea,Gangwon-do,Wonju-si,etc,0.0,2020-06-25,,,isolated
+3009000024,male,40s,Korea,Gangwon-do,Wonju-si,etc,4.0,2020-06-25,,,isolated
+2000001150,,,Korea,Gyeonggi-do,Yongin-si,contact with patient,,2020-06-25,,,isolated
+2000001149,,,Korea,Gyeonggi-do,Hwaseong-si,overseas inflow,,2020-06-25,,,isolated
+2000001148,,,Korea,Gyeonggi-do,Icheon-si,overseas inflow,,2020-06-25,,,isolated
+2000001147,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-25,,,isolated
+1400000335,female,,Korea,Incheon,Namdong-gu,overseas inflow,,2020-06-25,,,isolated
+1400000337,male,,Korea,Incheon,Yeonsu-gu,overseas inflow,,2020-06-26,,,isolated
+5000000026,male,60s,Korea,Jeollabuk-do,etc,contact with patient,,2020-06-26,,,isolated
+4000000055,male,10s,Korea,Chungcheongbuk-do,Cheongju-si,overseas inflow,,2020-06-26,,,isolated
+2000001167,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-26,,,isolated
+1500000104,female,40s,Korea,Daejeon,Seo-gu,etc,10.0,2020-06-26,,,isolated
+1500000103,male,50s,Korea,Daejeon,Seo-gu,contact with patient,6.0,2020-06-26,,,isolated
+2000001151,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
+2000001152,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
+2000001153,,,Korea,Gyeonggi-do,Gunpo-si,etc,,2020-06-26,,,isolated
+2000001154,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
+2000001155,,,Korea,Gyeonggi-do,Ansan-si,overseas inflow,,2020-06-26,,,isolated
+2000001156,,,Korea,Gyeonggi-do,Bucheon-si,contact with patient,,2020-06-26,,,isolated
+2000001168,,,Korea,Gyeonggi-do,Gunpo-si,overseas inflow,,2020-06-26,,,isolated
+2000001157,,,Korea,Gyeonggi-do,Gimpo-si,contact with patient,,2020-06-26,,,isolated
+2000001164,,,Korea,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-06-26,,,isolated
+2000001159,,,Korea,Gyeonggi-do,Suwon-si,overseas inflow,,2020-06-26,,,isolated
+2000001160,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-26,,,isolated
+2000001161,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
+2000001162,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-26,,,isolated
+2000001163,,,Korea,Gyeonggi-do,Ansan-si,overseas inflow,,2020-06-26,,,isolated
+2000001158,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-26,,,isolated
+2000001165,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-26,,,isolated
+2000001166,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-26,,,isolated
+2000001175,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
+2000001176,,,Korea,Gyeonggi-do,Ansan-si,overseas inflow,,2020-06-27,,,isolated
+2000001177,,,Korea,Gyeonggi-do,Gwangju-si,etc,,2020-06-27,,,isolated
+2000001178,,,Korea,Gyeonggi-do,Uiwang-si,contact with patient,,2020-06-27,,,isolated
+2000001184,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-27,,,isolated
+2000001181,,,Korea,Gyeonggi-do,Guri,etc,,2020-06-27,,,isolated
+2000001174,,,Korea,Gyeonggi-do,Suwon-si,etc,,2020-06-27,,,isolated
+2000001182,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-27,,,isolated
+2000001183,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
+2000001180,,,Korea,Gyeonggi-do,Suwon-si,etc,,2020-06-27,,,isolated
+2000001173,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
+1300000033,male,20s,Korea,Gwangju,,etc,,2020-06-27,,,isolated
+2000001172,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
+2000001171,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-27,,,isolated
+2000001170,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-27,,,isolated
+1300000037,female,60s,Korea,Gwangju,,etc,,2020-06-27,,,isolated
+1300000036,male,60s,Korea,Gwangju,,etc,,2020-06-27,,,isolated
+1300000035,male,60s,Korea,Gwangju,,contact with patient,,2020-06-27,,,isolated
+1300000034,female,60s,Korea,Gwangju,,etc,,2020-06-27,,,isolated
+2000001185,,,Korea,Gyeonggi-do,Pyeongtaek-si,overseas inflow,,2020-06-27,,,isolated
+2000001169,,,Korea,Gyeonggi-do,Anyang-si,contact with patient,,2020-06-27,,,isolated
+5100000021,male,60s,Korea,Jeollanam-do,etc,etc,4.0,2020-06-27,,,isolated
+5100000022,male,60s,Korea,Jeollanam-do,etc,contact with patient,5.0,2020-06-27,,,isolated
+5100000023,male,10s,Korea,Jeollanam-do,etc,contact with patient,,2020-06-27,,,isolated
+4100000167,male,20s,Korea,Chungcheongnam-do,Asan-si,overseas inflow,,2020-06-27,,,isolated
+4000000056,male,30s,Korea,Chungcheongbuk-do,Okcheon-gun,etc,,2020-06-27,,,isolated
+2000001179,,,Korea,Gyeonggi-do,Suwon-si,etc,,2020-06-27,,,isolated
+1500000108,female,60s,Korea,Daejeon,Seo-gu,etc,19.0,2020-06-27,,,isolated
+1500000106,male,0s,Korea,Daejeon,Dong-gu,contact with patient,15.0,2020-06-27,,,isolated
+1500000105,male,30s,Korea,Daejeon,Dong-gu,etc,21.0,2020-06-27,,,isolated
+1400000338,male,,Korea,Incheon,Bupyeong-gu,contact with patient,,2020-06-27,,,isolated
+1500000110,male,50s,Korea,Daejeon,Seo-gu,etc,3.0,2020-06-27,,,isolated
+1500000109,male,30s,Korea,Daejeon,Seo-gu,etc,10.0,2020-06-27,,,isolated
+1500000107,male,30s,Korea,Daejeon,Daedeok-gu,contact with patient,8.0,2020-06-27,,,isolated
+1300000042,female,70s,Korea,Gwangju,,etc,,2020-06-28,,,isolated
+1300000041,female,60s,Korea,Gwangju,,contact with patient,,2020-06-28,,,isolated
+1300000040,female,60s,Korea,Gwangju,,contact with patient,,2020-06-28,,,isolated
+1300000039,female,60s,Korea,Gwangju,,contact with patient,,2020-06-28,,,isolated
+2000001201,,,Korea,Gyeonggi-do,Uijeongbu-si,contact with patient,,2020-06-28,,,isolated
+2000001187,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
+1200012728,male,40s,Korea,Daegu,Seo-gu,contact with patient,,2020-06-28,,,isolated
+1200012727,male,0s,Korea,Daegu,Dong-gu,,,2020-06-28,,,isolated
+5100000024,male,40s,Korea,Jeollanam-do,etc,overseas inflow,4.0,2020-06-28,,,isolated
+1500000111,male,60s,Korea,Daejeon,Dong-gu,contact with patient,20.0,2020-06-28,,,isolated
+1500000112,female,60s,Korea,Daejeon,Dong-gu,contact with patient,26.0,2020-06-28,,,isolated
+6100000133,male,30s,Korea,Gyeongsangnam-do,Yangsan-si,overseas inflow,,2020-06-28,,,isolated
+1300000038,female,30s,Korea,Gwangju,,overseas inflow,,2020-06-28,,,isolated
+1100000150,,,Korea,Busan,Haeundae-gu,contact with patient,,2020-06-28,,,isolated
+2000001186,,,Korea,Gyeonggi-do,Seongnam-si,contact with patient,,2020-06-28,,,isolated
+6022000051,male,20s,Korea,Gyeongsangbuk-do,Chilgok-gun,,,2020-06-28,,,isolated
+2000001188,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
+2000001189,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
+2000001190,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
+2000001191,,,Korea,Gyeonggi-do,Gwangju-si,overseas inflow,,2020-06-28,,,isolated
+2000001192,,,Korea,Gyeonggi-do,Ansan-si,overseas inflow,,2020-06-28,,,isolated
+2000001193,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
+2000001195,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-28,,,isolated
+2000001194,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-28,,,isolated
+2000001197,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-28,,,isolated
+2000001198,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
+2000001199,,,Korea,Gyeonggi-do,Gunpo-si,contact with patient,,2020-06-28,,,isolated
+2000001200,,,Korea,Gyeonggi-do,Yongin-si,etc,,2020-06-28,,,isolated
+1400000339,female,,Korea,Incheon,Yeonsu-gu,overseas inflow,,2020-06-28,,,isolated
+2000001196,,,Korea,Gyeonggi-do,Suwon-si,contact with patient,,2020-06-28,,,isolated
+5000000027,female,50s,Korea,Jeollabuk-do,etc,contact with patient,34.0,2020-06-28,,,isolated
+1500000117,female,50s,Korea,Daejeon,Seo-gu,contact with patient,,2020-06-29,,,isolated
+1100000151,,,Korea,Busan,Dongnae-gu,overseas inflow,,2020-06-29,,,isolated
+6001000639,male,50s,Korea,Gyeongsangbuk-do,Gyeongsan-si,overseas inflow,,2020-06-29,,,isolated
+1500000113,female,40s,Korea,Daejeon,Dong-gu,contact with patient,10.0,2020-06-29,,,isolated
+1500000114,male,10s,Korea,Daejeon,Dong-gu,contact with patient,,2020-06-29,,,isolated
+1500000115,male,10s,Korea,Daejeon,Dong-gu,contact with patient,,2020-06-29,,,isolated
+2000001203,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-29,,,isolated
+2000001202,,,Korea,Gyeonggi-do,Paju-si,etc,,2020-06-29,,,isolated
+1400000340,female,,Korea,Incheon,Yeonsu-gu,overseas inflow,,2020-06-29,,,isolated
+1400000341,female,,Korea,Incheon,Yeonsu-gu,overseas inflow,,2020-06-29,,,isolated
+1300000044,female,60s,Korea,Gwangju,,etc,,2020-06-29,,,isolated
+1300000043,male,60s,Korea,Gwangju,,etc,,2020-06-29,,,isolated
+2000001204,,,Korea,Gyeonggi-do,Goyang-si,contact with patient,,2020-06-29,,,isolated
+1500000116,female,50s,Korea,Daejeon,Jung-gu,contact with patient,0.0,2020-06-29,,,isolated
+1700000050,,40s,Korea,Sejong,Sejong,overseas inflow,,2020-06-29,,,isolated
+2000001207,,,Korea,Gyeonggi-do,Uijeongbu-si,etc,,2020-06-29,,,isolated
+2000001206,,,Korea,Gyeonggi-do,Bucheon-si,etc,,2020-06-29,,,isolated
+2000001205,,,Korea,Gyeonggi-do,Siheung-si,contact with patient,,2020-06-29,,,isolated
+1500000118,female,20s,Korea,Daejeon,Dong-gu,overseas inflow,0.0,2020-06-30,,,isolated
+1400000343,female,,Korea,Incheon,,overseas inflow,,2020-06-30,,,isolated
+1500000121,male,10s,Korea,Daejeon,Dong-gu,contact with patient,3.0,2020-06-30,,,isolated
+1400000342,female,,Korea,Incheon,,overseas inflow,,2020-06-30,,,isolated
+1500000120,male,10s,Korea,Daejeon,Dong-gu,contact with patient,2.0,2020-06-30,,,isolated
+4100000168,,20s,Korea,Chungcheongnam-do,Buyeo-gun,overseas inflow,1.0,2020-06-30,,,isolated
+1500000119,female,70s,Korea,Daejeon,Seo-gu,etc,,2020-06-30,,,isolated
