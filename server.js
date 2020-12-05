@@ -389,7 +389,7 @@ app.post(`/api/Estimator/estimate/:ParsingDataSequenceFileID2`, (req, res) => {
         "UPDATE QUALITY_TEST \
   SET QualityScore = ?, \
       State = 1 \
-  WHERE ParsingDataSequenceFileID2 = ?;";
+  WHERE ParsingDataSequenceFileID2 = ? AND TestID = ?;";
 
     let QualityScore = req.body.QualityScore;
     let ParsingDataSequenceFileID2 = req.body.ParsingDataSequenceFileID;
@@ -408,7 +408,7 @@ app.post(`/api/file`, upload.single("myfile"), (req, res) => {
     let file = req.body.file;
     // console.log(file);
     // console.log(req.file);
-    console.log(req.body);
+    //console.log(req.body);
     let sql = "SELECT * FROM ACCOUNT;";
     connection.query(sql, (err, rows, fields) => {
         res.send(rows);
@@ -439,6 +439,60 @@ app.post(`/api/file/PDSF`, upload.single("myfile"), (req, res) => {
     });
 });
 
-//
+////////////////12.06.0700 PDSF&QT&ASSIGN
+app.post("/api/assign/:pid/:qid", (req, res) => {
+    let pid = req.params.pid;
+    let qid = req.params.qid;
+    connection.query(
+        `INSERT INTO ASSIGN SELECT ${pid} AS APDSFID,EstimatorID,${qid} AS QTESTID 
+    FROM ESTIMATOR ORDER BY RAND() LIMIT 1;`,
+        (err, rows, fields) => {
+            res.send(rows);
+        }
+    );
+});
 
+app.post("/api/addQT/:pID", (req, res) => {
+    let pID = req.params.pID;
+    console.log(pID);
+    connection.query(
+        `INSERT INTO QUALITY_TEST SELECT ${pID},MAX(TestID)+1,null,0,0 
+        FROM QUALITY_TEST;`,
+        (err, rows, fields) => {
+            res.send(rows);
+        }
+    );
+});
+app.get(`/api/getPDSFID/:sid/:rdtid`, (req, res) => {
+    let sid = req.params.sid;
+    let rdtid = req.params.rdtid;
+    //   console.log(sid);
+    // console.log(rdtid);
+
+    connection.query(
+        `SELECT ParsingDataSequenceFileID AS PDSFID
+         FROM PARSING_DATA_SEQUENCE_FILE
+         WHERE BeforeRawDataSequenceFileID = (
+            SELECT MAX(RawDataSequenceFileID) 
+            FROM Covid_Database.RAW_DATA_SEQUENCE_FILE
+            WHERE RDSFSubmitterID=${sid} AND BelongsRawDataTypeID=${rdtid})`,
+        (err, rows, fields) => {
+            // console.log(rows);
+            res.send(rows);
+        }
+    );
+});
+
+app.get(`/api/getQTESTID/:pid`, (req, res) => {
+    let pid = req.params.pid;
+    console.log(pid);
+    connection.query(
+        `SELECT TestID FROM QUALITY_TEST WHERE ParsingDataSequenceFileID2=${pid}`,
+        (err, rows, fields) => {
+            res.send(rows);
+        }
+    );
+});
+
+///////////////////
 app.listen(port, () => console.log(`Listening on port ${port}`));

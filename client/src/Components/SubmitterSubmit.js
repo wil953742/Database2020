@@ -8,7 +8,12 @@ import { useHistory } from "react-router-dom";
 import Select from "react-select";
 import { Pair } from "./classes";
 
-export const SubmitterSubmit = ({ taskName, taskDesc, setTogglePopUp }) => {
+export const SubmitterSubmit = ({
+    taskName,
+    taskDesc,
+    setTogglePopUp,
+    accountID,
+}) => {
     const [RDTtypes, setRDTtypes] = useState();
     const [RDTID, setRDT] = useState();
     const [highlighted, setHighlighted] = React.useState(false);
@@ -22,6 +27,13 @@ export const SubmitterSubmit = ({ taskName, taskDesc, setTogglePopUp }) => {
     const [trmap, setTRMap] = useState();
     const [trmaplist, setTRMaplist] = useState([]);
 
+    const [pdsfID, setPDSFID] = useState();
+    const [qtestID, setQTESTID] = useState([]);
+
+    var aID = accountID;
+    var pID;
+    var qID;
+    //console.log(aID);
     useEffect(() => {
         async function fetchData() {
             await axios.get(`/api/RDTtypes/${taskName}`).then((res) => {
@@ -121,7 +133,42 @@ export const SubmitterSubmit = ({ taskName, taskDesc, setTogglePopUp }) => {
             */
         //rdsf.query->parsing->pdsf.query->    upload->assigning->assign.query->qt.query
         //submitterid_taskid_rawdatatypeid
+        ///////////////12.06.0700
+        await axios
+            .get(`/api/getPDSFID/` + `${accountID}/${RDTID}`)
+            .then((res) => {
+                //console.log(accountID);
+                //console.log(RDTID);
+                setPDSFID(res.data[0].PDSFID);
+                pID = res.data[0].PDSFID;
+                console.log(res.data);
+            });
+        console.log(pID);
+        await axios
+            .post("/api/addQT/" + `${pID}`)
+            .then(function (response) {
+                //console.log(response);
+            })
+            .catch(function (error) {
+                //console.log(error);
+            });
 
+        await axios.get(`/api/getQTESTID/` + `${pID}`).then((res) => {
+            console.log(res.data);
+            setQTESTID(res.data);
+            qID = res.data[0].TestID;
+        });
+
+        await axios
+            .post("/api/assign/" + `${pID}/${qID}`, {})
+            .then(function (response) {
+                //console.log(response);
+            })
+            .catch(function (error) {
+                //console.log(error);
+            });
+
+        ///////////////
         setTogglePopUp(false);
         //console.log(file);
     };
