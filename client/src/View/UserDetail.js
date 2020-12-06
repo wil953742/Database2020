@@ -37,7 +37,6 @@ const UserDetail = (props) => {
         .get(`/api/UserDetail/main/${user.type}/${user.accountID}`)
         .then((res) => {
           setMainData(res.data[0]);
-          console.log(mainData);
         });
     };
     const fetchContent = async () => {

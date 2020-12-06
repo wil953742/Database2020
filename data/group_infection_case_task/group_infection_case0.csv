@@ -1,0 +1,11 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+1,Seoul,Yongsan-gu,Itaewon Clubs,139,37.538621,126.992652
+2,Seoul,Gwanak-gu,Richway,119,37.48208,126.901384
+3,Seoul,Guro-gu,Guro-gu Call Center,95,37.508163,126.884387
+4,Seoul,Yangcheon-gu,Yangcheon Table Tennis Club,43,37.546061,126.874209
+5,Seoul,Dobong-gu,Day Care Center,43,37.679422,127.044374
+6,Seoul,Guro-gu,Manmin Central Church,41,37.481059,126.894343
+7,Seoul,from other city,SMR Newly Planted Churches Group,36,-,-
+8,Seoul,Dongdaemun-gu,Dongan Church,17,37.592888,127.056766
+9,Seoul,from other city,Coupang Logistics Center,25,-,-
+10,Seoul,Gwanak-gu,Wangsung Church,30,37.481735,126.930121

@@ -1,0 +1,12 @@
+patient_id,sex,age,country,province,city,infection_case,contact_number,confirmed_date,released_date,state
+1100000007,male,20s,China,Busan,,Shincheonji Church,485,2020-02-22,,released
+6006000017,female,20s,Thailand,Gyeongsangbuk-do,Gimcheon-si,contact with patient,,2020-03-05,2020-04-06,released
+1100000112,male,20s,Germany,Busan,Geumjeong-gu,overseas inflow,18,2020-03-27,,released
+4100000135,male,40s,United States,Chungcheongnam-do,Asan-si,overseas inflow,2,2020-04-03,2020-04-22,released
+1100000135,male,40s,Foreign,Busan,Sasang-gu,overseas inflow,3,2020-05-01,,isolated
+1200010817,male,30s,Foreign,Daegu,Dalseo-gu,,,2020-05-07,,isolated
+1200010819,male,0s,Foreign,Daegu,Dalseo-gu,,,2020-05-07,,isolated
+5100000017,male,30s,Bangladesh,Jeollanam-do,etc,overseas inflow,3,2020-05-13,2020-06-26,released
+3009000021,female,60s,United Kingdom,Gangwon-do,Wonju-si,overseas inflow,2,2020-05-23,,isolated
+1200011253,male,30s,Foreign,Daegu,Dalsung-gun,,,2020-05-26,,isolated
+1200011452,male,50s,Foreign,Daegu,Dalseo-gu,,,2020-05-30,,isolated

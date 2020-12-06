@@ -1,0 +1,6 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+48,Daegu,from other city,Itaewon Clubs,2,-,-
+49,Daegu,from other city,Cheongdo Daenam Hospital,2,-,-
+50,Gwangju,Dong-gu,Gwangneuksa Temple,5,35.136035,126.956405
+51,Gwangju,from other city,Shincheonji Church,9,-,-
+52,Incheon,from other city,Itaewon Clubs,53,-,-

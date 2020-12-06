@@ -1,0 +1,5 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+44,Daegu,Dalseong-gun,Second Mi-Ju Hospital,196,35.857375,128.466651
+45,Daegu,Seo-gu,Hansarang Convalescent Hospital,124,35.885592,128.556649
+46,Daegu,Dalseong-gun,Daesil Convalescent Hospital,101,35.857393,128.466653
+47,Daegu,Dong-gu,Fatima Hospital,39,35.88395,128.624059

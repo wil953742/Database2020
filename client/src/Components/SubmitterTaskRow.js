@@ -2,21 +2,17 @@ import React from "react";
 
 import styles from "../CSS/component.module.css";
 
-export const SubmitterTaskRow = ({
-  fileName,
-  fileScore,
-  fileType,
-  fileDate,
-  filePNP,
-}) => {
+export const SubmitterTaskRow = ({ task}, {loginfo}) => {
+
+
   return (
     <div>
         <div className={styles.row_container} style={{ cursor: "pointer" }}>
-          <p>{fileName}</p>
-          <p>{fileScore}</p>
-          <p>{fileType}</p>
-          <p>{fileDate}</p>
-          <p>{filePNP}</p>
+          <p>{task.fileName}</p>
+          <p>{task.fileScore}</p>
+          <p>{task.fileType}</p>
+          <p>{task.fileDate}</p>
+          <p>{task.filePNP}</p>
         </div>
     </div>
   );

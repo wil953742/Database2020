@@ -43,7 +43,7 @@ export const Template = () => {
               userID={logInfo.accountID}
             />
           )}
-          {logInfo.userType === "제출자" && <SubmitterMain />}
+          {logInfo.userType === "제출자" && <SubmitterMain loginfo={logInfo} />}
         </div>
       )}
     </div>

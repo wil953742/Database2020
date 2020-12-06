@@ -1,0 +1,6 @@
+ case_id,province,city,infection_case,confirmed,latitude,longitude
+72,Gyeonggi-do,from other city,Guro-gu Call Center,50,-,-
+73,Gyeonggi-do,from other city,Shincheonji Church,29,-,-
+74,Gyeonggi-do,from other city,Yangcheon Table Tennis Club,28,-,-
+75,Gyeonggi-do,-,SMR Newly Planted Churches Group,25,-,-
+76,Gyeonggi-do,Seongnam-si,Bundang Jesaeng Hospital,22,37.38833,127.1218

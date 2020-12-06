@@ -1,8 +1,10 @@
-import React, { useState, Component } from "react";
+import React, { useState, Component, useEffect } from "react";
 import styles from "../CSS/component.module.css";
 import CloseIcon from "@material-ui/icons/Close";
-import { IconButton } from "@material-ui/core";
-
+import { useHistory } from "react-router-dom";
+import { colors, IconButton } from "@material-ui/core";
+import { parse } from 'papaparse';
+import { RPair } from "../Components/classes";
 import Select from 'react-select';
 
 export const SubmitterSubmit = ({
@@ -10,18 +12,191 @@ export const SubmitterSubmit = ({
   taskDesc,
   setTogglePopUp,
 }) => {
-  const RDTtypes = [
-    { value : "type1", label : "type1"},
-    { value : "type2", label : "type2"},
-    { value : "type3", label : "type3"},
-  ];
 
+  var logInfo;
+  var history = useHistory();
+  const loggedIn = localStorage.getItem("user");
+  if (loggedIn) {
+    logInfo = JSON.parse(loggedIn);
+  } else {
+    history.push("/");
+  }
+  
+
+  const [RDTtypes, setRDTtypes] = useState();
+  const [RDTID, setRDT] = useState();
   const [highlighted, setHighlighted] = React.useState(false);
+  const [file, setFile] = useState([]);
+  const [LastRDSFID, setLastRDSFID] = useState([]);
+  const [RDSFID, setRDSFID] = useState();
+  var lst = [];
+  const axios = require('axios').default;
+  //
+  const [trmap, setTRMap] = useState();
+  const [trmaplist, setTRMaplist] = useState([]);
 
-  const Upload = () => {
+  const [pdsfID, setPDSFID] = useState();
+  const [qtestID, setQTESTID] = useState([]);
+
+  var aID = logInfo.accountID;
+  var pID;
+  var qID;
+  //console.log(aID);
+
+  useEffect(() => {
+    async function fetchData() {
+      await axios.get(`/api/RDTtypes/${taskName}`).then((res) => {
+        setRDTtypes(res.data);
+      });
+      
+    }
+    fetchData();
+  }, []);
+  
+
+  useEffect(() => {
+    async function fetchData(){
+      await axios.get(`/api/getLastRDSFID/${logInfo.accountID}`).then((res) => {
+        setLastRDSFID(res.data);
+      });
+    }
+    fetchData();
+  }, []);
+  
+  useEffect(() => {
+    for (let i=0; i < LastRDSFID.length; i++){
+      if (LastRDSFID[i].LastRDSFID == null) {
+        setRDSFID(1);   
+      }
+      else{
+        setRDSFID(LastRDSFID[i].LastRDSFID + 1);
+      }
+    }    
+  }, [LastRDSFID]);
+  
+  useEffect(() => {
+          if (!trmap) return;
+          var trmaplist = [];
+          for (let i = 0; i < trmaplist.length; i++) {
+              trmaplist.push(
+                  new RPair(
+                      trmaplist[i].name,
+                      trmaplist[i].type,
+                      trmaplist[i].map
+                  )
+              );
+          }
+          setTRMaplist(trmaplist);
+      }, [trmap]);
+
+
+  const Upload = async () => {
     // process uploading
+    
+    console.log(RDTID);
+    console.log(RDSFID);
+
+    await axios.post(`/api/file/SubmitterID_${logInfo.accountID}/${taskName}/RDTID_${RDTID}`, {
+      SubmitterID : logInfo.accountID,
+      TaskName : taskName,
+      RDTID : RDTID,
+      RDSFID : RDSFID,
+      file : file
+      
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error)  {
+      console.log(error);
+    });
+
+    await axios.get(`/api/TRMap/${RDTID}`).then((res) => {
+      setTRMap(res.data);
+      var obj = JSON.parse(JSON.stringify(res.data));
+      console.log(obj[0].Pair);
+      var obj1 = JSON.parse(obj[0].Pair);
+      var obj2 = JSON.parse(obj[0].RPair);
+      console.log(obj1);
+      console.log(obj2);
+      for (let i = 0; i < obj1.length; i++) {
+          if (obj2[i].constructor != Object) {
+              var n = obj1[1].name;
+              console.log(obj1[i].name);
+              for (let j = 0; j < file.length; j++) {
+                  delete file[i].n;
+              }
+          }
+      }
+      console.log(file);
+  });
+  /*
+   */
+
+  //        var obj = JSON.parse(trmap);
+
+  /*
+  var logInfo;
+  var history = useHistory();
+  const loggedIn = localStorage.getItem("user");
+  if (loggedIn) {
+      logInfo = JSON.parse(loggedIn);
+  } else {
+      history.push("/");
+  }
+  await axios
+      .post("/api/file/rdsf", {
+          SubmitterID: logInfo.accountID,
+          RawDataType: rdt,
+      })
+      .then(function (response) {
+          //console.log(response);
+      })
+      .catch(function (error) {
+          //console.log(error);
+      });
+      */
+  //rdsf.query->parsing->pdsf.query->    upload->assigning->assign.query->qt.query
+  //submitterid_taskid_rawdatatypeid
+  ///////////////12.06.0700
+  await axios
+      .get(`/api/getPDSFID/` + `${logInfo.accountID}/${RDTID}`)
+      .then((res) => {
+          //console.log(accountID);
+          //console.log(RDTID);
+          
+          setPDSFID(res.data[0].PDSFID); 
+          pID = res.data[0].PDSFID;
+          console.log(res.data);
+      }); 
+  console.log(pID);
+  await axios
+      .post("/api/addQT/" + `${pID}`)
+      .then(function (response) {
+          //console.log(response);
+      })
+      .catch(function (error) {
+          //console.log(error);
+      });
+
+  await axios.get(`/api/getQTESTID/` + `${pID}`).then((res) => {
+      console.log(res.data);
+      setQTESTID(res.data);
+      qID = res.data[0].TestID;
+  });
+
+  await axios
+      .post("/api/assign/" + `${pID}/${qID}`, {})
+      .then(function (response) {
+          //console.log(response);
+      })
+      .catch(function (error) {
+          //console.log(error);
+      });
+
     setTogglePopUp(false);
   };
+
   return (
     <div className={styles.popup_sub}>      
       <IconButton
@@ -58,25 +233,36 @@ export const SubmitterSubmit = ({
           setHighlighted(false);
 
           Array.from(e.dataTransfer.files)
-            .forEach((file) => {
-              const text = file;
+            .filter((file) => file.type === 'text/csv') 
+            .forEach(async (file) => {
+              const text = await file.text();
+              const result = parse(text, { header : true});            
+              console.log(result);
+              setFile((existing) => [...existing, ...result.data]);
             });
         }}
       >
         제출할 파일을 끌어다 놓으시오.
       </div>
+      
 
+      
       <div className={styles.info}>
-      <h3>Row Data Type</h3>
+      <h3>Raw Data Type</h3>
 
         <Select  
           options={RDTtypes}
           placeholder="Raw Data Type을 선택하시오."
           className = {styles.select_rdt}
           isSearchable
-        />
+          // onChange = {e => console.log(e)}
+          onChange = {e => setRDT(e.value)}
+          >
+          
+          </Select>
+        
       </div>
-
+        
       <button className={styles.complete_btn} onClick={() => Upload()}>
         제출
       </button>

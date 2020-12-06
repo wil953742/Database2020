@@ -21,10 +21,30 @@ export const EstimatorEstimate = ({ record, setTogglePopUp }) => {
     setTogglePopUp(false);
   };
 
-  const submit = () => {
+
+  var record;
+  var pdsfID = record.PDSFID;
+  const axios = require("axios").default;
+  console.log(record);
+
+  const submit = async () => {
     // process submitting
+    await axios.post(`/api/Estimator/estimate/${pdsfID}`, {
+      ParsingDataSequenceFileID : pdsfID,
+      QualityScore : score
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error){
+      console.log(error);
+    });
     setTogglePopUp(false);
   };
+
+  
+
+
   return (
     <div className={styles.popup}>
       <IconButton
