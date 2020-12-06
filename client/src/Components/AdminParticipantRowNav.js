@@ -9,6 +9,7 @@ export const AdminParticipantRowNav = () => {
       <p>생일</p>
       <p>점수</p>
       <p></p>
+      <p></p>
     </div>
   );
 };

@@ -5,12 +5,11 @@ const bodyParser = require("body-parser");
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
-app.use(express.json({ limit : "50mb" })); 
-app.use(express.urlencoded({ limit:"50mb", extended: false }));
-
+app.use(express.json({ limit: "50mb" }));
+app.use(express.urlencoded({ limit: "50mb", extended: false }));
 
 // app.use(cors);
 
@@ -28,7 +27,7 @@ const connection = mysql.createConnection({
   database: conf.database,
 });
 
-connection.connect({multipleStatements: true});
+connection.connect({ multipleStatements: true });
 
 app.get("/api/loginAuth/:id&:password", (req, res) => {
   const id = req.params.id;
@@ -57,6 +56,9 @@ app.post("/api/userQueue/Admit", (req, res) => {
   const AccountID = req.body.AccountID;
   const newValue = req.body.newValue;
   const targetTaskID = req.body.targetTaskID;
+  console.log(AccountID);
+  console.log(newValue);
+  console.log(newValue);
   connection.query(
     `UPDATE APPLY \
       SET Approval = ${newValue} \
@@ -476,8 +478,6 @@ app.get("/api/UserDetail/content/:type/:accountID", (req, res) => {
   }
 
   connection.query(sql, (err, rows, field) => {
-    console.log(err);
-    console.log("Data of Content : ", rows);
     res.send(rows);
   });
 });
@@ -503,15 +503,13 @@ app.get("/api/UserDetail/main/:type/:accountID", (req, res) => {
       WHERE SubmitterID = ${accountID}`;
   }
   connection.query(sql, (err, rows, field) => {
-    console.log("Data of main : ", rows);
     res.send(rows);
-    console.log(err);
   });
 });
 
-
 //submitter
-app.get(`/api/submittedTasklist/1/:id`, (req, res) => { // 참여중
+app.get(`/api/submittedTasklist/1/:id`, (req, res) => {
+  // 참여중
   const id = req.params.id;
   var sql = `CREATE VIEW TMP AS
               SELECT TaskID, Name, Description
@@ -534,15 +532,11 @@ app.get(`/api/submittedTasklist/1/:id`, (req, res) => { // 참여중
               
             GROUP BY CollectedTaskID;
 
-            DROP VIEW TMP;`
-  connection.query(sql, [1, 2, 3], function(err, results, fields) {
+            DROP VIEW TMP;`;
+  connection.query(sql, [1, 2, 3], function (err, results, fields) {
     if (!err) {
       res.send(results[1]);
-      console.log(results[0]);
-      console.log(results[1]);
-      console.log(results[2]);
-    }
-    else{
+    } else {
       console.log(err);
     }
   });
@@ -563,7 +557,6 @@ app.get(`/api/submittedTaskList/1/:id/a`, (req, res) => {
   );
 });
 
-
 app.get(`/api/submittedTaskList/1/:id/b`, (req, res) => {
   const id = req.params.id;
   connection.query(
@@ -583,7 +576,8 @@ app.get(`/api/submittedTaskList/1/:id/b`, (req, res) => {
   );
 });
 
-app.get(`/api/submittedTasklist/2/:id`, (req, res) => { // 신청
+app.get(`/api/submittedTasklist/2/:id`, (req, res) => {
+  // 신청
   const id = req.params.id;
   connection.query(
     `SELECT TaskID      AS taskID, 
@@ -601,7 +595,8 @@ app.get(`/api/submittedTasklist/2/:id`, (req, res) => { // 신청
     }
   );
 });
-app.get(`/api/submittedTasklist/3/:id`, (req, res) => { // 대기
+app.get(`/api/submittedTasklist/3/:id`, (req, res) => {
+  // 대기
   const id = req.params.id;
   connection.query(
     `SELECT TaskID      AS taskID, 
@@ -612,14 +607,15 @@ app.get(`/api/submittedTasklist/3/:id`, (req, res) => { // 대기
 
     WHERE AppliedSubmitterID  = ${id} 
       AND TaskID              = AppliedTaskID 
-      AND Approval            = 0`,
+      AND Approval            = NULL`,
     (err, rows, fields) => {
       res.send(rows);
     }
   );
 });
 
-app.get(`/api/submittedTasklist/4/:sid/:tid`, (req, res) => { // 파일목록
+app.get(`/api/submittedTasklist/4/:sid/:tid`, (req, res) => {
+  // 파일목록
   const sid = req.params.sid;
   const tid = req.params.tid;
   connection.query(
@@ -642,7 +638,8 @@ app.get(`/api/submittedTasklist/4/:sid/:tid`, (req, res) => { // 파일목록
   );
 });
 
-app.get(`/api/submittedTasklist/4/:tid`, (req, res) => { // 파일목록
+app.get(`/api/submittedTasklist/4/:tid`, (req, res) => {
+  // 파일목록
   const tid = req.params.tid;
   connection.query(
     `SELECT Name, Description
@@ -654,13 +651,13 @@ app.get(`/api/submittedTasklist/4/:tid`, (req, res) => { // 파일목록
   );
 });
 
-
-app.post(`/api/apply/:SubmitterID/:TaskID`, (req, res) => { // 제출자가 특정 Task에 참가 신청 (APPLY)
+app.post(`/api/apply/:SubmitterID/:TaskID`, (req, res) => {
+  // 제출자가 특정 Task에 참가 신청 (APPLY)
   const SubmitterID = req.body.SubmitterID;
   const TaskID = req.body.TaskID;
   connection.query(
     `INSERT IGNORE INTO APPLY(AppliedSubmitterID, AppliedTaskID, Approval)
-      VALUES(${SubmitterID}, ${TaskID}, 0);`,
+      VALUES(${SubmitterID}, ${TaskID}, NULL);`,
     (err, rows, fields) => {
       res.send(rows);
     }
@@ -694,9 +691,9 @@ app.get(`/api/Estimator/:accountID/notYet`, (req, res) => {
         AND ParsingDataSequenceFileID = ParsingDataSequenceFileID2
         AND BelongsRawDataTypeID = RawDataTypeID
         AND State=0;`,
-        (err, rows, fields) => {
-          res.send(rows);
-        }
+    (err, rows, fields) => {
+      res.send(rows);
+    }
   );
 });
 
@@ -713,15 +710,15 @@ app.get(`/api/Estimator/:accountID/finished`, (req, res) => {
         AND ParsingDataSequenceFileID = ParsingDataSequenceFileID2
         AND BelongsRawDataTypeID = RawDataTypeID
         AND State=1;`,
-        (err, rows, fields) => {
-          res.send(rows);
-        }
+    (err, rows, fields) => {
+      res.send(rows);
+    }
   );
 });
 
 app.post(`/api/Estimator/estimate/:ParsingDataSequenceFileID2`, (req, res) => {
   let sql =
-  "UPDATE QUALITY_TEST \
+    "UPDATE QUALITY_TEST \
   SET QualityScore = ?, \
       State = 1 \
   WHERE ParsingDataSequenceFileID2 = ?;";
@@ -750,14 +747,13 @@ app.get(`/api/RDTtypes/:taskName`, (req, res) => {
 });
 app.get(`/api/TRMap/:RDTID`, (req, res) => {
   const RDTID = req.params.RDTID;
-  console.log(RDTID);
   connection.query(
-      `SELECT SchemaInfo AS Pair , 
+    `SELECT SchemaInfo AS Pair , 
       TableMappingInfo AS RPair 
       FROM RAW_DATA_TYPE WHERE RawDataTypeId = ${RDTID}`,
-      (err, rows, fields) => {
-          res.send(rows);
-      }
+    (err, rows, fields) => {
+      res.send(rows);
+    }
   );
 });
 
@@ -772,7 +768,6 @@ app.get(`/api/getLastRDSFID/:SubmitterID`, (req, res) => {
   );
 });
 
-
 app.get(`/api/test`, (req, res) => {
   connection.query(
     `SELECT SchemaInfo FROM RAW_DATA_TYPE`,
@@ -782,63 +777,60 @@ app.get(`/api/test`, (req, res) => {
   );
 });
 
-const multer = require('multer');
+const multer = require("multer");
 const { query } = require("express");
-const upload = multer({dest : 'uploads'});
+const upload = multer({ dest: "uploads" });
 
-app.use('/uploads', express.static('uploads'));
+app.use("/uploads", express.static("uploads"));
 
-app.post(`/api/file/SubmitterID_:SubmitterID/:TaskName/RDTID_:RDTID`, 
-          upload.single('myfile'), (req, res) => {
-  // POST 함수로 데이터를 받아와서 필요한 정보들을 추출한다
-  const SubmitterID = req.body.SubmitterID;
-  const TaskName = req.body.TaskName;
-  const RDTID = req.body.RDTID;
-  const RDSFID = req.body.RDSFID;
-  const file = req.body.file;
-  
-  // 날짜, 파일명, 파일 경로 등을 생성한다
-  var date = new Date();
-  date = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate();
+app.post(
+  `/api/file/SubmitterID_:SubmitterID/:TaskName/RDTID_:RDTID`,
+  upload.single("myfile"),
+  (req, res) => {
+    // POST 함수로 데이터를 받아와서 필요한 정보들을 추출한다
+    const SubmitterID = req.body.SubmitterID;
+    const TaskName = req.body.TaskName;
+    const RDTID = req.body.RDTID;
+    const RDSFID = req.body.RDSFID;
+    const file = req.body.file;
 
-  var filename = `SubmitterID_${SubmitterID}_${TaskName}_RDTID_${RDTID}_RSDFID_${RDSFID}.txt`;
-  var filePath = 'uploads/' + filename;
+    // 날짜, 파일명, 파일 경로 등을 생성한다
+    var date = new Date();
+    date =
+      date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
 
-  console.log(file[0]);
+    var filename = `SubmitterID_${SubmitterID}_${TaskName}_RDTID_${RDTID}_RSDFID_${RDSFID}.txt`;
+    var filePath = "uploads/" + filename;
 
-
-  // Raw Data Sequence File을 제출하면 DB의 RAW_DATA_SEQUENCE_FILE에 row가 추가된다
-  let sql = `INSERT INTO RAW_DATA_SEQUENCE_FILE
+    // Raw Data Sequence File을 제출하면 DB의 RAW_DATA_SEQUENCE_FILE에 row가 추가된다
+    let sql = `INSERT INTO RAW_DATA_SEQUENCE_FILE
                           (RawDataSequenceFileID, RDSFSubmitterID, BelongsRawDataTypeID, Directory, Turn)
               VALUES(null, ${SubmitterID}, ${RDTID}, "${filePath}", "${date}")`;
-  
-  connection.query(sql, (err, rows, fields) => {
-    res.send(rows);
-  });
-  // 파싱한다
 
+    connection.query(sql, (err, rows, fields) => {
+      res.send(rows);
+    });
+    // 파싱한다
 
-  // 파싱한 데이터를 uploads 폴더에 저장한다
-  var writeFile = fs.createWriteStream(filePath);
-  writeFile.on('error', function(err) { 
-    console.log(err);  
-  });
-  file.forEach(v => 
-    writeFile.write(JSON.stringify(v) + ',\n')
-  );
-  writeFile.end();
-
-});
+    // 파싱한 데이터를 uploads 폴더에 저장한다
+    var writeFile = fs.createWriteStream(filePath);
+    writeFile.on("error", function (err) {
+      console.log(err);
+    });
+    file.forEach((v) => writeFile.write(JSON.stringify(v) + ",\n"));
+    writeFile.end();
+  }
+);
 
 app.post(`/api/file/RDSF`, upload.single("myfile"), (req, res) => {
   let SubmitterID = req.body.SubmitterID;
   let RawDataType = req.body.RawDataType;
 
   let sql =
-      'INSERT INTO RAW_DATA_SEQUENCE_FILE VALUE (null,?,?,"Direc",NOW()) ';
+    'INSERT INTO RAW_DATA_SEQUENCE_FILE VALUE (null,?,?,"Direc",NOW()) ';
   let params = [SubmitterID, RawDataType];
   connection.query(sql, params, (err, rows, fields) => {
-      res.send(rows);
+    res.send(rows);
   });
 });
 
@@ -847,10 +839,10 @@ app.post(`/api/file/PDSF`, upload.single("myfile"), (req, res) => {
   let RawDataType = req.body.RawDataType;
 
   let sql =
-      'INSERT INTO PARSING_DATA_SEQUENCE_FILE VALUE (null,?,?,?,?,"Direc") ';
+    'INSERT INTO PARSING_DATA_SEQUENCE_FILE VALUE (null,?,?,?,?,"Direc") ';
   let params = [SubmitterID, RawDataType];
   connection.query(sql, params, (err, rows, fields) => {
-      res.send(rows);
+    res.send(rows);
   });
 });
 
@@ -859,42 +851,51 @@ app.post("/api/assign/:pid/:qid", (req, res) => {
   let pid = req.params.pid;
   let qid = req.params.qid;
   connection.query(
-      `INSERT INTO ASSIGN SELECT ${pid} AS APDSFID,EstimatorID,${qid} AS QTESTID 
+    `INSERT INTO ASSIGN SELECT ${pid} AS APDSFID,EstimatorID,${qid} AS QTESTID 
   FROM ESTIMATOR ORDER BY RAND() LIMIT 1;`,
-      (err, rows, fields) => {
-          res.send(rows);
-      }
+    (err, rows, fields) => {
+      res.send(rows);
+    }
   );
 });
 
 app.post("/api/addQT/:pID", (req, res) => {
   let pID = req.params.pID;
-  console.log(pID);
   connection.query(
-      `INSERT INTO QUALITY_TEST SELECT ${pID},MAX(TestID)+1,null,0,0 
+    `INSERT INTO QUALITY_TEST SELECT ${pID},MAX(TestID)+1,null,0,0 
       FROM QUALITY_TEST;`,
-      (err, rows, fields) => {
-          res.send(rows);
-      }
+    (err, rows, fields) => {
+      res.send(rows);
+    }
   );
 });
-app.get(`/api/getPDSFID/:sid/:rdtid`, (req, res) => {
-  let sid = req.params.sid;
-  let rdtid = req.params.rdtid;
+
+app.get(`/api/getPDSFID/:rdsfid`, (req, res) => {
+  let rdsfid = req.params.rdsfid;
+
   //   console.log(sid);
   // console.log(rdtid);
 
   connection.query(
-      `SELECT ParsingDataSequenceFileID AS PDSFID
-       FROM PARSING_DATA_SEQUENCE_FILE
-       WHERE BeforeRawDataSequenceFileID = (
-          SELECT MAX(RawDataSequenceFileID) 
-          FROM Covid_Database.RAW_DATA_SEQUENCE_FILE
-          WHERE RDSFSubmitterID=${sid} AND BelongsRawDataTypeID=${rdtid})`,
-      (err, rows, fields) => {
-          // console.log(rows);
-          res.send(rows);
-      }
+    `SELECT ParsingDataSequenceFileID AS PDSFID
+      FROM PARSING_DATA_SEQUENCE_FILE
+      WHERE BeforeRawDataSequenceFileID=${rdsfid}`,
+    (err, rows, fields) => {
+      console.log(rows);
+      res.send(rows);
+    }
+  );
+});
+
+app.post("/api/parse/:rdsfid", (req, res) => {
+  let rdsfid = req.params.rdsfid;
+  console.log(rdsfid);
+  connection.query(
+    `INSERT INTO PARSING_DATA_SEQUENCE_FILE 
+    VALUE (null,${rdsfid},null,null,null,'')`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
   );
 });
 
@@ -902,19 +903,11 @@ app.get(`/api/getQTESTID/:pid`, (req, res) => {
   let pid = req.params.pid;
   console.log(pid);
   connection.query(
-      `SELECT TestID FROM QUALITY_TEST WHERE ParsingDataSequenceFileID2=${pid}`,
-      (err, rows, fields) => {
-          res.send(rows);
-      }
+    `SELECT TestID FROM QUALITY_TEST WHERE ParsingDataSequenceFileID2=${pid}`,
+    (err, rows, fields) => {
+      res.send(rows);
+    }
   );
 });
 
-
-
-
 app.listen(port, () => console.log(`Listening on port ${port}`));
-
-
-
-
-

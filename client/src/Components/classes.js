@@ -84,8 +84,8 @@ class NewTask {
 }
 
 class TaskUser {
-  constructor(AccountID, name, type, sex, birth, score, admit) {
-    this.AccountID = AccountID;
+  constructor(accountID, name, type, sex, birth, score, admit) {
+    this.accountID = accountID;
     this.type = type;
     this.name = name;
     this.sex = sex;
@@ -171,12 +171,11 @@ class otherTask {
     this.taskID = taskID;
     this.taskName = taskName;
     this.taskDesc = taskDesc;
-
   }
 }
 
 class fileTask {
-  constructor(fileName, fileScore, fileType,fileDate,filePNP) {
+  constructor(fileName, fileScore, fileType, fileDate, filePNP) {
     this.fileName = fileName;
     this.fileScore = fileScore;
     this.fileType = fileType;
@@ -184,7 +183,6 @@ class fileTask {
     this.filePNP = filePNP.data;
   }
 }
-
 
 //
 
@@ -199,12 +197,10 @@ export {
   SC,
   RSC,
   NewTask,
-
   RPair,
   UDE,
   UDS,
-
   SubmittedTask,
   otherTask,
-  fileTask
+  fileTask,
 };

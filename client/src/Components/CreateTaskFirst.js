@@ -10,6 +10,7 @@ export const CreateTaskFirst = ({ setStep, newTask }) => {
   const [name, setName] = useState();
 
   const check = async () => {
+    if (name === undefined || !name) return;
     var check = /^[A-Za-z][A-Za-z0-9_]*$/;
     if (name.match(check)) {
       newTask.name = name;

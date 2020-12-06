@@ -32,6 +32,8 @@ const UserDetail = (props) => {
   }
 
   useEffect(() => {
+    console.log(user);
+    console.log(user.accountID);
     const fetchMain = async () => {
       await axios
         .get(`/api/UserDetail/main/${user.type}/${user.accountID}`)
@@ -43,13 +45,12 @@ const UserDetail = (props) => {
       await axios
         .get(`/api/UserDetail/content/${user.type}/${user.accountID}`)
         .then((res) => {
-          console.log(res);
           setContent(res.data);
         });
     };
     fetchMain();
     fetchContent();
-  }, []);
+  }, [props, user]);
 
   useEffect(() => {
     if (!mainData) return;

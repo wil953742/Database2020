@@ -1,18 +1,30 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "../CSS/component.module.css";
+import SearchIcon from "@material-ui/icons/Search";
+import IconButton from "@material-ui/core/IconButton";
 
-export const AdminParticipantRow = ({ reload, user, taskID, setReload }) => {
+export const AdminParticipantRow = ({
+  user,
+  taskID,
+  setReload,
+  reload,
+  props,
+}) => {
+  console.log(user);
   const axios = require("axios").default;
   const Admit = async (admit) => {
     await axios
       .post("/api/userQueue/Admit", {
-        AccountID: user.AccountID,
+        AccountID: user.accountID,
         newValue: admit,
         targetTaskID: taskID,
       })
-      .then((res) => console.log(res));
-    setReload(!reload);
+      .then((res) => {
+        setReload(!reload);
+      });
   };
+
   return (
     <div className={styles.row_container}>
       <p>{user.name}</p>
@@ -27,6 +39,20 @@ export const AdminParticipantRow = ({ reload, user, taskID, setReload }) => {
           <button onClick={() => Admit(0)}>거절</button>
         </div>
       )}
+      <div>
+        <Link
+          to={{
+            pathname: `/UserDetail/${user.accountID}`,
+            user: user,
+            taskID: taskID,
+            newProps: props,
+          }}
+        >
+          <IconButton>
+            <SearchIcon />
+          </IconButton>
+        </Link>
+      </div>
     </div>
   );
 };

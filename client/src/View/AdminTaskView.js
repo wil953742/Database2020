@@ -106,6 +106,7 @@ const AdminTaskView = (props) => {
       .get(url)
       .then((res) => {
         setUserData(res.data);
+        console.log(res.data);
       })
       .catch((err) => console.log(err));
   }
@@ -128,12 +129,12 @@ const AdminTaskView = (props) => {
   useEffect(() => {
     fetchSubmissionData();
     fetchTupleData();
+    fetchUserData();
   }, []);
 
   useEffect(() => {
     if (!submissionData) return;
     if (submissionData.length === 0) return;
-    console.log(submissionData);
     var list = [];
     var total = 0;
     for (let i = 0; i < submissionData.length; i++) {
@@ -158,6 +159,7 @@ const AdminTaskView = (props) => {
   }, [submissionData, tupleData]);
 
   useEffect(() => {
+    setLoading(true);
     fetchUserData();
     fetchSubmissionData();
   }, [reload, props]);
@@ -186,7 +188,6 @@ const AdminTaskView = (props) => {
         )
       );
     }
-
     setUserList(list);
     setLoading(false);
   }, [userData, submissionData]);
@@ -300,22 +301,14 @@ const AdminTaskView = (props) => {
                   style={{ height: "100px" }}
                 >
                   {userList.map((user) => (
-                    <Link
-                      to={{
-                        pathname: `/UserDetail/${user.AccountID}`,
-                        user: user,
-                        taskID: task.taskID,
-                        newProps: props,
-                      }}
-                    >
-                      <AdminParticipantRow
-                        key={user.AccountID}
-                        user={user}
-                        taskID={task.taskID}
-                        setReload={setReload}
-                        reload={reload}
-                      />
-                    </Link>
+                    <AdminParticipantRow
+                      key={user.AccountID}
+                      user={user}
+                      taskID={task.taskID}
+                      setReload={setReload}
+                      props={props}
+                      reload={reload}
+                    />
                   ))}
                 </div>
               </div>
