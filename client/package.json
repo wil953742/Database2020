@@ -46,5 +46,5 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-config-react-app": "^6.0.0"
   },
-  "proxy": "http://localhost:5000/"
+  "proxy": "http://165.132.105.46:3023/"
 }

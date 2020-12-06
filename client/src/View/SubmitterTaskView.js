@@ -1,9 +1,8 @@
-import React, { useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import styles from "../CSS/mainstyle.module.css";
 import { useHistory } from "react-router-dom";
-import { useLocation } from 'react-router-dom'
+import { useLocation } from "react-router-dom";
 import { fileTask, PNP } from "../Components/classes";
-
 
 import { SubmitterTaskRowNav } from "../Components/SubmitterTaskRowNav";
 import { SubmitterTaskRow } from "../Components/SubmitterTaskRow";
@@ -20,10 +19,10 @@ export const SubmitterTaskView = () => {
   } else {
     history.push("/");
   }
-  
+
   let location = useLocation();
-  let tid = location.pathname.split('/')[2];
-  
+  let tid = location.pathname.split("/")[2];
+
   const axios = require("axios").default;
   const [data, setData] = useState();
   const [taskInfo, setTaskInfo] = useState();
@@ -34,21 +33,22 @@ export const SubmitterTaskView = () => {
     // Get Information About Chosen Task
     setTogglePopUp(true);
   };
-  
+
   const url = "/api/submittedTasklist/";
   useEffect(() => {
     async function fetchData() {
-      await axios.get(url+'4/'+`${logInfo.accountID}/${tid}`).then((res) => {
-        setData(res.data);
-      });
-      await axios.get(url+'4/'+`${tid}`).then((res) => {
+      await axios
+        .get(url + "4/" + `${logInfo.accountID}/${tid}`)
+        .then((res) => {
+          setData(res.data);
+        });
+      await axios.get(url + "4/" + `${tid}`).then((res) => {
         setTaskInfo(res.data);
       });
     }
     fetchData();
   }, []);
 
-  
   useEffect(() => {
     if (!data) return;
     var list = [];
@@ -60,42 +60,36 @@ export const SubmitterTaskView = () => {
           data[i].fileType,
           data[i].fileDate,
           data[i].filePNP
-          )
+        )
       );
     }
     setTaskList(list);
   }, [data]);
 
   return (
-    <div className={styles.center_all}>
-      <Nav
-        userType={"제출자"}
-        name={logInfo.name}
-        userID={logInfo.userID}
-      />
+    <div className={styles.center_all} style={{ height: "100vh" }}>
+      <Nav userType={"제출자"} name={logInfo.name} userID={logInfo.userID} />
       <h2 className={styles.list_title}>파일 목록</h2>
       <div className={styles.main_container}>
         <div className={styles.sub_container_1}>
           <SubmitterTaskRowNav />
           <div className={styles.scrollable_div}>
-          {taskList.map((task) => (
-            <SubmitterTaskRow task={task} 
-
-            />
-          ))}
+            {taskList.map((task) => (
+              <SubmitterTaskRow task={task} />
+            ))}
           </div>
         </div>
       </div>
       <button className={styles.add_btn} onClick={() => Submit()}>
-            제출하기
+        제출하기
       </button>
       {togglePopUp && (
-      <SubmitterSubmit
-        setTogglePopUp={setTogglePopUp}
-        taskName={taskInfo[0].Name}
-        taskDesc={taskInfo[0].Description}
-      />)
-      }
+        <SubmitterSubmit
+          setTogglePopUp={setTogglePopUp}
+          taskName={taskInfo[0].Name}
+          taskDesc={taskInfo[0].Description}
+        />
+      )}
     </div>
   );
 };

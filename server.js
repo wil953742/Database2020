@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 // const cors = require("cors");
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3023;
 
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
@@ -595,19 +595,20 @@ app.get(`/api/submittedTasklist/2/:id`, (req, res) => {
     }
   );
 });
+
 app.get(`/api/submittedTasklist/3/:id`, (req, res) => {
   // 대기
   const id = req.params.id;
   connection.query(
     `SELECT TaskID      AS taskID, 
-            Name        AS taskName, 
-            Description AS taskDesc
+          Name        AS taskName, 
+          Description AS taskDesc
 
-    FROM TASK,    APPLY
+  FROM TASK,    APPLY
 
-    WHERE AppliedSubmitterID  = ${id} 
-      AND TaskID              = AppliedTaskID 
-      AND Approval            = NULL`,
+  WHERE AppliedSubmitterID  = ${id} 
+    AND TaskID              = AppliedTaskID 
+    AND Approval            is null`,
     (err, rows, fields) => {
       res.send(rows);
     }
@@ -716,21 +717,23 @@ app.get(`/api/Estimator/:accountID/finished`, (req, res) => {
   );
 });
 
-app.post(`/api/Estimator/estimate/:ParsingDataSequenceFileID2`, (req, res) => {
-  let sql =
-    "UPDATE QUALITY_TEST \
-  SET QualityScore = ?, \
-      State = 1 \
-  WHERE ParsingDataSequenceFileID2 = ?;";
+app.post(
+  `/api/Estimator/estimate/:ParsingDataSequenceFileID2/:tid`,
+  (req, res) => {
+    let sql = `UPDATE QUALITY_TEST \
+    SET QualityScore = ?, State = 1 ,PNP = CASE WHEN QualityScore > (SELECT PassScore FROM TASK WHERE TaskID=?) THEN 1 ELSE 0 END\
+    WHERE ParsingDataSequenceFileID2 = ? `;
 
-  let QualityScore = req.body.QualityScore;
-  let ParsingDataSequenceFileID2 = req.body.ParsingDataSequenceFileID;
+    let tid = req.params.tid;
+    let QualityScore = req.body.QualityScore;
+    let ParsingDataSequenceFileID2 = req.body.ParsingDataSequenceFileID;
 
-  let params = [QualityScore, ParsingDataSequenceFileID2];
-  connection.query(sql, params, (err, rows, fields) => {
-    res.send(rows);
-  });
-});
+    let params = [QualityScore, tid, ParsingDataSequenceFileID2];
+    connection.query(sql, params, (err, rows, fields) => {
+      res.send(rows);
+    });
+  }
+);
 
 app.get(`/api/RDTtypes/:taskName`, (req, res) => {
   const taskName = req.params.taskName;
@@ -910,4 +913,6 @@ app.get(`/api/getQTESTID/:pid`, (req, res) => {
   );
 });
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, "165.132.105.46", () =>
+  console.log(`Listening on port ${port}`)
+);
