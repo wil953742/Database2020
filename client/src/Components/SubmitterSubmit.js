@@ -108,7 +108,7 @@ export const SubmitterSubmit = ({ taskName, taskDesc, setTogglePopUp }) => {
       var obj = JSON.parse(JSON.stringify(res.data));
       console.log(obj[0].Pair);
       var obj1 = JSON.parse(obj[0].Pair);
-      var obj2 = JSON.parse(obj[0].RPair);
+      var obj2 = JSON.parse(obj[0].Rpair);
       console.log(obj1);
       console.log(obj2);
       for (let i = 0; i < obj1.length; i++) {
