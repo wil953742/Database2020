@@ -4,7 +4,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import { useHistory } from "react-router-dom";
 import { colors, IconButton } from "@material-ui/core";
 import { parse } from 'papaparse';
-
+import { RPair } from "../Components/classes";
 import Select from 'react-select';
 
 export const SubmitterSubmit = ({
@@ -31,6 +31,17 @@ export const SubmitterSubmit = ({
   const [RDSFID, setRDSFID] = useState();
   var lst = [];
   const axios = require('axios').default;
+  //
+  const [trmap, setTRMap] = useState();
+  const [trmaplist, setTRMaplist] = useState([]);
+
+  const [pdsfID, setPDSFID] = useState();
+  const [qtestID, setQTESTID] = useState([]);
+
+  var aID = logInfo.accountID;
+  var pID;
+  var qID;
+  //console.log(aID);
 
   useEffect(() => {
     async function fetchData() {
@@ -63,7 +74,22 @@ export const SubmitterSubmit = ({
     }    
   }, [LastRDSFID]);
   
- 
+  useEffect(() => {
+          if (!trmap) return;
+          var trmaplist = [];
+          for (let i = 0; i < trmaplist.length; i++) {
+              trmaplist.push(
+                  new RPair(
+                      trmaplist[i].name,
+                      trmaplist[i].type,
+                      trmaplist[i].map
+                  )
+              );
+          }
+          setTRMaplist(trmaplist);
+      }, [trmap]);
+
+
   const Upload = async () => {
     // process uploading
     
@@ -84,6 +110,90 @@ export const SubmitterSubmit = ({
     .catch(function (error)  {
       console.log(error);
     });
+
+    await axios.get(`/api/TRMap/${RDTID}`).then((res) => {
+      setTRMap(res.data);
+      var obj = JSON.parse(JSON.stringify(res.data));
+      console.log(obj[0].Pair);
+      var obj1 = JSON.parse(obj[0].Pair);
+      var obj2 = JSON.parse(obj[0].RPair);
+      console.log(obj1);
+      console.log(obj2);
+      for (let i = 0; i < obj1.length; i++) {
+          if (obj2[i].constructor != Object) {
+              var n = obj1[1].name;
+              console.log(obj1[i].name);
+              for (let j = 0; j < file.length; j++) {
+                  delete file[i].n;
+              }
+          }
+      }
+      console.log(file);
+  });
+  /*
+   */
+
+  //        var obj = JSON.parse(trmap);
+
+  /*
+  var logInfo;
+  var history = useHistory();
+  const loggedIn = localStorage.getItem("user");
+  if (loggedIn) {
+      logInfo = JSON.parse(loggedIn);
+  } else {
+      history.push("/");
+  }
+  await axios
+      .post("/api/file/rdsf", {
+          SubmitterID: logInfo.accountID,
+          RawDataType: rdt,
+      })
+      .then(function (response) {
+          //console.log(response);
+      })
+      .catch(function (error) {
+          //console.log(error);
+      });
+      */
+  //rdsf.query->parsing->pdsf.query->    upload->assigning->assign.query->qt.query
+  //submitterid_taskid_rawdatatypeid
+  ///////////////12.06.0700
+  await axios
+      .get(`/api/getPDSFID/` + `${logInfo.accountID}/${RDTID}`)
+      .then((res) => {
+          //console.log(accountID);
+          //console.log(RDTID);
+          
+          setPDSFID(res.data[0].PDSFID); 
+          pID = res.data[0].PDSFID;
+          console.log(res.data);
+      }); 
+  console.log(pID);
+  await axios
+      .post("/api/addQT/" + `${pID}`)
+      .then(function (response) {
+          //console.log(response);
+      })
+      .catch(function (error) {
+          //console.log(error);
+      });
+
+  await axios.get(`/api/getQTESTID/` + `${pID}`).then((res) => {
+      console.log(res.data);
+      setQTESTID(res.data);
+      qID = res.data[0].TestID;
+  });
+
+  await axios
+      .post("/api/assign/" + `${pID}/${qID}`, {})
+      .then(function (response) {
+          //console.log(response);
+      })
+      .catch(function (error) {
+          //console.log(error);
+      });
+
     setTogglePopUp(false);
   };
 

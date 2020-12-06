@@ -752,6 +752,18 @@ app.get(`/api/RDTtypes/:taskName`, (req, res) => {
     }
   );
 });
+app.get(`/api/TRMap/:RDTID`, (req, res) => {
+  const RDTID = req.params.RDTID;
+  console.log(RDTID);
+  connection.query(
+      `SELECT SchemaInfo AS Pair , 
+      TableMappingInfo AS RPair 
+      FROM RAW_DATA_TYPE WHERE RawDataTypeId = ${RDTID}`,
+      (err, rows, fields) => {
+          res.send(rows);
+      }
+  );
+});
 
 app.get(`/api/getLastRDSFID/:SubmitterID`, (req, res) => {
   const SubmitterID = req.params.SubmitterID;
@@ -822,6 +834,84 @@ app.post(`/api/file/SubmitterID_:SubmitterID/:TaskName/RDTID_:RDTID`,
 
 });
 
+app.post(`/api/file/RDSF`, upload.single("myfile"), (req, res) => {
+  let SubmitterID = req.body.SubmitterID;
+  let RawDataType = req.body.RawDataType;
+
+  let sql =
+      'INSERT INTO RAW_DATA_SEQUENCE_FILE VALUE (null,?,?,"Direc",NOW()) ';
+  let params = [SubmitterID, RawDataType];
+  connection.query(sql, params, (err, rows, fields) => {
+      res.send(rows);
+  });
+});
+
+app.post(`/api/file/PDSF`, upload.single("myfile"), (req, res) => {
+  let SubmitterID = req.body.SubmitterID;
+  let RawDataType = req.body.RawDataType;
+
+  let sql =
+      'INSERT INTO PARSING_DATA_SEQUENCE_FILE VALUE (null,?,?,?,?,"Direc") ';
+  let params = [SubmitterID, RawDataType];
+  connection.query(sql, params, (err, rows, fields) => {
+      res.send(rows);
+  });
+});
+
+////////////////12.06.0700 PDSF&QT&ASSIGN
+app.post("/api/assign/:pid/:qid", (req, res) => {
+  let pid = req.params.pid;
+  let qid = req.params.qid;
+  connection.query(
+      `INSERT INTO ASSIGN SELECT ${pid} AS APDSFID,EstimatorID,${qid} AS QTESTID 
+  FROM ESTIMATOR ORDER BY RAND() LIMIT 1;`,
+      (err, rows, fields) => {
+          res.send(rows);
+      }
+  );
+});
+
+app.post("/api/addQT/:pID", (req, res) => {
+  let pID = req.params.pID;
+  console.log(pID);
+  connection.query(
+      `INSERT INTO QUALITY_TEST SELECT ${pID},MAX(TestID)+1,null,0,0 
+      FROM QUALITY_TEST;`,
+      (err, rows, fields) => {
+          res.send(rows);
+      }
+  );
+});
+app.get(`/api/getPDSFID/:sid/:rdtid`, (req, res) => {
+  let sid = req.params.sid;
+  let rdtid = req.params.rdtid;
+  //   console.log(sid);
+  // console.log(rdtid);
+
+  connection.query(
+      `SELECT ParsingDataSequenceFileID AS PDSFID
+       FROM PARSING_DATA_SEQUENCE_FILE
+       WHERE BeforeRawDataSequenceFileID = (
+          SELECT MAX(RawDataSequenceFileID) 
+          FROM Covid_Database.RAW_DATA_SEQUENCE_FILE
+          WHERE RDSFSubmitterID=${sid} AND BelongsRawDataTypeID=${rdtid})`,
+      (err, rows, fields) => {
+          // console.log(rows);
+          res.send(rows);
+      }
+  );
+});
+
+app.get(`/api/getQTESTID/:pid`, (req, res) => {
+  let pid = req.params.pid;
+  console.log(pid);
+  connection.query(
+      `SELECT TestID FROM QUALITY_TEST WHERE ParsingDataSequenceFileID2=${pid}`,
+      (err, rows, fields) => {
+          res.send(rows);
+      }
+  );
+});
 
 
 
